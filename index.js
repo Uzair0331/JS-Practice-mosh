@@ -85,6 +85,82 @@
 
 //-----------------Equality-------------------------
 
-let x = 1;
-console.log(x === 1);
-console.log(x !== 1);
+//let x = 1;
+//console.log(x === 1);
+//console.log(x !== 1);
+
+// ------------Strict Equality (Type + Value)--------------------------
+//console.log(1 === 1);
+//console.log("1" === 1);
+
+//--------------Lose Equality (dosn't matter not in use)--------------------------------
+//console.log(1 == 1);
+//console.log("1" == 1);
+//console.log(true == 1);
+
+//------------Ternary operator-----------------
+//let points = 91;
+//let Type = points > 90 ? "Gold" : "Silver";
+//console.log(Type);
+
+//-----------Logical Operator------------
+
+//let Highscore = true;
+//let goodcreditscore = true;
+//let EligibleForLoan = Highscore && goodcreditscore;
+//console.log(EligibleForLoan);
+
+//let Highscore = true;
+//let goodcreditscore = true;
+//let eligibleForLoan = Highscore || goodcreditscore;
+//console.log("Eligible", eligibleForLoan);
+
+//--NOT (!)
+
+//let applicationRefused = !eligibleForLoan;
+//console.log("Application Refused", applicationRefused);
+
+//-----Logical operators with non-booleans
+
+//let Color = "Orange";
+//let defaultColor = "black";
+//let currentcolor = Color || defaultColor;
+//console.log(currentcolor);
+
+//-----Otherwise-------
+//let Color = undefined;
+//let defaultColor = "black";
+//let currentcolor = Color || defaultColor;
+//console.log(currentcolor);
+
+//-------Bitwise Operators------
+
+//Read , Write , Execute
+
+// 00000100 ----- For Only read-----
+// 00000110 ----- For read & Write----
+// 00000111 ------ For all three permession---------
+
+//Read , Write , Execute-----
+
+// 00000100 ----- For Only read-----
+// 00000010 ----- For only Write----
+// 00000001 ------ For Execute----
+
+//const readPermission = 4;
+//const writePermission = 2;
+//const executePermission = 1;
+
+//let myPermission = 0;
+//myPermission = myPermission | readPermission | writePermission;
+//-------console.log(myPermission);
+//let message = myPermission & readPermission ? "yes" : "no";
+//console.log(message);
+
+//------------Operator precedence----------
+
+let x = 2 + 3 * 5;
+console.log(x);
+
+let y = (2 + 3) * 5;
+console.log(y);
