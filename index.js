@@ -159,8 +159,149 @@
 
 //------------Operator precedence----------
 
-let x = 2 + 3 * 5;
-console.log(x);
+//let x = 2 + 3 * 5;
+//console.log(x);
 
-let y = (2 + 3) * 5;
-console.log(y);
+//let y = (2 + 3) * 5;
+//console.log(y);
+
+// const value = 5;
+
+// value > 1 ? console.log("bigger") : console.log("smaller");
+
+// value > 1 ? (value === 5 ? console.log("equal") : console.log("bigger")) : console.log("smaller");
+
+// const value = 2;
+
+// if (value === 1) {
+//   console.log("value is equal to 1");
+// } else if (value === 2) {
+//   console.log("value is equal to 2");
+// } else {
+//   console.log("the value is greater than 2");
+// }
+
+//const a = 4;
+//const b = 5;
+
+//a and b mai se bara konsa hai?
+//a aur b equal hai
+
+//if (a < b) {
+//  console.log("A smaller");
+//} else if (a === b) {
+ // console.log("a equal to b");
+//} else {
+//  console.log("a greater");
+//}
+
+
+
+//---------Swapping variales--------
+//let x = 'Joe';
+//let y = 'Alan';
+
+//let c=x;
+//x=y;
+//y=c;
+
+//console.log(x);
+//console.log(y);
+
+
+//let a = 'pink';
+//let b = 'blue';
+
+//let c=a;
+//a=b;
+//b=c;
+//console.log(a);
+//console.log(b);
+
+
+
+//---------if....else------time
+
+//let hour = 6 ;
+//if(hour >= 6 && hour < 12){
+//console.log('Good Morning');
+//}
+//else if(hour >=12 && hour<18){
+//console.log('Good Afternoon')
+//}
+//else
+//{console.log('Good evening')}
+
+
+
+
+//---------Practicse--------
+
+
+//let grade =39;
+//if   (grade >= 90 && grade < 100)
+//console.log('grade A+1')
+
+//else if(grade >=80 && grade < 90)
+//console.log('grade A+')
+
+//else if(grade >=70 && grade < 80)
+//console.log('grade A')
+
+//else if(grade >=60 && grade < 70)
+//console.log('grade B')
+
+//else if(grade >=50 && grade < 60)
+//console.log('grade C')
+    
+//else if(grade >=33 && grade < 50)
+//console.log('grade D')
+     
+//else
+//console.log('Fail')
+
+
+
+//--------------------Loop--------------------
+//--------------------for loop----------------
+
+//for (let i = 1; i <=5; i++) {
+  //console.log('hello',i);
+  //}
+
+
+
+//---------------odd Numbers-----------------
+
+//for (let i = 1; i <=10; i++) {
+  //if(i % 2 !==0)
+  //console.log(i);
+    //}  
+
+//------------------Practices------------------
+//for (let i = 1; i <=10 ; i++) {
+  //console.log('hello',i);
+//}
+
+
+
+//---------------even numbers------------------
+//for (let i = 1; i <=10 ; i++) {
+  //if(i % 2 ===0)
+  //console.log(i);
+  //}
+
+
+
+//------------odd Number---------------------
+//for (let i = 1; i <=20 ; i++) {
+//if(i % 2 !==0)
+//console.log(i);
+//}
+
+
+//---------------------------------------------
+for (let i = 1; i <=10 ; i++) {
+console.log('hey',i);
+}
+
