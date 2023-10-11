@@ -246,7 +246,7 @@
 //---------Practicse--------
 
 
-//let grade =39;
+//let grade =50;
 //if   (grade >= 90 && grade < 100)
 //console.log('grade A+1')
 
