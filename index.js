@@ -145,7 +145,7 @@
 
 // 00000100 ----- For Only read-----
 // 00000010 ----- For only Write----
-// 00000001 ------ For Execute----
+// 00000001 ----- For Execute-------
 
 //const readPermission = 4;
 //const writePermission = 2;
@@ -171,15 +171,15 @@
 
 // value > 1 ? (value === 5 ? console.log("equal") : console.log("bigger")) : console.log("smaller");
 
-// const value = 2;
+ //const value = 2;
 
-// if (value === 1) {
-//   console.log("value is equal to 1");
-// } else if (value === 2) {
-//   console.log("value is equal to 2");
-// } else {
-//   console.log("the value is greater than 2");
-// }
+ //if (value === 1) {
+   //console.log("value is equal to 1");
+ //} else if (value === 2) {
+  // console.log("value is equal to 2");
+ //} else {
+ //  console.log("the value is greater than 2");
+ //}
 
 //const a = 4;
 //const b = 5;
