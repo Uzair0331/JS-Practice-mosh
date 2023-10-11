@@ -203,7 +203,7 @@
 //else if (a === b)
 //console.log('same value')
 //else{
-  //console.log('A bigger');
+ // console.log('A bigger');
 //}
 //---------Swapping variales--------
 //let x = 'Joe';
