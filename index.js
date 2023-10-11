@@ -195,8 +195,16 @@
 //  console.log("a greater");
 //}
 
-
-
+//let a = 2;
+//let b = 4;
+//if(a<b){
+//console.log('a small');
+//}
+//else if (a === b)
+//console.log('same value')
+//else{
+  //console.log('A bigger');
+//}
 //---------Swapping variales--------
 //let x = 'Joe';
 //let y = 'Alan';
@@ -263,7 +271,7 @@
 
 
 //--------------------Loop--------------------
-//--------------------for loop----------------
+//------------------for loop----------------
 
 //for (let i = 1; i <=5; i++) {
   //console.log('hello',i);
@@ -301,7 +309,228 @@
 
 
 //---------------------------------------------
-for (let i = 1; i <=10 ; i++) {
-console.log('hey',i);
-}
+//for (let i = 1; i <=10 ; i++) {
+//console.log('hey',i);
+//}
+
+
+
+
+//-------11-10-23
+
+//let time = 17;
+//if(6 >=time && time<12){
+//console.log('Good morning')
+//}
+//else if(12 >=time && time<=18){
+ // console.log('Good afternoon')
+//}
+//else{
+ // console.log('good night')
+//}
+
+
+
+//let grade = 90;
+
+//if (grade >=90 && grade<100) {
+//console.log('Grade A+1');  
+//}
+//else if (grade >=80 && grade <90) {
+ //console.log('Grade A1'); 
+//} 
+//else if (grade >=70 && grade <80){
+// console.log('Grade A');
+//}
+//else if (grade >=60 && grade <70){
+//console.log('Grade B');
+//}
+//else if(grade >=50 && grade <60){
+ // console.log('Grade c');
+//}
+//else if(grade >=35 && grade <50){
+//console.log('Grade D');
+//}
+//else {
+  //console.log('fail');
+//}
+
+//---------------------------------------
+
+
+//let time =6;
+//if(time >=6 && time<12){
+  //console.log('Good Morning')
+//}
+//else if(time >=12 && time<18){
+//console.log('Good Aftenoon')
+//}
+//else{
+//console.log('Good Night')
+//}
+
+
+
+//-------------------- 
+
+//let time2 =17 ;
+//if(time2 >=6 && time2 <12){
+//console.log('Good Morning'); 
+//}
+//else if (time2 >=12 && time2 <18){
+ // console.log('Good Afternoon');
+//}
+//else{
+ // console.log('Good Night')
+//}
+
+
+//---------------------
+
+
+//let grade =92;
+//if (grade >=90 && grade <100){
+//console.log('Grade A+1');
+//}
+//else if (grade >=80 && grade <90){
+//console.log('Grade A1');
+//}
+//else if (grade >=70 && grade <80){
+//console.log('Grade A');
+//}
+//else if (grade >=60 && grade <70){
+//console.log('Grade B');
+//}
+//else if (grade >=50 && grade <60){
+//console.log('Grade c');  
+//}
+//else if (grade >=35 && grade <50){
+//console.log('Grade d')
+//}
+//else{
+//console.log('Grade f')  
+//}
+
+//let n =99;
+//if (n >=100 && n >90){
+//console.log('100 is greater');
+//}
+//else{
+//  console.log('less then 100');
+//}
+
+
+//let a = 2;
+//let b = 4;
+//if(a<b){
+//console.log('a small');
+//}
+//else if (a === b)
+//console.log('same value')
+//else{
+//  console.log('A bigger');
+//}
+
+//-----------for loop prac-------------
+
+//for (let i = 1; i <= 5; i++) {
+  //console.log('hello world',i);
+  
+//}
+
+//-------------------------------
+//for (let i = 1; i <= 10; i++) {
+  //if(i % 2 !==0)
+  //console.log(i);}
+
+//----------------------------
+//for (let i = 1; i <=20; i++) {
+  //if(i % 2 ==0)
+  //console.log(i); 
+//}
+//--------------------------
+
+
+//for (let i = 1; i <=10; i++) {
+ //if(i % 2 ==0)
+  //console.log(i);
+  
+//}
+
+//for (let i = 0; i <=10; i++) {
+  //if(i % 2 !==0)
+  //console.log(i);
+  
+//}
+
+//for (let i = 1; i <=5; i++) {
+//  console.log('hello ',i);
+  
+//}
+
+
+//for (let i =1 ; i <=10; i++){
+  //if(i%2 ==0)
+  //console.log(i);
+ 
+//}
+
+
+//for (let i = 1; i <= 10; i++) {
+  //if(i %2 !==0)
+  //console.log(i);
+  //}
+
+
+
+
+
+//----------while Loop---------------
+//let i =1;
+//while (i <= 5){
+  //if (i % 2 !==0) console.log(i);
+  //i++;
+//}
+//-------------practice--------------------
+//let i = 1
+//while (i<=10) {
+//if(i%2 ==0) console.log(i);
+//i++;
+ // }
+//--------------------------------
+//let a = 1
+//while (a<=5) {
+//  console.log('hey',a);
+ // a++;
+//}  
+//----------------------
+//let c = 1
+//while (c<=5) {
+ // if (c %2 !==0) console.log(c);
+ // c++; 
+//}
+//-----------------------
+//let d = 1
+//while (d <=10) {
+// if(d%2 !==0)console.log(d);
+ //d++;
+  //}
+
+
+
+
+
+//--------Do while loop-----------  
+//let i = 0 ;
+//do{
+ // if(i%2 !==0)console.log(i);
+ //i++;
+//}while(i <= 5);
+
+//--------------------------
+//let a = 0;
+//do{
+ // if(a%2 ==0)console.log(a);
+ //a++;
+//}while(a <=10);
 
