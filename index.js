@@ -707,19 +707,31 @@
 
 
 //--------Do while loop-----------  
-//let i = 0 ;
-//do{
- // if(i%2 !==0)console.log(i);
- //i++;
-//}while(i <= 5);
 
 //--------------------------
-let a = 1;
-do{
-if(a%2 ==0)console.log(a);
-a++;
-}while(a <= 10);
+//let a = 1;
+//do{
+//if(a%2 ==0)console.log(a);
+//a++;
+//}while(a <= 10);
 
+//-----------------------
+
+//let c = 1;
+//do {
+// if(c %2 !==0)console.log(c); 
+ //c++; 
+//} while (c <= 10);
+
+//-------------------------
+
+//let d =1;
+//do {
+//if(d % 2 ==0)console.log(d);
+//d++;
+//} while (d <= 10);
+
+//-------- 
 
 
 
