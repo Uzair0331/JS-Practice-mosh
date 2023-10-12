@@ -757,33 +757,33 @@
 
 
 //----------------------
-let person ={
-name:'Hawaiii',
-age : 20,
-location:'USA',
-};
-for(let key in person)
-console.log(key,person[key]);
+//let person ={
+//name:'Hawaiii',
+//age : 20,
+//location:'USA',
+//};
+//for(let key in person)
+//console.log(key,person[key]);
 
 //--------------for of------
 
-let item = ['mobile','lights','lucifer'];
-for ( let a of item ) {
-  console.log(a);
-}
+//let item = ['mobile','lights','lucifer'];
+//for ( let a of item ) {
+ // console.log(a);
+//}
 
 
 //------------Break & continue-------------
 //----------while loop-----------
 
-let a = 1;
-while (a <= 10) {
- // if(a === 6)break;
- if(a %2 ==0){
-  a++;
-  continue;
- }
-console.log(a);
-a++;
-}
+//let a = 1;
+//while (a <= 10) {
+ // if(a === 6)break;          //------------------Break
+// if(a %2 ==0){
+ // a++;
+  //continue;                  //------------------continue
+// }
+//console.log(a);
+//a++;
+//}
 
