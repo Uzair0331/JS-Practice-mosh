@@ -735,27 +735,35 @@
 //----------New work------
 //-----------For-in---------
 
-let person ={
-name:'alex',
-age : 24,
-location:'Norway',
-};
-for(let key in person)
-console.log(key,person[key]);
+//let person ={
+//name:'alex',
+//age : 24,
+//location:'Norway',
+//};
+//for(let key in person)
+//console.log(key,person[key]);
 
- //----------
+//----------
 
-let colors =['Red','Green','orange'];
-for(let i in colors)
-console.log(i,colors[i]);
+//let colors =['Red','Green','orange'];
+//for(let i in colors)
+//console.log(i,colors[i]);
 
 //---------  
 
+//let item = ['headphone','flage','color'];
+//for(let a in item)
+//console.log(a,item[a]);
 
 
-
-
-
+//----------------------
+let person ={
+name:'Hawaiii',
+age : 20,
+location:'USA',
+};
+for(let key in person)
+console.log(key,person[key]);
 
 
 
