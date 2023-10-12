@@ -565,14 +565,13 @@
 //console.log(Type);
 
 
-//--------logical opeator-----------
+//let points =91;
+//let Type = points >90 ? "gold" : "silver";
+//console.log(Type);
 
-let Highscore = true;
-let goodcreditscore = true;
-let eligibleForLoan = Highscore || goodcreditscore;
-console.log("Eligible", eligibleForLoan);
 
-//--NOT (!)
+//let number=89;
+//let Type=number >= 90 ? "gold" : "silver";
+//console.log(Type);
 
-let applicationRefused = !eligibleForLoan;
-console.log("Application Refused", applicationRefused);
+
