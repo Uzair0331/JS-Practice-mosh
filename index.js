@@ -548,6 +548,8 @@
 
 
 
+
+
 ///---------12-10-23-----practice
 //------Function------
 
@@ -590,13 +592,133 @@
 
 //-------only 18+ Elligble-----
 
-let age =20;
-if(age >=18){
-console.log('Elligble')
-} 
-else{
-console.log('Not Elligble')  
-}
+//let age =20;
+//if(age >=18){
+//console.log('Elligble')
+//} 
+//else{
+//console.log('Not Elligble')  
+//}
+
+
+//--------------Grade-----
+//let grade = 35;
+//if(grade >= 90 && grade <100){
+ // console.log('A+1');
+//}
+//if(grade >= 80 && grade <90){
+//  console.log('A1');
+//}
+//if(grade >= 70 && grade <80){
+  //console.log('A');
+//}
+//if(grade >= 60 && grade <70){
+ // console.log('B');
+//}
+//if(grade >= 50 && grade <60){
+ // console.log('c');
+//}
+//if(grade >= 40 && grade <50){
+ // console.log('d');
+//}
+//if(grade >= 35 && grade <40){
+ // console.log('E');
+//}
+
+//else{
+//  console.log('fail');
+//}
+
+
+
+//-------------less then greater----
+//let n =99;
+//if (n >=100 && n >90){
+//console.log('100 is greater');
+//}
+//else{
+//  console.log('less then 100');
+//}
+
+
+
+
+
+//-----------for loop prac-------------
+
+
+
+//for (let i = 1; i <=10; i++) {
+//  console.log('hello world',i);
+  
+//}
+
+
+//for (let i = 1; i <= 10; i++) {
+//  if(i %2 !==0)
+ // console.log(i);
+  
+//}
+
+//for (let i = 1; i <=10; i++) {
+ // if(i % 2 ==0)
+  //console.log(i);
+  
+//}
+
+
+
+//----------while Loop---------------
+//let i = 1;
+//while (i <= 5){
+//if (i % 2 !==0) console.log(i);
+//i++;
+//}
+
+
+//---------------------- 
+
+//let i = 1
+//while (i<=10) {
+//if(i%2 ==0) console.log(i);
+//i++;
+//}
+//--------------------------------
+//let a = 1
+//while (a<=5) {
+//  console.log('hey',a);
+ // a++;
+//}  
+//----------------------
+//let c = 1
+//while (c<=5) {
+ // if (c %2 !==0) console.log(c);
+ // c++; 
+//}
+//-----------------------
+//let d = 1
+//while (d <=10) {
+// if(d%2 !==0)console.log(d);
+ //d++;
+  //}
+
+
+
+
+
+//--------Do while loop-----------  
+//let i = 0 ;
+//do{
+ // if(i%2 !==0)console.log(i);
+ //i++;
+//}while(i <= 5);
+
+//--------------------------
+let a = 1;
+do{
+if(a%2 ==0)console.log(a);
+a++;
+}while(a <= 10);
 
 
 
