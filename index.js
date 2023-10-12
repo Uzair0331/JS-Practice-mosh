@@ -765,8 +765,12 @@ location:'USA',
 for(let key in person)
 console.log(key,person[key]);
 
+//--------------for of------
 
-
+let item = ['mobile','lights','lucifer'];
+for ( let a of item ) {
+  console.log(a);
+}
 
 
 
