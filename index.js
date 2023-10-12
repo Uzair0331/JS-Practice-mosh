@@ -20,6 +20,8 @@
 //let approved1 = true;
 //let firstName1 = undefined;
 //let colors =null; //object
+//---------------------------------
+
 
 //let Person = {
 //name :'zaibi'
@@ -544,7 +546,9 @@
 
 
 
-///---------12-10-23
+
+
+///---------12-10-23-----practice
 //------Function------
 
 //function oct (Name,Lastname){
@@ -560,9 +564,7 @@
 
 
 //-------Tenary operater----
-//let points = 80;
-//let Type = points > 90 ? "Gold" : "Silver";
-//console.log(Type);
+
 
 
 //let points =91;
@@ -575,3 +577,36 @@
 //console.log(Type);
 
 
+//----------------if else prac----------
+//let hour = 19 ;
+//if(hour >= 6 && hour < 12){
+//console.log('Good Morning');
+//}
+//else if(hour >=12 && hour<18){
+//console.log('Good Afternoon')
+//}
+//else
+//{console.log('Good evening')}
+
+
+//let hour = 18;
+//if(hour >=6 && hour<12){
+//console.log('Good moning')
+//}
+//else if(hour >=12 && hour<18){
+//console.log('Good aftenoon')
+//}
+//else{
+ // console.log('Good night')
+//}
+
+let hour = 23;
+if(hour >= 6 && hour <12){
+console.log('Good morning')
+}
+else if(hour >=12 && hour < 18){
+console.log('good aftenoon')
+}
+else{
+console.log('good night') 
+}
