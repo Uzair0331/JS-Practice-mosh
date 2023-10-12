@@ -545,12 +545,34 @@
 
 
 ///---------12-10-23
-function oct (Name,Lastname){
-console.log('Hello'+" "+Name+" "+Lastname);
-}
-oct('De','Kock')
+//------Function------
 
-function nav(hey,Howsyou){
-console.log('What a'+" "+hey+" "+Howsyou);
-}
-nav('great','century')
+//function oct (Name,Lastname){
+//console.log('Hello'+" "+Name+" "+Lastname);
+//}
+//oct('De','Kock')
+
+//function nav(hey,Howsyou){
+//console.log('What a'+" "+hey+" "+Howsyou);
+//}
+//nav('great','century')
+
+
+
+//-------Tenary operater----
+//let points = 80;
+//let Type = points > 90 ? "Gold" : "Silver";
+//console.log(Type);
+
+
+//--------logical opeator-----------
+
+let Highscore = true;
+let goodcreditscore = true;
+let eligibleForLoan = Highscore || goodcreditscore;
+console.log("Eligible", eligibleForLoan);
+
+//--NOT (!)
+
+let applicationRefused = !eligibleForLoan;
+console.log("Application Refused", applicationRefused);
