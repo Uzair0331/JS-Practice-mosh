@@ -41,10 +41,7 @@
 //}
 //greet("uzair", "shaikh");
 
-function hello (Name,lastname){
-  console.log('hello'+" "+Name+" "+lastname);
-}
-hello("uzair","shaikh")
+
 //function preet(Name01, Name2) {
 //console.log(Name01 + " " + Name2);
 //}
@@ -56,6 +53,13 @@ hello("uzair","shaikh")
 //}
 //console.log(gulpreet(2));
 
+
+//--------------
+
+//function next (Name, lastname){
+  //console.log('Hello'+" "+Name+" "+lastname)
+//}
+//next("uzair","shaikh")
 //-------Arithmetic operators--------------
 
 //let x = 10;
@@ -538,3 +542,15 @@ hello("uzair","shaikh")
  //a++;
 //}while(a <=10);
 
+
+
+///---------12-10-23
+function oct (Name,Lastname){
+console.log('Hello'+" "+Name+" "+Lastname);
+}
+oct('De','Kock')
+
+function nav(hey,Howsyou){
+console.log('What a'+" "+hey+" "+Howsyou);
+}
+nav('great','century')
