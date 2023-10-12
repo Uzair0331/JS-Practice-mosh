@@ -41,6 +41,10 @@
 //}
 //greet("uzair", "shaikh");
 
+function hello (Name,lastname){
+  console.log('hello'+" "+Name+" "+lastname);
+}
+hello("uzair","shaikh")
 //function preet(Name01, Name2) {
 //console.log(Name01 + " " + Name2);
 //}
