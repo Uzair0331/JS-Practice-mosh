@@ -773,4 +773,17 @@ for ( let a of item ) {
 }
 
 
+//------------Break & continue-------------
+//----------while loop-----------
+
+let a = 1;
+while (a <= 10) {
+ // if(a === 6)break;
+ if(a %2 ==0){
+  a++;
+  continue;
+ }
+console.log(a);
+a++;
+}
 
