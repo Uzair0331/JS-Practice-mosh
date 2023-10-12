@@ -588,25 +588,29 @@
 //else
 //{console.log('Good evening')}
 
+//-------only 18+ Elligble-----
 
-//let hour = 18;
-//if(hour >=6 && hour<12){
-//console.log('Good moning')
-//}
-//else if(hour >=12 && hour<18){
-//console.log('Good aftenoon')
-//}
-//else{
- // console.log('Good night')
-//}
-
-let hour = 23;
-if(hour >= 6 && hour <12){
-console.log('Good morning')
-}
-else if(hour >=12 && hour < 18){
-console.log('good aftenoon')
-}
+let age =20;
+if(age >=18){
+console.log('Elligble')
+} 
 else{
-console.log('good night') 
+console.log('Not Elligble')  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
