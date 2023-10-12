@@ -731,11 +731,25 @@
 //d++;
 //} while (d <= 10);
 
-//-------- 
 
+//----------New work------
+//-----------For-in---------
 
+let person ={
+name:'alex',
+age : 24,
+location:'Norway',
+};
+for(let key in person)
+console.log(key,person[key]);
 
+ //----------
 
+let colors =['Red','Green','orange'];
+for(let i in colors)
+console.log(i,colors[i]);
+
+//---------  
 
 
 
