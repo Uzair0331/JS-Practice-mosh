@@ -942,44 +942,89 @@
 //}
 
 //----------while Loop---------------
-let i = 1;
-while (i <= 5){
-if (i % 2 !==0) console.log(i);
-i++;
-}
+//let i = 1;
+//while (i <= 5){
+//if (i % 2 !==0) console.log(i);
+//i++;
+//}
 //-----
-let m =1;
-while (m <=5) {
-if(m %2 ==0) console.log(m);
-m++;
-}
+//let m =1;
+//while (m <=5) {
+//if(m %2 ==0) console.log(m);
+//m++;
+//}
 
 //--------
-let n =1;
-while (n <=5) {
-console.log('ishowspeed',n);
-n++;
-  }
+//let n =1;
+//while (n <=5) {
+//console.log('ishowspeed',n);
+//n++;
+//}
 
 //--------Do while loop-----------  
 
 //--------------------------
-let a = 1;
-do{
-if(a%2 ==0)console.log(a);
-a++;
-}while(a <= 10);
+//let a = 1;
+//do{
+//if(a%2 ==0)console.log(a);
+//a++;
+//}while(a <= 10);
 
 //-----------
-let b =1;
-do {
-console.log('heyyooo',b) 
-b++;  
-} while (b <= 5);
+//let b =1;
+//do {
+//console.log('heyyooo',b) 
+//b++;  
+//} while (b <= 5);
 
 //--------------------
-let c = 1;
-do {
-if(c %2 !==0)console.log(c);
-c++;  
-} while (c <=10);
+//let c = 1;
+//do {
+//if(c %2 !==0)console.log(c);
+//c++;  
+//} while (c <=10);
+
+//-----------For-in---------
+
+let person ={
+name:'alex',
+age : 24,
+location:'Norway',
+};
+for(let key in person)
+console.log(key,person[key]);
+
+let p ={
+name:'Lod',
+age:20,
+location:'moon',  
+};
+for (let key in p) 
+   
+    console.log(key,p[key]);
+    
+  
+
+
+//----------
+
+let colors =['Red','Green','orange'];
+for(let i in colors)
+console.log(i,colors[i]);
+
+//---------  
+
+let item = ['headphone','flage','color'];
+for(let a in item)
+console.log(a,item[a]);
+
+
+//----------------------
+
+//--------------for of------
+
+//let item = ['mobile','lights','lucifer'];
+//for ( let a of item ) {
+//console.log(a);
+//}
+ 
