@@ -961,3 +961,25 @@ console.log('ishowspeed',n);
 n++;
   }
 
+//--------Do while loop-----------  
+
+//--------------------------
+let a = 1;
+do{
+if(a%2 ==0)console.log(a);
+a++;
+}while(a <= 10);
+
+//-----------
+let b =1;
+do {
+console.log('heyyooo',b) 
+b++;  
+} while (b <= 5);
+
+//--------------------
+let c = 1;
+do {
+if(c %2 !==0)console.log(c);
+c++;  
+} while (c <=10);
