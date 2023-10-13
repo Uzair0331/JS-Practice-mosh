@@ -1023,14 +1023,42 @@
 
 //--------------for of------
 
-let item = ['mobile','lights','lucifer'];
-for ( let a of item ) {
-console.log(a);
-}
+//let item = ['mobile','lights','lucifer'];
+//for ( let a of item ) {
+//console.log(a);
+//}
 
 //------------
 
-let app = ['whatssapp','insta','fb'];
-for(let c of app){
-console.log(c);
+//let app = ['whatssapp','insta','fb'];
+//for(let c of app){
+//console.log(c);
+//}
+
+//---------
+
+//let watch = ['rolex','hublot','gucci'];
+//for (let d of watch) {
+//console.log(d);
+//}
+
+
+//------------Break & continue-------------
+//----------while loop-----------
+
+//let a = 1;
+//while (a <= 10) {
+// if(a === 6)break;          //------------------Break
+// if(a %2 ==0){
+// a++;
+//continue;                  //------------------continue
+// }
+//console.log(a);
+//a++;
+//}
+
+for (let i= 1; i < 10; i++) {
+  if(i === 6)break;
+  console.log(i);
+
 }
