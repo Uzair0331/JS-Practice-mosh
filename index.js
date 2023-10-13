@@ -743,6 +743,7 @@
 //for(let key in person)
 //console.log(key,person[key]);
 
+
 //----------
 
 //let colors =['Red','Green','orange'];
@@ -769,21 +770,40 @@
 
 //let item = ['mobile','lights','lucifer'];
 //for ( let a of item ) {
- // console.log(a);
+//console.log(a);
 //}
-
+ 
 
 //------------Break & continue-------------
 //----------while loop-----------
 
 //let a = 1;
 //while (a <= 10) {
- // if(a === 6)break;          //------------------Break
+// if(a === 6)break;          //------------------Break
 // if(a %2 ==0){
- // a++;
-  //continue;                  //------------------continue
+// a++;
+//continue;                  //------------------continue
 // }
 //console.log(a);
 //a++;
 //}
 
+
+
+
+
+
+//-------------------------13-10-23
+
+//--------Function------
+
+
+function oct (Name,lastname){
+console.log('hello'+" "+Name+" "+'V.S'+" "+lastname)
+}
+oct('newzeland','Bangladesh')
+
+function toss(teamName,selected){
+  console.log(teamName+" "+'won'+" "+'The'+" "+'Toss'+" "+'&'+" "+'Elected'+" "+selected)
+}
+toss('Newzeland','Bowl')
