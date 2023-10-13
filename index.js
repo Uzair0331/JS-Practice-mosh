@@ -814,17 +814,36 @@
 //wc('Pakistan','India')
 
 
-function wc (team1,team2,team3,team4){
-console.log(team1+" "+'Will Face'+" "+team2+" "+'then'+" "+team3+" "+'and'+" "+team4)
+//function wc (team1,team2,team3,team4){
+//console.log(team1+" "+'Will Face'+" "+team2+" "+'then'+" "+team3+" "+'and'+" "+team4)
+//}
+//wc('Pakistan','India','Australia','Afgan')
+
+//function summary(win,Lose){
+//console.log('if Pakistan'+" "+win+" "+'all then semifinal otherwise'+" "+Lose+" "+'& Ghar')
+//}
+//summary('won','Lose')
+
+function app(member1,member2) {
+ console.log('hey'+" "+member1+" "+member2); 
 }
-wc('Pakistan','India','Australia','Afgan')
+app('Alex','tom');
+//-------Tenary operater----
 
-function summary(win,Lose){
-console.log('if Pakistan'+" "+win+" "+'all then semifinal otherwise'+" "+Lose+" "+'& Ghar')
-}
-summary('won','Lose')
+//let num1 =4.1;
+//let Type= num1 > 4.00  ? "First Team" : "Second Team"; 
+//console.log(Type);
+
+//let point = 80;
+//let Type = point >= 90 ? "Gold Member" : "Silver Member";
+//console.log(Type);
 
 
+
+
+let num =89;
+let type= num >=90 ? 'Gold' : 'Silver';
+console.log(type);
 
 
 
