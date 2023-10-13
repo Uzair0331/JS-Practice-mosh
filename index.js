@@ -1004,6 +1004,41 @@
 //console.log(key,p[key]);
     
   
+let person = {
+name:'jiona',
+age:25,
+designation:'1st Dev full stack',  
+};
+for (const a in person) {
+ console.log(a,person[a]);
+}
+
+let l = {
+name:'liona',
+age:20,
+designation:'2nd dev',
+};
+for (let x in l) {
+  console.log(x,l[x]);
+}
+
+let item = ['mobile','headphones','charger'];
+for ( let a of item ) {
+console.log(a);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //----------
@@ -1044,21 +1079,14 @@
 
 
 //------------Break & continue-------------
-//----------while loop-----------
 
-//let a = 1;
-//while (a <= 10) {
-// if(a === 6)break;          //------------------Break
-// if(a %2 ==0){
-// a++;
-//continue;                  //------------------continue
-// }
-//console.log(a);
-//a++;
+//for (let i= 1; i < 10; i++) {
+//if(i ==6)break;
+//console.log(i);
 //}
 
-for (let i= 1; i < 10; i++) {
-  if(i === 6)break;
-  console.log(i);
+//for (let i = 1; i < 10; i++){
+//if(i ==4)break;
+//console.log(i);
+//}
 
-}
