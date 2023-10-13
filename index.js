@@ -1009,6 +1009,7 @@ name:'jiona',
 age:25,
 designation:'1st Dev full stack',  
 };
+
 for (const a in person) {
  console.log(a,person[a]);
 }
@@ -1020,6 +1021,15 @@ designation:'2nd dev',
 };
 for (let x in l) {
   console.log(x,l[x]);
+}
+
+let person2={
+  name:'diana',
+  age:17,
+  designation:'Freshey',
+};
+for (const a in person2) {
+console.log(a,person2[a]);
 }
 
 let item = ['mobile','headphones','charger'];
