@@ -986,45 +986,51 @@
 
 //-----------For-in---------
 
-let person ={
-name:'alex',
-age : 24,
-location:'Norway',
-};
-for(let key in person)
-console.log(key,person[key]);
+//let person ={
+//name:'alex',
+//age : 24,
+//location:'Norway',
+//};
+//for(let key in person)
+//console.log(key,person[key]);
 
-let p ={
-name:'Lod',
-age:20,
-location:'moon',  
-};
-for (let key in p) 
+//let p ={
+//name:'Lod',
+//age:20,
+//location:'moon',  
+//};
+//for (let key in p) 
    
-    console.log(key,p[key]);
+//console.log(key,p[key]);
     
   
 
 
 //----------
 
-let colors =['Red','Green','orange'];
-for(let i in colors)
-console.log(i,colors[i]);
+//let colors =['Red','Green','orange'];
+//for(let i in colors)
+//console.log(i,colors[i]);
 
 //---------  
 
-let item = ['headphone','flage','color'];
-for(let a in item)
-console.log(a,item[a]);
+//let item = ['headphone','flage','color'];
+//for(let a in item)
+//console.log(a,item[a]);
 
 
 //----------------------
 
 //--------------for of------
 
-//let item = ['mobile','lights','lucifer'];
-//for ( let a of item ) {
-//console.log(a);
-//}
- 
+let item = ['mobile','lights','lucifer'];
+for ( let a of item ) {
+console.log(a);
+}
+
+//------------
+
+let app = ['whatssapp','insta','fb'];
+for(let c of app){
+console.log(c);
+}
