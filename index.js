@@ -1004,50 +1004,40 @@
 //console.log(key,p[key]);
     
   
-let person = {
-name:'jiona',
-age:25,
-designation:'1st Dev full stack',  
-};
+// let person1 = {
+// name:'jiona',
+// age:25,
+// designation:'1st Dev full stack',  
+// };
 
-for (const a in person) {
- console.log(a,person[a]);
-}
+// for (const a in person1) {
+//  console.log(a,person1[a]);
+// }
 
-let l = {
-name:'liona',
-age:20,
-designation:'2nd dev',
-};
-for (let x in l) {
-  console.log(x,l[x]);
-}
+// let person2= {
+// name:'liona',
+// age:20,
+// designation:'2nd dev',
+// };
+// for (let x in person2) {
+//   console.log(x,person2[x]);
+// }
 
-let person2={
-  name:'diana',
-  age:17,
-  designation:'Freshey',
-};
-for (const a in person2) {
-console.log(a,person2[a]);
-}
-
-let item = ['mobile','headphones','charger'];
-for ( let a of item ) {
-console.log(a);
-}
+// let person3={
+//   name:'diana',
+//   age:17,
+//   designation:'Freshey',
+// };
+// for (const a in person3) {
+// console.log(a,person3[a]);
+// }
 
 
 
-
-
-
-
-
-
-
-
-
+// let item = ['mobile','headphones','charger'];
+// for ( let a of item ) {
+// console.log(a);
+// }
 
 
 
@@ -1099,4 +1089,15 @@ console.log(a);
 //if(i ==4)break;
 //console.log(i);
 //}
+//---------whileloop---
+let a = 1;
+while (a <= 10) {
+if(a === 6)break;          
+
+console.log(a);
+a++;
+}
+
+
+
 
