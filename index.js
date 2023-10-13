@@ -824,10 +824,7 @@
 //}
 //summary('won','Lose')
 
-function app(member1,member2) {
- console.log('hey'+" "+member1+" "+member2); 
-}
-app('Alex','tom');
+
 //-------Tenary operater----
 
 //let num1 =4.1;
@@ -838,17 +835,47 @@ app('Alex','tom');
 //let Type = point >= 90 ? "Gold Member" : "Silver Member";
 //console.log(Type);
 
+//------------if Else--------------
 
 
+let hours =6;
+if (hours >=6 && hours <12) {
+  console.log('Good morning')
+}
+else if (hours >=12 && hours <18){
+  console.log('Good Afternoon');
+}
+else{
+  console.log('Good Night');
+}
 
-let num =89;
-let type= num >=90 ? 'Gold' : 'Silver';
-console.log(type);
+
+function result(person,){
+console.log('Hello'+" "+person+" "+'Your result is');
+}
+result('Alex');
 
 
-
-
-
+let grade =90;
+if (grade >=90 && grade <100) {
+console.log('A+1');
+}
+else if (grade >=80 && grade <90){
+console.log('A1');
+}
+else if (grade >=70 && grade <80){
+  console.log('A');
+}
+else if (grade >=60 && grade <70){
+  console.log('B');
+}
+else if (grade >=50 && grade <60){
+  console.log('C');
+}
+else if (grade >=40 && grade <50){
+  console.log('D');
+}
+else {console.log('Fail');}
 
 
 
