@@ -798,12 +798,48 @@
 //--------Function------
 
 
-function oct (Name,lastname){
-console.log('hello'+" "+Name+" "+'V.S'+" "+lastname)
-}
-oct('newzeland','Bangladesh')
+//function oct (Name,lastname){
+//console.log('hello'+" "+Name+" "+'V.S'+" "+lastname)
+//}
+//oct('newzeland','Bangladesh')
 
-function toss(teamName,selected){
-  console.log(teamName+" "+'won'+" "+'The'+" "+'Toss'+" "+'&'+" "+'Elected'+" "+selected)
+//function toss(teamName,selected){
+//console.log(teamName+" "+'won'+" "+'The'+" "+'Toss'+" "+'&'+" "+'Elected'+" "+selected)
+//}
+//toss('Newzeland','Bowl')
+
+//function wc (team1,team2){
+//  console.log('Tomorow 14-10-23'+" "+team1+" "+'V.S'+" "+team2)
+//}
+//wc('Pakistan','India')
+
+
+function wc (team1,team2,team3,team4){
+console.log(team1+" "+'Will Face'+" "+team2+" "+'then'+" "+team3+" "+'and'+" "+team4)
 }
-toss('Newzeland','Bowl')
+wc('Pakistan','India','Australia','Afgan')
+
+function summary(win,Lose){
+console.log('if Pakistan'+" "+win+" "+'all then semifinal otherwise'+" "+Lose+" "+'& Ghar')
+}
+summary('won','Lose')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
