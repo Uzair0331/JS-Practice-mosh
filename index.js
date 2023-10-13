@@ -888,7 +888,7 @@ else{
 }
 
 
-let a = 6;
+let a = 7;
 let b=6;
 if (a > b) {
 console.log('a greater then b');  
@@ -901,6 +901,29 @@ console.log('b is greater');
 }
 
 
+
+//-----------for loop prac-------------
+
+
+
+for (let i = 1; i <=5; i++) {
+  console.log('hello world',i);
+  
+}
+
+
+for (let i = 1; i <= 5; i++) {
+  if(i %2 !==0)
+  
+  console.log(i);
+  
+}
+
+for (let i = 1; i <=5; i++) {
+  if(i % 2 ==0)
+  console.log(i);
+  
+}
 
 
 
