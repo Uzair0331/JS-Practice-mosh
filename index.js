@@ -1089,14 +1089,55 @@
 //if(i ==4)break;
 //console.log(i);
 //}
-//---------whileloop---
-let a = 1;
-while (a <= 10) {
-if(a === 6)break;          
 
-console.log(a);
-a++;
+//---------whileloop---
+
+// let a = 1;
+// while (a <= 10) {
+// if(a === 6)break;          
+
+// console.log(a);
+// a++;
+// }
+
+
+
+//---------------------14-10-23
+//--------Function------
+
+
+//function oct (Name,lastname){
+//console.log('hello'+" "+Name+" "+'V.S'+" "+lastname)
+//}
+//oct('newzeland','Bangladesh')
+
+function wc23(team1,team2){
+console.log('Rivalary day its'+" "+team1+" "+'V.S'+" "+team2)
 }
+wc23('pakistan','India');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
