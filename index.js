@@ -1137,27 +1137,49 @@
 //}
 
 
-let grade =33;
-if (grade >=90 && grade <100) {
-console.log('A+1');
-}
-else if (grade >=80 && grade <90){
-console.log('A1');
-}
-else if (grade >=70 && grade <80){
-console.log('A');
-}
-else if (grade >=60 && grade <70){
-console.log('B');
-}
-else if (grade >=50 && grade <60){
-console.log('C');
-}
-else if (grade >=40 && grade <50){
-console.log('D');
-}
-else {console.log('Fail');}
+// let grade =90;
+// if (grade >=90 && grade <100) {
+// console.log('A+1');
+// }
+// else if (grade >=80 && grade <90){
+// console.log('A1');
+// }
+// else if (grade >=70 && grade <80){
+// console.log('A');
+// }
+// else if (grade >=60 && grade <70){
+// console.log('B');
+// }
+// else if (grade >=50 && grade <60){
+// console.log('C');
+// }
+// else if (grade >=40 && grade <50){
+// console.log('D');
+// }
+// else {console.log('Fail');}
 
+
+//--------------------less then greater then--------------
+let n =99;
+if (n >=100 && n >35){
+onsole.log('100 is greater');
+}
+else{
+console.log('less then 100');
+}
+
+
+let a = 7;
+let b=6;
+if (a > b) {
+console.log('a greater then b');  
+}
+else if(a === b){
+console.log('a is equal to b')
+}
+else{
+console.log('b is greater');  
+}
 
 
 
