@@ -1105,17 +1105,36 @@
 //---------------------14-10-23
 //--------Function------
 
-function wc23(team1,team2){
-console.log('Rivalary day its'+" "+team1+" "+'V.S'+" "+team2)
+//function wc23(team1,team2){
+//console.log('Rivalary day its'+" "+team1+" "+'V.S'+" "+team2)
+//}
+//wc23('pakistan','India');
+
+//function wcmatch (team1,team2){
+//console.log('lets see'+" "+team1+" "+'will Win or'+" "+team2)
+//}
+//wcmatch('pakistan','india')
+
+//-------Tenary operater----
+
+//let runrate =4.1;
+//let Type= runrate > 4.00  ? "First Team" : "Second Team"; 
+//console.log(Type);
+
+
+//------------if Else--------------
+
+
+let hours =23;
+if (hours >=6 && hours <12) {
+console.log('Good morning')
 }
-wc23('pakistan','India');
-
-function wcmatch (team1,team2){
-console.log('lets see'+" "+team1+" "+'will Win or'+" "+team2)
+else if (hours >=12 && hours <18){
+console.log('Good Afternoon');
 }
-wcmatch('pakistan','india')
-
-
+else{
+console.log('Good Night');
+}
 
 
 
