@@ -1105,19 +1105,15 @@
 //---------------------14-10-23
 //--------Function------
 
-
-//function oct (Name,lastname){
-//console.log('hello'+" "+Name+" "+'V.S'+" "+lastname)
-//}
-//oct('newzeland','Bangladesh')
-
 function wc23(team1,team2){
 console.log('Rivalary day its'+" "+team1+" "+'V.S'+" "+team2)
 }
 wc23('pakistan','India');
 
-
-
+function wcmatch (team1,team2){
+console.log('lets see'+" "+team1+" "+'will Win or'+" "+team2)
+}
+wcmatch('pakistan','india')
 
 
 
