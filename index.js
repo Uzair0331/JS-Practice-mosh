@@ -1125,17 +1125,38 @@
 //------------if Else--------------
 
 
-let hours =23;
-if (hours >=6 && hours <12) {
-console.log('Good morning')
-}
-else if (hours >=12 && hours <18){
-console.log('Good Afternoon');
-}
-else{
-console.log('Good Night');
-}
+//let hours =23;
+//if (hours >=6 && hours <12) {
+//console.log('Good morning')
+//}
+//else if (hours >=12 && hours <18){
+//console.log('Good Afternoon');
+//}
+//else{
+//console.log('Good Night');
+//}
 
+
+let grade =33;
+if (grade >=90 && grade <100) {
+console.log('A+1');
+}
+else if (grade >=80 && grade <90){
+console.log('A1');
+}
+else if (grade >=70 && grade <80){
+console.log('A');
+}
+else if (grade >=60 && grade <70){
+console.log('B');
+}
+else if (grade >=50 && grade <60){
+console.log('C');
+}
+else if (grade >=40 && grade <50){
+console.log('D');
+}
+else {console.log('Fail');}
 
 
 
