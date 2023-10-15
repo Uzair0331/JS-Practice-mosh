@@ -1104,17 +1104,17 @@
 //}
 
 //----------while Loop---------------
-let i = 1;
-while (i <= 5) {
-  if (i % 2 !== 0) console.log(i);
-  i++;
-}
+// let i = 1;
+// while (i <= 5) {
+//   if (i % 2 !== 0) console.log(i);
+//   i++;
+// }
 //-----
-//let m =1;
-//while (m <=5) {
-//if(m %2 ==0) console.log(m);
-//m++;
-//}
+let m = 1;
+while (m <= 5) {
+  if (m % 2 == 0) console.log(m);
+  m++;
+}
 
 //--------
 //let n = 1;
