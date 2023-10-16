@@ -1255,3 +1255,24 @@
 // for (let i = 1; i <= 10; i++) {
 //   if (i % 2 !== 0) console.log(i);
 // }
+
+//----------while Loop---------------
+// let i = 1;
+// while (i <= 5) {
+//   if (i % 2 !== 0) console.log(i);
+//   i++;
+// }
+// //--------------
+
+// let a = 1;
+// while (a <= 10) {
+//   if (a % 2 == 0) console.log(a);
+//   a++;
+// }
+
+//--------------------
+let i = 1;
+while (i <= 10) {
+  if (i % 2 == 0) console.log(i);
+  i++;
+}
