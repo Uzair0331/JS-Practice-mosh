@@ -1199,19 +1199,38 @@ function person(name) {
 person("ali");
 
 //--------------------
-let grade = 33;
-if (grade >= 90 && grade < 100) {
-  console.log("A+1");
-} else if (grade >= 80 && grade < 90) {
-  console.log("A1");
-} else if (grade >= 70 && grade < 80) {
-  console.log("A");
-} else if (grade >= 60 && grade < 70) {
-  console.log("B");
-} else if (grade >= 50 && grade < 60) {
-  console.log("C");
-} else if (grade >= 40 && grade < 50) {
-  console.log("D");
+// let grade = 33;
+// if (grade >= 90 && grade < 100) {
+//   console.log("A+1");
+// } else if (grade >= 80 && grade < 90) {
+//   console.log("A1");
+// } else if (grade >= 70 && grade < 80) {
+//   console.log("A");
+// } else if (grade >= 60 && grade < 70) {
+//   console.log("B");
+// } else if (grade >= 50 && grade < 60) {
+//   console.log("C");
+// } else if (grade >= 40 && grade < 50) {
+//   console.log("D");
+// } else {
+//   console.log("Fail");
+// }
+
+//---------------------------
+
+let num = 89;
+if (num >= 90 && num <= 100) {
+  console.log(" your grade is A+1 ");
+} else if (num >= 80 && num < 90) {
+  console.log("your grade is A1 ");
+} else if (num >= 70 && num < 80) {
+  console.log("your grade is A ");
+} else if (num >= 60 && num < 70) {
+  console.log("your grade is B ");
+} else if (num >= 50 && num < 60) {
+  console.log("your grade is C ");
+} else if (num >= 35 && num < 50) {
+  console.log("your grade is D ");
 } else {
   console.log("Fail");
 }
