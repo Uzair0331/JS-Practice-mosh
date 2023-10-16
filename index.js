@@ -1110,11 +1110,11 @@
 //   i++;
 // }
 //-----
-let m = 1;
-while (m <= 5) {
-  if (m % 2 == 0) console.log(m);
-  m++;
-}
+// let m = 1;
+// while (m <= 5) {
+//   if (m % 2 == 0) console.log(m);
+//   m++;
+// }
 
 //--------
 //let n = 1;
@@ -1122,3 +1122,9 @@ while (m <= 5) {
 //console.log("ishowspeed", n);
 //n++;
 //}
+
+//--------16-10-23----------------
+function wc23(team1, team2) {
+  console.log("world cup match" + " " + team1 + " " + "v.s" + " " + team2);
+}
+wc23("Sl", "Aus");
