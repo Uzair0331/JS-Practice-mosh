@@ -1271,8 +1271,65 @@
 // }
 
 //--------------------
-let i = 1;
-while (i <= 10) {
-  if (i % 2 == 0) console.log(i);
-  i++;
+// let i = 1;
+// while (i <= 10) {
+//   if (i % 2 == 0) console.log(i);
+//   i++;
+// }
+//--------Do while loop-----------
+
+//--------------------------
+//let a = 1;
+//do{
+//if(a%2 ==0)console.log(a);
+//a++;
+//}while(a <= 10);
+
+///-------------------
+// let n = max(4, 5);
+// console.log(n);
+
+// function max(x, y) {
+//   return x > y ? x : y;
+// }
+
+//-----------
+
+// let id = max(7, 7);
+// console.log(id);
+
+// function max(a, b) {
+//   if (a > b) {
+//     console.log("a is geater");
+//     return a;
+//   } else if (a == b) {
+//     console.log("a is equal to b");
+//     return (a = b);
+//   } else {
+//     console.log("b is greater");
+//     return b;
+//   }
+// }
+
+//-------------
+// console.log(islandscape(600, 300));
+// function islandscape(width, height) {
+//   return width > height;
+// }
+//-----------------
+let n = islandscape(700, 500);
+console.log(n);
+
+function islandscape(width, height) {
+  if (width > height) {
+    console.log("photo is landscape and the width is");
+    return width;
+  } else if (width < height) {
+    console.log("photo is not landscape & height is");
+    return height;
+  } else {
+    console.log("width and height is same");
+    return (width = height);
+  }
 }
+//-----------------------------------
