@@ -1182,21 +1182,21 @@
 // }
 
 //-----------if else---------------
-let time = 19;
-if ((time >= 6) & (time < 12)) {
-  console.log("Good morning");
-} else if ((time >= 13) & (time < 15)) {
-  console.log("good afternoon");
-} else if ((time >= 16) & (time < 18)) {
-  console.log("good evening");
-} else {
-  console.log("Good night");
-}
-//--------------------
-function person(name) {
-  console.log(name);
-}
-person("ali");
+// let time = 19;
+// if ((time >= 6) & (time < 12)) {
+//   console.log("Good morning");
+// } else if ((time >= 13) & (time < 15)) {
+//   console.log("good afternoon");
+// } else if ((time >= 16) & (time < 18)) {
+//   console.log("good evening");
+// } else {
+//   console.log("Good night");
+// }
+// //--------------------
+// function person(name) {
+//   console.log(name);
+// }
+// person("ali");
 
 //--------------------
 // let grade = 33;
@@ -1218,19 +1218,40 @@ person("ali");
 
 //---------------------------
 
-let num = 89;
-if (num >= 90 && num <= 100) {
-  console.log(" your grade is A+1 ");
-} else if (num >= 80 && num < 90) {
-  console.log("your grade is A1 ");
-} else if (num >= 70 && num < 80) {
-  console.log("your grade is A ");
-} else if (num >= 60 && num < 70) {
-  console.log("your grade is B ");
-} else if (num >= 50 && num < 60) {
-  console.log("your grade is C ");
-} else if (num >= 35 && num < 50) {
-  console.log("your grade is D ");
-} else {
-  console.log("Fail");
-}
+// let num = 89;
+// if (num >= 90 && num <= 100) {
+//   console.log(" your grade is A+1 ");
+// } else if (num >= 80 && num < 90) {
+//   console.log("your grade is A1 ");
+// } else if (num >= 70 && num < 80) {
+//   console.log("your grade is A ");
+// } else if (num >= 60 && num < 70) {
+//   console.log("your grade is B ");
+// } else if (num >= 50 && num < 60) {
+//   console.log("your grade is C ");
+// } else if (num >= 35 && num < 50) {
+//   console.log("your grade is D ");
+// } else {
+//   console.log("Fail");
+// }
+//-----------for loop prac-------------
+
+// for (let i = 1; i <= 5; i++) {
+//   console.log("hello world", i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 !== 0) console.log(i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 == 0) console.log(i);
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//   if (i % 2 == 0) console.log(i);
+// }
+
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 !== 0) console.log(i);
+// }
