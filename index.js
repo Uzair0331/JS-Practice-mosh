@@ -1124,7 +1124,20 @@
 //}
 
 //--------16-10-23----------------
-function wc23(team1, team2) {
-  console.log("world cup match" + " " + team1 + " " + "v.s" + " " + team2);
-}
-wc23("Sl", "Aus");
+//function wc23(team1, team2) {
+//console.log("world cup match" + " " + team1 + " " + "v.s" + " " + team2);
+//}
+//wc23("Sl", "Aus");
+
+//---------------
+
+//-------Tenary operater----
+
+// let num = 9;
+// let Type = num >= 10 ? "number-1-team" : "number-2-Team ";
+// console.log(Type);
+
+//----------------------
+let num = 101;
+let Type = num >= 100 ? "K.O" : "fail";
+console.log(Type);
