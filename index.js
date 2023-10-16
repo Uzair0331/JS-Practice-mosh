@@ -1160,23 +1160,58 @@
 //   console.log("a greater");
 // }
 //----------------------------
-let x = 10;
-let y = 20;
-if (x > y) {
-  console.log("X num is Geater");
-} else if (x === y) {
-  console.log("X num is equal to Y");
-} else {
-  console.log("X num is smaller");
-}
+// let x = 10;
+// let y = 20;
+// if (x > y) {
+//   console.log("X num is Geater");
+// } else if (x === y) {
+//   console.log("X num is equal to Y");
+// } else {
+//   console.log("X num is smaller");
+// }
 
 //----------------------------
-let num1 = 30;
-let num2 = 20;
-if (num1 < num2) {
-  console.log("num2 is greater then num1");
-} else if (num1 === num2) {
-  console.log("Num1 is equal to num2");
+// let num1 = 30;
+// let num2 = 20;
+// if (num1 < num2) {
+//   console.log("num2 is greater then num1");
+// } else if (num1 === num2) {
+//   console.log("Num1 is equal to num2");
+// } else {
+//   console.log("Num 1 is Greater then num2");
+// }
+
+//-----------if else---------------
+let time = 19;
+if ((time >= 6) & (time < 12)) {
+  console.log("Good morning");
+} else if ((time >= 13) & (time < 15)) {
+  console.log("good afternoon");
+} else if ((time >= 16) & (time < 18)) {
+  console.log("good evening");
 } else {
-  console.log("Num 1 is Greater then num2");
+  console.log("Good night");
+}
+//--------------------
+function person(name) {
+  console.log(name);
+}
+person("ali");
+
+//--------------------
+let grade = 33;
+if (grade >= 90 && grade < 100) {
+  console.log("A+1");
+} else if (grade >= 80 && grade < 90) {
+  console.log("A1");
+} else if (grade >= 70 && grade < 80) {
+  console.log("A");
+} else if (grade >= 60 && grade < 70) {
+  console.log("B");
+} else if (grade >= 50 && grade < 60) {
+  console.log("C");
+} else if (grade >= 40 && grade < 50) {
+  console.log("D");
+} else {
+  console.log("Fail");
 }
