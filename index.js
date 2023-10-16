@@ -1138,6 +1138,45 @@
 // console.log(Type);
 
 //----------------------
-let num = 101;
-let Type = num >= 100 ? "K.O" : "fail";
-console.log(Type);
+// let num = 101;
+// let Type = num >= 100 ? "K.O" : "fail";
+// console.log(Type);
+
+//---------------------------
+
+// /----------------
+//let num = 50;
+//let Type = num >= 30 ? "pass" : "Fail";
+//console.log(Type);
+
+//--------------------------
+// const a = 4;
+// const b = 5;
+// if (a < b) {
+//   console.log("A smaller");
+// } else if (a === b) {
+//   console.log("a equal to b");
+// } else {
+//   console.log("a greater");
+// }
+//----------------------------
+let x = 10;
+let y = 20;
+if (x > y) {
+  console.log("X num is Geater");
+} else if (x === y) {
+  console.log("X num is equal to Y");
+} else {
+  console.log("X num is smaller");
+}
+
+//----------------------------
+let num1 = 30;
+let num2 = 20;
+if (num1 < num2) {
+  console.log("num2 is greater then num1");
+} else if (num1 === num2) {
+  console.log("Num1 is equal to num2");
+} else {
+  console.log("Num 1 is Greater then num2");
+}
