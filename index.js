@@ -1419,3 +1419,33 @@ console.log('E')
 else{
 console.log('Fail')    
 }
+
+//------------4loop------------------
+for (let i = 1; i <= 5; i++) {
+    console.log('hello world',i);
+    
+}
+//---------------------------
+for (let a = 1; a <10; a++) {
+    if(a % 2 ==0)
+    console.log(a);
+}
+//-----------------------------
+for (let c = 1; c <10; c++) {
+    if(c % 2 !==0)
+    console.log(c);
+}
+
+//---------while loop------------
+let x =1
+while (x <= 5) {   
+console.log('hello',x)
+x++;    
+}
+//---------------------
+let Y =1
+while (Y <=10) {
+if(Y % 2 ==0)
+console.log(Y)
+Y++    
+}
