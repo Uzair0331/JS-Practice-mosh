@@ -1458,23 +1458,172 @@
 // }
 
 //-----------------do while-----------
-let num = 1
-do {
-console.log('Hello',num)    
-num++;    
-} while (num <=5);
+// let num = 1
+// do {
+// console.log('Hello',num)    
+// num++;    
+// } while (num <=5);
 
 //----------------------
-let x = 1
-do {
-if(x %2 ==0)
-console.log(x)
-x++;    
-} while (x <=10);
+// let x = 1
+// do {
+// if(x %2 ==0)
+// console.log(x)
+// x++;    
+// } while (x <=10);
 //------------------------
-let y =1
-do {
-if(y%2 ==!0)
-console.log(y)
-y++;    
-} while (y <= 10);
+// let y =1
+// do {
+// if(y%2 ==!0)
+// console.log(y)
+// y++;    
+// } while (y <= 10);
+
+
+//-----------For-in---------
+
+// let person={
+// name : 'ALi',
+// Address : 'USA',
+// idNumer : 4581,    
+// }
+// for(let a in person){
+// console.log(a,person[a]);    
+// }
+
+//---------------
+// let person2 ={
+// name : 'jawad',
+// Address :'pak',
+// idNumer : 8904,    
+// }
+// for(let c in person2){
+// console.log(c,person2[c])    
+// }
+
+
+//--------------for of------
+
+//let item = ['mobile','lights','lucifer'];
+//for ( let a of item ) {
+//console.log(a);
+//}
+//--------------------------------------
+
+// let item = ['Watch','Moile','Headphones'];
+// for(let a of item){
+// console.log(a);
+// }
+
+//-----------------max Num--------------
+
+// let n = max(7,6);
+// console.log(n);
+
+// function max(x,y){
+// return(x > y ? x :y);
+// }
+
+//-----------
+//  let id = max ('a','a');
+//  console.log(id);
+
+//  function max (x,y){
+//   if (x>y) {
+//     console.log('X is greater then y');
+//     return(x);
+// }
+// else if (x === y){
+// console.log('Both are same Num');
+// return(x=y);    
+// }
+// else{
+//     console.log('y is greater then x');
+//     return(y);
+// }
+// }
+
+//--------------------------
+// let num = max(6,5);
+// console.log(num);
+
+// function max (x,y){
+//    if (x > y){
+//    console.log('x is greater then y') 
+//    return(x );}
+//    else if (x === y){
+//     console.log('Both are same');
+//    return(x=y); 
+//    }
+//    else{
+//     console.log('y is greater then x');
+//     return(y);
+
+//    }
+// }
+
+//-----------------------------------------
+
+// let num = landscapeOrPotrait(1000,900);
+// console.log(num);
+
+// function landscapeOrPotrait(width,height){
+   
+//     if(width > height){
+//         console.log('this photo is Landscape')
+//     return(width);
+//         }
+        
+//     else if(width === height){
+//      console.log('width & Height same')   
+//      return(width);
+//     }
+//     else{
+//         console.log('this photo is potrait')
+//      return(height);   
+//     }
+// }
+
+//----------------------------
+// let output = AliAhmed(30);
+// console.log(output);
+
+// function AliAhmed(input){
+//     if(typeof input !== "number") return('not a number');
+//     if(input % 3 ==0 && input % 5==0) return('Ali Ahmed');
+//     if(input % 3 ==0)return('Ali');
+//     if(input % 5==0)return('Ahmed');
+
+// }
+
+//--------------------------
+// let login = name1(4);
+// console.log(login);
+
+// function name1(name){
+// if(typeof name !== 'number')return('not a number');
+// if(name % 2 ==0 && name % 5==0)return('AlexJhon');
+// if(name %2 ==0)return('Alex');
+// if(name % 5==0)return('Jhon');
+// }
+
+
+//---------------------------
+
+checkSpeed(120);
+
+function checkSpeed(speed){
+   const speedLimit =70;
+   const kmPerPoint =5;
+   
+   if(speed < speedLimit + kmPerPoint){
+    console.log('speed is ok');
+    return;
+   } 
+   const points = Math.floor((speed - speedLimit) / kmPerPoint)
+   if(points >= 12)
+   console.log('license Suspended because of speed limit');
+else{
+    console.log('you cross speed limit. Point is',points+" "+'if you corss 12 point your license will be susupended')
+}
+}
