@@ -1285,7 +1285,8 @@
 //a++;
 //}while(a <= 10);
 
-///-------------------
+///----------NEW ---------
+
 // let n = max(4, 5);
 // console.log(n);
 
@@ -1317,19 +1318,63 @@
 //   return width > height;
 // }
 //-----------------
-let n = islandscape(700, 500);
-console.log(n);
+// let n = islandscape(700, 500);
+// console.log(n);
 
-function islandscape(width, height) {
-  if (width > height) {
-    console.log("photo is landscape and the width is");
-    return width;
-  } else if (width < height) {
-    console.log("photo is not landscape & height is");
-    return height;
-  } else {
-    console.log("width and height is same");
-    return (width = height);
-  }
+// function islandscape(width, height) {
+//   if (width > height) {
+//     console.log("photo is landscape and the width is");
+//     return width;
+//   } else if (width < height) {
+//     console.log("photo is not landscape & height is");
+//     return height;
+//   } else {
+//     console.log("width and height is same");
+//     return (width = height);
+//   }
+// }
+
+//------------------------------
+// const output = Name(15);
+// console.log(output);
+
+// function Name(input) {
+//   if (typeof input !== "number") return "Not a number";
+
+//   if (input % 3 === 0 && input % 5 === 0) return "Alexkuma";
+
+//   if (input % 3 === 0) return "Alex";
+
+//   if (input % 5 === 0) return "Kuma";
+// }
+
+//--------------
+
+
+
+//----------17-10-23-------------
+
+function wc23(team1,team2){
+console.log('match btw'+" "+team1+" "+'V.S'+" "+team2);
 }
-//-----------------------------------
+wc23('SA','NA');
+//---------------
+// let num = 9;
+// let Type = num >= 10 ? "number-1-team" : "number-2-Team ";
+// console.log(Type);
+//------------
+let num = 9;
+let whowin =num >=10 ? "win" : "loose";
+console.log(whowin);
+//------------------
+let num1 =5;
+let num2 =6;
+if (num1 > num2) {
+console.log('Num1 is greater then Num2')    
+}
+else if (num1 === num2){
+console.log('Num1 is equal to Num2')
+}
+else{
+console.log('Num2 is greater then Num1')    
+}
