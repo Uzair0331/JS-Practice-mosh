@@ -1589,10 +1589,10 @@
 // console.log(output);
 
 // function AliAhmed(input){
-//     if(typeof input !== "number") return('not a number');
-//     if(input % 3 ==0 && input % 5==0) return('Ali Ahmed');
-//     if(input % 3 ==0)return('Ali');
-//     if(input % 5==0)return('Ahmed');
+// if(typeof input !== "number") return('not a number');
+// if(input % 3 ==0 && input % 5==0) return('Ali Ahmed');
+// if(input % 3 ==0)return('Ali');
+// if(input % 5==0)return('Ahmed');
 
 // }
 
@@ -1608,22 +1608,52 @@
 // }
 
 
-//---------------------------
+//------------------SpeedLimits---------
 
-checkSpeed(120);
+checkSpeed(130);
 
 function checkSpeed(speed){
-   const speedLimit =70;
-   const kmPerPoint =5;
+const speedLimit =70;
+const kmPerPoint =5;
    
-   if(speed < speedLimit + kmPerPoint){
-    console.log('speed is ok');
-    return;
-   } 
-   const points = Math.floor((speed - speedLimit) / kmPerPoint)
-   if(points >= 12)
-   console.log('license Suspended because of speed limit');
+if(speed < speedLimit + kmPerPoint){
+console.log('speed is ok');
+return;
+} 
+const points = Math.floor((speed - speedLimit) / kmPerPoint)
+if(points >= 12)
+console.log('license Suspended because of speed limit');
 else{
-    console.log('you cross speed limit. Point is',points+" "+'if you corss 12 point your license will be susupended')
+console.log('you cross speed limit. Point is',points+" "+'if you corss 12 point your license will be susupended');
 }
 }
+
+//--------------------------------------------------------
+
+
+//---------------------------------
+
+// num(10);
+
+// function num(evenodd){
+// for (let i = 1; i <=10; i++) {
+// if(i % 2 ==0)
+// console.log(i,'Even');
+// else{
+// console.log(i,'odd');
+//     } 
+// }
+// }
+
+//--------------------------------
+
+// const value =[1,2,3];
+// console.log(countTruthy(value));
+
+// function countTruthy(value){
+// let count =0;
+// for(let array of value)
+// if(array)
+// count++;
+// return count;
+// }
