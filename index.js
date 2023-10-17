@@ -1378,3 +1378,44 @@ console.log('Num1 is equal to Num2')
 else{
 console.log('Num2 is greater then Num1')    
 }
+//------------
+let time=12;
+if (time >=6 & time <12) {
+console.log('Good morning')    
+}
+else if(time >=12 & time <15 ){
+console.log('Good afternoon')
+}
+else if(time >=15 & time <18){
+console.log('Good evening')
+}
+else{
+console.log('Good night')    
+}
+
+//-------------------------
+let Grade =34;
+if (Grade >= 90 && Grade <100) {
+ console.log('A+1');   
+}
+else if(Grade >=80 && Grade <90){
+console.log('A1');
+}
+else if(Grade >=70 && Grade < 80){
+console.log('A');
+}
+else if(Grade >=60 && Grade <70){
+console.log('B')
+}
+else if(Grade >=50 && Grade <60){
+console.log('C')
+}
+else if(Grade >= 40 && Grade <50){
+console.log('D')
+}
+else if(Grade >=35 && Grade <40){
+console.log('E')    
+}
+else{
+console.log('Fail')    
+}
