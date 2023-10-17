@@ -1354,105 +1354,127 @@
 
 //----------17-10-23-------------
 
-function wc23(team1,team2){
-console.log('match btw'+" "+team1+" "+'V.S'+" "+team2);
-}
-wc23('SA','NA');
+// function wc23(team1,team2){
+// console.log('match btw'+" "+team1+" "+'V.S'+" "+team2);
+// }
+// wc23('SA','NA');
 //---------------
 // let num = 9;
 // let Type = num >= 10 ? "number-1-team" : "number-2-Team ";
 // console.log(Type);
 //------------
-let num = 9;
-let whowin =num >=10 ? "win" : "loose";
-console.log(whowin);
-//------------------
-let num1 =5;
-let num2 =6;
-if (num1 > num2) {
-console.log('Num1 is greater then Num2')    
-}
-else if (num1 === num2){
-console.log('Num1 is equal to Num2')
-}
-else{
-console.log('Num2 is greater then Num1')    
-}
+// let num = 9;
+// let whowin =num >=10 ? "win" : "loose";
+// console.log(whowin);
+// //------------------
+// let num1 =5;
+// let num2 =6;
+// if (num1 > num2) {
+// console.log('Num1 is greater then Num2')    
+// }
+// else if (num1 === num2){
+// console.log('Num1 is equal to Num2')
+// }
+// else{
+// console.log('Num2 is greater then Num1')    
+// }
 //------------
-let time=12;
-if (time >=6 & time <12) {
-console.log('Good morning')    
-}
-else if(time >=12 & time <15 ){
-console.log('Good afternoon')
-}
-else if(time >=15 & time <18){
-console.log('Good evening')
-}
-else{
-console.log('Good night')    
-}
+// let time=12;
+// if (time >=6 & time <12) {
+// console.log('Good morning')    
+// }
+// else if(time >=12 & time <15 ){
+// console.log('Good afternoon')
+// }
+// else if(time >=15 & time <18){
+// console.log('Good evening')
+// }
+// else{
+// console.log('Good night')    
+// }
 
 //-------------------------
-let Grade =34;
-if (Grade >= 90 && Grade <100) {
- console.log('A+1');   
-}
-else if(Grade >=80 && Grade <90){
-console.log('A1');
-}
-else if(Grade >=70 && Grade < 80){
-console.log('A');
-}
-else if(Grade >=60 && Grade <70){
-console.log('B')
-}
-else if(Grade >=50 && Grade <60){
-console.log('C')
-}
-else if(Grade >= 40 && Grade <50){
-console.log('D')
-}
-else if(Grade >=35 && Grade <40){
-console.log('E')    
-}
-else{
-console.log('Fail')    
-}
+// let Grade =34;
+// if (Grade >= 90 && Grade <100) {
+//  console.log('A+1');   
+// }
+// else if(Grade >=80 && Grade <90){
+// console.log('A1');
+// }
+// else if(Grade >=70 && Grade < 80){
+// console.log('A');
+// }
+// else if(Grade >=60 && Grade <70){
+// console.log('B')
+// }
+// else if(Grade >=50 && Grade <60){
+// console.log('C')
+// }
+// else if(Grade >= 40 && Grade <50){
+// console.log('D')
+// }
+// else if(Grade >=35 && Grade <40){
+// console.log('E')    
+// }
+// else{
+// console.log('Fail')    
+// }
 
 //------------4loop------------------
-for (let i = 1; i <= 5; i++) {
-    console.log('hello world',i);
+// for (let i = 1; i <= 5; i++) {
+//     console.log('hello world',i);
     
-}
+// }
 //---------------------------
-for (let a = 1; a <10; a++) {
-    if(a % 2 ==0)
-    console.log(a);
-}
+// for (let a = 1; a <10; a++) {
+//     if(a % 2 ==0)
+//     console.log(a);
+// }
 //-----------------------------
-for (let c = 1; c <10; c++) {
-    if(c % 2 !==0)
-    console.log(c);
-}
+// for (let c = 1; c <10; c++) {
+//     if(c % 2 !==0)
+//     console.log(c);
+// }
 
 //---------while loop------------
-let x =1
-while (x <= 5) {   
-console.log('hello',x)
-x++;    
-}
+// let x =1
+// while (x <= 5) {   
+// console.log('hello',x)
+// x++;    
+// }
 //---------------------
-let Y =1
-while (Y <=10) {
-if(Y % 2 ==0)
-console.log(Y)
-Y++;    
-}
+// let Y =1
+// while (Y <=10) {
+// if(Y % 2 ==0)
+// console.log(Y)
+// Y++;    
+// }
 //---------------
-let z =1
-while (z <=10) {
-if(z % 2 !==0) 
-console.log(z)
-z++;   
-}
+// let z =1
+// while (z <=10) {
+// if(z % 2 !==0) 
+// console.log(z)
+// z++;   
+// }
+
+//-----------------do while-----------
+let num = 1
+do {
+console.log('Hello',num)    
+num++;    
+} while (num <=5);
+
+//----------------------
+let x = 1
+do {
+if(x %2 ==0)
+console.log(x)
+x++;    
+} while (x <=10);
+//------------------------
+let y =1
+do {
+if(y%2 ==!0)
+console.log(y)
+y++;    
+} while (y <= 10);
