@@ -1447,5 +1447,12 @@ let Y =1
 while (Y <=10) {
 if(Y % 2 ==0)
 console.log(Y)
-Y++    
+Y++;    
+}
+//---------------
+let z =1
+while (z <=10) {
+if(z % 2 !==0) 
+console.log(z)
+z++;   
 }
