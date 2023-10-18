@@ -1746,86 +1746,179 @@
 //     } 
 // }
 // }
-
+//----------------------------------------------
 
 //----------------18-10-23--------------------
-function wc23 (team1,team2){
-  console.log('Date 18-10-23 match b/w'+" "+team1+" "+'V.S'+" "+team2);  
+// function wc23 (team1,team2){
+//   console.log('Date 18-10-23 match b/w'+" "+team1+" "+'V.S'+" "+team2);  
  
-}
-wc23('nz','afg');
+// }
+// wc23('nz','afg');
 
 //---------------------------------
-let num=5;
-let Type = num >=5 ? "NZ" : "Afg" ;
-console .log(Type,num);
+// let num=5;
+// let Type = num >=5 ? "NZ" : "Afg" ;
+// console .log(Type,num);
 
 //----------------------------------------------
-let nz =5;
-let afg =4;
-if (nz > afg) {
-console.log('nz win the match')    
-}
-else if(nz === afg){
-console.log('Match Drawn');
-}
-else{
-console.log('afg win the match');   
-}
+// let nz =5;
+// let afg =4;
+// if (nz > afg) {
+// console.log('nz win the match')    
+// }
+// else if(nz === afg){
+// console.log('Match Drawn');
+// }
+// else{
+// console.log('afg win the match');   
+// }
 //-----------------------------------------------
 
-let time = 12;
-if (time >=6 & time < 12) {
-console.log('Good morning')    
-}
-else if(time >=12 & time <16){
-console.log('Good Afternoon')
-}
-else if(time >=16 & time <18){
-console.log('good evening')    
-}
-else{
-console.log('good night')    
-}
+// let time = 12;
+// if (time >=6 & time < 12) {
+// console.log('Good morning')    
+// }
+// else if(time >=12 & time <16){
+// console.log('Good Afternoon')
+// }
+// else if(time >=16 & time <18){
+// console.log('good evening')    
+// }
+// else{
+// console.log('good night')    
+// }
 //----------------------------------
 
-let pointTale = 3;
-if(pointTale === 1){
-console.log('No.1 Team is India on point Table');
-}
-else if(pointTale === 2){
-console.log('No.2 Team is South Africa on point Table ');
-}
-else if(pointTale === 3){
-console.log('No.3 Team is Newzeland  on point Table');
-}
-else{
-console.log('No.4 Team is Pakistan on point Table')    
-}
+// let pointTale = 3;
+// if(pointTale === 1){
+// console.log('No.1 Team is India on point Table');
+// }
+// else if(pointTale === 2){
+// console.log('No.2 Team is South Africa on point Table ');
+// }
+// else if(pointTale === 3){
+// console.log('No.3 Team is Newzeland  on point Table');
+// }
+// else{
+// console.log('No.4 Team is Pakistan on point Table')    
+// }
 
 //-------------------------------
-let number=50;
-if(number >=90 && number <100){
-console.log('Grade A+1');    
+// let number=50;
+// if(number >=90 && number <100){
+// console.log('Grade A+1');    
+// }
+// else if (number >=80 && number <90){
+// console.log('Grade A1');
+// }
+// else if (number >=70 && number <80){
+// console.log('Grade A');
+// }
+// else if (number >=60 && number <70){
+// console.log('Grade B');
+// }
+// else if (number >=50 && number <60){
+// console.log('Grade C');
+// }
+// else if (number >=40 && number <50){
+// console.log('Grade D');
+// }
+// else if (number >=35 && number <40){
+// console.log('Grade D');
+// }
+// else{
+// console.log('Fail');    
+// }
+//----------------------------------
+// for (let i = 1; i <= 5; i++) {
+// console.log('Hello',i);
+// }
+//---------------------------------
+// for (let i= 1; i <=5; i++) {
+// if(i % 2 == 0)
+// console.log('Even number',i);
+// }
+//--------------------------------
+// for (let i = 1; i <=5; i++) {
+// if(i % 2 !==0)
+// console.log('odd Number',i);
+// }
+//-------------------------
+// let a =1;
+// while (a <=5) {
+// console.log('hello',a)
+// a++;    
+// }
+//------------------------
+// let x =1;
+// while (x <=5) {
+// if(x %2 ==0)
+// console.log('even number',x)    
+// x++;
+// }
+//--------------------
+// let Y =1;
+// while (Y <= 5) {
+// if(Y % 2 ==!0)  
+// console.log('odd number',Y)
+// Y++;
+// }
+//----------------------
+// let a =1;
+// do {
+// console.log('Hello',a)
+// a++;    
+// } while (a <=5);
+//-------------------
+// let x =1;
+// do {
+// if(x %2 ==0)    
+// console.log('Even num',x)    
+// x++;    
+// } while (x <= 5);
+//------------------
+// let y =1;
+// do {
+// if(y %2 !==0)    
+// console.log('odd num',y)
+// y++;    
+// } while (y <=5);
+
+
+//-----------------max Num--------------
+// let id =max(5,6);
+// console.log(id)
+
+// function max(x,y){
+// if(x > y){
+// console.log('x is max then y');
+// return (x);}
+// else if(x === y){
+// console.log('x is equal to y');    
+// return (x);
+// }
+// else{
+// console.log('y is max then x ');
+// return(y);
+// }
+// }
+
+//-------------------------------------------
+
+let num = Photo(400,500)
+console.log(num);
+
+function Photo(width,height){
+if(width > height){
+console.log('Width is max then height,photo is landscape')
+return(width);
 }
-else if (number >=80 && number <90){
-console.log('Grade A1');
-}
-else if (number >=70 && number <80){
-    console.log('Grade A');
-}
-else if (number >=60 && number <70){
-    console.log('Grade B');
-}
-else if (number >=50 && number <60){
-    console.log('Grade C');
-}
-else if (number >=40 && number <50){
-    console.log('Grade D');
-}
-else if (number >=35 && number <40){
-    console.log('Grade D');
+else if(width === height){
+console.log('Width and Height are same of this photo')
+return(width);
 }
 else{
-console.log('Fail');    
+console.log('Height is max then width,photo is potrait')
+return(height);    
+}
 }
