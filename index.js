@@ -1680,69 +1680,96 @@
 // }
 
 //-----------------------
-let photo = size (900,800);
-console.log(photo);
+// let photo = size (900,800);
+// console.log(photo);
 
-function size(w,h){
-if(w > h){
-console.log('This photo is landscape,& width is');
-return w;
-}
-if(w === h){
-console.log('width and height is same & the value is'); 
-return w;   
-}
-else{
-console.log('this photo is potrait & the height is') ;  
-return h; 
-}    
-}
+// function size(w,h){
+// if(w > h){
+// console.log('This photo is landscape,& width is');
+// return w;
+// }
+// if(w === h){
+// console.log('width and height is same & the value is'); 
+// return w;   
+// }
+// else{
+// console.log('this photo is potrait & the height is') ;  
+// return h; 
+// }    
+// }
 
-//----------------------------------
+// //----------------------------------
 
 
-let output = person(15);
-console.log(output);
+// let output = person(15);
+// console.log(output);
 
-function person(input) {
-if(typeof input !== 'number')return'not a number';
+// function person(input) {
+// if(typeof input !== 'number')return'not a number';
 
-if(input % 3 ==0 && input % 5 ==0)return'Ali Ahmed';
+// if(input % 3 ==0 && input % 5 ==0)return'Ali Ahmed';
 
-if(input % 3==0)return'Ali';
+// if(input % 3==0)return'Ali';
 
-if(input % 5==0)return'Ahmed';
-}
+// if(input % 5==0)return'Ahmed';
+// }
 
-//------------------SpeedLimits---------
+// //------------------SpeedLimits---------
 
-checkSpeed(70);
+// checkSpeed(70);
 
-function checkSpeed(speed){
-const speedLimit =70;
-const kmPerPoint =5;
+// function checkSpeed(speed){
+// const speedLimit =70;
+// const kmPerPoint =5;
    
-if(speed < speedLimit + kmPerPoint){
-console.log('Vehicle speed is ok');
-return;
-} 
-const points = Math.floor((speed - speedLimit) / kmPerPoint)
-if(points >= 12)
-console.log('license Suspended because of your Vehicle speed limit');
-else{
-console.log('you cross Vehicle speed limit. Point is',points+" "+'if you corss 12 point your Vehicle license will be susupended');
+// if(speed < speedLimit + kmPerPoint){
+// console.log('Vehicle speed is ok');
+// return;
+// } 
+// const points = Math.floor((speed - speedLimit) / kmPerPoint)
+// if(points >= 12)
+// console.log('license Suspended because of your Vehicle speed limit');
+// else{
+// console.log('you cross Vehicle speed limit. Point is',points+" "+'if you corss 12 point your Vehicle license will be susupended');
+// }
+// }
+
+// //--------------------------
+// num(1);
+
+// function num(evenodd){
+// for (let i = 1; i <=5; i++) {
+// if(i % 2 ==0)
+// console.log(i,'Even');
+// else{
+// console.log(i,'odd');
+//     } 
+// }
+// }
+
+
+//----------------18-10-23--------------------
+function wc23 (team1,team2){
+  console.log('Date 18-10-23 match b/w'+" "+team1+" "+'V.S'+" "+team2);  
+ 
 }
+wc23('nz','afg');
+
+//---------------------------------
+let num=5;
+let Type = num >=5 ? "NZ" : "Afg" ;
+console .log(Type,num);
+
+//----------------------------------------------
+let nz =5;
+let afg =4;
+if (nz > afg) {
+console.log('nz win the match')    
+}
+else if(nz === afg){
+console.log('Match Drawn');
+}
+else{
+console.log('afg win the match');   
 }
 
-//--------------------------
-num(1);
-
-function num(evenodd){
-for (let i = 1; i <=5; i++) {
-if(i % 2 ==0)
-console.log(i,'Even');
-else{
-console.log(i,'odd');
-    } 
-}
-}
