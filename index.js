@@ -1772,4 +1772,60 @@ console.log('Match Drawn');
 else{
 console.log('afg win the match');   
 }
+//-----------------------------------------------
 
+let time = 12;
+if (time >=6 & time < 12) {
+console.log('Good morning')    
+}
+else if(time >=12 & time <16){
+console.log('Good Afternoon')
+}
+else if(time >=16 & time <18){
+console.log('good evening')    
+}
+else{
+console.log('good night')    
+}
+//----------------------------------
+
+let pointTale = 3;
+if(pointTale === 1){
+console.log('No.1 Team is India on point Table');
+}
+else if(pointTale === 2){
+console.log('No.2 Team is South Africa on point Table ');
+}
+else if(pointTale === 3){
+console.log('No.3 Team is Newzeland  on point Table');
+}
+else{
+console.log('No.4 Team is Pakistan on point Table')    
+}
+
+//-------------------------------
+let number=50;
+if(number >=90 && number <100){
+console.log('Grade A+1');    
+}
+else if (number >=80 && number <90){
+console.log('Grade A1');
+}
+else if (number >=70 && number <80){
+    console.log('Grade A');
+}
+else if (number >=60 && number <70){
+    console.log('Grade B');
+}
+else if (number >=50 && number <60){
+    console.log('Grade C');
+}
+else if (number >=40 && number <50){
+    console.log('Grade D');
+}
+else if (number >=35 && number <40){
+    console.log('Grade D');
+}
+else{
+console.log('Fail');    
+}
