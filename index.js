@@ -1,3 +1,5 @@
+//-----------------variable-------------
+
 //let name = 'zaibi';
 //console.log(name)
 
@@ -9,6 +11,8 @@
 //let rate1 = 1;
 //rate = 2 ;
 //console.log(rate1);
+
+//--------------------Primitive type------------
 
 //let Name = 'zaibi' //String
 //let age = 25; //number
@@ -1905,18 +1909,20 @@
 
 //-------------------------------------------
 
-// let num = Photo(400,500)
+// let num = Photo(600,400)
 // console.log(num);
-
 // function Photo(width,height){
+
 // if(width > height){
 // console.log('Width is max then height,photo is landscape')
 // return(width);
 // }
+
 // else if(width === height){
 // console.log('Width and Height are same of this photo')
 // return(width);
 // }
+
 // else{
 // console.log('Height is max then width,photo is potrait')
 // return(height);    
@@ -1924,21 +1930,62 @@
 // }
 
 //------------------------------------
-let output = Name(15);
-console.log(output)
+// let output = Name(15);
+// console.log(output)
 
-function Name(input){
-if(typeof input !== "number")
-return('Not a Number');
+// function Name(input){
+// if(typeof input !== "number")
+// return('Not a Number');
 
-if((input %3 === 0) && (input %5 === 0))
-return('Log in & Pass');
+// if((input % 3 === 0) && (input % 5 === 0))
+// return('Log in & Pass');
    
-if(input %3 ===0)
-return('log in');
+// if(input % 3 === 0)
+// return('log in');
 
-if(input % 5 ===0)
-return('Pass');
+// if(input % 5 === 0)
+// return('Pass');
 
-return input;
+// return input;
+// }
+
+//------------------------------------
+speedmeter(74);
+
+function speedmeter(speed){
+const speedLimit = 70;
+const kmPerPoint =5;
+
+if(speed < speedLimit + kmPerPoint){
+console.log('Speed is ok of car');
+return;
+}
+
+const points = Math.floor((speed-speedLimit)/kmPerPoint)
+if(points >= 12)
+console.log('License suspended');
+
+else{
+console.log('points is ',points+" "+'your speed is',speed+" "+'if you cross 12 point your license will be suspended');    
+}
+}
+
+//-----------------------------------------------------------
+
+const Movie = {
+Title : 'Singham',
+releaseYear : 2015,
+rating : 7,
+director :'Sunil Shetty'    
+};
+properties(Movie);
+
+function properties(obj){
+  
+for (let key in obj)
+
+{if(typeof obj [key] === "string")
+
+console.log(key,obj[key]);    
+}
 }
