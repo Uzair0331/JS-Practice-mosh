@@ -1905,20 +1905,40 @@
 
 //-------------------------------------------
 
-let num = Photo(400,500)
-console.log(num);
+// let num = Photo(400,500)
+// console.log(num);
 
-function Photo(width,height){
-if(width > height){
-console.log('Width is max then height,photo is landscape')
-return(width);
-}
-else if(width === height){
-console.log('Width and Height are same of this photo')
-return(width);
-}
-else{
-console.log('Height is max then width,photo is potrait')
-return(height);    
-}
+// function Photo(width,height){
+// if(width > height){
+// console.log('Width is max then height,photo is landscape')
+// return(width);
+// }
+// else if(width === height){
+// console.log('Width and Height are same of this photo')
+// return(width);
+// }
+// else{
+// console.log('Height is max then width,photo is potrait')
+// return(height);    
+// }
+// }
+
+//------------------------------------
+let output = Name(15);
+console.log(output)
+
+function Name(input){
+if(typeof input !== "number")
+return('Not a Number');
+
+if((input %3 === 0) && (input %5 === 0))
+return('Log in & Pass');
+   
+if(input %3 ===0)
+return('log in');
+
+if(input % 5 ===0)
+return('Pass');
+
+return input;
 }
