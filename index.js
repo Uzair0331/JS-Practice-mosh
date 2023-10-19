@@ -2166,22 +2166,80 @@
 // }
 
 //--------------------------------
-let num = a(10,10);
-console.log(num);
+// let num = a(10,10);
+// console.log(num);
 
-function a(ind,pak) {
-if (pak > ind) {
-console.log('Pak won');
-return(pak);    
+// function a(ind,pak) {
+// if (pak > ind) {
+// console.log('Pak won');
+// return(pak);    
+// }    
+
+// if (pak === ind) {
+// console.log('Match drawn')
+// return(pak);    
+// }
+
+// else{
+// console.log('ind Won');
+// return(ind);    
+// }
+// }
+//-------------
+// let num = size(800,600);
+// console.log(num);
+
+// function size(width,height) {
+
+// if (width > height) {
+// console.log('Width is max,photo is landscape');
+// return(width);    
+// }
+
+// if (width === height) {
+// console.log('Width & height is same of photo');
+// return(width);    
+// } 
+
+// else{
+// console.log('height is max,photo is potrait');
+// return(height);    
+// }
+// }
+
+//--------------------------------------
+// evenodd(10);
+// function evenodd(limit) {
+// for (let i = 1; i <=limit; i++) {
+//     const show=(i % 2 ===0) ? "even" :"odd";
+//     console.log(i,show);
+// }    
+// }
+
+//------------------------
+// const person ={
+// Name : "Alex",
+// Location: "USA",
+// DateOfBith : 2-5-1995,    
+// }
+// Show(person);
+// function Show(obj) {
+// for (let key in obj) 
+//     if(typeof obj[key] === "string")
+//     console.log(key,obj[key]);
+        
+//     }
+    
+const person ={
+name : "jay",
+location : "italy",
+dateOfith : 5-9-1985,
+telePhone :+91035416581    
+}
+show(person);
+
+function show(obj) {
+for (let key in obj)
+if(typeof obj[key] === "string") 
+console.log(key,obj[key]);    
 }    
-
-if (pak === ind) {
-console.log('Match drawn')
-return(pak);    
-}
-
-else{
-console.log('ind Won');
-return(ind);    
-}
-}
