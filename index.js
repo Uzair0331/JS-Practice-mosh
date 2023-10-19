@@ -2278,44 +2278,94 @@
 // }
 // }
 
-//---------------------------
-evenodd(10);
-function evenodd(limit) {
-for (let a = 1; a <= limit; a++) {
-    const show=(a % 2 ===0)? "Even" : "odd";
-    console.log(a,show);
-}
-}
 
-//-----------------------------
-const person={
-name : "Alex",
-location :"london",
-dateOfith :6-5-1984,
-telePhone :+924165841,    
-}
-show(person)
-function show(obj) {
-for (let key in obj)
-if(typeof obj[key] === "string")
-console.log(key,obj[key]) 
-}
+// evenodd(10);
+// function evenodd(limit) {
+// for (let a = 1; a <= limit; a++) {
+// const show=(a % 2 ===0)? "Even" : "odd";
+// console.log(a,show);
+// }
+// }
 
-//--------------------------------
-let id = max (500,300)
-console.log(id);
 
-function max(width,height) {
-if (width > height) {
-console.log('width is max then height')
-return(width)    
-}  
-if (width === height) {
-console.log('width is equal to height') 
-return(width)   
-}  
-else{
-console.log('height is max then width')   
+// const person={
+// name : "Alex",
+// location :"london",
+// dateOfith :6-5-1984,
+// telePhone :+924165841,    
+// }
+// show(person)
+// function show(obj) {
+// for (let key in obj)
+// if(typeof obj[key] === "string")
+// console.log(key,obj[key]) 
+// }
+
+
+// let id = max (500,300)
+// console.log(id);
+
+// function max(width,height) {
+// if (width > height) {
+// console.log('width is max then height')
+// return(width)    
+// }  
+// if (width === height) {
+// console.log('width is equal to height') 
+// return(width)   
+// }  
+// else{
+// console.log('height is max then width')
+// return(height)
+// }
+// }
+//--------------------------------------------
+// evenodd(10);
+// function evenodd(limit) {
+// for (let a = 1; a <limit; a++) {
+//     const show=(a %2 ===0) ? "even" : "odd";
+//     console.log(a,show);
+    
+// }
+// }
+//--------------------------------------
+// odd(10);
+// function odd(limit) {
+//  for (let o = 1; o <= limit; o++) {
+
+//     if(o % 2 !==0)
+//     console.log(o,'hi');
+// }   
+// }
+//--------------------------------------
+// const person={
+// name : "Jack",
+// location :"East Asia",
+// telephone : +94321564734,
+// dateOfBith :15-8-1975,    
+// }
+// show(person)
+// function show(obj) {
+// for (let key in obj)
+// if(typeof obj[key] === "number")
+// console.log(key,obj[key]);
+// }
+//------------------------------------
+
+let id =max(200,500)
+console.log(id)
+ 
+function max(height,width) {
+if (height > width) {
+console.log("height is max then width")    
 return(height)
+}   
+if (height === width) {
+console.log("width is equal to height")    
+return(width)
 }
+else {
+console.log("width is max then Height")
+return(width)    
+} 
 }
