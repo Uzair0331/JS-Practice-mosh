@@ -1998,10 +1998,77 @@
 
 
 //-----------19-10-23--------------------
-function wc23(team1,team2){
-console.log('19-10-23 match B/W '+team1+" "+'V.S'+" "+team2);
-}
-wc23('Ind','Ban');
+// function wc23(team1,team2){
+// console.log('19-10-23 match B/W '+team1+" "+'V.S'+" "+team2);
+// }
+// wc23('Ind','Ban');
 
-//------------------------------------------
-let pointTale=50;
+// //------------------------------------------
+// let pointTale=40;
+// let team = pointTale >=50 ? "India" : "Ban" ;
+// console.log(pointTale,team);
+// //--------------------------------
+// function wc(teamA,teamB){
+// console.log('20-10-23 Match B/W '+" "+teamA+" "+'And'+" "+teamB);
+// }
+// wc('pak','aus')
+// //--------------------------------
+// let num =50;
+// let team1 = num >= 50 ? "pak" : "ind"; 
+// console.log(team1,num);
+
+//-------------------------------
+// let afg = 6;
+// let aus = 8;
+// if (afg > aus) {
+// console.log('afg won the match')    
+// }
+// else if (afg === aus){
+// console.log('Match drawn')    
+// }
+// else{
+//  console.log('aus won the match');   
+// }
+
+//-------------------------------
+
+let time = 6;
+if (time >= 6 && time <12){
+console.log('Good morning');    
+}
+else if(time >= 12 && time <16){
+console.log('Good Afternoon');
+}
+else if(time >=16 && time <19){
+console.log('Good Evening');
+}
+else{
+console.log('Good night');    
+}
+
+//-----------------------------------
+let num =30;
+if(num >=90 && num <=100){
+console.log('Grade A+1');
+}
+else if(num >=80 && num <90){
+console.log('Grade A1');
+}
+else if(num >=70 && num <80){
+console.log('Grade A');
+}
+else if(num >=60 && num <70){
+console.log('Grade B');
+}
+else if(num >=50 && num <60){
+console.log('Grade C');
+}
+else if(num >=40 && num <50){
+console.log('Grade D');
+}
+else if(num >=35 && num <40){
+console.log('Grade E');
+}
+else{
+console.log('Fail')    
+}    
