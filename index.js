@@ -2352,20 +2352,63 @@
 // }
 //------------------------------------
 
-let id =max(200,500)
-console.log(id)
+// let id =max(200,500)
+// console.log(id)
  
-function max(height,width) {
-if (height > width) {
-console.log("height is max then width")    
-return(height)
-}   
-if (height === width) {
-console.log("width is equal to height")    
-return(width)
+// function max(height,width) {
+// if (height > width) {
+// console.log("height is max then width")    
+// return(height)
+// }   
+// if (height === width) {
+// console.log("width is equal to height")    
+// return(width)
+// } 
+// else {
+// console.log("width is max then Height")
+// return(width)    
+// } 
+// }
+
+//----------------------------------------
+show(3);
+
+function show(rows) {
+
+for (let row = 1; row <= rows;row++){
+let pattern = '';
+
+for(let i = 0 ; i <  row; i++)
+pattern += '*';
+
+console.log(pattern);
+
 }
-else {
-console.log("width is max then Height")
-return(width)    
-} 
+}
+
+//-------------
+let age =17;
+if (age >= 18) {
+console.log('age is ok');    
+}
+else{
+console.log('age is not ok');
+}
+//------------------------
+let id =max(5,6)
+console.log(id)
+
+function max(x,y) {
+if (x > y) {
+console.log('x is max then y')
+return(x)    
+}    
+else if(x === y){
+console.log('x is equal to y')    
+return(x)
+}
+else{
+console.log('y is max then x')    
+return(y)
+}
 }
