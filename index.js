@@ -1894,20 +1894,24 @@
 // console.log(id)
 
 // function max(x,y){
+
 // if(x > y){
-// console.log('x is max then y');
-// return (x);}
-// else if(x === y){
-// console.log('x is equal to y');    
-// return (x);
+// console.log('the num of x is max then y')
+// return(x);
 // }
+
+// if(x === y){
+// console.log('the num of x and y is same')
+// return(x);    
+// }
+
 // else{
-// console.log('y is max then x ');
-// return(y);
+// console.log('the num of y is max then x')
+// return(y);    
 // }
 // }
 
-//-------------------------------------------
+// //-------------------------------------------
 
 // let num = Photo(600,400)
 // console.log(num);
@@ -1919,13 +1923,13 @@
 // }
 
 // else if(width === height){
-// console.log('Width and Height are same of this photo')
+// console.log('width and height are same of this photo')
 // return(width);
 // }
 
 // else{
 // console.log('Height is max then width,photo is potrait')
-// return(height);    
+// return(height);   
 // }
 // }
 
@@ -1950,42 +1954,54 @@
 // }
 
 //------------------------------------
-speedmeter(74);
+// speedmeter(74);
 
-function speedmeter(speed){
-const speedLimit = 70;
-const kmPerPoint =5;
+// function speedmeter(speed){
+// const speedLimit = 70;
+// const kmPerPoint =5;
 
-if(speed < speedLimit + kmPerPoint){
-console.log('Speed is ok of car');
-return;
-}
+// if(speed < speedLimit + kmPerPoint){
+// console.log('Speed is ok of car');
+// return;
+// }
 
-const points = Math.floor((speed-speedLimit)/kmPerPoint)
-if(points >= 12)
-console.log('License suspended');
+// const points = Math.floor((speed-speedLimit)/kmPerPoint)
+// if(points >= 12)
+// console.log('License suspended');
 
-else{
-console.log('points is ',points+" "+'your speed is',speed+" "+'if you cross 12 point your license will be suspended');    
-}
-}
+// else{
+// console.log('points is ',points+" "+'your speed is',speed+" "+'if you cross 12 point your license will be suspended');    
+// }
+// }
 
 //-----------------------------------------------------------
 
-const Movie = {
-Title : 'Singham',
-releaseYear : 2015,
-rating : 7,
-director :'Sunil Shetty'    
-};
-properties(Movie);
+// const Movie = {
+// Title : 'xyz',
+// releaseYear : 2015,
+// rating : 7,
+// director :'Sunil Shetty'    
+// };
+// properties(Movie);
 
-function properties(obj){
+// function properties(obj){
   
-for (let key in obj)
+// for (let key in obj)
 
-{if(typeof obj [key] === "string")
+// {if(typeof obj [key] === "string")
 
-console.log(key,obj[key]);    
+// console.log(key,obj[key]);    
+// }
+// }
+//---------------------------------------
+
+
+
+//-----------19-10-23--------------------
+function wc23(team1,team2){
+console.log('19-10-23 match B/W '+team1+" "+'V.S'+" "+team2);
 }
-}
+wc23('Ind','Ban');
+
+//------------------------------------------
+let pointTale=50;
