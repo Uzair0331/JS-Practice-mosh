@@ -2230,16 +2230,92 @@
         
 //     }
     
-const person ={
-name : "jay",
-location : "italy",
-dateOfith : 5-9-1985,
-telePhone :+91035416581    
-}
-show(person);
+// const person ={
+// name : "jay",
+// location : "italy",
+// dateOfith : 5-9-1985,
+// telePhone :+91035416581    
+// }
+// show(person);
 
+// function show(obj) {
+// for (let key in obj)
+// if(typeof obj[key] === "string") 
+// console.log(key,obj[key]);    
+// }    
+
+
+// const user ={
+// name :"jhiona",
+// location :"Japan",
+// dateOfith: 18-5-1985,
+// phone : +8102168413,    
+// }
+// show(user);
+
+// function show(obj) {
+// for (let key in obj) 
+// if(typeof obj[key] === "number")
+// console.log(key,obj[key]);    
+// }
+
+
+// let id =max(500,400)
+// console.log(id);
+
+// function max(width,height) {
+// if (width > height) {
+// console.log('width is max,photo is landscape');    
+// return(width)
+// }    
+// if (width ===height) {
+// console.log('width and height is same');    
+// return(height)
+// } 
+// else {
+// console.log('Height is max,photo is potrait');    
+// return(height)
+// }
+// }
+
+//---------------------------
+evenodd(10);
+function evenodd(limit) {
+for (let a = 1; a <= limit; a++) {
+    const show=(a % 2 ===0)? "Even" : "odd";
+    console.log(a,show);
+}
+}
+
+//-----------------------------
+const person={
+name : "Alex",
+location :"london",
+dateOfith :6-5-1984,
+telePhone :+924165841,    
+}
+show(person)
 function show(obj) {
 for (let key in obj)
-if(typeof obj[key] === "string") 
-console.log(key,obj[key]);    
-}    
+if(typeof obj[key] === "string")
+console.log(key,obj[key]) 
+}
+
+//--------------------------------
+let id = max (500,300)
+console.log(id);
+
+function max(width,height) {
+if (width > height) {
+console.log('width is max then height')
+return(width)    
+}  
+if (width === height) {
+console.log('width is equal to height') 
+return(width)   
+}  
+else{
+console.log('height is max then width')   
+return(height)
+}
+}
