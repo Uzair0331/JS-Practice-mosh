@@ -2032,43 +2032,156 @@
 
 //-------------------------------
 
-let time = 6;
-if (time >= 6 && time <12){
-console.log('Good morning');    
-}
-else if(time >= 12 && time <16){
-console.log('Good Afternoon');
-}
-else if(time >=16 && time <19){
-console.log('Good Evening');
-}
-else{
-console.log('Good night');    
+// let time = 6;
+// if (time >= 6 && time <12){
+// console.log('Good morning');    
+// }
+// else if(time >= 12 && time <16){
+// console.log('Good Afternoon');
+// }
+// else if(time >=16 && time <19){
+// console.log('Good Evening');
+// }
+// else{
+// console.log('Good night');    
+// }
+
+// //-----------------------------------
+// let num =30;
+// if(num >=90 && num <=100){
+// console.log('Grade A+1');
+// }
+// else if(num >=80 && num <90){
+// console.log('Grade A1');
+// }
+// else if(num >=70 && num <80){
+// console.log('Grade A');
+// }
+// else if(num >=60 && num <70){
+// console.log('Grade B');
+// }
+// else if(num >=50 && num <60){
+// console.log('Grade C');
+// }
+// else if(num >=40 && num <50){
+// console.log('Grade D');
+// }
+// else if(num >=35 && num <40){
+// console.log('Grade E');
+// }
+// else{
+// console.log('Fail')    
+// }    
+//-----------------------------
+// for (let i = 1; i <= 5; i++) {
+//     console.log('hello',i);
+// }
+// //-------------------------------
+// for (let a = 1; a <=10 ; a++) {
+//     if(a%2 ===0)
+//     console.log('Even num',a);
+// }
+// //---------------------------
+// for (let x = 1; x <= 10; x++) {
+//     if(x%2 !==0)
+//     console.log('odd num',x);
+// }
+
+//---------------------------
+// let a = 1;
+// while (a <=5) {
+// console.log('hello',a);
+// a++;    
+// }
+
+// //-----------------------
+// let x =1;
+// while (x <= 10) {
+// if(x %2 === 0)    
+// console.log('even num',x);
+// x++;    
+// }
+
+// //----------------------
+// let y =1;
+// while (y <= 10) {
+// if(y % 2 !==0)
+// console.log('odd num',y);
+// y++;    
+// }
+//-----------------------------
+
+// let a =1;
+// do {
+// console.log('hello',a);
+// a++;    
+// } while (a <= 10);
+
+//----------------------
+// let x = 1;
+// do {
+// if(x %2 ===0)
+// console.log('even',x);
+// x++;    
+// } while (x <=10);
+
+//-------------------
+// meraFunc(1);
+// function meraFunc (x){
+
+//     for (let x = 1; x < 10; x++) 
+//     console.log('hello',x);
+// }
+//-------------------------
+// even(1);
+// function even(x){
+// for (let x = 1; x <=10; x++) 
+//     if(x %2 ===0)
+//     console.log('even num',x);
+// }
+//-----------------------
+//  odd(1);
+// function odd(y) {
+// for (let y = 1; y <=10; y++)
+//     if(y %2 !==0)
+//     console.log('odd',y);
+// }
+//-----------------------------
+// let id = max (6,6);
+// console.log(id);
+
+// function max(x,y) {
+// if (x > y) {
+// console.log('x is won');
+// return(x);    
+// }
+// if (x === y) {
+// console.log('Match Drawn')
+// return(x);    
+// }
+// else{
+// console.log('y is won')
+// return(y);    
+// }
+// }
+
+//--------------------------------
+let num = a(10,10);
+console.log(num);
+
+function a(ind,pak) {
+if (pak > ind) {
+console.log('Pak won');
+return(pak);    
+}    
+
+if (pak === ind) {
+console.log('Match drawn')
+return(pak);    
 }
 
-//-----------------------------------
-let num =30;
-if(num >=90 && num <=100){
-console.log('Grade A+1');
-}
-else if(num >=80 && num <90){
-console.log('Grade A1');
-}
-else if(num >=70 && num <80){
-console.log('Grade A');
-}
-else if(num >=60 && num <70){
-console.log('Grade B');
-}
-else if(num >=50 && num <60){
-console.log('Grade C');
-}
-else if(num >=40 && num <50){
-console.log('Grade D');
-}
-else if(num >=35 && num <40){
-console.log('Grade E');
-}
 else{
-console.log('Fail')    
-}    
+console.log('ind Won');
+return(ind);    
+}
+}
