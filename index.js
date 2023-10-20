@@ -2506,9 +2506,31 @@
 // name :''    
 // }
 //--------------------------------
-let num = max (4,4)
-console.log(num)
+// let num = max (4,4)
+// console.log(num)
 
-function max(x,y) {
-return (x > y) ? x : y ;     
+// function max(x,y) {
+// return (x > y) ? x : y ;     
+// }
+//----------------------
+let time =18;
+if (time >=6 & time <12) {
+console.log('good morning',time)    
 }
+else if(time >=12 & time <16){
+console.log('good afternoon',time)
+}
+else if(time >= 16 & time <18){
+console.log('good evening',time)
+}
+else{
+console.log('good night',time)    
+}
+//------------------------------
+let info={
+name : 'musk',
+location:'USA',
+Phone : 9084984120,
+dateOfBirth:9-5-23,    
+}
+console.log(info);
