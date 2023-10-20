@@ -2414,40 +2414,57 @@
 // }
 
 //-----------------------
-function one (person1,person2){
-console.log('hi'+" "+person1+" "+'&'+" "+person2);
+// function one (person1,person2){
+// console.log('hi'+" "+person1+" "+'&'+" "+person2);
+// }
+// one('alex','jhon')
+
+// //----------------------
+// let id =max(500,400)
+// console.log(id);
+
+// function max(width,height) {
+// if(width > height){
+// console.log('width is max then height');
+// return(width)
+// }    
+
+// if (width === height) {
+// console.log('width and height are same')    
+// return(width)
+// } 
+// else {
+// console.log('Height is max then width')    
+// return(height)
+// }
+// }
+// ///---------------------------
+// let num =max(20)
+// console.log(num)
+
+// function max(age) {
+// if (age >=18){
+// console.log('age is elligle')
+// return(age)}
+// else
+// console.log('age is not elligle')
+// return(age)
+
+// }
+///------------------
+
+let person={
+    name : "Jack",
+    location :"East Asia",
+    telephone : +94321564734,
+    dateOfBith :15-8-1975,    
+    }
+    console.log(person);
+
+//-----------------
+let info={
+name:'alon',
+location:'USA',
+phone:+1546545165,    
 }
-one('alex','jhon')
-
-//----------------------
-let id =max(500,400)
-console.log(id);
-
-function max(width,height) {
-if(width > height){
-console.log('width is max then height');
-return(width)
-}    
-
-if (width === height) {
-console.log('width and height are same')    
-return(width)
-} 
-else {
-console.log('Height is max then width')    
-return(height)
-}
-}
-///---------------------------
-let num =max(20)
-console.log(num)
-
-function max(age) {
-if (age >=18){
-console.log('age is elligle')
-return(age)}
-else
-console.log('age is not elligle')
-return(age)
-
-}
+console.log(info)
