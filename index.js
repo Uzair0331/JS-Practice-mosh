@@ -2470,19 +2470,32 @@
 // console.log(info)
 
 //------------------
-let num =max(6,5)
-// console.log('num')
-function max(x,y) {
-if(x > y){
-console.log('x is great then y')
-return(x)
+// let num =max(6,5)
+
+// function max(x,y) {
+// if(x > y){
+// console.log('x is great then y')
+// return(x)
+// }    
+// if (x === y) {
+// console.log("x and y is equal")    
+// return(x)
+// } 
+// else {
+// console.log("y is great then x")
+// return(y)    
+// }
+// }
+
+//-------------------------
+
+let num =max(20)
+function max(age) {
+if (age >=18) {
+ console.log('age is elligle')   
+return(age)
+} else {
+console.log('age is not elligle')
+return(age)    
 }    
-if (x === y) {
-console.log("x and y is equal")    
-return(x)
-} 
-else {
-console.log("y is great then x")
-return(y)    
-}
 }
