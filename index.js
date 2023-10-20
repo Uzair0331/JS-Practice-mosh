@@ -2460,7 +2460,9 @@
 //     dateOfBith :15-8-1975,    
 //     }
 //     console.log(person);
+ 
 
+//-----------20-10-23--------------------
 // //-----------------
 // let info={
 // name:'alon',
@@ -2513,24 +2515,130 @@
 // return (x > y) ? x : y ;     
 // }
 //----------------------
-let time =18;
-if (time >=6 & time <12) {
-console.log('good morning',time)    
+
+
+
+// let time =18;
+// if (time >=6 & time <12) {
+// console.log('good morning',time)    
+// }
+// else if(time >=12 & time <16){
+// console.log('good afternoon',time)
+// }
+// else if(time >= 16 & time <18){
+// console.log('good evening',time)
+// }
+// else{
+// console.log('good night',time)    
+// }
+
+
+
+
+//------------------------------
+// let info={
+// name : 'musk',
+// location:'USA',
+// Phone : 9084984120,
+// dateOfBirth:9-5-23,    
+// }
+// console.log(info);
+
+
+
+
+// //---------------------------
+// let num = max (4,4)
+// console.log(num)
+
+// function max(x,y) {
+// return (x > y) ? x : y ;     
+// }
+
+
+
+// //--------------------------
+// let pic = max(300,200)
+
+// function max(width,height) {
+
+// if(width > height){
+// console.log('width is max then height');
+// return(width)}
+
+// else if(width === height){
+// console.log('width and height are same')
+// return(width)
+// }
+
+// else{
+// console.log('height is max then width')    
+// return(height)
+// }
+// }
+// //-------------------------
+// let info={
+// name : 'watson',
+// location:'AUS',
+// dateOfBirth: 2-5-1985,
+// }
+// console.log(info)
+
+// //---------------------
+// let num =max(2,4)
+// console.log(num);
+
+// function max(x,y) {
+// return(x > y) ? x : y;     
+// }
+
+
+//-----------------------
+// for (let i = 1; i < 10; i++) {
+//     console.log('hello',i);
+// }
+// //------------------------
+// for (let x= 0; x <=10; x++) {
+//    if(x %2 === 0)
+//     console.log(x);
+// }
+
+//--------------------------------
+
+// evenodd(10);
+// function evenodd(limit) {
+// for (let i = 1; i <=limit; i++) {
+// const show=(i % 2 ===0) ? "even" : "odd"; 
+// console.log(show,i)
+// }
+// }
+
+// //--------------------------
+// let info={
+// name:'jhon',
+// location :'nz',
+// telephone: +9221245612,
+// dob: 15-9-1985,    
+// }
+// console.log(info.location)
+
+// //-----------------------------------
+// let num = max (5,4)
+// console.log(num)
+// function max(x,y) {
+// return(x > y) ? x :y ;    
+// }
+
+//---------------------
+let num = max (300,300)
+function max(width,height) {
+if (width > height) {
+console.log(width+" "+"width is great then"+" "+'y'+" "+height);    
 }
-else if(time >=12 & time <16){
-console.log('good afternoon',time)
-}
-else if(time >= 16 & time <18){
-console.log('good evening',time)
+else if (width === height){
+console.log(width+" "+'width is = to'+" "+'height'+" "+height); 
 }
 else{
-console.log('good night',time)    
+console.log(height+" "+'height is great then'+" "+'width'+" "+width)    
 }
-//------------------------------
-let info={
-name : 'musk',
-location:'USA',
-Phone : 9084984120,
-dateOfBirth:9-5-23,    
 }
-console.log(info);
