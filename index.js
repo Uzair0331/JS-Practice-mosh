@@ -2632,13 +2632,37 @@
 //---------------------
 let num = max (300,300)
 function max(width,height) {
+
 if (width > height) {
 console.log(width+" "+"width is great then"+" "+'y'+" "+height);    
 }
+
 else if (width === height){
 console.log(width+" "+'width is = to'+" "+'height'+" "+height); 
 }
+
 else{
 console.log(height+" "+'height is great then'+" "+'width'+" "+width)    
 }
 }
+//-----------------------
+let n =max(2,4)
+console.log(n)
+function max(x,y) {
+return(x > y) ? x : y    
+}
+//------------------------
+
+function oct(name1,Name2){
+console.log('hello'+" "+name1+" "+'and'+" "+Name2);    
+}
+oct('jhon','alex')
+
+//------------------
+let info={
+name : 'luccy',
+location: 'USA',
+telephone : 56487641464,
+dob : 21-8-1985,     
+}
+console.log(info);
