@@ -2453,18 +2453,36 @@
 // }
 ///------------------
 
-let person={
-    name : "Jack",
-    location :"East Asia",
-    telephone : +94321564734,
-    dateOfBith :15-8-1975,    
-    }
-    console.log(person);
+// let person={
+//     name : "Jack",
+//     location :"East Asia",
+//     telephone : +94321564734,
+//     dateOfBith :15-8-1975,    
+//     }
+//     console.log(person);
 
-//-----------------
-let info={
-name:'alon',
-location:'USA',
-phone:+1546545165,    
+// //-----------------
+// let info={
+// name:'alon',
+// location:'USA',
+// phone:+1546545165,    
+// }
+// console.log(info)
+
+//------------------
+let num =max(6,5)
+// console.log('num')
+function max(x,y) {
+if(x > y){
+console.log('x is great then y')
+return(x)
+}    
+if (x === y) {
+console.log("x and y is equal")    
+return(x)
+} 
+else {
+console.log("y is great then x")
+return(y)    
 }
-console.log(info)
+}
