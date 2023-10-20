@@ -2489,13 +2489,26 @@
 
 //-------------------------
 
-let num =max(20)
-function max(age) {
-if (age >=18) {
- console.log('age is elligle')   
-return(age)
-} else {
-console.log('age is not elligle')
-return(age)    
-}    
+// let num =max(20)
+// function max(age) {
+// if (age >=18) {
+//  console.log('age is elligle')   
+// return(age)
+// } else {
+// console.log('age is not elligle')
+// return(age)    
+// }    
+// }
+
+//--------------------------------
+
+// let info={
+// name :''    
+// }
+//--------------------------------
+let num = max (4,4)
+console.log(num)
+
+function max(x,y) {
+return (x > y) ? x : y ;     
 }
