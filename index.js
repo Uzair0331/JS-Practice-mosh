@@ -2371,44 +2371,83 @@
 // }
 
 //----------------------------------------
-show(3);
+// show(3);
 
-function show(rows) {
+// function show(rows) {
 
-for (let row = 1; row <= rows;row++){
-let pattern = '';
+// for (let row = 1; row <= rows;row++){
+// let pattern = '';
 
-for(let i = 0 ; i <  row; i++)
-pattern += '*';
+// for(let i = 0 ; i <  row; i++)
+// pattern += '*';
 
-console.log(pattern);
+// console.log(pattern);
 
-}
-}
+// }
+// }
 
 //-------------
-let age =17;
-if (age >= 18) {
-console.log('age is ok');    
-}
-else{
-console.log('age is not ok');
-}
+// let age =17;
+// if (age >= 18) {
+// console.log('age is ok');    
+// }
+// else{
+// console.log('age is not ok');
+// }
 //------------------------
-let id =max(5,6)
-console.log(id)
+// let id =max(5,6)
+// console.log(id)
 
-function max(x,y) {
-if (x > y) {
-console.log('x is max then y')
-return(x)    
+// function max(x,y) {
+// if (x > y) {
+// console.log('x is max then y')
+// return(x)    
+// }    
+// else if(x === y){
+// console.log('x is equal to y')    
+// return(x)
+// }
+// else{
+// console.log('y is max then x')    
+// return(y)
+// }
+// }
+
+//-----------------------
+function one (person1,person2){
+console.log('hi'+" "+person1+" "+'&'+" "+person2);
+}
+one('alex','jhon')
+
+//----------------------
+let id =max(500,400)
+console.log(id);
+
+function max(width,height) {
+if(width > height){
+console.log('width is max then height');
+return(width)
 }    
-else if(x === y){
-console.log('x is equal to y')    
-return(x)
+
+if (width === height) {
+console.log('width and height are same')    
+return(width)
+} 
+else {
+console.log('Height is max then width')    
+return(height)
 }
-else{
-console.log('y is max then x')    
-return(y)
 }
+///---------------------------
+let num =max(20)
+console.log(num)
+
+function max(age) {
+if (age >=18){
+console.log('age is elligle')
+return(age)}
+else
+console.log('age is not elligle')
+return(age)
+
 }
