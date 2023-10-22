@@ -2739,3 +2739,20 @@ let info={
     }
     console.log(info);
     
+    // //--------------------------
+
+let pic = maximum(300,300)
+function maximum(width,height) {
+
+if (width > height) {
+console.log(width+" "+'width is high'+" "+'height is'+" "+height)    
+}
+
+else if(width === height){
+console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
+}
+
+else{
+console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
+}
+}
