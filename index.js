@@ -2723,21 +2723,21 @@
 // }
 
 
-let n =max(4,5)
-console.log(n)
+// let n =max(4,5)
+// console.log(n)
 
-function max(x,y) {
-return(x > y) ? x : y    
-}
+// function max(x,y) {
+// return(x > y) ? x : y    
+// }
 
 //--------------------------
-let info={
-    name : 'musk',
-    location:'USA',
-    Phone : 9084984120,
-    dateOfBirth:9-5-23,    
-    }
-    console.log(info);
+// let info={
+//     name : 'musk',
+//     location:'USA',
+//     Phone : 9084984120,
+//     dateOfBirth:9-5-23,    
+//     }
+//     console.log(info);
     
     // //--------------------------
 
@@ -2754,5 +2754,27 @@ console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are sa
 
 else{
 console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
+ }
 }
+//--------------------
+let x =1;
+while (x <= 10) {
+if(x %2 === 0)    
+console.log('even num',x);
+x++;    
 }
+
+//----------------------
+let y =1;
+while (y <= 10) {
+if(y % 2 !==0)
+console.log('odd num',y);
+y++;    
+}
+//-----------------------------
+
+let a =1;
+do {
+console.log('hello',a);
+a++;    
+} while (a <= 10);
