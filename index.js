@@ -2731,5 +2731,11 @@ return(x > y) ? x : y
 }
 
 //--------------------------
-
-
+let info={
+    name : 'musk',
+    location:'USA',
+    Phone : 9084984120,
+    dateOfBirth:9-5-23,    
+    }
+    console.log(info);
+    
