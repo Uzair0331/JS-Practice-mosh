@@ -2671,6 +2671,58 @@
 
 //--------------------------------
 
+// let n =max(4,5)
+// console.log(n)
+
+// function max(x,y) {
+// return(x > y) ? x : y    
+// }
+
+// //--------------------------
+
+// let pic = maximum(300,300)
+// function maximum(width,height) {
+
+// if (width > height) {
+// console.log(width+" "+'width is high'+" "+'height is'+" "+height)    
+// }
+
+// else if(width === height){
+// console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
+// }
+
+// else{
+// console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
+// }
+// }
+
+
+// //------------------------------
+// hello(1);
+// function hello(x) {
+// for (let x = 1; x <=10; x++) {
+//     console.log(x,'hello');    
+// }    
+// }
+// //-------------------------------
+// even(1);
+// function even(a) {
+// for (let a = 1; a <=10; a++) {
+//     if(a%2 ===0)
+//     console.log(a,'even');    
+// }    
+// }
+// //------------------------------
+
+// odd(1);
+// function odd(y) {
+// for (let y = 1; y <= 10; y++) {
+//     if(y %2 !==0)
+//     console.log(y,'odd num');    
+// }    
+// }
+
+
 let n =max(4,5)
 console.log(n)
 
@@ -2680,44 +2732,4 @@ return(x > y) ? x : y
 
 //--------------------------
 
-let pic = maximum(300,300)
-function maximum(width,height) {
 
-if (width > height) {
-console.log(width+" "+'width is high'+" "+'height is'+" "+height)    
-}
-
-else if(width === height){
-console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
-}
-
-else{
-console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
-}
-}
-
-
-//------------------------------
-hello(1);
-function hello(x) {
-for (let x = 1; x <=10; x++) {
-    console.log(x,'hello');    
-}    
-}
-//-------------------------------
-even(1);
-function even(a) {
-for (let a = 1; a <=10; a++) {
-    if(a%2 ===0)
-    console.log(a,'even');    
-}    
-}
-//------------------------------
-
-odd(1);
-function odd(y) {
-for (let y = 1; y <= 10; y++) {
-    if(y %2 !==0)
-    console.log(y,'odd num');    
-}    
-}
