@@ -1640,12 +1640,12 @@
 // num(10);
 
 // function num(evenodd){
-// for (let i = 1; i <=10; i++) {
+// for (let i = 1; i <=10; i++){
 // if(i % 2 ==0)
 // console.log(i,'Even');
 // else{
 // console.log(i,'odd');
-//     } 
+// } 
 // }
 // }
 
@@ -2731,7 +2731,9 @@
 // }
 
 
-//--------------------------
+//---------------23-10-23-----------
+
+
 // let info={
 //     name : 'musk',
 //     location:'USA',
@@ -2754,18 +2756,18 @@
 // }
 
 //-------------------
-let info={
-name : 'lona',
-phone : 41541564651,
-location : 'south',
-dob: 15-8-1990 
-}
-console.log(info)
+// let info={
+// name : 'lona',
+// phone : 41541564651,
+// location : 'south',
+// dob: 15-8-1990 
+// }
+// console.log(info)
 //---------------------------
-function cup(team1,team2) {
-console.log(team1+" "+'VS'+" "+team2)    
-}
-cup('pak','afg')
+// function cup(team1,team2) {
+// console.log(team1+" "+'VS'+" "+team2)    
+// }
+// cup('pak','afg')
 //----------------------
 // let n =max(6,5)
 // console.log(n)
@@ -2774,26 +2776,253 @@ cup('pak','afg')
 // return(x > y) ? x : y    
 // }
 //-----------------------
-let pic = max(600,500)
-function max(width,height) {
-if (width > height) {
-console.log('width is high',width)    
-}    
-else if (width === height){
-console.log('width & height same',width)
-}
-else{
-console.log('height is hight',height)
-}
-}
+// let pic = max(600,500)
+// function max(width,height) {
+// if (width > height) {
+// console.log('width is high',width)    
+// }    
+// else if (width === height){
+// console.log('width & height same',width)
+// }
+// else{
+// console.log('height is hight',height)
+// }
+// }
 //-------------------------------
 
-let output = Name(5)
-console.log(output)
+// let output = Name(5)
+// console.log(output)
 
-function Name(input) {
-if(typeof input !== "number")return "not a num";
-if(input % 3 ===0 & input % 5 ===0) return "AlexAlon";
-if(input % 3 ===0)return "Alex";
-if(input % 5 ===0)return "alon";    
+// function Name(input) {
+// if(typeof input !== "number")return "not a num";
+// if(input % 3 ===0 & input % 5 ===0) return "AlexAlon";
+// if(input % 3 ===0)return "Alex";
+// if(input % 5 ===0)return "alon";    
+// }
+//-----------------------------------------------
+// hello(0);
+// function hello(a) {
+// for (let a = 1; a <=5; a++) {
+// console.log(a,'hello');
+// }    
+// }
+//--------------------------------
+// even(0);
+// function even(x) {
+// for (let x = 1; x <= 10; x++) {
+// if(x % 2 ===0)
+// console.log(x,'even');
+// }    
+// }
+//-------------------------------
+// odd(0);
+// function odd(y) {
+// for (let y = 1; y <=10; y++) {
+//     if(y % 2 !==0)
+//     console.log('odd',y);
+// }    
+// }
+//-------------------------
+// evenodd(10)
+// function evenodd(limit) {
+// for (let i = 1; i <= limit; i++) {
+// const show=(i %2 ===0)? "even" : "odd";    
+//     console.log(i,show);
+// }    
+// }
+//----------------------------
+// hello (1);
+// function hello(a) {
+//  while (a <= 5) {
+//  console.log('hi',a)
+//  a++;   
+//  }   
+// }
+//---------------------------
+// even(1);
+// function even(x) {
+// while (x <= 5) {
+// if(x % 2 ===0)
+// console.log(x,'even');
+// x++;    
+// }    
+// }
+//-----------------------
+// odd(1)
+// function odd(y) {
+// while (y <= 5) {
+// if(y %2 !==0)
+// console.log(y,'odd')
+// y++;    
+// }    
+// }
+//-------------------------
+// evenodd(1);
+// function evenodd(a) {
+// while (a <= 10) {
+// const show=(a % 2 ===0) ? "even" : "odd";
+// console.log(a,show)
+// a++;
+// }    
+// }
+
+//---------------------------------
+// let movie ={
+// title:'luccy',
+// releaseDate: 15-5-2005,
+// director:'alice',
+// rating:8,    
+// }
+// properties(movie)
+// function properties(obj) {
+// for(let key in obj)
+// //if(typeof obj [key] === "number")
+// console.log(key,obj[key])  
+// }
+
+//-------------------------
+// let person={
+// Name:'kimy',
+// phone:9871354541,
+// dob:5-9-2001,
+// location:'USA',    
+// }
+// detail(person)
+// function detail(obj) {
+// for(let key in obj)
+// // if(typeof obj [key] === "number")
+// console.log(key,obj[key])    
+// }
+
+//-------------------------------------
+// let n =max(4,4)
+// function max(x,y) {
+// if (x > y) {
+// console.log('x is high',x)    
+// }    
+// else if (x === y){
+// console.log('x is equal to y',y)
+// }
+// else{
+// console.log('y is high',y)    
+// }
+// }
+// //-----------------------------------
+// let id =max(2,4)
+// console.log(id)
+
+// function max(x,y) {
+// return(x > y)? x : y ;   
+// }
+
+//-------------------------------------
+// let pic=max(300,600)
+// function max(width,height) {
+// if (width > height) {
+// console.log('width is high',width)    
+// }
+// else if(width === height){
+// console.log('width is equal to high',width)    
+// }    
+// else{
+// console.log('height is high',height)    
+// }
+// }
+
+//-------------------------------------------------------
+
+
+// let output=Name(5)
+// console.log(output)
+
+// function Name(input){
+// if(typeof input !== "number")return('not a Number')
+// if(input % 3 ===0 && input % 5 ===0)return('alihamza')
+// if(input %3 ===0)return('ali')
+// if(input % 5 ===0)return('hamza')    
+// }
+
+//----------------------------------
+
+// hello(1)
+// function hello(x){
+// for (let x = 1; x <= 5; x++){
+// console.log('hello',x);
+// }    
+// }
+
+//-----------------------------------
+
+// even(1)
+// function even(a){
+// for (let a = 1; a <= 10; a++){
+// if(a %2 ===0)    
+// console.log('even',a);
+// }    
+// }
+
+//----------------------------
+
+// evenodd(10)
+// function evenodd(limit) {
+// for (let i = 1; i <= limit; i++) {
+// let show =(i % 2 ===0)? "even" : "odd"    
+//     console.log(i,show);
+// }    
+// }
+
+//----------------------------
+
+// hi(1)
+// function hi(t) {
+// while (t <= 5) {
+// console.log('hello',t)
+// t++;    
+// }    
+// }
+
+//---------------------
+
+// even(1)
+// function even(s) {
+// while (s <= 5) {
+// if(s %2 ===0)
+// console.log(s,'even')
+// s++;
+// }    
+// }
+
+//---------------------
+
+// odd(1)
+// function odd(x) {
+// while (x <= 10) {
+// if(x % 2 !==0)
+// console.log('odd',x)
+// x++;    
+// }    
+// }
+
+//---------------
+evenodd(1)
+function evenodd(y) {
+while (y <=10) {
+const show =(y %2 ===0)? "even" : "odd"
+console.log(show,y)
+y++;    
+}    
+}
+
+//----------------------
+let Person ={
+Name:'= kimo',
+location:'= kenya',
+telephone:922315465,
+dob:19-5-2023    
+}
+detail(Person)
+function detail(obj){
+for(let key in obj)
+if(typeof obj[key] === "string")
+console.log(key,obj[key])    
 }
