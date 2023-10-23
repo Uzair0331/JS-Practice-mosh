@@ -2776,3 +2776,10 @@ console.log('good evening',time)
 else{
 console.log('good night',time)    
 }
+//-------------------------------------
+hello(1);
+function hello(a) {
+for (let a = 1; a <= 10; a++) {
+    console.log('hello',a);
+    }    
+}
