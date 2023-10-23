@@ -2671,53 +2671,89 @@
 
 //--------------------------------
 
-let n =max(4,5)
-console.log(n)
+// let n =max(4,5)
+// console.log(n)
 
-function max(x,y) {
-return(x > y) ? x : y    
-}
+// function max(x,y) {
+// return(x > y) ? x : y    
+// }
 
 //--------------------------
 
-let pic = maximum(300,300)
-function maximum(width,height) {
+// let pic = maximum(300,300)
+// function maximum(width,height) {
 
-if (width > height) {
-console.log(width+" "+'width is high'+" "+'height is'+" "+height)    
-}
+// if (width > height) {
+// console.log(width+" "+'width is high'+" "+'height is'+" "+height)    
+// }
 
-else if(width === height){
-console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
-}
+// else if(width === height){
+// console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
+// }
 
-else{
-console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
-}
-}
+// else{
+// console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
+// }
+// }
 
 
 //------------------------------
-hello(1);
-function hello(x) {
-for (let x = 1; x <=10; x++) {
-    console.log(x,'hello');    
-}    
-}
+// hello(1);
+// function hello(x) {
+// for (let x = 1; x <=5; x++) {
+//     console.log(x,'hello');    
+// }    
+// }
 //-------------------------------
-even(1);
-function even(a) {
-for (let a = 1; a <=10; a++) {
-    if(a%2 ===0)
-    console.log(a,'even');    
-}    
-}
+// even(1);
+// function even(a) {
+// for (let a = 1; a <=10; a++) {
+//     if(a%2 ===0)
+//     console.log(a,'even');    
+// }    
+// }
 //------------------------------
 
-odd(1);
-function odd(y) {
-for (let y = 1; y <= 10; y++) {
-    if(y %2 !==0)
-    console.log(y,'odd num');    
-}    
+// odd(1);
+// function odd(x) {
+// for (let a = 1; a < 10; a++) {
+//     if(a %2 !==0)
+//     console.log(a,'odd');
+// }    
+// }
+
+//--------------------------------------------------------------
+let info={
+name : 'alon',
+location : 'USA',
+Telephone : 1248121346,
+dob : 19-5-1985,    
+}
+console.log(info);
+
+//-----------------
+function wc23(team1,team2) {
+    console.log('match b/w'+" "+team1+" "+'&'+" "+team2)
+}
+wc23('pak','afg')
+
+//--------------------------
+// let n =max(6,5)
+// console.log(n)
+
+// function max(x,y) {
+// return(x > y) ? x : y    
+// }
+//--------------------------
+let pic = max(400,400)
+function max(width,height) {
+ if (width > height) {
+ console.log('width is high',width)   
+ }
+ else if(width === height){
+console.log('width & height same',width)
+ }
+ else{
+ console.log('height is high',height)   
+ }   
 }
