@@ -2677,8 +2677,10 @@
 // function max(x,y) {
 // return(x > y) ? x : y    
 // }
+<<<<<<< HEAD
+=======
 
-//--------------------------
+// //--------------------------
 
 // let pic = maximum(300,300)
 // function maximum(width,height) {
@@ -2691,6 +2693,69 @@
 // console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
 // }
 
+// else{
+// console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
+// }
+// }
+
+
+// //------------------------------
+// hello(1);
+// function hello(x) {
+// for (let x = 1; x <=10; x++) {
+//     console.log(x,'hello');    
+// }    
+// }
+// //-------------------------------
+// even(1);
+// function even(a) {
+// for (let a = 1; a <=10; a++) {
+//     if(a%2 ===0)
+//     console.log(a,'even');    
+// }    
+// }
+// //------------------------------
+
+// odd(1);
+// function odd(y) {
+// for (let y = 1; y <= 10; y++) {
+//     if(y %2 !==0)
+//     console.log(y,'odd num');    
+// }    
+// }
+
+
+// let n =max(4,5)
+// console.log(n)
+
+// function max(x,y) {
+// return(x > y) ? x : y    
+// }
+>>>>>>> f1ee112cd99db79724fd6d61799bd0d66d1dfd9e
+
+//--------------------------
+// let info={
+//     name : 'musk',
+//     location:'USA',
+//     Phone : 9084984120,
+//     dateOfBirth:9-5-23,    
+//     }
+//     console.log(info);
+    
+    // //--------------------------
+
+// let pic = maximum(300,300)
+// function maximum(width,height) {
+
+// if (width > height) {
+// console.log(width+" "+'width is high'+" "+'height is'+" "+height)    
+// }
+
+// else if(width === height){
+// console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
+// }
+
+<<<<<<< HEAD
 // else{
 // console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
 // }
@@ -2783,3 +2848,31 @@ for (let a = 1; a <= 10; a++) {
     console.log('hello',a);
     }    
 }
+=======
+else{
+console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
+ }
+}
+//--------------------
+let x =1;
+while (x <= 10) {
+if(x %2 === 0)    
+console.log('even num',x);
+x++;    
+}
+
+//----------------------
+let y =1;
+while (y <= 10) {
+if(y % 2 !==0)
+console.log('odd num',y);
+y++;    
+}
+//-----------------------------
+
+let a =1;
+do {
+console.log('hello',a);
+a++;    
+} while (a <= 10);
+>>>>>>> f1ee112cd99db79724fd6d61799bd0d66d1dfd9e
