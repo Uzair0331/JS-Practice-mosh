@@ -2786,3 +2786,14 @@ else{
 console.log('height is hight',height)
 }
 }
+//-------------------------------
+
+let output = Name(5)
+console.log(output)
+
+function Name(input) {
+if(typeof input !== "number")return "not a num";
+if(input % 3 ===0 & input % 5 ===0) return "AlexAlon";
+if(input % 3 ===0)return "Alex";
+if(input % 5 ===0)return "alon";    
+}
