@@ -2752,3 +2752,37 @@
 // else if(width === height){
 // console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
 // }
+
+//-------------------
+let info={
+name : 'lona',
+phone : 41541564651,
+location : 'south',
+dob: 15-8-1990 
+}
+console.log(info)
+//---------------------------
+function cup(team1,team2) {
+console.log(team1+" "+'VS'+" "+team2)    
+}
+cup('pak','afg')
+//----------------------
+// let n =max(6,5)
+// console.log(n)
+
+// function max(x,y) {
+// return(x > y) ? x : y    
+// }
+//-----------------------
+let pic = max(600,500)
+function max(width,height) {
+if (width > height) {
+console.log('width is high',width)    
+}    
+else if (width === height){
+console.log('width & height same',width)
+}
+else{
+console.log('height is hight',height)
+}
+}
