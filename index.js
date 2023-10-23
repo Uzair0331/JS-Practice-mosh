@@ -2677,8 +2677,6 @@
 // function max(x,y) {
 // return(x > y) ? x : y    
 // }
-<<<<<<< HEAD
-=======
 
 // //--------------------------
 
@@ -2731,7 +2729,7 @@
 // function max(x,y) {
 // return(x > y) ? x : y    
 // }
->>>>>>> f1ee112cd99db79724fd6d61799bd0d66d1dfd9e
+
 
 //--------------------------
 // let info={
@@ -2754,125 +2752,3 @@
 // else if(width === height){
 // console.log('width is'+" "+width+" "+'And height is'+" "+height+" "+'both are same')
 // }
-
-<<<<<<< HEAD
-// else{
-// console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
-// }
-// }
-
-
-//------------------------------
-// hello(1);
-// function hello(x) {
-// for (let x = 1; x <=5; x++) {
-//     console.log(x,'hello');    
-// }    
-// }
-//-------------------------------
-// even(1);
-// function even(a) {
-// for (let a = 1; a <=10; a++) {
-//     if(a%2 ===0)
-//     console.log(a,'even');    
-// }    
-// }
-//------------------------------
-
-// odd(1);
-// function odd(x) {
-// for (let a = 1; a < 10; a++) {
-//     if(a %2 !==0)
-//     console.log(a,'odd');
-// }    
-// }
-
-//--------------------------------------------------------------
-let info={
-name : 'alon',
-location : 'USA',
-Telephone : 1248121346,
-dob : 19-5-1985,    
-}
-console.log(info);
-
-//-----------------
-function wc23(team1,team2) {
-    console.log('match b/w'+" "+team1+" "+'&'+" "+team2)
-}
-wc23('pak','afg')
-
-//--------------------------
-// let n =max(6,5)
-// console.log(n)
-
-// function max(x,y) {
-// return(x > y) ? x : y    
-// }
-//--------------------------
-// let pic = max(400,400)
-// function max(width,height) {
-//  if (width > height) {
-//  console.log('width is high',width)   
-//  }
-//  else if(width === height){
-// console.log('width & height same',width)
-//  }
-//  else{
-//  console.log('height is high',height)   
-//  }   
-// }
-//-------------------------------
-// let id = 89;
-// let type = id >=90 ? "gold" : "silver";
-// console.log(type);
-
-//-------------------------
-let time = (16);
-if (time >= 6 & time <12) {
-   console.log('good morning',time) 
-}
-else if(time >= 12 & time < 16){
-console.log('good afternoon',time)
-}
-else if (time >= 16 & time <18){
-console.log('good evening',time)
-}
-else{
-console.log('good night',time)    
-}
-//-------------------------------------
-hello(1);
-function hello(a) {
-for (let a = 1; a <= 10; a++) {
-    console.log('hello',a);
-    }    
-}
-=======
-else{
-console.log(height+" "+'height is high'+" "+'width is'+" "+width)   
- }
-}
-//--------------------
-let x =1;
-while (x <= 10) {
-if(x %2 === 0)    
-console.log('even num',x);
-x++;    
-}
-
-//----------------------
-let y =1;
-while (y <= 10) {
-if(y % 2 !==0)
-console.log('odd num',y);
-y++;    
-}
-//-----------------------------
-
-let a =1;
-do {
-console.log('hello',a);
-a++;    
-} while (a <= 10);
->>>>>>> f1ee112cd99db79724fd6d61799bd0d66d1dfd9e
