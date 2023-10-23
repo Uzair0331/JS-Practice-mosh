@@ -2745,15 +2745,34 @@ wc23('pak','afg')
 // return(x > y) ? x : y    
 // }
 //--------------------------
-let pic = max(400,400)
-function max(width,height) {
- if (width > height) {
- console.log('width is high',width)   
- }
- else if(width === height){
-console.log('width & height same',width)
- }
- else{
- console.log('height is high',height)   
- }   
+// let pic = max(400,400)
+// function max(width,height) {
+//  if (width > height) {
+//  console.log('width is high',width)   
+//  }
+//  else if(width === height){
+// console.log('width & height same',width)
+//  }
+//  else{
+//  console.log('height is high',height)   
+//  }   
+// }
+//-------------------------------
+// let id = 89;
+// let type = id >=90 ? "gold" : "silver";
+// console.log(type);
+
+//-------------------------
+let time = (16);
+if (time >= 6 & time <12) {
+   console.log('good morning',time) 
+}
+else if(time >= 12 & time < 16){
+console.log('good afternoon',time)
+}
+else if (time >= 16 & time <18){
+console.log('good evening',time)
+}
+else{
+console.log('good night',time)    
 }
