@@ -3241,16 +3241,40 @@
 //---------factory Function--------------------
 
 
-function createCircle(radius) {
-  return{
-  radius,
-  draw(){
-  console.log('draw')  
-  }
-  };  
-}
-const Circle = createCircle(1);
-console.log(Circle);
+// function createCircle(radius) {
+//   return{
+//   radius,
+//   draw(){
+//   console.log('draw')  
+//   }
+//   };  
+// }
+// const Circle = createCircle(1);
+// console.log(Circle);
 
-const Circle2 =createCircle(2);
-console.log(Circle2);
+// const Circle2 =createCircle(2);
+// console.log(Circle2);
+
+
+//-----------Constructor Function----------------
+
+// function Circle(radius) {
+//  this.radius = radius ;
+//  this.draw =function () {
+//   console.log('draw');  
+//  }    
+// }
+// const circle = new Circle(1);
+
+//---------Dynamic nature of Object--------------
+const circle ={
+  radius :1
+};
+
+circle.id=12;
+circle.color ='yellow';
+circle.draw = function () {}
+
+delete circle.draw;
+
+console.log(circle)
