@@ -3100,3 +3100,38 @@ console.log('Good night')
 return(hours)
 }
 }
+
+//----------------------------------------
+let Result=grade(80)
+console.log(Result)
+
+function grade(number) {
+if (number >= 90 && number <101) {
+console.log('Grade A+1')
+return(number)    
+}
+else if(number >=80 && number <90){
+console.log('Grade A1')
+return(number)    
+}
+else if(number >=70 && number <80){
+console.log('Grade A')
+return(number)    
+}
+else if(number >=60 && number <70){
+console.log('Grade B')
+return(number)    
+}
+else if(number >=50 && number <60){
+console.log('Grade C')
+return(number)    
+}
+else if(number >=40 && number <50){
+console.log('Grade D')
+return(number)    
+}
+else{
+console.log('Fail')    
+return(number)
+}  
+}
