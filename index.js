@@ -3028,15 +3028,6 @@
 // }
 
 //--------------------
-// let output = Name(30)
-// console.log(output)
-
-// function Name(input) {
-// if(typeof input !== "number")return "not a Number";
-// if(input % 3 ===0 & input % 5 ===0)return"jhonCena";
-// if(input % 3 ===0)return"" 
-// }
-
 
 
 //-------------24-10-23-------------------
@@ -3146,13 +3137,46 @@ return(age)
 }    
 else{
 console.log('not elligble,age should be 18 or 18+,your age is')    
-ret
+return(age)
 }
 }
 
 //---------------------
+
 let id =goldsilver(80)
 console.log(id)
-function goldsilver(points) {
-   
+
+function goldsilver(points){
+return(points >= 90)? 'gold' : 'silver'   
+}
+
+//---------------------------
+let output=Name(15)
+console.log(output)
+
+function Name(input) {
+
+    if(typeof input !== "number")return('NAN');
+
+    if(input % 3 ===0 && input % 5 ===0)return('AppTycon');
+
+    if(input % 3 ===0)return('App');
+
+    if(input % 5 ===0)return('Tycon');
+}
+//------------------------------
+hello(1)
+function hello(a) {
+for (let a = 0; a <=5; a++) {
+    console.log('hello',a);    
+}    
+}
+//---------------------------------
+even(1)
+function even(x) {
+do {
+if(x %2 ==0)
+console.log(x,'even')    
+x++;    
+} while (x <=5);    
 }
