@@ -3055,12 +3055,12 @@ console.log(team1+" "+'VS'+" "+team2)
 wc23('ban','Sa')
 
 //---------------------------
-let id = max(4,3)
-console.log(id)
+// let id = max(4,3)
+// console.log(id)
 
-function max(x,y) {
-return(x > y)? x : y    
-}
+// function max(x,y) {
+// return(x > y)? x : y    
+// }
 //--------------------------
 let pic = high(300,300)
 console.log(pic)
@@ -3134,4 +3134,25 @@ else{
 console.log('Fail')    
 return(number)
 }  
+}
+//--------------------------------
+let agefactor =num(18)
+console.log(agefactor)
+
+function num(age) {
+if (age >= 18) {
+console.log('Elligle age,your age is')
+return(age)    
+}    
+else{
+console.log('not elligble,age should be 18 or 18+,your age is')    
+ret
+}
+}
+
+//---------------------
+let id =goldsilver(80)
+console.log(id)
+function goldsilver(points) {
+   
 }
