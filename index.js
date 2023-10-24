@@ -3004,25 +3004,52 @@
 // }
 
 //---------------
-evenodd(1)
-function evenodd(y) {
-while (y <=10) {
-const show =(y %2 ===0)? "even" : "odd"
-console.log(show,y)
-y++;    
-}    
-}
+// evenodd(1)
+// function evenodd(y) {
+// while (y <=10) {
+// const show =(y %2 ===0)? "even" : "odd"
+// console.log(show,y)
+// y++;    
+// }    
+// }
 
 //----------------------
-let Person ={
-Name:'= kimo',
-location:'= kenya',
-telephone:922315465,
-dob:19-5-2023    
+// let Person ={
+// Name:'= kimo',
+// location:'= kenya',
+// telephone:922315465,
+// dob:19-5-2023    
+// }
+// detail(Person)
+// function detail(obj){
+// for(let key in obj)
+// if(typeof obj[key] === "string")
+// console.log(key,obj[key])    
+// }
+
+//--------------------
+// let output = Name(30)
+// console.log(output)
+
+// function Name(input) {
+// if(typeof input !== "number")return "not a Number";
+// if(input % 3 ===0 & input % 5 ===0)return"jhonCena";
+// if(input % 3 ===0)return"" 
+// }
+
+
+
+//-------------24-10-23-------------------
+let info={
+name:'lame',
+location:'asia',
+telephone:9287451564,
+dob: 20-8-1995 ,   
 }
-detail(Person)
-function detail(obj){
-for(let key in obj)
-if(typeof obj[key] === "string")
-console.log(key,obj[key])    
+console.log(info)
+
+//--------------------------
+function wc23(team1,team2) {
+console.log(team1+" "+'VS'+" "+team2)    
 }
+wc23('ban','Sa')
