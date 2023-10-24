@@ -3053,3 +3053,50 @@ function wc23(team1,team2) {
 console.log(team1+" "+'VS'+" "+team2)    
 }
 wc23('ban','Sa')
+
+//---------------------------
+let id = max(4,3)
+console.log(id)
+
+function max(x,y) {
+return(x > y)? x : y    
+}
+//--------------------------
+let pic = high(300,300)
+console.log(pic)
+function high(width,height) {
+if (width > height) {
+console.log('width is high then height')  
+return(width)  
+}    
+else if(width === height){
+console.log('width and height are same')
+return(height)
+}
+else{
+console.log('height is high then width')    
+return(height)
+}
+}
+//-----------------------------------
+let watch =Time(6);
+console.log(watch)
+
+function Time(hours){
+if (hours >=6 & hours <12){
+console.log('Good morning')
+return(hours)    
+}
+else if(hours >=12 & hours <16){
+console.log('Good afternoon')
+return(hours)
+}
+else if(hours >=16 & hours <18){
+console.log('Good evening')
+return(hours)
+}  
+else{
+console.log('Good night')
+return(hours)
+}
+}
