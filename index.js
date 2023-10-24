@@ -3167,10 +3167,11 @@ function Name(input) {
 //------------------------------
 hello(1)
 function hello(a) {
-for (let a = 0; a <=5; a++) {
-    console.log('hello',a);    
-}    
-}
+do {
+console.log('Alex Bhatti',a)    
+a++;    
+} while (a <= 5);    
+} 
 //---------------------------------
 even(1)
 function even(x) {
@@ -3180,3 +3181,57 @@ console.log(x,'even')
 x++;    
 } while (x <=5);    
 }
+//-------------------
+evenodd(1)
+function evenodd(y) {
+do {
+let show=(y %2 ===0)? 'even' : 'odd';
+console.log(y,show)    
+y++;    
+} while (y <= 10);    
+}
+//--------------------------------
+
+
+show(5)
+function show(rows) {
+for (let row = 1; row <= rows; row++) {
+let p ='';
+for (let i = 0; i < row; i++)    
+p += '*';
+console.log(p)    
+}    
+}
+
+//------------------------------------
+let person={
+Name : 'alon',
+location : 'Asia',
+telephone : 926484561,
+dob: 20-9-1990    
+}
+detail(person)
+function detail(obj) {
+for(let key in obj)
+if(typeof obj[key] === "string")
+console.log(key,obj[key])    
+}
+
+//-------------------------------------------
+
+//---------------Objects---------------------
+
+//-----Object-orianted Programing (OOP)------
+
+const circle ={
+ radius : 1,
+ location:{
+   x:1 ,
+   y:1
+ },
+ isVisible : true,
+ draw : function () {
+   console.log('draw'); 
+ }   
+};
+circle.draw(); //method
