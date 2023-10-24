@@ -3031,19 +3031,19 @@
 
 
 //-------------24-10-23-------------------
-let info={
-name:'lame',
-location:'asia',
-telephone:9287451564,
-dob: 20-8-1995 ,   
-}
-console.log(info)
+// let info={
+// name:'lame',
+// location:'asia',
+// telephone:9287451564,
+// dob: 20-8-1995 ,   
+// }
+// console.log(info)
 
 //--------------------------
-function wc23(team1,team2) {
-console.log(team1+" "+'VS'+" "+team2)    
-}
-wc23('ban','Sa')
+// function wc23(team1,team2) {
+// console.log(team1+" "+'VS'+" "+team2)    
+// }
+// wc23('ban','Sa')
 
 //---------------------------
 // let id = max(4,3)
@@ -3053,185 +3053,204 @@ wc23('ban','Sa')
 // return(x > y)? x : y    
 // }
 //--------------------------
-let pic = high(300,300)
-console.log(pic)
-function high(width,height) {
-if (width > height) {
-console.log('width is high then height')  
-return(width)  
-}    
-else if(width === height){
-console.log('width and height are same')
-return(height)
-}
-else{
-console.log('height is high then width')    
-return(height)
-}
-}
+// let pic = high(300,300)
+// console.log(pic)
+// function high(width,height) {
+// if (width > height) {
+// console.log('width is high then height')  
+// return(width)  
+// }    
+// else if(width === height){
+// console.log('width and height are same')
+// return(height)
+// }
+// else{
+// console.log('height is high then width')    
+// return(height)
+// }
+// }
 //-----------------------------------
-let watch =Time(6);
-console.log(watch)
+// let watch =Time(6);
+// console.log(watch)
 
-function Time(hours){
-if (hours >=6 & hours <12){
-console.log('Good morning')
-return(hours)    
-}
-else if(hours >=12 & hours <16){
-console.log('Good afternoon')
-return(hours)
-}
-else if(hours >=16 & hours <18){
-console.log('Good evening')
-return(hours)
-}  
-else{
-console.log('Good night')
-return(hours)
-}
-}
+// function Time(hours){
+// if (hours >=6 & hours <12){
+// console.log('Good morning')
+// return(hours)    
+// }
+// else if(hours >=12 & hours <16){
+// console.log('Good afternoon')
+// return(hours)
+// }
+// else if(hours >=16 & hours <18){
+// console.log('Good evening')
+// return(hours)
+// }  
+// else{
+// console.log('Good night')
+// return(hours)
+// }
+// }
 
 //----------------------------------------
-let Result=grade(80)
-console.log(Result)
+// let Result=grade(80)
+// console.log(Result)
 
-function grade(number) {
-if (number >= 90 && number <101) {
-console.log('Grade A+1')
-return(number)    
-}
-else if(number >=80 && number <90){
-console.log('Grade A1')
-return(number)    
-}
-else if(number >=70 && number <80){
-console.log('Grade A')
-return(number)    
-}
-else if(number >=60 && number <70){
-console.log('Grade B')
-return(number)    
-}
-else if(number >=50 && number <60){
-console.log('Grade C')
-return(number)    
-}
-else if(number >=40 && number <50){
-console.log('Grade D')
-return(number)    
-}
-else{
-console.log('Fail')    
-return(number)
-}  
-}
+// function grade(number) {
+// if (number >= 90 && number <101) {
+// console.log('Grade A+1')
+// return(number)    
+// }
+// else if(number >=80 && number <90){
+// console.log('Grade A1')
+// return(number)    
+// }
+// else if(number >=70 && number <80){
+// console.log('Grade A')
+// return(number)    
+// }
+// else if(number >=60 && number <70){
+// console.log('Grade B')
+// return(number)    
+// }
+// else if(number >=50 && number <60){
+// console.log('Grade C')
+// return(number)    
+// }
+// else if(number >=40 && number <50){
+// console.log('Grade D')
+// return(number)    
+// }
+// else{
+// console.log('Fail')    
+// return(number)
+// }  
+// }
 //--------------------------------
-let agefactor =num(18)
-console.log(agefactor)
+// let agefactor =num(18)
+// console.log(agefactor)
 
-function num(age) {
-if (age >= 18) {
-console.log('Elligle age,your age is')
-return(age)    
-}    
-else{
-console.log('not elligble,age should be 18 or 18+,your age is')    
-return(age)
-}
-}
+// function num(age) {
+// if (age >= 18) {
+// console.log('Elligle age,your age is')
+// return(age)    
+// }    
+// else{
+// console.log('not elligble,age should be 18 or 18+,your age is')    
+// return(age)
+// }
+// }
 
 //---------------------
 
-let id =goldsilver(80)
-console.log(id)
+// let id =goldsilver(80)
+// console.log(id)
 
-function goldsilver(points){
-return(points >= 90)? 'gold' : 'silver'   
-}
+// function goldsilver(points){
+// return(points >= 90)? 'gold' : 'silver'   
+// }
 
 //---------------------------
-let output=Name(15)
-console.log(output)
+// let output=Name(15)
+// console.log(output)
 
-function Name(input) {
+// function Name(input) {
 
-    if(typeof input !== "number")return('NAN');
+//     if(typeof input !== "number")return('NAN');
 
-    if(input % 3 ===0 && input % 5 ===0)return('AppTycon');
+//     if(input % 3 ===0 && input % 5 ===0)return('AppTycon');
 
-    if(input % 3 ===0)return('App');
+//     if(input % 3 ===0)return('App');
 
-    if(input % 5 ===0)return('Tycon');
-}
+//     if(input % 5 ===0)return('Tycon');
+// }
 //------------------------------
-hello(1)
-function hello(a) {
-do {
-console.log('Alex Bhatti',a)    
-a++;    
-} while (a <= 5);    
-} 
+// hello(1)
+// function hello(a) {
+// do {
+// console.log('Alex Bhatti',a)    
+// a++;    
+// } while (a <= 5);    
+// } 
 //---------------------------------
-even(1)
-function even(x) {
-do {
-if(x %2 ==0)
-console.log(x,'even')    
-x++;    
-} while (x <=5);    
-}
+// even(1)
+// function even(x) {
+// do {
+// if(x %2 ==0)
+// console.log(x,'even')    
+// x++;    
+// } while (x <=5);    
+// }
 //-------------------
-evenodd(1)
-function evenodd(y) {
-do {
-let show=(y %2 ===0)? 'even' : 'odd';
-console.log(y,show)    
-y++;    
-} while (y <= 10);    
-}
+// evenodd(1)
+// function evenodd(y) {
+// do {
+// let show=(y %2 ===0)? 'even' : 'odd';
+// console.log(y,show)    
+// y++;    
+// } while (y <= 10);    
+// }
 //--------------------------------
 
 
-show(5)
-function show(rows) {
-for (let row = 1; row <= rows; row++) {
-let p ='';
-for (let i = 0; i < row; i++)    
-p += '*';
-console.log(p)    
-}    
-}
+// show(5)
+// function show(rows) {
+// for (let row = 1; row <= rows; row++) {
+// let p ='';
+// for (let i = 0; i < row; i++)    
+// p += '*';
+// console.log(p)    
+// }    
+// }
 
 //------------------------------------
-let person={
-Name : 'alon',
-location : 'Asia',
-telephone : 926484561,
-dob: 20-9-1990    
-}
-detail(person)
-function detail(obj) {
-for(let key in obj)
-if(typeof obj[key] === "string")
-console.log(key,obj[key])    
-}
+// let person={
+// Name : 'alon',
+// location : 'Asia',
+// telephone : 926484561,
+// dob: 20-9-1990    
+// }
+// detail(person)
+// function detail(obj) {
+// for(let key in obj)
+// if(typeof obj[key] === "string")
+// console.log(key,obj[key])    
+// }
 
 //-------------------------------------------
 
-//---------------Objects---------------------
+//-----------------Objects-------------------
 
 //-----Object-orianted Programing (OOP)------
 
-const circle ={
- radius : 1,
- location:{
-   x:1 ,
-   y:1
- },
- isVisible : true,
- draw : function () {
-   console.log('draw'); 
- }   
-};
-circle.draw(); //method
+// const circle ={
+//  radius : 1,
+//  location:{
+//    x:1 ,
+//    y:1
+//  },
+//  isVisible : true,
+//  draw : function () {
+//    console.log('draw'); 
+//  }   
+// };
+// circle.draw(); //method
+
+
+
+//---------factory Function--------------------
+
+
+function createCircle(radius) {
+  return{
+  radius,
+  draw(){
+  console.log('draw')  
+  }
+  };  
+}
+const Circle = createCircle(1);
+console.log(Circle);
+
+const Circle2 =createCircle(2);
+console.log(Circle2);
