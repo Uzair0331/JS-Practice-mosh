@@ -3401,3 +3401,27 @@ for(let key in obj)
 if(typeof obj[key] ==="string")
 console.log(key,obj[key])  
 }
+
+//-----------------------------------
+show(5)
+function show(rows) {
+for (let row = 1; row <= rows; row++) {
+  let p ='';
+  for (let l = 0; l < row; l++) 
+    p += '*';
+    console.log(p)
+  
+  
+}  
+}
+//------------------------
+
+// show(5)
+// function show(rows) {
+// for (let row = 1; row <= rows; row++) {
+// let p ='';
+// for (let i = 0; i < row; i++)    
+// p += '*';
+// console.log(p)    
+// }    
+// }
