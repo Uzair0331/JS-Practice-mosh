@@ -3283,145 +3283,237 @@
 //----------------------------------------------
 //-------------25-10-23---------------------
 
-let info ={
-Name:'loma',
-phone:93416489,
-location:'USA',
-Dob:16-9-1990,  
-}
-console.log(info)
+// let info ={
+// Name:'loma',
+// phone:93416489,
+// location:'USA',
+// Dob:16-9-1990,  
+// }
+// console.log(info)
 
 //--------------------------------
-function wc(team1,team2) {
-console.log('match B/W'+" "+team1+" "+'&'+" "+team2)  
-}
-wc('Na','Aus')
+// function wc(team1,team2) {
+// console.log('match B/W'+" "+team1+" "+'&'+" "+team2)  
+// }
+// wc('Na','Aus')
 //---------------------------------
-let num = max(5,4)
-console.log(num)
+// let num = max(5,4)
+// console.log(num)
 
-function max(x,y) {
-return(x > y)? x : y ;  
-}
+// function max(x,y) {
+// return(x > y)? x : y ;  
+// }
 //------------------------------------
-let pic = high(600,700)
-console.log(pic)
+// let pic = high(600,700)
+// console.log(pic)
 
-function high(width,height) {
-if (width > height) {
-console.log('width is high')
-return(width)  
-}  
-else if(width === height){
-console.log('width and height is same')
-return(width)
-}
-else{
-console.log('height is high')
-return(height)  
-}
-}
-//---------------------------------------
-time(16)
-function time(hour) {
-if (hour >=6 & hour < 12) {
-console.log('Good morning',hour)
+// function high(width,height) {
+// if (width > height) {
+// console.log('width is high')
+// return(width)  
+// }  
+// else if(width === height){
+// console.log('width and height is same')
+// return(width)
+// }
+// else{
+// console.log('height is high')
+// return(height)  
+// }
+// }
+// //---------------------------------------
+// time(16)
+// function time(hour) {
+// if (hour >=6 & hour < 12) {
+// console.log('Good morning',hour)
   
-}  
-else if(hour >=12 & hour < 16){
-console.log('Good afternoon',hour)
+// }  
+// else if(hour >=12 & hour < 16){
+// console.log('Good afternoon',hour)
 
-}
-else if(hour >=16 & hour < 19){
-console.log('Good evening',hour)
-return(time)
-}
-else{
-console.log('good night',hour)  
-}
-}
-//------------------------------
-let n=elligble(18)
-console.log(n)
+// }
+// else if(hour >=16 & hour < 19){
+// console.log('Good evening',hour)
+// return(time)
+// }
+// else{
+// console.log('good night',hour)  
+// }
+// }
+// //------------------------------
+// let n=elligble(18)
+// console.log(n)
 
-function elligble(age) {
-if (age >=18) {
-console.log('elligble age,your age is')
-return(age)  
-}  
-else{
-console.log('not elligble age,your age is')
-return(age)  
-}
-}
+// function elligble(age) {
+// if (age >=18) {
+// console.log('elligble age,your age is')
+// return(age)  
+// }  
+// else{
+// console.log('not elligble age,your age is')
+// return(age)  
+// }
+// }
 //---------------------------------
-hello(0)
-function hello(i) {
-for (let i = 1; i <= 5; i++) {
-  console.log('hey',i);
-}  
-}
-//---------------------------------
-even(1)
-function even(a) {
-while (a <= 5) {
-if(a % 2 ===0)
-console.log('even',a)
-a++;  
-}  
-}
+// hello(0)
+// function hello(i) {
+// for (let i = 1; i <= 5; i++) {
+//   console.log('hey',i);
+// }  
+// }
+// //---------------------------------
+// even(1)
+// function even(a) {
+// while (a <= 5) {
+// if(a % 2 ===0)
+// console.log('even',a)
+// a++;  
+// }  
+// }
 //--------------------------------
-odd(1)
-function odd(x) {
-do {
-if(x % 2 !==0)
-console.log('odd',x)
-x++;  
-} while (x <= 5);  
-}
+// odd(1)
+// function odd(x) {
+// do {
+// if(x % 2 !==0)
+// console.log('odd',x)
+// x++;  
+// } while (x <= 5);  
+// }
 //--------------------------------
-evenodd(1)
-function evenodd(y) {
-do {
-let show =(y % 2 ===0)? 'even':'odd'
-console.log(y,show)
-y++;  
-} while (y <= 10);  
-}
+// evenodd(1)
+// function evenodd(y) {
+// do {
+// let show =(y % 2 ===0)? 'even':'odd'
+// console.log(y,show)
+// y++;  
+// } while (y <= 10);  
+// }
 //-------------------------------
-let person={
-Name :'puneet',
-location:'ind',
-phone:9123481483,
-dob : 19-6-1985,
-}
-detail(person)
-function detail(obj) {
-for(let key in obj)
-if(typeof obj[key] ==="string")
-console.log(key,obj[key])  
-}
+// let person={
+// Name :'puneet',
+// location:'ind',
+// phone:9123481483,
+// dob : 19-6-1985,
+// }
+// detail(person)
+// function detail(obj) {
+// for(let key in obj)
+// if(typeof obj[key] ==="string")
+// console.log(key,obj[key])  
+// }
 
 //-----------------------------------
-show(5)
-function show(rows) {
-for (let row = 1; row <= rows; row++) {
-  let p ='';
-  for (let l = 0; l < row; l++) 
-    p += '*';
-    console.log(p)
-  
-  
-}  
-}
-//------------------------
-
 // show(5)
 // function show(rows) {
 // for (let row = 1; row <= rows; row++) {
 // let p ='';
-// for (let i = 0; i < row; i++)    
+// for (let q = 0; q < row; q++)
 // p += '*';
-// console.log(p)    
-// }    
+// console.log(p)
+// }  
 // }
+
+// //-----------------------------------
+// let output = Name(15)
+// console.log(output)
+// function Name(input) {
+// if(typeof input !== "number")return('NAN');
+
+// if(input % 3 ===0 && input % 5 ===0)return('CallStack');
+
+// if(input % 3 ===0)return('Call');
+
+// if(input % 5 ===0)return('Stack');
+// }
+
+// //-----------OOP-----------------
+// const circle ={
+//  radius : 1,
+//  location:{
+//    x:1 ,
+//    y:1
+//  },
+//  isVisible : true,
+//  draw : function () {
+//    console.log('draw'); 
+//  }   
+// };
+// circle.draw();
+
+///------------factory function-----------
+// function createCircle(radius,location) {
+//   return{
+//    radius : 2,
+//    location: 6,
+//    draw(){
+//     console.log('draw')
+//   } 
+//   }
+// }
+// const circle1=createCircle(1);
+// console.log(circle1);
+
+// const circle2=createCircle(2);
+// console.log(circle2);
+
+//-----------------------------
+// function createCircle(radius,location) {
+//   return{
+//   radius:2,
+//   location:3,
+//   draw(){
+//   console.log('draw')  
+//   }  
+//   }
+// }
+// const circle1 = createCircle(1);
+// console.log(circle1)
+
+// //------------------------------------
+// function triangle(height,width) {
+// return{
+// height:5,
+// width:7,
+// draw(){
+// console.log('triangle')  
+// }  
+// }  
+// }
+// const mytriangle1 = triangle(1);
+// console.log(mytriangle1);
+// //----------------------------------------
+// function square(height,width) {
+// return{
+// height: 5,
+// width:6,
+// draw(){
+// console.log('square')  
+// }  
+// }  
+// }
+// const square1 = square(1);
+// console.log(square1);
+
+//------------constructor function-------
+// function Circle(radius) {
+//  this.radius = radius;
+//  this.draw= function () {
+//   console.log('circle')
+//  } 
+// }
+
+// const circle1 = new Circle(1);
+
+
+//---------Dynamic nature of Object--------------
+const circle ={
+  radius :1
+};
+
+circle.id=12;
+circle.color ='yellow';
+circle.draw = function () {}
+
+delete circle.id;
+
+console.log(circle)
