@@ -3340,3 +3340,64 @@ else{
 console.log('good night',hour)  
 }
 }
+//------------------------------
+let n=elligble(18)
+console.log(n)
+
+function elligble(age) {
+if (age >=18) {
+console.log('elligble age,your age is')
+return(age)  
+}  
+else{
+console.log('not elligble age,your age is')
+return(age)  
+}
+}
+//---------------------------------
+hello(0)
+function hello(i) {
+for (let i = 1; i <= 5; i++) {
+  console.log('hey',i);
+}  
+}
+//---------------------------------
+even(1)
+function even(a) {
+while (a <= 5) {
+if(a % 2 ===0)
+console.log('even',a)
+a++;  
+}  
+}
+//--------------------------------
+odd(1)
+function odd(x) {
+do {
+if(x % 2 !==0)
+console.log('odd',x)
+x++;  
+} while (x <= 5);  
+}
+//--------------------------------
+evenodd(1)
+function evenodd(y) {
+do {
+let show =(y % 2 ===0)? 'even':'odd'
+console.log(y,show)
+y++;  
+} while (y <= 10);  
+}
+//-------------------------------
+let person={
+Name :'puneet',
+location:'ind',
+phone:9123481483,
+dob : 19-6-1985,
+}
+detail(person)
+function detail(obj) {
+for(let key in obj)
+if(typeof obj[key] ==="string")
+console.log(key,obj[key])  
+}
