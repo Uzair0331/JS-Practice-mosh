@@ -3267,14 +3267,76 @@
 // const circle = new Circle(1);
 
 //---------Dynamic nature of Object--------------
-const circle ={
-  radius :1
-};
+// const circle ={
+//   radius :1
+// };
 
-circle.id=12;
-circle.color ='yellow';
-circle.draw = function () {}
+// circle.id=12;
+// circle.color ='yellow';
+// circle.draw = function () {}
 
-delete circle.draw;
+// delete circle.draw;
 
-console.log(circle)
+// console.log(circle)
+
+
+//----------------------------------------------
+//-------------25-10-23---------------------
+
+let info ={
+Name:'loma',
+phone:93416489,
+location:'USA',
+Dob:16-9-1990,  
+}
+console.log(info)
+
+//--------------------------------
+function wc(team1,team2) {
+console.log('match B/W'+" "+team1+" "+'&'+" "+team2)  
+}
+wc('Na','Aus')
+//---------------------------------
+let num = max(5,4)
+console.log(num)
+
+function max(x,y) {
+return(x > y)? x : y ;  
+}
+//------------------------------------
+let pic = high(600,700)
+console.log(pic)
+
+function high(width,height) {
+if (width > height) {
+console.log('width is high')
+return(width)  
+}  
+else if(width === height){
+console.log('width and height is same')
+return(width)
+}
+else{
+console.log('height is high')
+return(height)  
+}
+}
+//---------------------------------------
+time(16)
+function time(hour) {
+if (hour >=6 & hour < 12) {
+console.log('Good morning',hour)
+  
+}  
+else if(hour >=12 & hour < 16){
+console.log('Good afternoon',hour)
+
+}
+else if(hour >=16 & hour < 19){
+console.log('Good evening',hour)
+return(time)
+}
+else{
+console.log('good night',hour)  
+}
+}
