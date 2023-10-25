@@ -3495,6 +3495,7 @@
 // console.log(square1);
 
 //------------constructor function-------
+
 // function Circle(radius) {
 //  this.radius = radius;
 //  this.draw= function () {
@@ -3506,14 +3507,87 @@
 
 
 //---------Dynamic nature of Object--------------
-const circle ={
-  radius :1
-};
 
-circle.id=12;
-circle.color ='yellow';
-circle.draw = function () {}
+// const circle ={
+//   radius :1
+// };
 
-delete circle.id;
+// circle.id=12;
+// circle.color ='yellow';
+// circle.draw = function () {}
 
-console.log(circle)
+// delete circle.id;
+
+// console.log(circle)
+//----------------------------------------
+// const square={
+// width:5,
+// height:2,  
+// }
+
+// square.name='square';
+// square.id=1;
+// square.draw=function () {}
+
+// delete square.id;
+
+// console.log(square)
+
+//--------------------------------------
+// function person(id,name,location,phone) {
+// return{
+// id : 1,
+// name:'alex',
+// location:'USA',
+// phone:91546871,
+// profile(){
+// console.log('profile')  
+
+// }
+// }  
+// }
+
+// const profile1 = person(1);
+// console.log(profile1)
+
+//------------------------------
+const person={
+id:1, 
+}
+
+person.Name='jhon';
+person.location='USA';
+person.phone=9852646881;
+
+console.log(person)
+
+//------------------------
+function square(data) {
+return{
+height: 5,
+width:6,
+draw(){
+console.log(data)  
+}  
+}  
+}
+const square1 = square(1);
+console.log(square1);
+
+//--------------------------
+// let obj = {value : 10};
+
+// function increase(obj) {
+//   obj.value++;
+// }
+// increase(obj);
+// console.log(obj)
+//-------------------------
+let x ={num :10};
+
+function increase(x) {
+
+ x.num++;
+}
+increase(x);
+console.log(x)
