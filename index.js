@@ -3551,28 +3551,29 @@
 // console.log(profile1)
 
 //------------------------------
-const person={
-id:1, 
-}
+// const person={
+// id:1, 
+// }
 
-person.Name='jhon';
-person.location='USA';
-person.phone=9852646881;
+// person.Name='jhon';
+// person.location='USA';
+// person.phone=9852646881;
 
-console.log(person)
+
+// console.log(person)
 
 //------------------------
-function square(data) {
-return{
-height: 5,
-width:6,
-draw(){
-console.log(data)  
-}  
-}  
-}
-const square1 = square(1);
-console.log(square1);
+// function square(data) {
+// return{
+// height: 5,
+// width:6,
+// draw(){
+// console.log(data)  
+// }  
+// }  
+// }
+// const square1 = square(1);
+// console.log(square1)
 
 //--------------------------
 // let obj = {value : 10};
@@ -3583,11 +3584,117 @@ console.log(square1);
 // increase(obj);
 // console.log(obj)
 //-------------------------
-let x ={num :10};
 
-function increase(x) {
 
- x.num++;
+// let x ={num :10};
+
+// function increase(x) {
+
+//  x.num++;
+// }
+// increase(x);
+// console.log(x)
+
+//--------------------------
+// const person ={
+// Name:'kim',
+// id : 1 ,
+// location :'USA',  
+// // show(){
+// //  console.log('show') 
+// // }
+// }
+// for(let key in person)
+// console.log(key,person[key])
+
+// for(let key of Object.keys(person))
+// console.log(key)
+
+// for(let entry of Object.entries(person))
+// console.log(entry)
+
+// if('Name' in person)console.log('yes')
+
+
+
+//--------------------------------
+
+
+
+// const person={
+// Name : 'collin',
+// id : 1,
+// location : 'USA',
+ 
+// }
+
+// for(let key in person)
+// console.log(key,person[key])
+
+// for(let key of Object.keys(person))
+// console.log(key)
+
+// for(let entry of Object.entries(person))
+// console.log(entry)
+
+// if('id' in person)console.log('Approved')
+
+
+//-------------------Object cloning-------------------------
+
+// const person={
+// Name : 'laka',
+// id : 5 ,
+// location : 'USA', 
+// show(){
+// console.log('show')  
+// }
+// }
+// const person2 = {...person}
+// console.log(person2)
+
+//-----------------------------------------------
+
+
+// function createCircle(radius,location) {
+//   return{
+//    radius : 2,
+//    location: 6,
+//    draw(){
+//     console.log('draw')
+//   } 
+//   }
+// }
+// const circle1=createCircle(1);
+// console.log(circle1);
+
+// const circle2=createCircle(2);
+// console.log(circle2);
+
+//-----------------------------------------------------
+
+
+// function person(detail) {
+//  return{
+//  Name: 'zuin',
+//  id: 1,
+//  location:'China'
+// } 
+// }
+// const person1 = person(1)
+// console.log(person1)
+
+
+
+//--------------------------------------------------------
+
+function profile(p) {
+  return{
+  Name : 'salman',
+  location:'NY',
+  telephone: 9248941246,  
+  }
 }
-increase(x);
-console.log(x)
+
+const person1= profile(1)
+console.log(person1)
