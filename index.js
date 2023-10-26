@@ -3688,13 +3688,198 @@
 
 //--------------------------------------------------------
 
-function profile(p) {
-  return{
-  Name : 'salman',
-  location:'NY',
-  telephone: 9248941246,  
-  }
-}
+// function profile(p) {
+//   return{
+//   Name : 'salman',
+//   location:'NY',
+//   telephone: 9248941246,  
+//   }
+// }
 
-const person1= profile(1)
-console.log(person1)
+// const person1= profile(1)
+// console.log(person1)
+
+
+//-----------------------------------------------------
+
+// function Circle(radius) {
+//  this.radius = radius;
+//  this.draw= function () {
+//   console.log('circle')
+//  } 
+// }
+
+// const circle1 = new Circle(1);
+
+//--------------------------------------------------
+
+// const person={
+// Name:'alex',
+// location:'USA',  
+// }
+// function ID(detail) {
+// this.detail=detail;  
+// }
+// const Person1 = new ID(1);
+
+//---------Dynamic nature of Object--------------
+
+// const circle ={
+//   radius :1
+// };
+
+// circle.id=12;
+// circle.color ='yellow';
+// circle.draw = function () {}
+
+// delete circle.id;
+
+// console.log(circle)
+
+//----------------------------
+
+// const detail={};
+
+// detail.Name='alex';
+// detail.id=1;
+// detail.location='USA';
+
+// // delete detail.Name
+
+// console.log(detail)
+
+
+//---------------------------------
+
+
+// const person={
+// Name : 'collin',
+// id : 1,
+// location : 'USA',
+ 
+// }
+
+// for(let key in person)
+// console.log(key,person[key])
+
+// for(let key of Object.keys(person))
+// console.log(key)
+
+// for(let entry of Object.entries(person))
+// console.log(entry)
+
+// if('id' in person)console.log('Approved')
+
+
+//----------------------------
+
+
+// const person={
+// Name:'lona',
+// location:'USA',
+// id : 958,
+// telephone: 94564984,
+// }
+// for(let key in person)
+// console.log(key,person[key])
+
+// for(let key of Object.keys(person))
+// console.log(key)
+
+// for(let value of Object.values(person))
+// console.log(value)
+
+// for(let entry of Object.entries (person))
+// console.log(entry)
+
+
+// if('id','Name' in person)console.log('Approved')
+
+
+
+//---------------------------------------------------------------
+
+// let obj = {value : 10};
+
+// function increase(obj) {
+//   obj.value++;
+// }
+// increase(obj);
+// console.log(obj)
+
+
+//------------------------------------------
+
+// const person={
+// Name : 'laka',
+// id : 5 ,
+// location : 'USA', 
+// show(){
+// console.log('show')  
+// }
+// }
+// const person2 = {...person}
+// console.log(person2)
+
+//--------------------------------
+
+// const person={
+// Name : 'gotilo',
+// id : 1,
+// location:'USA',
+// phone:92844841,  
+// }
+// // for(let key in person)
+// // console.log(key,person[key])
+
+// // for(let value of Object.values(person))
+// // console.log(value)
+
+// for(let entry of Object.entries(person))
+// console.log(entry)
+
+// const person1 ={...person}
+// console.log(person)
+
+
+// if('id' in person)console.log('Approved')
+
+
+//---------------26-10-23------------------
+let info={
+Name :'jhon',
+location : 'USA',
+phone : 9286416518,    
+}
+console.log(info)
+
+//------------------------------------------
+function wc23(team1,team2) {
+console.log('Match B/W'+" "+team1+" "+'&'+" "+team2)    
+}
+wc23('eng','sri')
+
+//-----------------------------------------
+let num = max(4,3)
+console.log(num)
+
+function max(x,y) {
+return(x > y)? x : y    
+}
+//---------------------------------------
+let photo = high(600,700)
+console.log(photo)
+function high(width,height) {
+if (width > height) {
+console.log('width is high')
+return(width)    
+}    
+else if(width === height){
+console.log('width and height are same')
+return(width)
+}
+else{
+console.log('height is high')
+return(height)    
+}
+}
