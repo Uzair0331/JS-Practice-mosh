@@ -3846,84 +3846,216 @@
 
 
 //---------------26-10-23------------------
+// let info={
+// Name :'jhon',
+// location : 'USA',
+// phone : 9286416518,    
+// }
+// console.log(info)
+
+// //------------------------------------------
+// function wc23(team1,team2) {
+// console.log('Match B/W'+" "+team1+" "+'&'+" "+team2)    
+// }
+// wc23('eng','sri')
+
+// //-----------------------------------------
+// let num = max(4,3)
+// console.log(num)
+
+// function max(x,y) {
+// return(x > y)? x : y    
+// }
+// //---------------------------------------
+// let photo = high(600,700)
+// console.log(photo)
+// function high(width,height) {
+// if (width > height) {
+// console.log('width is high')
+// return(width)    
+// }    
+// else if(width === height){
+// console.log('width and height are same')
+// return(width)
+// }
+// else{
+// console.log('height is high')
+// return(height)    
+// }
+// }
+// //---------------------------------------
+// let watch=time(19)
+// console.log(watch)
+
+// function time(hour) {
+// if (hour >=6 & hour <12) {
+// console.log('good morning')
+// return(hour)    
+// }    
+// else if(hour >=12 & hour <16){
+// console.log('good afternoon')
+// return(hour)
+// }
+// else if(hour >=16 & hour <19){
+// console.log('good evening')
+// return(hour)
+// }
+// else{
+//  console.log('good night')   
+//  return(hour)
+// }
+// }
+
+// //---------------------------
+// let person=elligble(18)
+// console.log(person)
+
+// function elligble(age) {
+// if (age >=18) {
+// console.log('elligble age,your age is')    
+// return(age)
+// }    
+// else{
+// console.log('under age,your age is')
+// return(age)    
+// }
+// }
+// //-----------------------------
+// let member = approve(89)
+// console.log(member)
+
+// function approve(person) {
+//  return(person >=90)? 'Gold':'Silver'   
+// }
+
+// //-------------------------------
+// hello(1)
+
+// function hello(i) {
+// for (let i = 1; i <= 5; i++) {
+//     console.log('hello',i);
+    
+// }    
+// }
+
+// //-------------------------------
+// even(1)
+
+// function even(a) {
+// while (a <=10) {
+// if(a % 2 ===0)
+// console.log('even',a)
+// a++;    
+// }    
+// }
+
+// //--------------------------------
+// odd(1)
+// function odd(x) {
+// do {
+// if(x % 2 !==0)
+// console.log('odd',x)
+// x++;    
+// } while (x <=10);    
+// }
+
+// //------------------------------
+// evenodd(1)
+// function evenodd(y) {
+// do {
+// let show=(y % 2 ===0)? 'even' :'odd'
+// console.log(show,y)
+// y++;    
+// } while (y <=10);    
+// }
+
+//---------------------------------
 let info={
-Name :'jhon',
-location : 'USA',
-phone : 9286416518,    
+Name:'nikki',
+location:'west',
+id:12,
+phone:531981658,    
 }
-console.log(info)
-
-//------------------------------------------
-function wc23(team1,team2) {
-console.log('Match B/W'+" "+team1+" "+'&'+" "+team2)    
+detail(info)
+function detail(obj) {
+for(let key in obj)
+if(typeof obj[key] ==="number")
+console.log(key,obj[key])    
 }
-wc23('eng','sri')
 
-//-----------------------------------------
-let num = max(4,3)
-console.log(num)
-
-function max(x,y) {
-return(x > y)? x : y    
+//------------------------------------
+show(5)
+function show(rows) {
+for (let row = 1; row <= rows; row++){
+let p ='';
+for (let i = 0; i < row; i++) 
+p +='*';
+console.log(p)     
 }
-//---------------------------------------
-let photo = high(600,700)
-console.log(photo)
-function high(width,height) {
-if (width > height) {
-console.log('width is high')
-return(width)    
+}
+
+//------------------------------------
+let output = Name(15)
+console.log(output)
+
+function Name(input) {
+if(typeof input !== "number")return('NAN')
+
+if(input % 3 ===0 & input % 5 ===0)return('AppTycon')
+
+if(input % 3 ===0)return('App')
+
+if(input % 5 ===0)return('Tycon')
+}
+
+
+
+
+function detail(person) {
+return{
+Name : 'yuzi',
+location:'ind',
+phone:9123546425,
+id:15,    
 }    
-else if(width === height){
-console.log('width and height are same')
-return(width)
 }
-else{
-console.log('height is high')
-return(height)    
-}
-}
-//---------------------------------------
-let watch=time(19)
-console.log(watch)
+const detail1 = detail(1)
+console.log(detail1)
 
-function time(hour) {
-if (hour >=6 & hour <12) {
-console.log('good morning')
-return(hour)    
-}    
-else if(hour >=12 & hour <16){
-console.log('good afternoon')
-return(hour)
-}
-else if(hour >=16 & hour <19){
-console.log('good evening')
-return(hour)
-}
-else{
- console.log('good night')   
- return(hour)
-}
-}
 
-//---------------------------
-let person=elligble(18)
-console.log(person)
 
-function elligble(age) {
-if (age >=18) {
-console.log('elligble age,your age is')    
-return(age)
-}    
-else{
-console.log('under age,your age is')
-return(age)    
-}
-}
-//-----------------------------
-let member = approve(89)
-console.log(member)
 
-function approve(person) {
- return(person >=90)? 'Gold':'Silver'   
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //------------constructor function-------
+    
+    // function Circle(radius) {
+    //  this.radius = radius;
+    //  this.draw= function () {
+    //   console.log('circle')
+    //  } 
+    // }
+    
+    // const circle1 = new Circle(1);
+    
