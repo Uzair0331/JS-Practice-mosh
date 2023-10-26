@@ -3970,92 +3970,98 @@
 // }
 
 //---------------------------------
-let info={
-Name:'nikki',
-location:'west',
-id:12,
-phone:531981658,    
-}
-detail(info)
-function detail(obj) {
-for(let key in obj)
-if(typeof obj[key] ==="number")
-console.log(key,obj[key])    
-}
+// let info={
+// Name:'nikki',
+// location:'west',
+// id:12,
+// phone:531981658,    
+// }
+// detail(info)
+// function detail(obj) {
+// for(let key in obj)
+// if(typeof obj[key] ==="number")
+// console.log(key,obj[key])    
+// }
 
-//------------------------------------
-show(5)
-function show(rows) {
-for (let row = 1; row <= rows; row++){
-let p ='';
-for (let i = 0; i < row; i++) 
-p +='*';
-console.log(p)     
-}
-}
+// //------------------------------------
+// show(5)
+// function show(rows) {
+// for (let row = 1; row <= rows; row++){
+// let p ='';
+// for (let i = 0; i < row; i++) 
+// p +='*';
+// console.log(p)     
+// }
+// }
 
-//------------------------------------
-let output = Name(15)
-console.log(output)
+// //------------------------------------
+// let output = Name(15)
+// console.log(output)
 
-function Name(input) {
-if(typeof input !== "number")return('NAN')
+// function Name(input) {
+// if(typeof input !== "number")return('NAN')
 
-if(input % 3 ===0 & input % 5 ===0)return('AppTycon')
+// if(input % 3 ===0 & input % 5 ===0)return('AppTycon')
 
-if(input % 3 ===0)return('App')
+// if(input % 3 ===0)return('App')
 
-if(input % 5 ===0)return('Tycon')
-}
-
-
+// if(input % 5 ===0)return('Tycon')
+// }
 
 
-function detail(person) {
-return{
-Name : 'yuzi',
-location:'ind',
-phone:9123546425,
-id:15,    
-}    
-}
-const detail1 = detail(1)
-console.log(detail1)
+//--------------------------------
 
+// function detail(person) {
+// return{
+// Name : 'yuzi',
+// location:'ind',
+// phone:9123546425,
+// id:15,    
+// }    
+// }
+// const detail1 = detail(1)
+// console.log(detail1)
 
+// //---------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// function circle(measure) {
+// return{
+// radius : 2,
+// location:'left'    
+// }    
+// }
+// const circle1=circle(1)
+// console.log(circle1)
 
     //------------constructor function-------
     
-    // function Circle(radius) {
-    //  this.radius = radius;
-    //  this.draw= function () {
-    //   console.log('circle')
-    //  } 
-    // }
+// function Circle(radius) {
+// this.radius = radius;
+// this.draw= function () {
+// console.log('circle')
+// } 
+// }
     
-    // const circle1 = new Circle(1);
-    
+// const circle1 = new Circle(1);
+
+
+// //---------------------------------------------
+// function person(detail) {
+//  this.Name = 'alon';
+//  this.id= 12;
+//  this.location='east'   
+// }
+// const person1= new person(1)
+
+
+//--------------------------------------------
+
+const person={
+id :1,    
+}
+person.Name='kuma';
+person.location='italy';
+
+delete person.Name
+
+console.log(person)
