@@ -3883,3 +3883,47 @@ console.log('height is high')
 return(height)    
 }
 }
+//---------------------------------------
+let watch=time(19)
+console.log(watch)
+
+function time(hour) {
+if (hour >=6 & hour <12) {
+console.log('good morning')
+return(hour)    
+}    
+else if(hour >=12 & hour <16){
+console.log('good afternoon')
+return(hour)
+}
+else if(hour >=16 & hour <19){
+console.log('good evening')
+return(hour)
+}
+else{
+ console.log('good night')   
+ return(hour)
+}
+}
+
+//---------------------------
+let person=elligble(18)
+console.log(person)
+
+function elligble(age) {
+if (age >=18) {
+console.log('elligble age,your age is')    
+return(age)
+}    
+else{
+console.log('under age,your age is')
+return(age)    
+}
+}
+//-----------------------------
+let member = approve(89)
+console.log(member)
+
+function approve(person) {
+ return(person >=90)? 'Gold':'Silver'   
+}
