@@ -4056,12 +4056,88 @@
 
 //--------------------------------------------
 
-const person={
-id :1,    
-}
-person.Name='kuma';
-person.location='italy';
+// const person={
+// id :1,    
+// }
+// person.name='kuma';
+// person.location='italy';
 
-delete person.Name
+// delete person.Name
 
-console.log(person)
+// console.log(person)
+
+//--------------------------------------------
+
+// const person={
+// id : 1,
+// name : 'leena',
+// location:'tokyo',
+// phone:65894561,    
+// }
+// for(let key in person)
+// console.log(key,person[key])
+
+// for(let key of Object.keys (person))
+// console.log(key)
+
+// for(let entry of Object.entries (person ))
+// console.log(entry)
+ 
+// const person1 = {...person}
+// console.log(person1)
+
+
+
+
+
+//---------------------------------
+
+
+// const Name ='lamo'
+
+// const message =
+// `hi ${Name},
+
+// thanks for joining.
+
+// regard,
+// alex.`;
+
+// console.log(message)
+
+//----------------
+
+// let detail={
+// Street :23,
+// zipCode:2500,
+// City:'USA',    
+// }
+
+// function address(detail) {
+// for(let key in detail)
+// console.log(key,detail[key])    
+// }
+// address(detail)
+
+//----------------------------------
+
+
+// let address = createAddress(16,'maldive',265);
+// console.log(address)
+// function createAddress(street,City,zipCode) {
+// return{
+// street,
+// City,
+// zipCode,    
+// } ;   
+// }
+
+//------------------------------------
+ function address(detail) {
+     this.street = 15 ;
+     this.City='italy';
+     this.zipCode=9854;   
+    }
+    const address1 = new address(1);
+    console.log(address1)
+
