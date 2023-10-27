@@ -4392,28 +4392,8 @@
     // console.log(person1)
     
     // if('name' in person)console.log('approve')
+
     
-    //-------------------------
-let address1 =new Address('a','b','c')
-let address2 =new Address('a','b','c')
-console.log(areEqual(address1,address2))
-
-function Address(name,location,postalCode) {
-    this.name='alex';
-    this.location='USA';
-    this.postalCode=9508;
-}
-const data = new Address(1)
-console.log(data)
-
-function areEqual(address1,address2) {
-return(
-address1.name === address2.name &&
-address1.location === address2.location &&
-address1.postalCode === address2.postalCode   
-)   
-}
-
 //-------------------------------------------
 
 // let blog={
@@ -4428,29 +4408,60 @@ address1.postalCode === address2.postalCode
 // }
 // console.log(blog)
 
-//-------------------------------
+    
+//-----------------------------------------------
 
 
+let address1 =new Address('alex','USA',954)
+let address2 =new Address('jhon','Italy',852)
+
+console.log(areEqual(address1,address2))
+
+console.log(address1)
+
+console.log(address2)
+
+function Address(name,location,postalCode) {
+this.name=name;
+this.location=location;
+this.postalCode=postalCode;
+}
+
+function areEqual(address1,address2) {
+return(
+address1.name === address2.name &&
+address1.location === address2.location &&
+address1.postalCode === address2.postalCode   
+)   
+}
+//--------------------------------------
 let blog = new Blog('Fitness','Jhonny')
 console.log(blog)
 
 function Blog(title,author) {
 this.title=title;
 this.author=author;
-this.like=0;
+this.like=0; 
 this.comments=[];
 this.status=false;    
 }
-
-
 //------------------------------------
-
 let price =[
 {label:'$',tooltip:'inexpensive',minperson:'1',maxperson:'10'},
+
 {label:'$$',tooltip:'Moderate',minperson:'11',maxperson:'20'},
+
 {label:'$$$',tooltip:'expensive',minperson:'21',maxperson:'50'} 
 ]
 console.log(price)
+
+
+const date = new Date();
+
+date.toString(); 
+
+console.log(date)
+
 
 
 
