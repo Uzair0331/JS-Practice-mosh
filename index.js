@@ -4176,36 +4176,77 @@
 
 
 
-let address1 =new Address('a','b','c')
-let address2 =new Address('a','b','c')
-console.log(areEqual(address1,address2))
+// let address1 =new Address('a','b','c')
+// let address2 =new Address('a','b','c')
+// console.log(areEqual(address1,address2))
 
-function Address(name,location,postalCode) {
-    this.name='alex';
-    this.location='USA';
-    this.postalCode=9508;
-}
-const data = new Address(1)
-console.log(data)
+// function Address(name,location,postalCode) {
+//     this.name='alex';
+//     this.location='USA';
+//     this.postalCode=9508;
+// }
+// const data = new Address(1)
+// console.log(data)
 
-function areEqual(address1,address2) {
- return(
- address1.name ===address2.name &&
- address1.location === address2.location &&
- address1.postalCode === address2.postalCode   
- )   
-}
+// function areEqual(address1,address2) {
+//  return(
+//  address1.name ===address2.name &&
+//  address1.location === address2.location &&
+//  address1.postalCode === address2.postalCode   
+//  )   
+// }
 
 //----------------------------------
 
-let post={
-Title:'public post',
-like:10,
-profileName:'jhon',
-Comments:[
-{user148:'nice',admin:'thanks'},
-{user146:'wow',admin:'thanks'},    
-],  
-Status:'online',  
+// let post={
+// Title:'public post',
+// like:10,
+// profileName:'jhon',
+// Comments:[
+// {user148:'nice',admin:'thanks'},
+// {user146:'wow',admin:'thanks'},    
+// ],  
+// Status:'online',  
+// }
+// console.log(post)
+
+
+//-------------------------------------
+let info={
+name:'saud',
+id: 59,
+location:'Pak',    
 }
-console.log(post)
+console.log(info)
+
+//---------------------------------------
+function wc23(team1,team2) {
+console.log('match B/W'+" "+team1+" "+'&'+" "+team2)    
+}
+wc23('pak','Sa')
+
+//-----------------------------------
+let id=max(2,4)
+console.log(id)
+
+function max(x,y) {
+return(x > y)? x : y     
+}
+
+//-------------------------------------
+let pic = max(600,700)
+console.log(pic)
+
+function max(width,height) {
+if (width > height) {
+console.log('width is high');return(width)    
+}
+else if(width === height){
+console.log('width height same');return(width)    
+}    
+else{
+console.log('height is high');return(height)
+}
+}
+
+//------------------
