@@ -4412,57 +4412,84 @@
 //-----------------------------------------------
 
 
-let address1 =new Address('alex','USA',954)
-let address2 =new Address('jhon','Italy',852)
+// let address1 =new Address('alex','USA',954)
+// let address2 =new Address('jhon','Italy',852)
 
-console.log(areEqual(address1,address2))
+// console.log(areEqual(address1,address2))
 
-console.log(address1)
+// console.log(address1)
 
-console.log(address2)
+// console.log(address2)
 
-function Address(name,location,postalCode) {
-this.name=name;
-this.location=location;
-this.postalCode=postalCode;
-}
+// function Address(name,location,postalCode) {
+// this.name=name;
+// this.location=location;
+// this.postalCode=postalCode;
+// }
 
-function areEqual(address1,address2) {
-return(
-address1.name === address2.name &&
-address1.location === address2.location &&
-address1.postalCode === address2.postalCode   
-)   
-}
+// function areEqual(address1,address2) {
+// return(
+// address1.name === address2.name &&
+// address1.location === address2.location &&
+// address1.postalCode === address2.postalCode   
+// )   
+// }
+// //--------------------------------------
+// let blog = new Blog('Fitness','Jhonny')
+// console.log(blog)
+
+// function Blog(title,author) {
+// this.title=title;
+// this.author=author;
+// this.like=0; 
+// this.comments=[];
+// this.status=false;    
+// }
+// //------------------------------------
+// let price =[
+// {label:'$',tooltip:'inexpensive',minperson:'1',maxperson:'10'},
+
+// {label:'$$',tooltip:'Moderate',minperson:'11',maxperson:'20'},
+
+// {label:'$$$',tooltip:'expensive',minperson:'21',maxperson:'50'} 
+// ]
+// console.log(price)
+
+
+// const date = new Date();
+
+// date.toString(); 
+
+// console.log(date)
+
+//-----------------------------------
+// function person(info) {
+// return{
+//     Name :'lin',
+//     id :25,
+//     location :'USA'}   
+// }
+// const person1 = person(1)
+// console.log(person1)
+
 //--------------------------------------
-let blog = new Blog('Fitness','Jhonny')
-console.log(blog)
+// function person(name,id,location){
+// this.name='alon';
+// this.id ='23';
+// this.location='USA'    
+// }
+// const person1 = new person(1)
 
-function Blog(title,author) {
-this.title=title;
-this.author=author;
-this.like=0; 
-this.comments=[];
-this.status=false;    
+//-----------------------------------------
+const person={
+id : 1,
+name : 'leena',
+location:'tokyo',
+phone:65894561,    
 }
-//------------------------------------
-let price =[
-{label:'$',tooltip:'inexpensive',minperson:'1',maxperson:'10'},
+for(let key in person)
+console.log(key,person[key])
 
-{label:'$$',tooltip:'Moderate',minperson:'11',maxperson:'20'},
-
-{label:'$$$',tooltip:'expensive',minperson:'21',maxperson:'50'} 
-]
-console.log(price)
-
-
-const date = new Date();
-
-date.toString(); 
-
-console.log(date)
-
-
-
-
+for(let key of Object.keys(person))
+console.log(key)
 
