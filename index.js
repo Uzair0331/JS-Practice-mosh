@@ -4537,7 +4537,10 @@ address1.name === address2.name &&
 address1.location === address2.location &&
 address1.postalCode === address2.postalCode   
 )   
-
 }
 
-//------------------------------------------
+const date = new Date();
+
+date.toString(); 
+
+console.log(date)
