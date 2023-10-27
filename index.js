@@ -4146,26 +4146,66 @@
 //-------------------------------------
 
 
-let address1 = new address('a','b','c');
-let address2 = new address('a','b','c');
+// let address1 = new address('a','b','c');
+// let address2 = new address('a','b','c');
 
-console.log(areEqual(address1,address2));
-console.log(areSame(address1,address2));
+// console.log(areEqual(address1,address2));
+// console.log(areSame(address1,address2));
 
-function address(street,city,zipCode) {
-   this.street= street;
-   this.city=city;
-   this.zipCode=zipCode; 
+// function address(street,city,zipCode) {
+//    this.street= 10;
+//    this.city='libnan';
+//    this.zipCode=952; 
+// }
+// const data = new address(1)
+// console.log(data);
+
+// function areEqual(address1,address2) {
+//  return(
+//  address1.street === address2.street &&
+//  address1.city === address2.city &&
+//  address1.zipCode === address2.zipCode 
+//  )
+// }
+
+// function areSame(address1,address2) {
+// return(address1 === address2)    
+// }
+
+//---------------------------------------------
+
+
+
+let address1 =new Address('a','b','c')
+let address2 =new Address('a','b','c')
+console.log(areEqual(address1,address2))
+
+function Address(name,location,postalCode) {
+    this.name='alex';
+    this.location='USA';
+    this.postalCode=9508;
 }
+const data = new Address(1)
+console.log(data)
 
 function areEqual(address1,address2) {
  return(
- address1.street === address2.street &&
- address1.city === address2.city &&
- address1.zipCode === address2.zipCode 
- )
+ address1.name ===address2.name &&
+ address1.location === address2.location &&
+ address1.postalCode === address2.postalCode   
+ )   
 }
 
-function areSame(address1,address2) {
-return(address1 === address2)    
+//----------------------------------
+
+let post={
+Title:'public post',
+like:10,
+profileName:'jhon',
+Comments:[
+{user148:'nice',admin:'thanks'},
+{user146:'wow',admin:'thanks'},    
+],  
+Status:'online',  
 }
+console.log(post)
