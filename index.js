@@ -4416,20 +4416,29 @@ address1.postalCode === address2.postalCode
 
 //-------------------------------------------
 
-let blog={
-title:'Blog',
-like:10,
-profileName:'Jhonny',
-comments:[
-{user148:'Nice',admin:'Thanks'},
-{user146:'Wow',admin:'Thanks'},    
-],  
-status:'Online'  
-}
+// let blog={
+// title:'Blog',
+// like:10,
+// profileName:'Jhonny',
+// comments:[
+// {user148:'Nice',admin:'Thanks'},
+// {user146:'Wow',admin:'Thanks'},    
+// ],  
+// status:'Online'  
+// }
+// console.log(blog)
+
+//-------------------------------
+let blog = new Blog('Fitness','Jhonny')
 console.log(blog)
 
-
-
+function Blog(title,author) {
+this.title=title;
+this.author=author;
+this.like=0;
+this.comments=[];
+this.status=false;    
+}
 
 
 
