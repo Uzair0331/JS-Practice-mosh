@@ -4493,3 +4493,10 @@ console.log(key,person[key])
 for(let key of Object.keys(person))
 console.log(key)
 
+for(let enrty of Object.entries(person))
+console.log(enrty)
+
+const person1={...person}
+console.log(person1)
+
+if('id' in person)console.log('Approved')
