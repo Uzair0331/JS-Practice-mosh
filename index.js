@@ -4417,16 +4417,17 @@ address1.postalCode === address2.postalCode
 //-------------------------------------------
 
 let blog={
-Title:'Blog',
+title:'Blog',
 like:10,
-profileName:'jhonny',
-Comments:[
-{user148:'nice',admin:'thanks'},
-{user146:'wow',admin:'thanks'},    
+profileName:'Jhonny',
+comments:[
+{user148:'Nice',admin:'Thanks'},
+{user146:'Wow',admin:'Thanks'},    
 ],  
-Status:'online',  
+status:'Online'  
 }
 console.log(blog)
+
 
 
 
