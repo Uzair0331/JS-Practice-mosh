@@ -4540,7 +4540,7 @@ address1.postalCode === address2.postalCode
 }
 
 const date = new Date();
-
-date.toString(); 
-
+date.toString();
 console.log(date)
+
+
