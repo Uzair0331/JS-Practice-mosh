@@ -4211,7 +4211,8 @@
 // console.log(post)
 
 
-//-------------------------------------
+//---------------27-10-23--------------
+//------------------------------------
 let info={
 name:'saud',
 id: 59,
@@ -4249,4 +4250,35 @@ console.log('height is high');return(height)
 }
 }
 
-//------------------
+//---------------------------------------
+
+let watch=time(6);
+console.log(watch)
+function time(hour) {
+if (hour >=6 & hour <12) {
+console.log('good morning');return(hour)     
+} 
+else if(hour >=12 & hour <16){
+console.log('Good afternoon');return(hour)    
+}
+else if(hour >=16 & hour <19){
+console.log('Good evening');return(hour) 
+}
+else{
+console.log('Good night');return(hour)    
+}
+}
+
+//-------------------------------------
+
+let person=elligble(19)
+console.log(person)
+
+function elligble(age){
+if (age >=18) {
+console.log('age is ok,your age is');return(age)    
+}
+else{
+console.log('under age, your age is');return(age)  
+}    
+}
