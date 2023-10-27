@@ -4429,6 +4429,8 @@ address1.postalCode === address2.postalCode
 // console.log(blog)
 
 //-------------------------------
+
+
 let blog = new Blog('Fitness','Jhonny')
 console.log(blog)
 
@@ -4441,8 +4443,14 @@ this.status=false;
 }
 
 
+//------------------------------------
 
-
+let price =[
+{label:'$',tooltip:'inexpensive',minperson:'1',maxperson:'10'},
+{label:'$$',tooltip:'Moderate',minperson:'11',maxperson:'20'},
+{label:'$$$',tooltip:'expensive',minperson:'21',maxperson:'50'} 
+]
+console.log(price)
 
 
 
