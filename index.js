@@ -4579,3 +4579,20 @@ this.like=0;
 this.comments=[];
 this.status=false;    
 }
+
+//------------------------
+let price =[
+{label:'$',tooltip:'inexpensive',minperson:'1',maxperson:'10'},
+
+{label:'$$',tooltip:'Moderate',minperson:'11',maxperson:'20'},
+
+{label:'$$$',tooltip:'expensive',minperson:'21',maxperson:'50'} 
+]
+console.log(price)
+
+
+const date = new Date();
+
+date.toString(); 
+
+console.log(date)
