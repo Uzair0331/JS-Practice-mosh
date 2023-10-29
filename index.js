@@ -4567,3 +4567,15 @@ const person={
     console.log(person1)
     
     if('id' in person)console.log('Approved')
+
+    //------------------------------
+    let blog = new Blog('Fitness','Jhonny')
+console.log(blog)
+
+function Blog(title,author) {
+this.title=title;
+this.author=author;
+this.like=0; 
+this.comments=[];
+this.status=false;    
+}
