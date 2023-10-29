@@ -4481,66 +4481,89 @@
 // const person1 = new person(1)
 
 //-----------------------------------------
+// const person={
+// id : 1,
+// name : 'leena',
+// location:'tokyo',
+// phone:65894561,    
+// }
+// for(let key in person)
+// console.log(key,person[key])
+
+// for(let key of Object.keys(person))
+// console.log(key)
+
+// for(let enrty of Object.entries(person))
+// console.log(enrty)
+
+// const person1={...person}
+// console.log(person1)
+
+// if('id' in person)console.log('Approved')
+
+// //-------------------------------------------
+// let post={
+// title :'blog',
+// postedBy:'leli',
+// like : 5,
+// comment:[
+// {user321:'good one',admin:'thanks'},
+// {user842:'good ',admin:'thanks'},
+// ],
+// status:'online'    
+// }
+// console.log(post)
+
+// ///------------------------------------
+
+// let address1 =new Address('alex','USA',954)
+// let address2 =new Address('jhon','Italy',852)
+
+// console.log(address1)
+
+// console.log(address2)
+
+// console.log(areEqual(address1,address2))
+
+// function Address(name,location,postalCode) {
+// this.name=name;
+// this.location=location;
+// this.postalCode=postalCode;
+// }
+
+// function areEqual(address1,address2) {
+// return(
+// address1.name === address2.name &&
+// address1.location === address2.location &&
+// address1.postalCode === address2.postalCode   
+// )   
+// }
+
+// const date = new Date();
+// date.toString();
+// console.log(date)
+
+
+///-----------------------------------------
+
+
+
 const person={
-id : 1,
-name : 'leena',
-location:'tokyo',
-phone:65894561,    
-}
-for(let key in person)
-console.log(key,person[key])
-
-for(let key of Object.keys(person))
-console.log(key)
-
-for(let enrty of Object.entries(person))
-console.log(enrty)
-
-const person1={...person}
-console.log(person1)
-
-if('id' in person)console.log('Approved')
-
-//-------------------------------------------
-let post={
-title :'blog',
-postedBy:'leli',
-like : 5,
-comment:[
-{user321:'good one',admin:'thanks'},
-{user842:'good ',admin:'thanks'},
-],
-status:'online'    
-}
-console.log(post)
-
-///------------------------------------
-
-let address1 =new Address('alex','USA',954)
-let address2 =new Address('jhon','Italy',852)
-
-console.log(address1)
-
-console.log(address2)
-
-console.log(areEqual(address1,address2))
-
-function Address(name,location,postalCode) {
-this.name=name;
-this.location=location;
-this.postalCode=postalCode;
-}
-
-function areEqual(address1,address2) {
-return(
-address1.name === address2.name &&
-address1.location === address2.location &&
-address1.postalCode === address2.postalCode   
-)   
-}
-
-const date = new Date();
-date.toString();
-console.log(date)
-
-
+    id : 1,
+    name : 'leena',
+    location:'tokyo',
+    phone:65894561,    
+    }
+    for(let key in person)
+    console.log(key,person[key])
+    
+    for(let key of Object.keys(person))
+    console.log(key)
+    
+    for(let enrty of Object.entries(person))
+    console.log(enrty)
+    
+    const person1={...person}
+    console.log(person1)
+    
+    if('id' in person)console.log('Approved')
