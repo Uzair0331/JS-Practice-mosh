@@ -4609,3 +4609,27 @@ const person1 = person(1)
 console.log(person1)
 
 //--------------------------------------
+
+
+let address1 =new Address('alex','USA',954)
+let address2 =new Address('jhon','Italy',852)
+
+console.log(address1)
+
+console.log(address2)
+
+console.log(areEqual(address1,address2))
+
+function Address(name,location,postalCode) {
+this.name=name;
+this.location=location;
+this.postalCode=postalCode;
+}
+
+function areEqual(address1,address2) {
+return(
+address1.name === address2.name &&
+address1.location === address2.location &&
+address1.postalCode === address2.postalCode   
+)   
+}
