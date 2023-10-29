@@ -4581,21 +4581,21 @@ this.status=false;
 }
 
 //------------------------
-let price =[
-{label:'$',tooltip:'inexpensive',minperson:'1',maxperson:'10'},
+// let price =[
+// {label:'$',tooltip:'inexpensive',minperson:'1',maxperson:'10'},
 
-{label:'$$',tooltip:'Moderate',minperson:'11',maxperson:'20'},
+// {label:'$$',tooltip:'Moderate',minperson:'11',maxperson:'20'},
 
-{label:'$$$',tooltip:'expensive',minperson:'21',maxperson:'50'} 
-]
-console.log(price)
+// {label:'$$$',tooltip:'expensive',minperson:'21',maxperson:'50'} 
+// ]
+// console.log(price)
 
 
-const date = new Date();
+// const date = new Date();
 
-date.toString(); 
+// date.toString(); 
 
-console.log(date)
+// console.log(date)
 
 //-----------------------------------------------------------
 
@@ -4633,3 +4633,8 @@ address1.location === address2.location &&
 address1.postalCode === address2.postalCode   
 )   
 }
+
+
+const date = new Date();
+date.toString();
+console.log(date)
