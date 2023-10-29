@@ -4548,25 +4548,25 @@
 
 
 
-const person={
-    id : 1,
-    name : 'leena',
-    location:'tokyo',
-    phone:65894561,    
-    }
-    for(let key in person)
-    console.log(key,person[key])
+// const person={
+//     id : 1,
+//     name : 'leena',
+//     location:'tokyo',
+//     phone:65894561,    
+//     }
+//     for(let key in person)
+//     console.log(key,person[key])
     
-    for(let key of Object.keys(person))
-    console.log(key)
+//     for(let key of Object.keys(person))
+//     console.log(key)
     
-    for(let enrty of Object.entries(person))
-    console.log(enrty)
+//     for(let enrty of Object.entries(person))
+//     console.log(enrty)
     
-    const person1={...person}
-    console.log(person1)
+//     const person1={...person}
+//     console.log(person1)
     
-    if('id' in person)console.log('Approved')
+//     if('id' in person)console.log('Approved')
 
     //------------------------------
     let blog = new Blog('Fitness','Jhonny')
@@ -4596,3 +4596,16 @@ const date = new Date();
 date.toString(); 
 
 console.log(date)
+
+//-----------------------------------------------------------
+
+function person(info) {
+return{
+    Name :'lin',
+    id :25,
+    location :'USA'}   
+}
+const person1 = person(1)
+console.log(person1)
+
+//--------------------------------------
