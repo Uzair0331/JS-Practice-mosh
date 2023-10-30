@@ -4771,12 +4771,12 @@
 // console.log(person1)
 
 //---------------------------------
-const person={
-id : 1,
-name : 'leena',
-location:'tokyo',
-phone:65894561,    
-}
+// const person={
+// id : 1,
+// name : 'leena',
+// location:'tokyo',
+// phone:65894561,    
+// }
 // for(let key in person)
 // console.log(key,person[key])
 
@@ -4786,7 +4786,54 @@ phone:65894561,
 // for(let entry of Object.entries(person))
 // console.log(entry)
 
-const person1={...person}
-console.log(person1)
+// const person1={...person}
+// console.log(person1)
 
-if('id' in person)console.log('approved')
+// if('id' in person)console.log('approved')
+
+//-----------------------------------------
+// let blog = new Blog('Fitness','Jhonny')
+// console.log(blog)
+
+// function Blog(title,author) {
+// this.title=title;
+// this.author=author;
+// this.like=0; 
+// this.comments=[user654='nice',author='thanks'],
+// [user656='fab',author='thanks'];
+// this.status=true;    
+// }
+
+// const date = new Date();
+// date.toString();
+// console.log(date)
+
+
+
+//--------------Arrays----------------------
+//---------Adding Elements------------------
+
+// const numbers =[3,4];
+
+//--------end
+
+// numbers.push(5,6);
+
+//----------begining--------------
+// numbers.unshift(1,2);
+
+//-----------middle-----------
+// numbers.splice(2 ,0, 'a','');
+
+// console.log(numbers)
+
+
+//----------------------------------------
+//---------finding(primitives)-----------
+const numbers =[1,2,3,4,5,6,7];
+
+console.log(numbers.indexOf(6,2));
+console.log(numbers.lastIndexOf(1));
+
+console.log(numbers.indexOf(1) !== -1);
+console.log(numbers.includes(1));
