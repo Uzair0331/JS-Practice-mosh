@@ -4640,15 +4640,57 @@
 // console.log(date)
 
 //-----------------30-10-23--------------------------
-let info={
-name :'pola',
-location:'sydney',
-id:9854,
-}
-console.log(info)
+// let info={
+// name :'pola',
+// location:'sydney',
+// id:9854,
+// }
+// console.log(info)
 
-//------------------------------------------
-function wc23(team1,team2){
-console.log('match b/w'+" "+team1+" "+'&'+" "+team2)    
+// //------------------------------------------
+// function wc23(team1,team2){
+// console.log('match b/w'+" "+team1+" "+'&'+" "+team2)    
+// }
+// wc23('Afg','Sri')
+
+// //-----------------------------------------
+// let id = max (2,4)
+// console.log(id)
+
+// function max(x,y){
+// return(x>y)? x : y
+// }
+//------------------------------------------------------
+// let pic = max(700,600)
+// console.log(pic)
+
+// function max(width,height) {
+// if (width > height) {
+// console.log('width is max');return (width)   
+// }
+// else if(width === height){
+// console.log('width & height same');return(width)
+// }    
+// else{
+// console.log('height is max'); return(height)    
+// }
+// }
+
+//----------------------------------------------------
+let watch = time(17)
+console.log(watch)
+
+function time(hour) {
+if (hour >=6 & hour <12) {
+console.log('good morning');return(hour)    
 }
-wc23('Afg','Sri')
+else if (hour >=12 & hour <16){
+console.log('good afternoon');return(hour)      
+} 
+else if (hour >=16 & hour <18){
+console.log('good evening');return(hour)  
+}  
+else{
+console.log('good night');return(hour)    
+} 
+}
