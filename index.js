@@ -4569,16 +4569,16 @@
 //     if('id' in person)console.log('Approved')
 
     //------------------------------
-    let blog = new Blog('Fitness','Jhonny')
-console.log(blog)
+//     let blog = new Blog('Fitness','Jhonny')
+// console.log(blog)
 
-function Blog(title,author) {
-this.title=title;
-this.author=author;
-this.like=0; 
-this.comments=[];
-this.status=false;    
-}
+// function Blog(title,author) {
+// this.title=title;
+// this.author=author;
+// this.like=0; 
+// this.comments=[];
+// this.status=false;    
+// }
 
 //------------------------
 // let price =[
@@ -4599,42 +4599,56 @@ this.status=false;
 
 //-----------------------------------------------------------
 
-function person(info) {
-return{
-    Name :'lin',
-    id :25,
-    location :'USA'}   
+// function person(info) {
+// return{
+//     Name :'lin',
+//     id :25,
+//     location :'USA'}   
+// }
+// const person1 = person(1)
+// console.log(person1)
+
+// //--------------------------------------
+
+
+// let address1 =new Address('alex','USA',954)
+// let address2 =new Address('jhon','Italy',852)
+
+// console.log(address1)
+
+// console.log(address2)
+
+// console.log(areEqual(address1,address2))
+
+// function Address(name,location,postalCode) {
+// this.name=name;
+// this.location=location;
+// this.postalCode=postalCode;
+// }
+
+// function areEqual(address1,address2) {
+// return(
+// address1.name === address2.name &&
+// address1.location === address2.location &&
+// address1.postalCode === address2.postalCode   
+// )   
+// }
+
+
+// const date = new Date();
+// date.toString();
+// console.log(date)
+
+//-----------------30-10-23--------------------------
+let info={
+name :'pola',
+location:'sydney',
+id:9854,
 }
-const person1 = person(1)
-console.log(person1)
+console.log(info)
 
-//--------------------------------------
-
-
-let address1 =new Address('alex','USA',954)
-let address2 =new Address('jhon','Italy',852)
-
-console.log(address1)
-
-console.log(address2)
-
-console.log(areEqual(address1,address2))
-
-function Address(name,location,postalCode) {
-this.name=name;
-this.location=location;
-this.postalCode=postalCode;
+//------------------------------------------
+function wc23(team1,team2){
+console.log('match b/w'+" "+team1+" "+'&'+" "+team2)    
 }
-
-function areEqual(address1,address2) {
-return(
-address1.name === address2.name &&
-address1.location === address2.location &&
-address1.postalCode === address2.postalCode   
-)   
-}
-
-
-const date = new Date();
-date.toString();
-console.log(date)
+wc23('Afg','Sri')
