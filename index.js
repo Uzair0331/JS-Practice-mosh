@@ -4837,9 +4837,11 @@
 const numbers =[1,2,3,4,5,6,7];
 
 console.log(numbers.indexOf(6,2));
+
 console.log(numbers.lastIndexOf(2));
 
 console.log(numbers.indexOf(8) !== -1);
+
 console.log(numbers.includes(1));
 
 
@@ -4847,11 +4849,42 @@ console.log(numbers.includes(1));
 
 
 const subjects =[
- {id : 1 , name:'english'},
- {id : 2 , name:'math'},
+ {sno : 1 , subject:'english'},
+ {sno : 2 , subject:'math'},
+ {sno : 3 , subject:'Physic'},
 ]
-
-const subject = subjects.find(function (subjects) {
- return subjects.id === 1;   
+const subject = subjects.find(function (subjects){
+return subjects.sno === 1;
 });
-console.log(subject)
+
+const persons=[
+{id : 11,name:'lona'},
+{id : 12,name:'james'},
+{id : 13,name:'alen'},
+]
+const person=persons.find(function(persons){
+return persons.id ===12;
+});
+
+console.log(person,subject)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
