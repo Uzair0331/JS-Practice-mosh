@@ -4829,11 +4829,29 @@
 
 
 //----------------------------------------
-//---------finding(primitives)-----------
+
+
+//---------finding element (primitives)-----------
+
+
 const numbers =[1,2,3,4,5,6,7];
 
 console.log(numbers.indexOf(6,2));
-console.log(numbers.lastIndexOf(1));
+console.log(numbers.lastIndexOf(2));
 
-console.log(numbers.indexOf(1) !== -1);
+console.log(numbers.indexOf(8) !== -1);
 console.log(numbers.includes(1));
+
+
+//--------finding element (Reference types)-------
+
+
+const subjects =[
+ {id : 1 , name:'english'},
+ {id : 2 , name:'math'},
+]
+
+const subject = subjects.find(function (subjects) {
+ return subjects.id === 1;   
+});
+console.log(subject)
