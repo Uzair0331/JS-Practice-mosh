@@ -4696,28 +4696,97 @@
 // }
 
 //-------------------------------------------------
-hello(1)
-function hello(i) {
-for (let i = 1; i <= 5; i++) {
-    console.log('hello',i);
+// hello(1)
+// function hello(i) {
+// for (let i = 1; i <= 5; i++) {
+//     console.log('hello',i);
     
-}    
-}
-//----------------------------------------------
-even(1)
-function even(a) {
-while (a <= 10) {
-if(a % 2 ===0)
-console.log('even',a)
-a++;    
-}    
-}
+// }    
+// }
+// //----------------------------------------------
+// even(1)
+// function even(a) {
+// while (a <= 10) {
+// if(a % 2 ===0)
+// console.log('even',a)
+// a++;    
+// }    
+// }
+// //-------------------------------------------
+// odd(1)
+// function odd(y) {
+// do {
+// if(y %2 !==0)
+// console.log('odd',y)
+// y++;    
+// } while (y <= 10);    
+// }
+//--------------------------------------------
+
+// evenodd(1)
+// function evenodd(a) {
+// do {
+// let show=(a %2 ===0)? 'even' : 'odd'
+// console.log(show,a)
+// a++;    
+// } while (a <=10);    
+// }
+
+
 //-------------------------------------------
-odd(1)
-function odd(y) {
-do {
-if(y %2 !==0)
-console.log('odd',y)
-y++;    
-} while (y <= 10);    
+// show(5)
+// function show(rows) {
+// for (let row = 1; row <= rows; row++) {
+// let p ='';    
+// for (let i = 0; i <=row; i++)
+// p +='*'
+// console.log(p) 
+// }    
+// }
+
+// //-------------------------------------------------
+// let output = Name(5)
+// console.log(output)
+
+// function Name(input) {
+// if(typeof input !== "number")return"NAN"
+
+// if(input % 3 ===0 && input % 5===0)return"logiTech"
+
+// if(input % 3 ===0)return"logi"
+
+// if(input % 5 ===0) return"tech"
+// }
+
+
+//----------------------------------
+// function person(detail) {
+// return{
+// name:'lonu',
+// location:'china',
+// postalCode:6545,    
+// }    
+// }
+// const person1= person(1)
+// console.log(person1)
+
+//---------------------------------
+const person={
+id : 1,
+name : 'leena',
+location:'tokyo',
+phone:65894561,    
 }
+// for(let key in person)
+// console.log(key,person[key])
+
+// for(let key of Object.keys(person))
+// console.log(key)
+
+// for(let entry of Object.entries(person))
+// console.log(entry)
+
+const person1={...person}
+console.log(person1)
+
+if('id' in person)console.log('approved')
