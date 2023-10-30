@@ -4677,20 +4677,47 @@
 // }
 
 //----------------------------------------------------
-let watch = time(17)
-console.log(watch)
+// let watch = time(17)
+// console.log(watch)
 
-function time(hour) {
-if (hour >=6 & hour <12) {
-console.log('good morning');return(hour)    
+// function time(hour) {
+// if (hour >=6 & hour <12) {
+// console.log('good morning');return(hour)    
+// }
+// else if (hour >=12 & hour <16){
+// console.log('good afternoon');return(hour)      
+// } 
+// else if (hour >=16 & hour <18){
+// console.log('good evening');return(hour)  
+// }  
+// else{
+// console.log('good night');return(hour)    
+// } 
+// }
+
+//-------------------------------------------------
+hello(1)
+function hello(i) {
+for (let i = 1; i <= 5; i++) {
+    console.log('hello',i);
+    
+}    
 }
-else if (hour >=12 & hour <16){
-console.log('good afternoon');return(hour)      
-} 
-else if (hour >=16 & hour <18){
-console.log('good evening');return(hour)  
-}  
-else{
-console.log('good night');return(hour)    
-} 
+//----------------------------------------------
+even(1)
+function even(a) {
+while (a <= 10) {
+if(a % 2 ===0)
+console.log('even',a)
+a++;    
+}    
+}
+//-------------------------------------------
+odd(1)
+function odd(y) {
+do {
+if(y %2 !==0)
+console.log('odd',y)
+y++;    
+} while (y <= 10);    
 }
