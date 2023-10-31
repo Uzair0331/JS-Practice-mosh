@@ -4813,6 +4813,8 @@
 //--------------Arrays----------------------
 //---------Adding Elements------------------
 
+
+
 // const numbers =[3,4];
 
 //--------end
@@ -4832,59 +4834,137 @@
 
 
 //---------finding element (primitives)-----------
+//-----------------------------------------------
+
+// const numbers =[1,2,3,4,5,6,7];
+
+// console.log(numbers.indexOf(6,2));
+
+// console.log(numbers.lastIndexOf(2));
+
+// console.log(numbers.indexOf(8) !== -1);
+
+// console.log(numbers.includes(1));
 
 
-const numbers =[1,2,3,4,5,6,7];
-
-console.log(numbers.indexOf(6,2));
-
-console.log(numbers.lastIndexOf(2));
-
-console.log(numbers.indexOf(8) !== -1);
-
-console.log(numbers.includes(1));
 
 
 //--------finding element (Reference types)-------
+//---------------------------------------------
 
+// const subjects =[
+//  {sno : 1 , subject:'english'},
+//  {sno : 2 , subject:'math'},
+//  {sno : 3 , subject:'Physic'},
+// ]
+// const subject = subjects.find(function (subjects){
+// return subjects.sno === 1;
+// });
 
-const subjects =[
- {sno : 1 , subject:'english'},
- {sno : 2 , subject:'math'},
- {sno : 3 , subject:'Physic'},
-]
-const subject = subjects.find(function (subjects){
-return subjects.sno === 1;
-});
+// const persons=[
+// {id : 11,name:'lona'},
+// {id : 12,name:'james'},
+// {id : 13,name:'alen'},
+// ]
+// const person=persons.find(persons => persons.id ===12
+// );
 
-const persons=[
-{id : 11,name:'lona'},
-{id : 12,name:'james'},
-{id : 13,name:'alen'},
-]
-const person=persons.find(function(persons){
-return persons.id ===12;
-});
-
-console.log(person,subject)
-
-
+// console.log(person,subject)
 
 
 
+//----------------------------------
+//---------Removing element--------
 
 
 
+// const numbers=[1,2,3,4]
+
+//------End
+// const last = numbers.pop();
+// console.log(numbers);
+// console.log(last);
+
+//---------Begining----------
+// const start = numbers.shift();
+// console.log(numbers);
+// console.log(start);
+
+//------------in the middle---------------
+// const middle = numbers.splice(2,2)
+// console.log(numbers)
+// console.log(middle)
 
 
 
+//--------------------------------------
+//----------Emptying an array----------
+
+// let num =[1,2,3,4,5];
+// let another = num;
+
+//----------solution 1
+// num = [];
+
+//--------solution 2
+// num.length=0;
+
+// console.log(num);
+// console.log(another);
 
 
+//--------------------------------------------
+//------combining and slicing array------------
+
+// const first =[1,2,3]
+// const Second=[4,5,6]
+
+// const combine = first.concat(Second)
 
 
+// const slice =combine.slice(2,5)
 
+// console.log(combine)
+// console.log(slice)
 
+//-------------------------------------------
 
+//---------------31-10-23-------------------
 
+// function person(detail) {
+// return{
+// name:'Alaska',
+// location:'NY',
+// id:65,
+// phone:9841318618,
+// comment:[p1='asd',p2='plojd'],    
+// }    
+// }
+// const person1 = person(1)
+// console.log(person1)
 
+//------------------------------------------------
+const person={
+name:'Alaska',
+location:'NY',
+id:99,
+phone:9841318618,
+comment:[p1='asd',p2='plojd']  
+}
 
+if('id'  in person){console.log('Approved')
+
+for(let key in person)
+console.log(key,person[key])
+
+for(let key of Object.keys(person))
+console.log(key)
+
+for(let entry of Object.entries(person))
+console.log(entry)
+
+const person1 ={...person}
+console.log(person1)
+}
+
+else {console.log('id not found')}
