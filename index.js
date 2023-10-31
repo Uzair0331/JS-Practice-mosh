@@ -4968,3 +4968,36 @@ console.log(person1)
 }
 
 else {console.log('id not found')}
+
+//------------------------------------------
+ let post = new Post('Fitness','Jhonny')
+console.log(post)
+
+function Post(title,author) {
+this.id=25;
+this.title=title;
+this.author=author;
+this.likes=5;
+this.status='online';
+this.comment=
+[user='osm',author='thanks'];
+[user='wow',author='thanks'];
+}
+
+const date =new Date();
+date.toString();
+console.log(date)
+
+//-------------------------------------
+const num=[3,4]
+num.push(5,6,7)
+
+num.unshift(1,2)
+
+num.splice(1,2)
+
+console.log(num)
+
+//-------------------------------------
+const number=[1,2,3,4,5,6]
+console.log(number.indexOf(5,2))
