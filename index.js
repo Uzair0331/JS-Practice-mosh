@@ -4944,84 +4944,134 @@
 // console.log(person1)
 
 //------------------------------------------------
-const person={
-name:'Alaska',
-location:'NY',
-id:99,
-phone:9841318618,
-comment:[p1='asd',p2='plojd']  
-}
+// const person={
+// name:'Alaska',
+// location:'NY',
+// id:99,
+// phone:9841318618,
+// comment:[p1='asd',p2='plojd']  
+// }
 
-if('id'  in person){console.log('Approved')
+// if('id'  in person){console.log('Approved')
 
-for(let key in person)
-console.log(key,person[key])
+// for(let key in person)
+// console.log(key,person[key])
 
-for(let key of Object.keys(person))
-console.log(key)
+// for(let key of Object.keys(person))
+// console.log(key)
 
-for(let entry of Object.entries(person))
-console.log(entry)
+// for(let entry of Object.entries(person))
+// console.log(entry)
 
-const person1 ={...person}
-console.log(person1)
-}
+// const person1 ={...person}
+// console.log(person1)
+// }
 
-else {console.log('id not found')}
+// else {console.log('id not found')}
 
-//------------------------------------------
- let post = new Post('Fitness','Jhonny')
-console.log(post)
+// //------------------------------------------
+//  let post = new Post('Fitness','Jhonny')
+// console.log(post)
 
-function Post(title,author) {
-this.id=25;
-this.title=title;
-this.author=author;
-this.likes=5;
-this.status='online';
-this.comment=
-[user='osm',author='thanks'];
-[user='wow',author='thanks'];
-}
+// function Post(title,author) {
+// this.id=25;
+// this.title=title;
+// this.author=author;
+// this.likes=5;
+// this.status='online';
+// this.comment=
+// [user='osm',author='thanks'];
+// [user='wow',author='thanks'];
+// }
 
-const date =new Date();
-date.toString();
-console.log(date)
+// const date =new Date();
+// date.toString();
+// console.log(date)
 
-//-------------------------------------
-const num=[3,4]
-num.push(5,6,7)
+// //-------------------------------------
+// const num=[3,4]
+// num.push(5,6,7)
 
-num.unshift(1,2)
+// num.unshift(1,2)
 
-num.splice(1,2)
+// num.splice(1,2)
 
-console.log(num)
+// console.log(num)
 
-//-------------------------------------
+// //-------------------------------------
 
-const number=[1,2,3,4,5,6]
-console.log(number.indexOf(2));
+// const number=[1,2,3,4,5,6]
+// console.log(number.indexOf(2));
 
-console.log(number.lastIndexOf(2));
+// console.log(number.lastIndexOf(2));
 
-console.log(number.includes(5));
+// console.log(number.includes(5));
 
 
-//---------------------------------
-const subjects =[
-{sno : 1 , subject:'english'},
-{sno : 2 , subject:'math'},
-{sno : 3 , subject:'Physic'},
-]
-const subject = subjects.find(function (subjects){
-return subjects.sno === 1;
-});
+// //---------------------------------
+// const subjects =[
+// {sno : 1 , subject:'english'},
+// {sno : 2 , subject:'math'},
+// {sno : 3 , subject:'Physic'},
+// ]
+// const subject = subjects.find(function (subjects){
+// return subjects.sno === 1;
+// });
 
-const students =[
-{id :100,name:'alex'},
-{id :101,name:'alen'},
-{id :102,name:'lona'},    
-]
-const student =students.find(students => students.id ===101)
-console.log(subjects,students)
+// const students =[
+// {id :100,name:'alex'},
+// {id :101,name:'alen'},
+// {id :102,name:'lona'},    
+// ]
+// const student = students.find(students => students.id ===101)
+// console.log(subjects,students) 
+
+//----------------------------------------
+
+// const numbers=[1,2,3,4]
+
+// const last = numbers.pop();
+// console.log(numbers);
+// console.log(last);
+
+
+// const start = numbers.shift();
+// console.log(numbers);
+// console.log(start);
+
+
+// const middle = numbers.splice()
+// console.log(numbers)
+// console.log(middle);
+
+//--------------------------------------
+let num = [1,2,3,4,5]
+let another=num
+num.length=0;
+console.log(num,another)
+
+
+//--------------------------------------
+
+// const first =[1,2,3,4]
+// const Second=[5,6,7,8]
+
+// const combine = first.concat(Second)
+
+
+// const slice =combine.slice(1,6)
+
+// console.log(combine)
+// console.log(slice)
+
+///---------------------
+let num1=[1,2,3,4]
+let num2=[5,6,7,8]
+
+const combine =num1.concat(num2)
+ console.log(combine)
+
+
+
+
+
