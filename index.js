@@ -4999,5 +4999,29 @@ num.splice(1,2)
 console.log(num)
 
 //-------------------------------------
+
 const number=[1,2,3,4,5,6]
-console.log(number.indexOf(5,2))
+console.log(number.indexOf(2));
+
+console.log(number.lastIndexOf(2));
+
+console.log(number.includes(5));
+
+
+//---------------------------------
+const subjects =[
+{sno : 1 , subject:'english'},
+{sno : 2 , subject:'math'},
+{sno : 3 , subject:'Physic'},
+]
+const subject = subjects.find(function (subjects){
+return subjects.sno === 1;
+});
+
+const students =[
+{id :100,name:'alex'},
+{id :101,name:'alen'},
+{id :102,name:'lona'},    
+]
+const student =students.find(students => students.id ===101)
+console.log(subjects,students)
