@@ -5123,14 +5123,32 @@
 
 //---------------------------------------------------
 
-let person1 ={
+let person1 ={   
+id  :65,   
 name : 'Ali jutt',
 age :24,
 email :'ali54@gmail.com',
 greet : function(){console.log('Hello from Ali')},
 }
 person1.hobbies=['playing football','Reading','Drawing'];
-delete person1.age;
+
+
+
+if('id' in person1)console.log('Approved,your id is'+" "+person1.id)
+else{console.log('id not found')}
+person1.greet();
 
 console.log(person1)
-person1.greet();
+
+for(let key in person1)
+console.log(key,person1[key])
+
+for(let entry of Object.entries(person1))
+console.log(entry)
+
+const newPerson ={...person1}
+console.log(newPerson)
+
+let date= new Date()
+date.toString()
+console.log(date)
