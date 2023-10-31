@@ -5045,10 +5045,10 @@
 // console.log(middle);
 
 //--------------------------------------
-let num = [1,2,3,4,5]
-let another=num
-num.length=0;
-console.log(num,another)
+// let num = [1,2,3,4,5]
+// let another=num
+// num.length=0;
+// console.log(num,another)
 
 
 //--------------------------------------
@@ -5065,13 +5065,31 @@ console.log(num,another)
 // console.log(slice)
 
 ///---------------------
-let num1=[1,2,3,4]
-let num2=[5,6,7,8]
-
-const combine =num1.concat(num2)
- console.log(combine)
 
 
+// let num1=[1,2,3,4]
+// let num2=[5,6,7,8]
+
+// const combine =num1.concat(num2)
+// combine.length=5; 
+// console.log(combine)
+
+// const slice=combine.slice(2,7)
+// console.log(slice) 
 
 
+//--------------with spread operators--------------
+// let num1 =[1,2,3,4]
+// let num2 =[5,6,7,8]
+// const combine =[...num1,...num2]
+// console.log(combine)
 
+//------------Iterating an Array-------------------
+//----------solution 1----------------------
+let num = [1,2,3,4,5]
+
+for(let number in num)
+console.log(number,num[number])
+
+//-----------solution 2--------------
+num.forEach((num,index) => console.log(index,num));
