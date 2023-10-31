@@ -5084,12 +5084,53 @@
 // const combine =[...num1,...num2]
 // console.log(combine)
 
+
+
+
+
 //------------Iterating an Array-------------------
 //----------solution 1----------------------
-let num = [1,2,3,4,5]
 
-for(let number in num)
-console.log(number,num[number])
 
-//-----------solution 2--------------
-num.forEach((num,index) => console.log(index,num));
+
+// let num = [1,2,3,4,5]
+
+// for(let number in num)
+// console.log(number,num[number])
+
+
+
+// //-----------solution 2--------------
+// num.forEach((num,index) => console.log(index,num));
+
+
+
+
+
+//---------------joining  Array---------------------
+
+// const num =[1,2,3];
+// const joined = num.join('-');
+// console.log(joined);
+
+// const message = 'This is my message';
+// const parts = message.split('  ');
+// console.log(parts);
+
+// const combine = parts.join('-');
+// console.log(combine)
+
+
+//---------------------------------------------------
+
+let person1 ={
+name : 'Ali jutt',
+age :24,
+email :'ali54@gmail.com',
+greet : function(){console.log('Hello from Ali')},
+}
+person1.hobbies=['playing football','Reading','Drawing'];
+delete person1.age;
+
+console.log(person1)
+person1.greet();
