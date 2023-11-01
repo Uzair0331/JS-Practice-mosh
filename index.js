@@ -5168,28 +5168,59 @@
 // console.log(person1)
 
 //--------------------------------------------------
-const num =[3,4]
-num.push(5,6)
-num.unshift(1,2)
-num.splice(1,2)
-console.log(num)
+// const num =[3,4]
+// num.push(5,6)
+// num.unshift(1,2)
+// num.splice(2,0,3,4)
+// console.log(num)
+
+//---------------------------------------
+// const number=[1,2,3,4,5,6,7,8]
+
+// console.log(number.indexOf(2))
+
+// console.log(number.lastIndexOf(6))
+
+// console.log(number.includes(3))
+
+//----------------------------------------
+
+// const courses=[
+// {id : 101 , name:'English'},    
+// {id : 102 , name:'Urdu'},
+// {id : 103 , name:'Math'},
+// {id : 104 , name:'Physics'},
+// ]
+// const course = courses.find(function(course){
+// return course.id === 103;    
+// })
+// console.log(course);
+
+// const course = courses.find(course => course.id === 104)
+// console.log(course)
+
+//---------------------------------------------------
+
+// const num =[1,2,3,4,5,6,7,8]
+
+// const last =num.pop(1);
+// console.log(num)
+// console,log(last)
+
+// const start = num.shift(2)
+// console.log(num)
+
+// const middle = num.splice(2,2)
+// console.log(num)
+
+//------------------------------------------------------
+
+const number1 =[1,2,3,4]
+const number2 =[5,6,7,8]
+
+const combine =number1.concat(number2)
 
 
-const number=[1,2,3,4,5,6,7,8]
-console.log(number.indexOf(2))
-
-console.log(number.lastIndexOf(6))
-
-console.log(number.includes(3))
-
-
-const courses=[
-{id : 101 , name:'English'},    
-{id : 102 , name:'Urdu'},
-{id : 103 , name:'Math'},
-{id : 104 , name:'Physics'},
-]
-const course = courses.find(function(course){
-return course.id === 103;    
-})
-console.log(course);
+const slice = combine.slice(2,4)
+console.log(combine);
+console.log(slice);
