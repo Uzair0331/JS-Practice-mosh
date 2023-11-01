@@ -5215,12 +5215,58 @@
 
 //------------------------------------------------------
 
-const number1 =[1,2,3,4]
-const number2 =[5,6,7,8]
+// const number1 =[1,2,3,4]
+// const number2 =[5,6,7,8]
 
-const combine =number1.concat(number2)
+// const combine =number1.concat(number2)
 
 
-const slice = combine.slice(2,4)
-console.log(combine);
-console.log(slice);
+// const slice = combine.slice(2,4)
+// console.log(combine);
+// console.log(slice);
+
+// const combine =[...number1,...number2]
+// console.log(combine)
+
+//-------------------------------
+// const num = [3,4]
+// num.push(5,6)
+
+// num.unshift(1,2)
+
+// num.splice(6,0,7,8)
+
+// console.log(num)
+
+// const num = [1,2,3,4,5,6,7,8]
+
+// console.log(num.indexOf(9))
+
+// console.log(num.lastIndexOf(8))
+
+// console.log(num.includes(7))
+
+
+//--------------------------------
+// const num =[1,2,3,4]
+
+// for(let number in num)
+// console.log(number,num[number])
+
+// num.forEach((num,index) => console.log(num,index))
+
+//-------------------------------------------------
+
+const num =[-5]
+//-----(every)
+// const positive = num.every(function(value){
+// return value >=0;    
+// })
+// console.log(positive)
+
+//-----(some)---------
+
+const somePositive = num.some(function(value){
+return value >=0;    
+})
+console.log(somePositive)
