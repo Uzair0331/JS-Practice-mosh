@@ -1427,7 +1427,7 @@
 //------------4loop------------------
 // for (let i = 1; i <= 5; i++) {
 //     console.log('hello world',i);
-    
+
 // }
 //---------------------------
 // for (let a = 1; a <10; a++) {
@@ -1572,12 +1572,12 @@
 // console.log(num);
 
 // function landscapeOrPotrait(width,height){
-   
+
 //     if(width > height){
 //         console.log('this photo is Landscape')
 //     return(width);
 //         }
-        
+
 //     else if(width === height){
 //      console.log('width & Height same')   
 //      return(width);
@@ -1619,7 +1619,7 @@
 // function checkSpeed(speed){
 // const speedLimit =70;
 // const kmPerPoint =5;
-   
+
 // if(speed < speedLimit + kmPerPoint){
 // console.log('speed is ok');
 // return;
@@ -1725,7 +1725,7 @@
 // function checkSpeed(speed){
 // const speedLimit =70;
 // const kmPerPoint =5;
-   
+
 // if(speed < speedLimit + kmPerPoint){
 // console.log('Vehicle speed is ok');
 // return;
@@ -1756,7 +1756,7 @@
 //----------------18-10-23--------------------
 // function wc23 (team1,team2){
 //   console.log('Date 18-10-23 match b/w'+" "+team1+" "+'V.S'+" "+team2);  
- 
+
 // }
 // wc23('nz','afg');
 
@@ -1944,7 +1944,7 @@
 
 // if((input % 3 === 0) && (input % 5 === 0))
 // return('Log in & Pass');
-   
+
 // if(input % 3 === 0)
 // return('log in');
 
@@ -1986,7 +1986,7 @@
 // properties(Movie);
 
 // function properties(obj){
-  
+
 // for (let key in obj)
 
 // {if(typeof obj [key] === "string")
@@ -2228,9 +2228,9 @@
 // for (let key in obj) 
 //     if(typeof obj[key] === "string")
 //     console.log(key,obj[key]);
-        
+
 //     }
-    
+
 // const person ={
 // name : "jay",
 // location : "italy",
@@ -2326,7 +2326,7 @@
 // for (let a = 1; a <limit; a++) {
 //     const show=(a %2 ===0) ? "even" : "odd";
 //     console.log(a,show);
-    
+
 // }
 // }
 //--------------------------------------
@@ -2355,7 +2355,7 @@
 
 // let id =max(200,500)
 // console.log(id)
- 
+
 // function max(height,width) {
 // if (height > width) {
 // console.log("height is max then width")    
@@ -2461,7 +2461,7 @@
 //     dateOfBith :15-8-1975,    
 //     }
 //     console.log(person);
- 
+
 
 //-----------20-10-23--------------------
 // //-----------------
@@ -2742,8 +2742,8 @@
 //     dateOfBirth:9-5-23,    
 //     }
 //     console.log(info);
-    
-    // //--------------------------
+
+// //--------------------------
 
 // let pic = maximum(300,300)
 // function maximum(width,height) {
@@ -3327,7 +3327,7 @@
 // function time(hour) {
 // if (hour >=6 & hour < 12) {
 // console.log('Good morning',hour)
-  
+
 // }  
 // else if(hour >=12 & hour < 16){
 // console.log('Good afternoon',hour)
@@ -3626,7 +3626,7 @@
 // Name : 'collin',
 // id : 1,
 // location : 'USA',
- 
+
 // }
 
 // for(let key in person)
@@ -3757,7 +3757,7 @@
 // Name : 'collin',
 // id : 1,
 // location : 'USA',
- 
+
 // }
 
 // for(let key in person)
@@ -3935,7 +3935,7 @@
 // function hello(i) {
 // for (let i = 1; i <= 5; i++) {
 //     console.log('hello',i);
-    
+
 // }    
 // }
 
@@ -4034,15 +4034,15 @@
 // const circle1=circle(1)
 // console.log(circle1)
 
-    //------------constructor function-------
-    
+//------------constructor function-------
+
 // function Circle(radius) {
 // this.radius = radius;
 // this.draw= function () {
 // console.log('circle')
 // } 
 // }
-    
+
 // const circle1 = new Circle(1);
 
 
@@ -4083,7 +4083,7 @@
 
 // for(let entry of Object.entries (person ))
 // console.log(entry)
- 
+
 // const person1 = {...person}
 // console.log(person1)
 
@@ -4289,7 +4289,7 @@
 // function hello(i) {
 // for (let i = 1; i <=5; i++) {
 //     console.log('hey',i);
-    
+
 // }    
 // }
 // //--------------------------------------------
@@ -4363,38 +4363,38 @@
 // console.log(circle1)
 
 //------------constructor function-------
-    
+
 // function Circle(radius) {
 // this.radius = radius;
 // this.draw= function () {
 // console.log('circle')
 // } 
 // }
-    
+
 // const circle1 = new Circle(1);
 
 //-------------------------------------------
-    // const person={
-    // id : 1,
-    // name : 'leena',
-    // location:'tokyo',
-    // phone:65894561,    
-    // }
-    // for(let key in person)
-    // console.log(key,person[key])
-    
-    // for(let key of Object.keys (person))
-    // console.log(key)
-    
-    // for(let entry of Object.entries(person))
-    // console.log(entry)
-    
-    // const person1 ={...person}
-    // console.log(person1)
-    
-    // if('name' in person)console.log('approve')
+// const person={
+// id : 1,
+// name : 'leena',
+// location:'tokyo',
+// phone:65894561,    
+// }
+// for(let key in person)
+// console.log(key,person[key])
 
-    
+// for(let key of Object.keys (person))
+// console.log(key)
+
+// for(let entry of Object.entries(person))
+// console.log(entry)
+
+// const person1 ={...person}
+// console.log(person1)
+
+// if('name' in person)console.log('approve')
+
+
 //-------------------------------------------
 
 // let blog={
@@ -4409,7 +4409,7 @@
 // }
 // console.log(blog)
 
-    
+
 //-----------------------------------------------
 
 
@@ -4557,19 +4557,19 @@
 //     }
 //     for(let key in person)
 //     console.log(key,person[key])
-    
+
 //     for(let key of Object.keys(person))
 //     console.log(key)
-    
+
 //     for(let enrty of Object.entries(person))
 //     console.log(enrty)
-    
+
 //     const person1={...person}
 //     console.log(person1)
-    
+
 //     if('id' in person)console.log('Approved')
 
-    //------------------------------
+//------------------------------
 //     let blog = new Blog('Fitness','Jhonny')
 // console.log(blog)
 
@@ -4701,7 +4701,7 @@
 // function hello(i) {
 // for (let i = 1; i <= 5; i++) {
 //     console.log('hello',i);
-    
+
 // }    
 // }
 // //----------------------------------------------
@@ -5257,7 +5257,7 @@
 
 //-------------------------------------------------
 
-const num =[-5]
+// const num =[1,2,3,4,-5]
 //-----(every)
 // const positive = num.every(function(value){
 // return value >=0;    
@@ -5266,7 +5266,72 @@ const num =[-5]
 
 //-----(some)---------
 
-const somePositive = num.some(function(value){
-return value >=0;    
-})
-console.log(somePositive)
+// const somePositive = num.some(function(value){
+// return value >=0;    
+// })
+// console.log(somePositive)
+
+
+//---------------------------
+// let person1={
+// id:201,
+// name :'alon',
+// location:'USA',
+// phone:984896364,
+// postalCode:9721,
+// email:'alon654@hotmail.com',
+// greet:function(){console.log('hello alon')}
+// }
+// person1.hobbies=['Drawing','drawing','traveling']
+
+
+// for(let key in person1)
+// console.log(key,person1[key])
+
+// for(let entry of Object.entries(person1))
+// console.log(entry)
+
+// console.log(person1)
+// console.log(person1.id)
+// console.log(person1['id'])
+
+
+
+// if ('id' in person1) {
+// person1.greet();
+// for(let entry of Object.entries(person1))
+// console.log(entry)    
+// }
+// else{console.log('id not found')}
+
+
+//--------------------------------------
+// let person=[
+// {id : 123 , name : 'alaska'},
+// {id : 124 , name : 'lona'},
+// {id : 125 , name : 'lara'},
+// {id : 126 , name : 'phillips'},
+// ]
+
+// const detail=person.find(detail => detail.id === 123)
+// console.log(detail)
+
+
+//------------------------------------------
+// let num =[-2,-1,0,1,2,3,4,5,6]
+
+// const filtered = num.filter(n => n >0)
+// console.log(filtered)
+
+
+//--------------------------------------------
+let returantsOpen = [
+    { name: 'Hotel In', closeTime: 12, closeTimeSpan: "PM" },
+    { name: 'Hot Sea', closeTime: 11, closeTimeSpan: "PM" },
+    { name: 'Cool IN', closeTime: 1, closeTimeSpan: "AM" },
+    { name: 'crunchy Chicken', closeTime: 10, closeTimeSpan: "PM" },
+    { name: 'Hot OUT', closeTime: 12, closeTimeSpan: "PM" },
+]
+
+const filtered = returantsOpen.filter(Open => Open.closeTime < 12 && Open.closeTimeSpan === "PM")
+console.log(filtered)
