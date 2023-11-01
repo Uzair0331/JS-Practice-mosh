@@ -4945,6 +4945,7 @@
 // console.log(person1)
 
 //------------------------------------------------
+//------------
 // const person={
 // name:'Alaska',
 // location:'NY',
@@ -5122,34 +5123,73 @@
 // console.log(combine)
 
 
-//---------------------------------------------------
+//---------------------01-11-23------------------------------
 
-let person1 ={   
-id  :65,   
-name : 'Ali jutt',
-age :24,
-email :'ali54@gmail.com',
-greet : function(){console.log('Hello from Ali')},
-}
-person1.hobbies=['playing football','Reading','Drawing'];
+// let person1 ={   
+// id  :65,   
+// name : 'Ali jutt',
+// age :24,
+// email :'ali54@gmail.com',
+// greet : function(){console.log('Hello from Ali')},
+// }
+// person1.hobbies=['playing football','Reading','Drawing'];
 
 
 
-if('id' in person1)console.log('Approved,your id is'+" "+person1.id)
-else{console.log('id not found')}
-person1.greet();
+// if('id' in person1)console.log('Approved,your id is'+" "+person1.id)
+// else{console.log('id not found')}
+// person1.greet();
 
-console.log(person1)
+// console.log(person1)
 
-for(let key in person1)
-console.log(key,person1[key])
+// for(let key in person1)
+// console.log(key,person1[key])
 
-for(let entry of Object.entries(person1))
-console.log(entry)
+// for(let entry of Object.entries(person1))
+// console.log(entry)
 
-const newPerson ={...person1}
-console.log(newPerson)
+// const newPerson ={...person1}
+// console.log(newPerson)
 
-let date= new Date()
-date.toString()
-console.log(date)
+// let date= new Date()
+// date.toString()
+// console.log(date)
+
+//--------------------------------------------------
+// function person(detail) {
+//  return{
+//  id:123,   
+//  name:'Alaska',
+//  location:'U.S.A',
+//  postalCode:6545,
+//  }   
+// }
+// const person1=new  person(1)
+// console.log(person1)
+
+//--------------------------------------------------
+const num =[3,4]
+num.push(5,6)
+num.unshift(1,2)
+num.splice(1,2)
+console.log(num)
+
+
+const number=[1,2,3,4,5,6,7,8]
+console.log(number.indexOf(2))
+
+console.log(number.lastIndexOf(6))
+
+console.log(number.includes(3))
+
+
+const courses=[
+{id : 101 , name:'English'},    
+{id : 102 , name:'Urdu'},
+{id : 103 , name:'Math'},
+{id : 104 , name:'Physics'},
+]
+const course = courses.find(function(course){
+return course.id === 103;    
+})
+console.log(course);
