@@ -5448,17 +5448,40 @@
 
 
 //-------------------------------------------------
-number = 3;
+let interval = 4;
+let alphabetsRange = 100;
 let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-for (let i = number; i < alphabets.length; i++) {
-    if (i % number === 0) {
+let result = '';
+for (let i = 0; i < alphabets.length; i++) {
+    if (i % interval) {
 
         console.log(alphabets[i - 1])
+        // result += alphabets[i - 1]
     }
 
 }
-for (let j = number; j < alphabets.length; j++) {
-    if (j % number === 0)
-        console.log(alphabets[j - 1])
-} 
+
+// console.log("result", result)
+// for (let j = number; j < alphabets.length; j++) {
+//     if (j % number === 0) {
+//         console.log(alphabets[j - 1])
+//     }
+// }
+
+// let counter = 0;
+
+// for (let i = 0; i < alphabetsRange; i++) {
+//     counter += interval;
+
+//     result += alphabets[(counter % 26) ? (counter % 26) : 0];
+// if (counter % 26) {
+//     result += alphabets[(counter % 26) - 1]
+// }
+// else {
+//     result += alphabets[(counter % 26)]
+// }
+
+// }
+
+// console.log("RESULT", result)
