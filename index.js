@@ -5525,22 +5525,40 @@
 
 
 // -----------------------------------------
-let evenNumber = []
-let oddNumber = []
+// let evenNumber = []
+// let oddNumber = []
 
-for (let index = 1; index <= 20; index++) {
+// for (let index = 1; index <= 20; index++) {
 
-    if (index % 2 === 0) {
-        console.log('even', index)
-        evenNumber.push(index)
-    }
-    else {
-        console.log('Odd', index);
-        oddNumber.push(index)
-    }
+//     if (index % 2 === 0) {
+//         console.log('even', index)
+//         evenNumber.push(index)
+//     }
+//     else {
+//         console.log('Odd', index);
+//         oddNumber.push(index)
+//     }
 
-}
-const reversedEven = evenNumber.reverse()
-console.log(evenNumber, 'these are even items')
-const reversedOdd = oddNumber.reverse()
-console.log(oddNumber, 'these are odd items')
+// }
+// const reversedEven = evenNumber.reverse()
+// console.log(evenNumber, 'these are even items')
+// const reversedOdd = oddNumber.reverse()
+// console.log(oddNumber, 'these are odd items')
+
+// ---------------------------------
+
+
+
+const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
+
+const dataOne = [80, 15, 60, 70, 20, 100, 20, 25, 90]
+const dataTwo = [90, 80, 16, 15, 14, 101, 100, 200, 1]
+const allData = dataOne.concat(dataTwo)
+
+const numReturn = allData.filter(allData => allData > 30 && allData <= 100)
+
+console.log(numReturn)
