@@ -5531,11 +5531,11 @@ let oddNumber = []
 for (let index = 1; index <= 20; index++) {
 
     if (index % 2 === 0) {
-        // console.log('even', index)
+        console.log('even', index)
         evenNumber.push(index)
     }
     else {
-        // console.log('Odd', index);
+        console.log('Odd', index);
         oddNumber.push(index)
     }
 
