@@ -5457,8 +5457,8 @@
 //     if (i % interval) {
 
 //         console.log(alphabets[i - 1])
-// result += alphabets[i - 1]
-// }
+//         // result += alphabets[i - 1]
+//     }
 
 // }
 
@@ -5472,32 +5472,52 @@
 // let counter = 0;
 
 // for (let i = 0; i < alphabetsRange; i++) {
-//     counter += interval;
+//     // counter += interval;
 
-//     result += alphabets[(counter % 26) ? (counter % 26) : 0];
-// if (counter % 26) {
-//     result += alphabets[(counter % 26) - 1]
-// }
-// else {
-//     result += alphabets[(counter % 26)]
-// }
+//     // result += alphabets[(counter % 26) ? (counter % 26) : 0];
+//     if (counter % 26) {
+//         result += alphabets[(counter % 26) - 1]
+//     }
+//     else {
+//         result += alphabets[(counter % 26)]
+//     }
 
 // }
 
 // console.log("RESULT", result)
 
 //----------------------------
+// let interval = 4;
+// let alphabetsRange = 100;
+// let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+// for (let i = 0; i < alphabetsRange; i++) {
+//     if (0 % 26) {
+//         result += alphabets[(0 % 26) - 1]
+//     }
+//     else {
+//         result += alphabets[0 % 26]
+//     }
+
+// }
+// console.log(result)
+
+
+// ----------------------------------------------
 let interval = 4;
-let alphabetsRange = 100;
+let alphabetsRange = 50;
 let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+let counter = 0;
+let result = '';
 
 for (let i = 0; i < alphabetsRange; i++) {
-    if (0 % 26) {
-        result += alphabets[(0 % 26) - 1]
+    if (counter % 26) {
+        result += alphabets[(counter % 26) - 1]
     }
     else {
-        result += alphabets[0 % 26]
+        result += alphabets[(counter % 26)]
     }
 
 }
-console.log(result)
+
+console.log("RESULT", result)
