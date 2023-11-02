@@ -5472,7 +5472,7 @@
 // let counter = 0;
 
 // for (let i = 0; i < alphabetsRange; i++) {
-//     // counter += interval;
+//     counter += interval;
 
 //     // result += alphabets[(counter % 26) ? (counter % 26) : 0];
 //     if (counter % 26) {
@@ -5504,20 +5504,43 @@
 
 
 // ----------------------------------------------
-let interval = 4;
-let alphabetsRange = 50;
-let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-let counter = 0;
-let result = '';
+// let interval = 4;
+// let alphabetsRange = 8;
+// let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+// let counter = 0;
+// let result = '';
 
-for (let i = 0; i < alphabetsRange; i++) {
-    if (counter % 26) {
-        result += alphabets[(counter % 26) - 1]
+// for (let i = 0; i < alphabetsRange; i++) {
+//     counter += interval;
+//     if (counter % 26) {
+//         result += alphabets[(counter % 26) - 1]
+//     }
+//     else {
+//         result += alphabets[(counter % 26)]
+//     }
+
+// }
+
+// console.log("RESULT", result)
+
+
+// -----------------------------------------
+let evenNumber = []
+let oddNumber = []
+
+for (let index = 1; index <= 20; index++) {
+
+    if (index % 2 === 0) {
+        // console.log('even', index)
+        evenNumber.push(index)
     }
     else {
-        result += alphabets[(counter % 26)]
+        // console.log('Odd', index);
+        oddNumber.push(index)
     }
 
 }
-
-console.log("RESULT", result)
+const reversedEven = evenNumber.reverse()
+console.log(evenNumber, 'these are even items')
+const reversedOdd = oddNumber.reverse()
+console.log(oddNumber, 'these are odd items')
