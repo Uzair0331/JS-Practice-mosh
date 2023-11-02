@@ -5448,16 +5448,17 @@
 
 
 //-------------------------------------------------
-number = 4;
+number = 3;
 let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 for (let i = number; i < alphabets.length; i++) {
     if (i % number === 0) {
+
         console.log(alphabets[i - 1])
     }
 
 }
-// for (let j = number; j < 12; j++) {
-//     if (j % number === 0)
-//         console.log(alphabets[j - 1])
-// }
+for (let j = number; j < alphabets.length; j++) {
+    if (j % number === 0)
+        console.log(alphabets[j - 1])
+} 
