@@ -5325,13 +5325,139 @@
 
 
 //--------------------------------------------
-let returantsOpen = [
-    { name: 'Hotel In', closeTime: 12, closeTimeSpan: "PM" },
-    { name: 'Hot Sea', closeTime: 11, closeTimeSpan: "PM" },
-    { name: 'Cool IN', closeTime: 1, closeTimeSpan: "AM" },
-    { name: 'crunchy Chicken', closeTime: 10, closeTimeSpan: "PM" },
-    { name: 'Hot OUT', closeTime: 12, closeTimeSpan: "PM" },
-]
+// let returantsOpen = [
+//     { name: 'Hotel In', closeTime: 12, closeTimeSpan: "PM" },
+//     { name: 'Hot Sea', closeTime: 11, closeTimeSpan: "PM" },
+//     { name: 'Cool IN', closeTime: 1, closeTimeSpan: "AM" },
+//     { name: 'crunchy Chicken', closeTime: 10, closeTimeSpan: "PM" },
+//     { name: 'Hot OUT', closeTime: 12, closeTimeSpan: "PM" },
+// ]
 
-const filtered = returantsOpen.filter(Open => Open.closeTime < 12 && Open.closeTimeSpan === "PM")
-console.log(filtered)
+// const filtered = returantsOpen.filter(Open => Open.closeTime < 12 && Open.closeTimeSpan === "PM")
+// console.log(filtered)
+
+//---------------------------------------------------
+
+// const arr1 = ["a", "b", "c", "d", "e", "f", "g"];
+// arr1.splice(2, 4, "MY VALUE", "MY SECOND VALUE"); /// First Argument is index and second argument is how many elements you want to delete from that index and third argument is what you want to add at that index
+
+// console.log("SPLICED ARRAYY ==> ", arr1)
+
+// const arr2 = ["a", "b", "c", "d", "e", "f", "g"];
+// const slicedArr = arr2.slice(1, -1);
+
+// console.log("SLICED ARRAY ==> ", arr2)
+// console.log("OG SLICED ARRAY ==> ", slicedArr)
+
+//--------------------------
+
+
+
+// let only18Above = [
+//     { id: 901, name: 'kate', age: 18, mail: 'kate@hotmail.com' },
+//     { id: 902, name: 'William', age: 16, mail: 'william@hotmail.com' },
+//     { id: 903, name: 'jhon', age: 20, mail: 'jhon@myahoo.com' },
+//     { id: 904, name: 'lara', age: 15, mail: 'lara@hotmail.com' },
+//     { id: 905, name: 'kumar', age: 21, mail: 'kumar@guu.com' },
+//     { id: 906, name: 'mick', age: 25, mail: 'mick@hotmail.com' },
+// ]
+
+// const filtered = only18Above.filter(filtered => filtered.age >= 18)
+// console.log('18+ allowed ==>', filtered)
+
+
+//--------------------------------------
+// let evenItems = []
+// let oddItems = []
+
+// for (let index = 1; index <= 1000; index++) {
+
+//     if (index % 2 === 0) {
+//         console.log('even', index)
+//         evenItems.push(index)
+//     }
+//     else {
+//         console.log('Odd', index);
+//         oddItems.push(index)
+//     }
+
+// }
+// console.log(evenItems, 'these are even items')
+// console.log(oddItems, 'these are odd items')
+
+//------------------
+
+// let tableOf = 16;
+// let rangeOfTable = 10;
+
+// for (let i = 1; i <= rangeOfTable; i++) {
+//     // console.log(tableOf, '*', i, '=', i * tableOf)
+//     console.log(`${tableOf} * ${i} = ${i * tableOf}!`)
+
+// }
+
+//----------------------------------------------------
+
+// let number = '10';
+// let rangeOfDividents = 50000;
+
+// for (let i = 1; i <= rangeOfDividents && i <= number; i++) {
+//     if (!(number % i)) {
+//         //  console.log(i, ' is % of', number)
+//         console.log(`${i}  is % of ${number}`)
+//     }
+// }
+
+
+
+
+//---------------------------------
+// *
+// **
+// ***
+// ****
+// *****
+// ****
+// ***
+// **
+// *
+
+//------------------------------------
+
+// for(initialization; condition; inc/dec) { REST_OF_THE_CODE } 
+
+
+
+// show(5)
+// function show(rows) {
+//     for (let row = 1; row <= rows; row++) {
+//         let p = '';
+//         for (let i = 0; i < row; i++) {
+//             p = p + '*';
+//         }
+//         console.log(p)
+//     }
+//     for (let row = rows - 1; row >= 1; row--) {
+//         let p = '';
+//         for (let i = 0; i < row; i++) {
+//             p = p + '*';
+//         }
+//         console.log(p)
+//     }
+// }
+
+
+//-------------------------------------------------
+number = 4;
+let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+for (let i = number; i < alphabets.length; i++) {
+    if (i % number === 0) {
+        console.log(alphabets[i - 1])
+    }
+
+}
+// for (let j = number; j < 12; j++) {
+//     if (j % number === 0)
+//         console.log(alphabets[j - 1])
+// }
