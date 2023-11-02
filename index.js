@@ -5448,19 +5448,19 @@
 
 
 //-------------------------------------------------
-let interval = 4;
-let alphabetsRange = 100;
-let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+// let interval = 4;
+// let alphabetsRange = 100;
+// let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-let result = '';
-for (let i = 0; i < alphabets.length; i++) {
-    if (i % interval) {
+// let result = '';
+// for (let i = 0; i < alphabets.length; i++) {
+//     if (i % interval) {
 
-        console.log(alphabets[i - 1])
-        // result += alphabets[i - 1]
-    }
+//         console.log(alphabets[i - 1])
+// result += alphabets[i - 1]
+// }
 
-}
+// }
 
 // console.log("result", result)
 // for (let j = number; j < alphabets.length; j++) {
@@ -5485,3 +5485,19 @@ for (let i = 0; i < alphabets.length; i++) {
 // }
 
 // console.log("RESULT", result)
+
+//----------------------------
+let interval = 4;
+let alphabetsRange = 100;
+let alphabets = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+for (let i = 0; i < alphabetsRange; i++) {
+    if (0 % 26) {
+        result += alphabets[(0 % 26) - 1]
+    }
+    else {
+        result += alphabets[0 % 26]
+    }
+
+}
+console.log(result)
