@@ -5624,3 +5624,18 @@ let maping = filtering.map((filtering, index) => {
     return filtering + 1
 })
 console.log(maping)
+
+//------------------
+const value = [25, 4, 5, 36, 3, 2]
+
+let filtering = value.filter(value => value < 10)
+
+console.log(filtering)
+
+let maping = filtering.map((filtering, index) => {
+
+    console.log(index, filtering)
+
+    return filtering + 1
+})
+console.log(maping)
