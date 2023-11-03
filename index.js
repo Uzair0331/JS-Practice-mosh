@@ -5584,7 +5584,6 @@
 //--------------------
 
 
-
 let number = [4, 8, 101, -1, 654, 9, 20, 15, 16, -7, -2, 1]
 
 const mySort = number.sort((a, b) => a - b);
@@ -5609,33 +5608,14 @@ const positive = num.some(function (value) {
     return value >= 0;
 })
 console.log(positive)
-
 //------------------
 const value = [25, 4, 5, 36, 3, 2]
-
 let filtering = value.filter(value => value < 10)
-
 console.log(filtering)
-
 let maping = filtering.map((filtering, index) => {
-
     console.log(index, filtering)
-
     return filtering + 1
 })
 console.log(maping)
 
-//------------------
-const value = [25, 4, 5, 36, 3, 2]
 
-let filtering = value.filter(value => value < 10)
-
-console.log(filtering)
-
-let maping = filtering.map((filtering, index) => {
-
-    console.log(index, filtering)
-
-    return filtering + 1
-})
-console.log(maping)
