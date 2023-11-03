@@ -5569,14 +5569,26 @@
 
 
 
-let number = [4, 8, 101, -1, 654, 9, 20, 15, 16, -7, -2, 1]
+// let number = [4, 8, 101, -1, 654, 9, 20, 15, 16, -7, -2, 1]
 
-const mySort = number.sort((a, b) => a - b);
+// const mySort = number.sort((a, b) => a - b);
 
-console.log("THE Minimum VALUE IS  :", mySort[0])
-console.log("The maximum value is :", mySort[number.length - 1])
+// console.log("THE Minimum VALUE IS  :", mySort[0])
+// console.log("The maximum value is :", mySort[number.length - 1])
 
 
 
+//---------------------
+/ let only18Above = [
+    //     { id: 901, name: 'kate', age: 18, mail: 'kate@hotmail.com' },
+    //     { id: 902, name: 'William', age: 16, mail: 'william@hotmail.com' },
+    //     { id: 903, name: 'jhon', age: 20, mail: 'jhon@myahoo.com' },
+    //     { id: 904, name: 'lara', age: 15, mail: 'lara@hotmail.com' },
+    //     { id: 905, name: 'kumar', age: 21, mail: 'kumar@guu.com' },
+    //     { id: 906, name: 'mick', age: 25, mail: 'mick@hotmail.com' },
+    // ]
+    
+    // const filtered = only18Above.filter(filtered => filtered.age >= 18)
+    // console.log('18+ allowed ==>', filtered)
 
 
