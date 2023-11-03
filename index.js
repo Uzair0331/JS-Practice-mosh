@@ -5522,8 +5522,24 @@
 // }
 
 // console.log("RESULT", result)
+//----------------------
+// let evenItems = []
+// let oddItems = []
 
+// for (let index = 1; index <= 1000; index++) {
 
+//     if (index % 2 === 0) {
+//         console.log('even', index)
+//         evenItems.push(index)
+//     }
+//     else {
+//         console.log('Odd', index);
+//         oddItems.push(index)
+//     }
+
+// }
+// console.log(evenItems, 'these are even items')
+// console.log(oddItems, 'these are odd items')
 // -----------------------------------------
 // let evenNumber = []
 // let oddNumber = []
@@ -5579,6 +5595,10 @@
 
 
 //---------------------
+
+
+
+
 let only18Above = [
     { id: 901, name: 'kate', age: 18, mail: 'kate@hotmail.com' },
     { id: 902, name: 'William', age: 16, mail: 'william@hotmail.com' },
@@ -5592,3 +5612,10 @@ const filtered = only18Above.filter(filtered => filtered.age >= 18)
 console.log('18+ allowed ==>', filtered)
 
 
+
+const num = [1, 2, 3, 4, -5]
+
+const positive = num.some(function (value) {
+    return value >= 0;
+})
+console.log(positive)
