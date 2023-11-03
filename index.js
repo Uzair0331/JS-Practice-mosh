@@ -5549,16 +5549,34 @@
 
 
 
-const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+// const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
 
-const result = words.filter(word => word.length > 6);
+// const result = words.filter(word => word.length > 6);
 
-console.log(result);
+// const dataOne = [80, 15, 60, 70, 20, 100, 20, 25, 90]
+// const dataTwo = [90, 80, 16, 15, 14, 101, 100, 200, 1]
+// const dataThree = [190, 84, 11, 22, 144, 202, 1850, 48, 13]
 
-const dataOne = [80, 15, 60, 70, 20, 100, 20, 25, 90]
-const dataTwo = [90, 80, 16, 15, 14, 101, 100, 200, 1]
-const allData = dataOne.concat(dataTwo)
+// const allData = dataOne.concat(dataTwo, dataThree)
 
-const numReturn = allData.filter(allData => allData > 30 && allData <= 100)
+// const numReturn = allData.filter(allData => allData > 30 && allData <= 100)
 
-console.log(numReturn)
+// console.log(result)
+// console.log(numReturn)
+
+
+//--------------------
+
+
+
+let number = [4, 8, 101, -1, 654, 9, 20, 15, 16, -7, -2, 1]
+
+const mySort = number.sort((a, b) => a - b);
+
+console.log("THE Minimum VALUE IS  :", mySort[0])
+console.log("The maximum value is :", mySort[number.length - 1])
+
+
+
+
+
