@@ -5620,3 +5620,52 @@
 // console.log(maping)
 
 
+//---------------------------------------
+// let word = 'police'
+// console.log(word.charAt(0).toLocaleUpperCase() + word.slice(1))
+
+
+//--------------------------------------
+let character = [
+    {
+        name: 'jhon',
+        age: 18,
+        height: 5.5,
+        gender: 'male',
+        weight: 60,
+    },
+    {
+        name: 'alex',
+        age: 26,
+        height: 5.9,
+        gender: 'male',
+        weight: 59,
+    },
+    {
+        name: 'harry',
+        age: 21,
+        height: 6,
+        gender: 'male',
+        weight: 80,
+    },
+    {
+        name: 'liza',
+        age: 16,
+        height: 5.2,
+        gender: 'female',
+        weight: 45,
+    },
+    {
+        name: 'lana',
+        age: 35,
+        height: 5.5,
+        gender: 'female',
+        weight: 58,
+    },
+]
+let weightcharacter = character.filter((weightcharacter) => weightcharacter.weight > 50);
+console.log(weightcharacter)
+
+//--------
+let heightcharacter = character.filter((heightcharacter) => heightcharacter.height > 5.5);
+console.log(heightcharacter)
