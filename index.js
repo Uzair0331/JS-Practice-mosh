@@ -5630,6 +5630,7 @@ let character = [
     {
         name: 'jhon',
         age: 18,
+        hairColor: 'blue',
         height: 5.5,
         gender: 'male',
         weight: 60,
@@ -5637,6 +5638,7 @@ let character = [
     {
         name: 'alex',
         age: 26,
+        hairColor: 'blue',
         height: 5.9,
         gender: 'male',
         weight: 59,
@@ -5644,6 +5646,7 @@ let character = [
     {
         name: 'harry',
         age: 21,
+        hairColor: 'black',
         height: 6,
         gender: 'male',
         weight: 80,
@@ -5651,6 +5654,7 @@ let character = [
     {
         name: 'liza',
         age: 16,
+        hairColor: 'brown',
         height: 5.2,
         gender: 'female',
         weight: 45,
@@ -5658,6 +5662,7 @@ let character = [
     {
         name: 'lana',
         age: 35,
+        hairColor: 'grey',
         height: 5.5,
         gender: 'female',
         weight: 58,
@@ -5693,8 +5698,28 @@ let character = [
 
 //------------------------
 
-let nameSorting = character.sort((a, b) => {
-    if (a.name < b.name) return -1;
-    return 1;
-})
-console.log(nameSorting)
+// let nameSorting = character.sort((a, b) => {
+//     if (a.name < b.name) return -1;
+//     return 1;
+// })
+// console.log(nameSorting)
+
+//-----------------------------
+
+
+// let ageTotal = character.reduce((acc, curr) => acc + curr.age, 0)
+// console.log(ageTotal)
+
+//-------------------------------
+
+let totalHairColor = character.reduce((acc, curr) => {
+    const color = curr.hairColor;
+    if (acc[color]) {
+        acc[color]++;
+    }
+    else {
+        acc[color] = 1;
+    }
+    return acc;
+}, {})
+console.log(totalHairColor)
