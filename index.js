@@ -5626,48 +5626,48 @@
 
 
 //--------------------------------------
-let character = [
-    {
-        name: 'jhon',
-        age: 18,
-        hairColor: 'blue',
-        height: 5.5,
-        gender: 'male',
-        weight: 60,
-    },
-    {
-        name: 'alex',
-        age: 26,
-        hairColor: 'blue',
-        height: 5.9,
-        gender: 'male',
-        weight: 59,
-    },
-    {
-        name: 'harry',
-        age: 21,
-        hairColor: 'black',
-        height: 6,
-        gender: 'male',
-        weight: 80,
-    },
-    {
-        name: 'liza',
-        age: 16,
-        hairColor: 'brown',
-        height: 5.2,
-        gender: 'female',
-        weight: 45,
-    },
-    {
-        name: 'lana',
-        age: 35,
-        hairColor: 'grey',
-        height: 5.5,
-        gender: 'female',
-        weight: 58,
-    },
-]
+// let character = [
+//     {
+//         name: 'jhon',
+//         age: 18,
+//         hairColor: 'blue',
+//         height: 5.5,
+//         gender: 'male',
+//         weight: 60,
+//     },
+//     {
+//         name: 'alex',
+//         age: 26,
+//         hairColor: 'blue',
+//         height: 5.9,
+//         gender: 'male',
+//         weight: 59,
+//     },
+//     {
+//         name: 'harry',
+//         age: 21,
+//         hairColor: 'black',
+//         height: 6,
+//         gender: 'male',
+//         weight: 80,
+//     },
+//     {
+//         name: 'liza',
+//         age: 16,
+//         hairColor: 'brown',
+//         height: 5.2,
+//         gender: 'female',
+//         weight: 45,
+//     },
+//     {
+//         name: 'lana',
+//         age: 35,
+//         hairColor: 'grey',
+//         height: 5.5,
+//         gender: 'female',
+//         weight: 58,
+//     },
+// ]
 // let weightcharacter = character.filter((weightcharacter) => weightcharacter.weight > 50);
 // console.log(weightcharacter)
 
@@ -5712,14 +5712,104 @@ let character = [
 
 //-------------------------------
 
-let totalHairColor = character.reduce((acc, curr) => {
-    const color = curr.hairColor;
-    if (acc[color]) {
-        acc[color]++;
-    }
-    else {
-        acc[color] = 1;
-    }
-    return acc;
-}, {})
-console.log(totalHairColor)
+// let totalHairColor = character.reduce((acc, curr) => {
+//     const color = curr.hairColor;
+//     if (acc[color]) {
+//         acc[color]++;
+//     }
+//     else {
+//         acc[color] = 1;
+//     }
+//     return acc;
+// }, {})
+// console.log(totalHairColor)
+
+//----------------------------
+
+// const bool = [true, false, false, true, true, false];
+
+// const checkTrueFalse = bool.map((bools) => {
+//     if (bools === true) {
+//         return Math.max(1, 2, 3, 4);
+//     }
+//     else {
+//         return 0;
+//     }
+// })
+// console.log(bool)
+// console.log(checkTrueFalse)
+
+
+//-----------------------
+// let prices = [85, 120, 90, 100, 101, 60, 122, 150]
+// const taxPrices = prices.map(price => {
+//     if (price >= 100) {
+//         return price * 1.2
+//     }
+//     else {
+//         return price
+//     }
+// })
+// console.log(prices)
+// console.log(taxPrices)
+
+//-----------------------------------
+
+// let persons = [
+//     {
+//         name: 'kim jhon',
+//         age: 20,
+//         permission: 'Approved'
+//     },
+
+//     {
+//         name: 'tom uston',
+//         age: 14,
+//         permission: 'denied'
+//     },
+
+//     {
+//         name: 'laura',
+//         age: 15,
+//         permission: 'Approved'
+//     },
+
+//     {
+//         name: 'lipton',
+//         age: 19,
+//         permission: 'Approved'
+//     },
+// ]
+
+// const permission = persons.map(person => {
+//     if (person.permission === 'Approved') {
+//         return person
+//     }
+//     else {
+//         return 'Access denied';
+//     }
+// })
+
+// console.log(permission)
+
+//--------------------------------
+// let items = ['computer', 'glass', 'light', 'play Station', 'chair']
+
+// const itemEdits = items.map(item => {
+//     if (item === 'chair') {
+//         return 'table'
+//     }
+//     else {
+//         return item + 's';
+//     }
+// })
+// console.log(itemEdits)
+
+//---------------------------------
+let number = [25, 10, 12, 13, 20, 30]
+
+const matrix = number.map(numbers => {
+    return [numbers]
+}
+)
+console.log(matrix)
