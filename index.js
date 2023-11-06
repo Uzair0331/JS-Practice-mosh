@@ -5667,15 +5667,34 @@ let character = [
 // console.log(weightcharacter)
 
 // //--------
+
 // let heightcharacter = character.filter((heightcharacter) => heightcharacter.height > 5.5);
 // console.log(heightcharacter)
+//-----------
 
-let namecharacter = character.map(namecharacter => namecharacter.name)
-console.log(namecharacter)
+// let namecharacter = character.map(namecharacter => namecharacter.name)
+// console.log(namecharacter)
+//----------------------
 
-let nameAgeCharacter = character.map((nameAgeCharacter) => ({
-    name: nameAgeCharacter.name,
-    age: nameAgeCharacter.age,
+// let nameAgeCharacter = character.map((nameAgeCharacter) => ({
+// name: nameAgeCharacter.name,
+// age: nameAgeCharacter.age,
+// })
+// )
+// console.log(nameAgeCharacter)
+//-----------------------------------------------
+
+// let weightLess50 = character.some(weightLess50 => weightLess50.weight < 50)
+// console.log(weightLess50)
+//-----------
+
+// let ageSorting = character.sort((a, b) => a.age - b.age)
+// console.log(ageSorting)
+
+//------------------------
+
+let nameSorting = character.sort((a, b) => {
+    if (a.name < b.name) return -1;
+    return 1;
 })
-)
-console.log(nameAgeCharacter)
+console.log(nameSorting)
