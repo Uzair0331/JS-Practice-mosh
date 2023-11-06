@@ -5663,9 +5663,19 @@ let character = [
         weight: 58,
     },
 ]
-let weightcharacter = character.filter((weightcharacter) => weightcharacter.weight > 50);
-console.log(weightcharacter)
+// let weightcharacter = character.filter((weightcharacter) => weightcharacter.weight > 50);
+// console.log(weightcharacter)
 
-//--------
-let heightcharacter = character.filter((heightcharacter) => heightcharacter.height > 5.5);
-console.log(heightcharacter)
+// //--------
+// let heightcharacter = character.filter((heightcharacter) => heightcharacter.height > 5.5);
+// console.log(heightcharacter)
+
+let namecharacter = character.map(namecharacter => namecharacter.name)
+console.log(namecharacter)
+
+let nameAgeCharacter = character.map((nameAgeCharacter) => ({
+    name: nameAgeCharacter.name,
+    age: nameAgeCharacter.age,
+})
+)
+console.log(nameAgeCharacter)
