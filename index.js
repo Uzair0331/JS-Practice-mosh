@@ -5592,11 +5592,6 @@
 // console.log("The maximum value is :", mySort[number.length - 1])
 
 
-// //---------------------
-
-
-
-
 // let only18Above = [
 //     { id: 901, name: 'kate', age: 18, mail: 'kate@hotmail.com' },
 //     { id: 902, name: 'William', age: 16, mail: 'william@hotmail.com' },
@@ -5607,19 +5602,13 @@
 // ]
 // const filtered = only18Above.filter(filtered => filtered.age >= 18)
 // console.log('18+ allowed ==>', filtered)
-
 // //-------------------------------
-
-
-
 // const num = [1, 2, 3, 4, -5]
 
 // const positive = num.some(function (value) {
 //     return value >= 0;
 // })
 // console.log(positive)
-
-
 // //------------------
 // const value = [25, 4, 5, 36, 3, 2]
 // let filtering = value.filter(value => value < 10)
