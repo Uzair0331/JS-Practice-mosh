@@ -5894,10 +5894,87 @@
 
 //--------------------------------
 
-const formatDate = (date = new Date()) => {
-    const days = date.getDate();
-    const month = date.getMonth() + 1;
-    const year = date.getFullYear();
-    return (`${days}/${month}/${year}`)
-}
-console.log(formatDate());
+// const formatDate = (date = new Date()) => {
+//     const days = date.getDate();
+//     const month = date.getMonth() + 1;
+//     const year = date.getFullYear();
+//     return (`${days}/${month}/${year}`)
+// }
+// console.log(formatDate());
+
+//---------------------------------
+// const planet = ['Mercury', 'Venus', 'Earth', 'Mars']
+// console.log(planet)
+
+// planet.push('Jupiter')
+// console.log(planet)
+
+// planet.unshift('Sun')
+// console.log(planet)
+
+// planet.pop()
+// planet.pop()
+// console.log(planet)
+
+// planet.shift()
+// console.log(planet)
+
+//-------------------------------
+// const multiple = 5;
+// const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for (let i = 0; i < number.length; i++) {
+//     const result = multiple * number[i]
+//     console.log(`${multiple} x ${number[i]} = ${result}`)
+// }
+
+//-------------
+// let character = [
+//     {
+//         name: 'jhon',
+//         age: 18,
+//         hairColor: 'blue',
+//         height: 5.5,
+//         gender: 'male',
+//         weight: 60,
+//     },
+//     {
+//         name: 'alex',
+//         age: 26,
+//         hairColor: 'blue',
+//         height: 5.9,
+//         gender: 'male',
+//         weight: 59,
+//     },
+//     {
+//         name: 'harry',
+//         age: 21,
+//         hairColor: 'black',
+//         height: 6,
+//         gender: 'male',
+//         weight: 80,
+//     },
+//     {
+//         name: 'liza',
+//         age: 16,
+//         hairColor: 'brown',
+//         height: 5.2,
+//         gender: 'female',
+//         weight: 45,
+//     },
+//     {
+//         name: 'lana',
+//         age: 35,
+//         hairColor: 'grey',
+//         height: 5.5,
+//         gender: 'female',
+//         weight: 58,
+//     },
+// ]
+// let weightcharacter = character.filter((weightcharacter) => weightcharacter.weight > 50);
+// console.log(weightcharacter)
+
+// //--------
+
+// let heightcharacter = character.filter((heightcharacter) => heightcharacter.height > 5.5);
+// console.log(heightcharacter)
