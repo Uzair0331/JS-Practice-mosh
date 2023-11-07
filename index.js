@@ -5991,3 +5991,16 @@
 // })
 // )
 // console.log(nameAgeCharacter)
+//----------------------
+
+// let namecharacter = character.map(namecharacter => namecharacter.name)
+// console.log(namecharacter)
+//----------------------
+
+
+// let nameAgeCharacter = character.map((nameAgeCharacter) => ({
+// name: nameAgeCharacter.name,
+// age: nameAgeCharacter.age,
+// })
+// )
+// console.log(nameAgeCharacter)
