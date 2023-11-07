@@ -5806,10 +5806,71 @@
 // console.log(itemEdits)
 
 //---------------------------------
-let number = [25, 10, 12, 13, 20, 30]
 
-const matrix = number.map(numbers => {
-    return [numbers]
+// let character = [
+//     {
+//         name: 'jhon',
+//         age: 18,
+//         hairColor: 'blue',
+//         height: 5.5,
+//         gender: 'male',
+//         weight: 60,
+//     },
+//     {
+//         name: 'alex',
+//         age: 26,
+//         hairColor: 'blue',
+//         height: 5.9,
+//         gender: 'male',
+//         weight: 59,
+//     },
+//     {
+//         name: 'harry',
+//         age: 21,
+//         hairColor: 'black',
+//         height: 6,
+//         gender: 'male',
+//         weight: 80,
+//     },
+//     {
+//         name: 'liza',
+//         age: 16,
+//         hairColor: 'brown',
+//         height: 5.2,
+//         gender: 'female',
+//         weight: 45,
+//     },
+//     {
+//         name: 'lana',
+//         age: 35,
+//         hairColor: 'grey',
+//         height: 5.5,
+//         gender: 'female',
+//         weight: 58,
+//     },
+// ]
+// let totalHairColor = character.reduce((acc, curr) => {
+//     const color = curr.hairColor;
+//     if (acc[color]) {
+//         acc[color]++;
+//     }
+//     else {
+//         acc[color] = 1;
+//     }
+//     return acc;
+// }, {})
+// console.log(character)
+
+// console.log(totalHairColor)
+
+//-------------------------------------------
+const number = counting(-5, 5);
+console.log(number);
+function counting(min, max) {
+    let output = [];
+    for (let i = min; i <= max; i++)
+        output.push(i);
+    return output;
+
+
 }
-)
-console.log(matrix)
