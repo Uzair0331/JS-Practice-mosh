@@ -5864,13 +5864,40 @@
 // console.log(totalHairColor)
 
 //-------------------------------------------
-const number = counting(-5, 5);
-console.log(number);
-function counting(min, max) {
-    let output = [];
-    for (let i = min; i <= max; i++)
-        output.push(i);
-    return output;
 
 
+// const number = counting(-5, 5);
+// console.log(number);
+// function counting(min, max) {
+//     let output = [];
+//     for (let i = min; i <= max; i++)
+//         output.push(i);
+//     return output;
+// }
+
+//--------------------------------
+
+// const number = [1, 2, 3, 4, 5];
+// console.log(number.includes(10))
+// function includes(array, searchElement) {
+//     for (let element of array)
+//         if (element === searchElement)
+//             return (true);
+//     return (false)
+// }
+
+//---------------------------
+
+// const numberIs100 = (a, b) => a === 100 || b === 100 || (a + b) === 100
+
+// console.log(numberIs100(50, 50))
+
+//--------------------------------
+
+const formatDate = (date = new Date()) => {
+    const days = date.getDate();
+    const month = date.getMonth() + 1;
+    const year = date.getFullYear();
+    return (`${days}/${month}/${year}`)
 }
+console.log(formatDate());
