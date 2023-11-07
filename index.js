@@ -6004,3 +6004,31 @@
 // })
 // )
 // console.log(nameAgeCharacter)
+
+//----------
+
+const number = [1, 2, 3, 4, 5];
+console.log(number.includes(5))
+function includes(array, searchElement) {
+    for (let element of array)
+        if (element === searchElement)
+            return (true);
+    return (false)
+}
+
+//--------------
+const myPet = {
+    name: 'Sudo',
+    type: 'Dog',
+    breed: 'Poodle',
+    age: 7,
+    freind: ['Bite', 'Byte', 'Data']
+}
+
+console.log(myPet)
+
+myPet.color = 'Black';
+myPet.breed = 'bulldog';
+myPet.freind.pop();
+
+console.log(myPet)
