@@ -5978,3 +5978,16 @@
 
 // let heightcharacter = character.filter((heightcharacter) => heightcharacter.height > 5.5);
 // console.log(heightcharacter)
+
+//---------------------------
+
+// let namecharacter = character.map(namecharacter => namecharacter.name)
+// console.log(namecharacter)
+//----------------------
+
+// let nameAgeCharacter = character.map((nameAgeCharacter) => ({
+// name: nameAgeCharacter.name,
+// age: nameAgeCharacter.age,
+// })
+// )
+// console.log(nameAgeCharacter)
