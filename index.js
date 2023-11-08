@@ -6052,3 +6052,7 @@ console.log(store.products)
 
 for (let i = 0; i < store.products.length; i++)
     console.log(store.products[i])
+
+store.products[0].price = 2.1;
+
+console.log(store)
