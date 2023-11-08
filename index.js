@@ -6007,28 +6007,48 @@
 
 //----------
 
-const number = [1, 2, 3, 4, 5];
-console.log(number.includes(5))
-function includes(array, searchElement) {
-    for (let element of array)
-        if (element === searchElement)
-            return (true);
-    return (false)
-}
+// const number = [1, 2, 3, 4, 5];
+// console.log(number.includes(5))
+// function includes(array, searchElement) {
+//     for (let element of array)
+//         if (element === searchElement)
+//             return (true);
+//     return (false)
+// }
 
 //--------------
-const myPet = {
-    name: 'Sudo',
-    type: 'Dog',
-    breed: 'Poodle',
-    age: 7,
-    freind: ['Bite', 'Byte', 'Data']
+// const myPet = {
+//     name: 'Sudo',
+//     type: 'Dog',
+//     breed: 'Poodle',
+//     age: 7,
+//     freind: ['Bite', 'Byte', 'Data']
+// }
+
+// console.log(myPet)
+
+// myPet.color = 'Black';
+// myPet.breed = 'bulldog';
+// myPet.freind.pop();
+
+// console.log(myPet)
+
+//----------------
+
+const banana = { name: 'Banana', quantity: 11, price: 1.9 }
+const apple = { name: 'Apple', quantity: 5, price: 2.1 }
+const candy = { name: 'Candy', quantity: 10, price: 1.5 }
+
+const store = {
+    storeNumber: 5,
+    locationCity: 'Miami',
+    locationCountry: 'U.S.A',
+    products: [banana, apple, candy]
 }
 
-console.log(myPet)
+console.log(store)
 
-myPet.color = 'Black';
-myPet.breed = 'bulldog';
-myPet.freind.pop();
+console.log(store.products)
 
-console.log(myPet)
+for (let i = 0; i < store.products.length; i++)
+    console.log(store.products[i])
