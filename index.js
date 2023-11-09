@@ -6059,24 +6059,36 @@
 
 //-----------------------------
 
-houseForSale = {
-    area: 940,
-    built: 2015,
-    value: 320000,
-    streetName: 'LS P.D',
-    owner: { name: 'alex', age: 65 },
-    offer: [290000, 295000, 315000, 312000]
-}
+// houseForSale = {
+//     area: 940,
+//     built: 2015,
+//     value: 320000,
+//     streetName: 'LS P.D',
+//     owner: { name: 'alex', age: 65 },
+//     offer: [290000, 295000, 315000, 312000]
+// }
 
-delete houseForSale.built;
+// delete houseForSale.built;
 
-console.log(houseForSale)
+// console.log(houseForSale)
 
-const maxOffer = houseForSale.offer.reduce((max, price) => {
-    if (max < price) {
-        return price;
+// const maxOffer = houseForSale.offer.reduce((max, price) => {
+//     if (max < price) {
+//         return price;
+//     }
+//     return max;
+// }
+//     , 0)
+// console.log('Highest Offer =>', maxOffer)
+
+//-------------------------------
+const number = [10, 20, 15, 30, 15, 20, 35, 60, 10]
+
+const seenNumber = new Set();
+
+for (let i = 0; i < number.length; i++) {
+    if (seenNumber.has(number[i])) {
+        console.log(number[i]);
     }
-    return max;
+    seenNumber.add(number[i])
 }
-    , 0)
-console.log('Highest Offer =>', maxOffer)
