@@ -6116,6 +6116,7 @@
 
 // console.log('Your sum is ' + sum);
 
+///--------
 let ar = [1, 2, 3, 4, 10, 11]
 let sum = 0;
 function simpleArraySum(ar) {
