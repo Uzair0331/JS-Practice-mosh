@@ -6035,24 +6035,39 @@
 
 //----------------
 
-const banana = { name: 'Banana', quantity: 11, price: 1.9 }
-const apple = { name: 'Apple', quantity: 5, price: 2.1 }
-const candy = { name: 'Candy', quantity: 10, price: 1.5 }
+// const banana = { name: 'Banana', quantity: 11, price: 1.9 }
+// const apple = { name: 'Apple', quantity: 5, price: 2.1 }
+// const candy = { name: 'Candy', quantity: 10, price: 1.5 }
 
-const store = {
-    storeNumber: 5,
-    locationCity: 'Miami',
-    locationCountry: 'U.S.A',
-    products: [banana, apple, candy]
+// const store = {
+//     storeNumber: 5,
+//     locationCity: 'Miami',
+//     locationCountry: 'U.S.A',
+//     products: [banana, apple, candy]
+// }
+
+// console.log(store)
+
+// console.log(store.products)
+
+// for (let i = 0; i < store.products.length; i++)
+//     console.log(store.products[i])
+
+// store.products[0].price = 2.1;
+
+// console.log(store) 
+
+//-----------------------------
+
+houseForSale = {
+    area: 940,
+    built: 2015,
+    value: 320000,
+    streetName: 'LS P.D',
+    owner: { name: 'alex', age: 65 },
+    offer: [290000, 295000, 315000, 312000]
 }
 
-console.log(store)
+delete houseForSale.built;
 
-console.log(store.products)
-
-for (let i = 0; i < store.products.length; i++)
-    console.log(store.products[i])
-
-store.products[0].price = 2.1;
-
-console.log(store)
+console.log(houseForSale)
