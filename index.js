@@ -6071,3 +6071,12 @@ houseForSale = {
 delete houseForSale.built;
 
 console.log(houseForSale)
+
+const maxOffer = houseForSale.offer.reduce((max, price) => {
+    if (max < price) {
+        return price;
+    }
+    return max;
+}
+    , 0)
+console.log('Highest Offer =>', maxOffer)
