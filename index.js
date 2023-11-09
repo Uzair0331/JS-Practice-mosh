@@ -6117,14 +6117,37 @@
 // console.log('Your sum is ' + sum);
 
 ///--------
-let ar = [1, 2, 3, 4, 10, 11]
-let sum = 0;
-function simpleArraySum(ar) {
+// let ar = [1, 2, 3, 4, 10, 11]
+// let sum = 0;
+// function simpleArraySum(ar) {
 
-    for (let i = 0; i < ar.length; i++) {
-        sum += ar[i];
+//     for (let i = 0; i < ar.length; i++) {
+//         sum += ar[i];
+//     }
+//     console.log('asdsa', sum)
+// }
+
+// simpleArraySum(ar);
+
+//-
+let arr = [2, 4, 5, 6, 7]
+
+function miniMaxSum(arr) {
+    // Write your code here
+    let min = arr;
+    let max = arr;
+    let sum = 0;
+    for (let i = 0; i < 6; i++) {
+        if (max < arr[i]) {
+            max = arr[i];
+        }
+        if (min > arr[i]) {
+            min = arr[i];
+        }
+        sum += arr[i];
     }
-    console.log('asdsa', sum)
+
+
+
 }
 
-simpleArraySum(ar);
