@@ -6082,13 +6082,48 @@
 // console.log('Highest Offer =>', maxOffer)
 
 //-------------------------------
-const number = [10, 20, 15, 30, 15, 20, 35, 60, 10]
+// const number = [10, 20, 15, 30, 15, 20, 35, 60, 10]
 
-const seenNumber = new Set();
+// const seenNumber = new Set();
 
-for (let i = 0; i < number.length; i++) {
-    if (seenNumber.has(number[i])) {
-        console.log(number[i]);
+// for (let i = 0; i < number.length; i++) {
+//     if (seenNumber.has(number[i])) {
+//         console.log(number[i]);
+//     }
+//     seenNumber.add(number[i])
+// }
+
+//-----
+// let num = [2, 3, 4, 5, 6, 7]
+
+// function arraySum(num) {
+//     let sum = 0;
+//     for (let i = 0; i < num.length; i++) {
+//     }
+// }
+// console.log(num)
+
+
+// let numbers = [1, 2, 3, 4]
+
+// let sum = 0;
+
+// for (var i = 0; i < numbers.length; i++) {
+
+//     sum += numbers[i]
+
+// }
+
+// console.log('Your sum is ' + sum);
+
+let ar = [1, 2, 3, 4, 10, 11]
+let sum = 0;
+function simpleArraySum(ar) {
+
+    for (let i = 0; i < ar.length; i++) {
+        sum += ar[i];
     }
-    seenNumber.add(number[i])
+    console.log('asdsa', sum)
 }
+
+simpleArraySum(ar);
