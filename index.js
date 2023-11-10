@@ -6169,23 +6169,44 @@
 // miniMaxSum(arr)
 
 
-///-------
+
+//-----------------------------
+//----------10-11-2023
+///-------Hackerrank-staircase-------------
 
 
-function stairCase(n) {
-    for (let i = 1; i <= n; i++) {
-        let move = '';
+// function stairCase(n) {
+//     for (let i = 1; i <= n; i++) {
+//         let move = '';
 
-        for (let a = 0; a < n; a++) {
-            if (a < n - i) {
-                move += '';
-            }
-            else {
-                move += '*';
-            }
+//         for (let a = 0; a < n; a++) {
+//             if (a < n - i) {
+//                 move += ' ';
+//             }
+//             else {
+//                 move += '#';
+//             }
+//         }
+
+//         console.log(move)
+//     }
+// }
+// stairCase(5)
+
+//------------------------------------
+//-------------hackerrank-birthdaycandel--------------
+
+function birthdayCandel(candel) {
+    let count = 0;
+    let max = Math.max(...candel);
+    for (let i = 0; i < candel.length; i++) {
+        if (candel[i] == max) {
+            count++;
+
         }
 
-        console.log(move)
     }
+
+    return count;
 }
-stairCase(5)
+birthdayCandel([1, 2, 0, 3, 1])
