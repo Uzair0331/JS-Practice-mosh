@@ -6174,18 +6174,17 @@
 
 function stairCase(n) {
     for (let i = 1; i <= n; i++) {
-        let move = ' ';
+        let move = '';
 
         for (let a = 0; a < n; a++) {
             if (a < n - i) {
                 move += '';
             }
             else {
-                move += '#';
+                move += '*';
             }
         }
 
         console.log(move)
     }
 }
-stairCase(5);
