@@ -6116,7 +6116,11 @@
 
 // console.log('Your sum is ' + sum);
 
-///--------
+
+
+///--------hackerrank sum of int------
+
+
 // let ar = [1, 2, 3, 4, 10, 11]
 // let sum = 0;
 // function simpleArraySum(ar) {
@@ -6129,15 +6133,17 @@
 
 // simpleArraySum(ar);
 
-//-
-let arr = [2, 4, 5, 6, 7]
+
+
+//---------min-max-sum-hackerrank-----------
+let arr = [1, 2, 3, 4, 5]
 
 function miniMaxSum(arr) {
-    // Write your code here
-    let min = arr;
-    let max = arr;
+
+    let min = arr[0];
+    let max = arr[0];
     let sum = 0;
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 5; i++) {
         if (max < arr[i]) {
             max = arr[i];
         }
@@ -6146,8 +6152,10 @@ function miniMaxSum(arr) {
         }
         sum += arr[i];
     }
-
-
-
+    let maxNum = sum - min;
+    let minNum = sum - max;
+    console.log(minNum + " " + maxNum)
 }
+miniMaxSum(arr)
+
 
