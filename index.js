@@ -6188,3 +6188,4 @@ function stairCase(n) {
         console.log(move)
     }
 }
+stairCase(5)
