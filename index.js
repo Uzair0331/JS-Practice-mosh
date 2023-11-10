@@ -6094,6 +6094,10 @@
 // }
 
 //-----
+
+
+
+
 // let num = [2, 3, 4, 5, 6, 7]
 
 // function arraySum(num) {
@@ -6102,6 +6106,12 @@
 //     }
 // }
 // console.log(num)
+
+
+
+
+
+//-------------------------------------
 
 
 // let numbers = [1, 2, 3, 4]
@@ -6136,26 +6146,46 @@
 
 
 //---------min-max-sum-hackerrank-----------
-let arr = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5]
 
-function miniMaxSum(arr) {
+// function miniMaxSum(arr) {
 
-    let min = arr[0];
-    let max = arr[0];
-    let sum = 0;
-    for (let i = 0; i < 5; i++) {
-        if (max < arr[i]) {
-            max = arr[i];
+//     let min = arr[0];
+//     let max = arr[0];
+//     let sum = 0;
+//     for (let i = 0; i < 5; i++) {
+//         if (max < arr[i]) {
+//             max = arr[i];
+//         }
+//         if (min > arr[i]) {
+//             min = arr[i];
+//         }
+//         sum += arr[i];
+//     }
+//     let maxNum = sum - min;
+//     let minNum = sum - max;
+//     console.log(minNum + " " + maxNum)
+// }
+// miniMaxSum(arr)
+
+
+///-------
+
+
+function stairCase(n) {
+    for (let i = 1; i <= n; i++) {
+        let move = ' ';
+
+        for (let a = 0; a < n; a++) {
+            if (a < n - i) {
+                move += '';
+            }
+            else {
+                move += '#';
+            }
         }
-        if (min > arr[i]) {
-            min = arr[i];
-        }
-        sum += arr[i];
+
+        console.log(move)
     }
-    let maxNum = sum - min;
-    let minNum = sum - max;
-    console.log(minNum + " " + maxNum)
 }
-miniMaxSum(arr)
-
-
+stairCase(5);
