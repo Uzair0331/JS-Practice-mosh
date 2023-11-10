@@ -6196,17 +6196,17 @@
 //------------------------------------
 //-------------hackerrank-birthdaycandel--------------
 
-function birthdayCandel(candel) {
-    let count = 0;
-    let max = Math.max(...candel);
-    for (let i = 0; i < candel.length; i++) {
-        if (candel[i] == max) {
-            count++;
+// function birthdayCandel(candel) {
+//     let count = 0;
+//     let max = Math.max(...candel);
+//     for (let i = 0; i < candel.length; i++) {
+//         if (candel[i] == max) {
+//             count++;
 
-        }
+//         }
 
-    }
+//     }
 
-    return count;
-}
-birthdayCandel([1, 2, 0, 3, 1])
+//     return count;
+// }
+// birthdayCandel([1, 2, 0, 3, 1])
