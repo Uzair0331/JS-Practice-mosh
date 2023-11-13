@@ -6333,7 +6333,19 @@
 //     return [alice, bob]
 // }
 
-
+//-------------------
+let a = [1, 2, 3]
+function circularArrayRotation(a, k, queries) {
+    let result = [];
+    for (let k = 0; k > 0; k--) {
+        let move = a.pop();
+        a = unshift(move);
+    }
+    for (let i = 0; i < queries.length; i++) {
+        result.push(a[queries[0]])
+    }
+    return result;
+}
 
 
 
