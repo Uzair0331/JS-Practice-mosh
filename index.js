@@ -6232,22 +6232,40 @@
 //   return Math.abs(d1 - d2);
 // }
 
+//--------------------------------------
+// function diagonalDifference(arr) {
+//     var n = arr.length; 
+//     var d1 = 0;
+//     var d2 = 0;
+//   for(var i=0; i<n; i++){
+//      for(var j=0; j<n; j++){
 
-function diagonalDifference(arr) {
-    var n = arr.length; 
-    var d1 = 0;
-    var d2 = 0;
-  for(var i=0; i<n; i++){
-     for(var j=0; j<n; j++){
-     
-         if(i === j) {
-           d1 += arr[i][j];
-         }
-     
-         if(i + j === n - 1){
-            d2 += arr[i][j];
-         }
-      }
-  }
-  return Math.abs(d1 - d2);
+//          if(i === j) {
+//            d1 += arr[i][j];
+//          }
+
+//          if(i + j === n - 1){
+//             d2 += arr[i][j];
+//          }
+//       }
+//   }
+//   return Math.abs(d1 - d2);
+// }
+
+//--------------------------------------
+
+
+function circularArrayRotation(a, k, queries) {
+
+    let result = [];
+    while (k > 0) {
+        let tmp = a.pop();
+        a.unshift(tmp);
+        k--;
+    }
+    for (let i = 0; i < queries.length; i++) {
+        result.push(a[queries[i]])
+    }
+    return result;
 }
+circularArrayRotation([3, 2, 3], [2, 1, 3], [1, 2, 3])
