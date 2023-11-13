@@ -6334,16 +6334,35 @@
 // }
 
 //-------------------
-let a = [1, 2, 3]
+let a = [2, 3, 4]
 function circularArrayRotation(a, k, queries) {
-    let result = [];
-    for (let k = 0; k > 0; k--) {
-        let move = a.pop();
-        a = unshift(move);
+    for (let i = 0; i < k; i++) {
+        a.unshift(a.pop());
     }
+    let ar = [];
     for (let i = 0; i < queries.length; i++) {
-        result.push(a[queries[0]])
+        ar.push(a[queries[i]]);
     }
+    return ar;
+
+}
+circularArrayRotation();
+
+//-------------------------
+function gradingStudents(grades) {
+
+    const result = grades.map((values) => {
+        if (values < 38) {
+            return values;
+        }
+        else if (values % 5 < 3) {
+            return values;
+        }
+        else {
+            let extraMarks = 5 - (values % 5);
+            return values + extraMarks;
+        }
+    });
     return result;
 }
 
