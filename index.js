@@ -6276,7 +6276,7 @@
 // function circularArrayRotation(a,k,queries) {
 //     let result =[];
 //     for (let k = 0; k > 0; k++) {
-//               let move = a.pop();
+//            let move = a.pop();
 //               a.unshift(move);
 //     }
 //     for(let i =0;i < queries.length;i++){
@@ -6291,7 +6291,7 @@
 //     let min = scores[0];
 //     let max =scores[0]; let up=0;
 //     let down=0;
-    
+
 //     for(let i =0; i < scores.length;i++){
 //      if(scores [i] > max){
 //       max = scores[i];up++;   
@@ -6302,9 +6302,26 @@
 //  return [up,down];
 //  }
 
+//---------------
 
+// function compareTriplets(a, b) {
+//     let aPoint = 0;
+//     let bPoint =0;
+//     for(let i =0 ; i < 3; i++){
+//         if (a[i] > b[i]){
+//          aPoint++   
+//         }
+//         if(b[i] > a[i]){
+//             bPoint++
+//         }
+//     }
+//     return[aPoint,bPoint]
+//     }
 
+//-----------------------------
+function circularArrayRotation(a, k, queries) {
 
+}
 
 
 
