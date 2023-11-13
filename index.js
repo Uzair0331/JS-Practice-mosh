@@ -6254,18 +6254,76 @@
 
 //--------------------------------------
 
+// a = [3, 4, 5]
+// k = 2
+// queries = [1, 2]
+// function circularArrayRotation(a, k, queries) {
 
-function circularArrayRotation(a, k, queries) {
+//     let result = [];
+//     while (k > 0) {
+//         let tmp = a.pop();
+//         a.unshift(tmp);
+//         k--;
+//     }
+//     for (let i = 0; i < queries.length; i++) {
+//         result.push(a[queries[i]])
 
-    let result = [];
-    while (k > 0) {
-        let tmp = a.pop();
-        a.unshift(tmp);
-        k--;
-    }
-    for (let i = 0; i < queries.length; i++) {
-        result.push(a[queries[i]])
-    }
-    return result;
-}
-circularArrayRotation([3, 2, 3], [2, 1, 3], [1, 2, 3])
+//     }
+//     return result;
+// }
+
+//-----------------------------
+// function circularArrayRotation(a,k,queries) {
+//     let result =[];
+//     for (let k = 0; k > 0; k++) {
+//               let move = a.pop();
+//               a.unshift(move);
+//     }
+//     for(let i =0;i < queries.length;i++){
+//     result.push(a[queries[i]])    
+//     }
+//     return
+// }
+
+
+
+// function breakingRecords(scores) {
+//     let min = scores[0];
+//     let max =scores[0]; let up=0;
+//     let down=0;
+    
+//     for(let i =0; i < scores.length;i++){
+//      if(scores [i] > max){
+//       max = scores[i];up++;   
+//      }   
+//      else if (scores[i] < min){
+//          min = scores[i];down++;}
+//     }
+//  return [up,down];
+//  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
