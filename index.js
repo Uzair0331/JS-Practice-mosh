@@ -6380,7 +6380,7 @@
 
 
 //------------Subarray division------
- //  let matches =0 ;
+//  let matches =0 ;
 //  for(let i =0; i < s.length;i++){
 //      let subarr = s.slice(i,i+m);
 //      let sum = subarr.reduce((a,b)=> a+b)
@@ -6397,7 +6397,7 @@
 //     return "YES";
 //     else
 //     return "NO";
- 
+
 //  }
 
 
@@ -6437,7 +6437,15 @@
 //     return "YES";
 //     else
 //     return "NO";
- 
+
 //  }
 
 
+
+
+////----------------
+function bonAppetit(bill, k, b) {
+    let total = bill.reduce((a, b) => a + b)
+    let anaBill = (total - bill[k]) / 2;
+    console.log()
+}
