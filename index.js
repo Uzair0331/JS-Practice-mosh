@@ -6425,9 +6425,7 @@
 //     return result;
 // }
 
-
-
-
+//-------------------
 
 //-----------------Number line jump----------
 // function kangaroo(x1, v1, x2, v2) {
@@ -6444,8 +6442,15 @@
 
 
 ////----------------
-function bonAppetit(bill, k, b) {
-    let total = bill.reduce((a, b) => a + b)
-    let anaBill = (total - bill[k]) / 2;
-    console.log()
+// function bonAppetit(bill, k, b) {
+//     let total = bill.reduce((a, b) => a + b)
+//     let anaBill = (total - bill[k]) / 2;
+//     console.log(anaBill == b ? "Bon Appetit" : b - anaBill)
+// }
+
+//---------------------
+
+function birthday(s, d, m) {
+
+
 }
