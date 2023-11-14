@@ -6371,19 +6371,73 @@
 
 
 
+//----------Bill Diviosin------
+
+
+// let total =bill.reduce((a,b)=> a+b)
+//     let anaBill = (total - bill [k])/2;
+//     console.log(anaBill == b ? "Bon Appetit" : b - anaBill)
+
+
+//------------Subarray division------
+ //  let matches =0 ;
+//  for(let i =0; i < s.length;i++){
+//      let subarr = s.slice(i,i+m);
+//      let sum = subarr.reduce((a,b)=> a+b)
+//      if(sum == d){matches++;}
+//  }
+//  return matches;
+
+
+//-----------------Number line jump----------
+// function kangaroo(x1, v1, x2, v2) {
+//     if (v1 < v2)
+//     return "NO";
+//     if((x2 - x1) % (v1 - v2) == 0)
+//     return "YES";
+//     else
+//     return "NO";
+ 
+//  }
 
 
 
 
 
 
+//-------------------------
+
+
+// function gradingStudents(grades) {
+
+//     const result = grades.map((values) => {
+//         if (values < 38) {
+//             return values;
+//         }
+//         else if (values % 5 < 3) {
+//             return values;
+//         }
+//         else {
+//             let extraMarks = 5 - (values % 5);
+//             return values + extraMarks;
+//         }
+//     });
+//     return result;
+// }
 
 
 
 
 
-
-
-
+//-----------------Number line jump----------
+// function kangaroo(x1, v1, x2, v2) {
+//     if (v1 < v2)
+//     return "NO";
+//     if((x2 - x1) % (v1 - v2) == 0)
+//     return "YES";
+//     else
+//     return "NO";
+ 
+//  }
 
 
