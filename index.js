@@ -6439,14 +6439,26 @@
 
 //---------------------
 
-function birthday(s, d, m) {
-    let matches = 0;
+// function birthday(s, d, m) {
+//     let matches = 0;
 
-    for (let i = 0; i < s.length; i++) {
-        let newArr = s.slice(i, i + m);
-        let sum = newArr.reduce((a, b) => a + b)
-        if (sum == d) { matches++ }
+//     for (let i = 0; i < s.length; i++) {
+//         let newArr = s.slice(i, i + m);
+//         let sum = newArr.reduce((a, b) => a + b)
+//         if (sum == d) { matches++ }
+//     }
+//     return matches;
+
+// }
+
+//-----------------------
+function hurdleRace(k, height) {
+    let heightMax = 0;
+    for (let i = 0; i < height.length; i++) {
+        if (height[i] > k) {
+            let magic = diff + height[i] - k;
+            if (magic > max) { heightMax = magic }
+        }
     }
-    return matches;
-
+    return heightMax;
 }
