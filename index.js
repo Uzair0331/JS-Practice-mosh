@@ -6370,15 +6370,6 @@
 
 
 
-
-//----------Bill Diviosin------
-
-
-// let total =bill.reduce((a,b)=> a+b)
-//     let anaBill = (total - bill [k])/2;
-//     console.log(anaBill == b ? "Bon Appetit" : b - anaBill)
-
-
 //------------Subarray division------
 //  let matches =0 ;
 //  for(let i =0; i < s.length;i++){
@@ -6399,10 +6390,6 @@
 //     return "NO";
 
 //  }
-
-
-
-
 
 
 //-------------------------
@@ -6441,7 +6428,9 @@
 
 
 
-////----------------
+////------------Bill division----
+
+
 // function bonAppetit(bill, k, b) {
 //     let total = bill.reduce((a, b) => a + b)
 //     let anaBill = (total - bill[k]) / 2;
@@ -6451,6 +6440,13 @@
 //---------------------
 
 function birthday(s, d, m) {
+    let matches = 0;
 
+    for (let i = 0; i < s.length; i++) {
+        let newArr = s.slice(i, i + m);
+        let sum = newArr.reduce((a, b) => a + b)
+        if (sum == d) { matches++ }
+    }
+    return matches;
 
 }
