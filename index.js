@@ -6451,7 +6451,7 @@
 
 // }
 
-// //-----------------------
+// //--XX---------------------XX
 // function hurdleRace(k, height) {
 //     let heightMax = 0;
 //     for (let i = 0; i < height.length; i++) {
@@ -6462,16 +6462,24 @@
 //     }
 //     return heightMax;
 // }
+//--------------
 
+// function hurdleRace(k, height) {
 
-function hurdleRace(k, height) {
-    // Write your code here
-    let heightMax = 0;
-    for (let i = 0; i < height.length; i++) {
-        if (height[i] > k) {
-            let diff = height[i] - k;
-            if (diff > heightMax) { heightMax = diff }
-        }
-    }
-    return heightMax;
+//     let heightMax = 0;
+//     for (let i = 0; i < height.length; i++) {
+//         if (height[i] > k) {
+//             let diff = height[i] - k;
+//             if (diff > heightMax) { heightMax = diff }
+//         }
+//     }
+//     return heightMax;
+// }
+
+//------
+function timeConversion(s) {
+    let hours = s.slice(0, 2)
+    let minutes = s.slice(3, 5)
+    let second = s.slice(6, 8)
+
 }
