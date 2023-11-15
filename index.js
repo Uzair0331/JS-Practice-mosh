@@ -6451,13 +6451,26 @@
 
 // }
 
-//-----------------------
+// //-----------------------
+// function hurdleRace(k, height) {
+//     let heightMax = 0;
+//     for (let i = 0; i < height.length; i++) {
+//         if (height[i] > k) {
+//             let magic = diff + height[i] - k;
+//             if (magic > max) { heightMax = magic }
+//         }
+//     }
+//     return heightMax;
+// }
+
+
 function hurdleRace(k, height) {
+    // Write your code here
     let heightMax = 0;
     for (let i = 0; i < height.length; i++) {
         if (height[i] > k) {
-            let magic = diff + height[i] - k;
-            if (magic > max) { heightMax = magic }
+            let diff = height[i] - k;
+            if (diff > heightMax) { heightMax = diff }
         }
     }
     return heightMax;
