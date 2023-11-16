@@ -6488,7 +6488,7 @@ function timeConversion(s) {
    }
    else {
       if (hours < 12 && hours > 6) {
-
+         hours
       }
    }
 
