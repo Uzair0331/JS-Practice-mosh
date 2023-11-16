@@ -6477,9 +6477,13 @@
 // }
 
 //------
-function timeConversion(s) {
-    let hours = s.slice(0, 2)
-    let minutes = s.slice(3, 5)
-    let second = s.slice(6, 8)
 
+
+function timeConversion(s) {
+   let hours = s.slice(0, 2)
+   let minutes = s.slice(3, 5)
+   let second = s.slice(6, 8)
+   if (s.includes('A.M')) {
+      if (hours === '12') { hours = '00' }
+   }
 }
