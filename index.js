@@ -6486,4 +6486,5 @@ function timeConversion(s) {
    if (s.includes('A.M')) {
       if (hours === '12') { hours = '00' }
    }
-}
+   else
+   }
