@@ -6479,26 +6479,33 @@
 //------
 
 
-function timeConversion(s) {
-   let hours = s.slice(0, 2)
-   let minutes = s.slice(3, 5)
-   let second = s.slice(6, 8)
-   if (s.includes('A.M')) {
-      if (hours === '12') { hours = '00' }
-   }
-   else {
-      if (hours < 12 && hours > 6) {
-         hours = parseFloat(hours) + 12
-      }
-   }
-   return result = hours + ':' + minutes + ':' + second
-}
+// function timeConversion(s) {
+//    let hours = s.slice(0, 2)
+//    let minutes = s.slice(3, 5)
+//    let second = s.slice(6, 8)
+//    if (s.includes('A.M')) {
+//       if (hours === '12') { hours = '00' }
+//    }
+//    else {
+//       if (hours < 12 && hours > 6) {
+//          hours = parseFloat(hours) + 12
+//       }
+//    }
+//    return result = hours + ':' + minutes + ':' + second
+// }
 
 //-----------------
+
+
+
+
+
 function divisibleSumPairs(n, k, ar) {
    let count = 0;
    for (let i = 0; i < n - 1; i++) {
-      for (let j = i + 1; j < n; j++) { }
+      for (let j = i + 1; j < n; j++) {
+         if () 
+      }
    }
 
 }
