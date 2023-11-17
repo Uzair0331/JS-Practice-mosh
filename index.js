@@ -6493,3 +6493,12 @@ function timeConversion(s) {
    }
    return result = hours + ':' + minutes + ':' + second
 }
+
+//-----------------
+function divisibleSumPairs(n, k, ar) {
+   let count = 0;
+   for (let i = 0; i < n - 1; i++) {
+
+   }
+
+}
