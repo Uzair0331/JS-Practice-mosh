@@ -6491,5 +6491,5 @@ function timeConversion(s) {
          hours = parseFloat(hours) + 12
       }
    }
-
+   return result = hours + ':' + minutes + ':' + second
 }
