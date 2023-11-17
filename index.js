@@ -6514,6 +6514,37 @@ n = 6,
       return count;
    }
 
+//---------------
+// function gradingStudents(grades) {
+// const result = grades.map((values)=>{
+//    if(values < 38){
+//        return values;
+//    }   
+//    else if(values %5 <3){
+//        return values;
+//    }
+//    else{
+//     let extraMarks =5-(values%5);
+//     return values + extraMarks;   
+//    }
+//   });
+//   return result;
+//   }
 
+
+n = 6,
+   k = 3,
+   ar = [1, 3, 2, 6, 1, 2],
+   function divisibleSumPairs(n, k, ar) {
+
+
+
+      for (let i = 0; i < n - 1; i++) {
+         for (let j = i + 1; j < n; j++) {
+            if ((ar[i] + ar[j]) % k == 0) { count++ }
+         }
+      }
+      return count;
+   }
 
 
