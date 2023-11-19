@@ -6544,12 +6544,15 @@ function divisibleSumPairs(n, k, ar) {
    return count;
 }
 
-<<<<<<< HEAD
 //----------------------------------
 //-----------plus-mius--------------
 function plusMinus(arr) {
     let plusVal = 0;
 let negVal = 0;
+
+
+kfhaskjdh
+skfhaskjfhkl
 let zero = 0;
 let arrLength = arr.length;
 
@@ -6595,6 +6598,4 @@ console.log(posAns);
 console.log(negAns);
 console.log(zeroAns);
 }
-=======
 
->>>>>>> e7d01295b74a033cae51eb309e5de8d8c4c1dce0
