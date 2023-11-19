@@ -6232,26 +6232,319 @@
 //   return Math.abs(d1 - d2);
 // }
 
+//--------------------------------------
+// function diagonalDifference(arr) {
+//     var n = arr.length; 
+//     var d1 = 0;
+//     var d2 = 0;
+//   for(var i=0; i<n; i++){
+//      for(var j=0; j<n; j++){
 
-function diagonalDifference(arr) {
-    var n = arr.length; 
-    var d1 = 0;
-    var d2 = 0;
-  for(var i=0; i<n; i++){
-     for(var j=0; j<n; j++){
-     
-         if(i === j) {
-           d1 += arr[i][j];
-         }
-     
-         if(i + j === n - 1){
-            d2 += arr[i][j];
+//          if(i === j) {
+//            d1 += arr[i][j];
+//          }
+
+//          if(i + j === n - 1){
+//             d2 += arr[i][j];
+//          }
+//       }
+//   }
+//   return Math.abs(d1 - d2);
+// }
+
+//--------------------------------------
+
+// a = [3, 4, 5]
+// k = 2
+// queries = [1, 2]
+// function circularArrayRotation(a, k, queries) {
+
+//     let result = [];
+//     while (k > 0) {
+//         let tmp = a.pop();
+//         a.unshift(tmp);
+//         k--;
+//     }
+//     for (let i = 0; i < queries.length; i++) {
+//         result.push(a[queries[i]])
+
+//     }
+//     return result;
+// }
+
+//-----------------------------
+// function circularArrayRotation(a,k,queries) {
+//     let result =[];
+//     for (let k = 0; k > 0; k++) {
+//            let move = a.pop();
+//               a.unshift(move);
+//     }
+//     for(let i =0;i < queries.length;i++){
+//     result.push(a[queries[i]])    
+//     }
+//     return
+// }
+
+
+
+// function breakingRecords(scores) {
+//     let min = scores[0];
+//     let max =scores[0]; let up=0;
+//     let down=0;
+
+//     for(let i =0; i < scores.length;i++){
+//      if(scores [i] > max){
+//       max = scores[i];up++;   
+//      }   
+//      else if (scores[i] < min){
+//          min = scores[i];down++;}
+//     }
+//  return [up,down];
+//  }
+
+//---------------
+
+// function compareTriplets(a, b) {
+//     let aPoint = 0;
+//     let bPoint =0;
+//     for(let i =0 ; i < 3; i++){
+//         if (a[i] > b[i]){
+//          aPoint++   
+//         }
+//         if(b[i] > a[i]){
+//             bPoint++
+//         }
+//     }
+//     return[aPoint,bPoint]
+//     }
+
+//-----------------------------
+// function compareTriplets(a, b) {
+//     let alice = 0;
+//     let bob = 0;
+//     for (let i = 0; i < 3; i++) {
+//         if (a[i] > b[i]) {
+//             alice++;
+//         }
+//         if (b[i] > a[i]) {
+//             bob++;
+//         }
+//     }
+//     return [alice, bob]
+// }
+
+//-------------------
+// let a = [2, 3, 4]
+// function circularArrayRotation(a, k, queries) {
+//     for (let i = 0; i < k; i++) {
+//         a.unshift(a.pop());
+//     }
+//     let ar = [];
+//     for (let i = 0; i < queries.length; i++) {
+//         ar.push(a[queries[i]]);
+//     }
+//     return ar;
+
+// }
+// circularArrayRotation();
+
+//-------------------------
+
+
+// function gradingStudents(grades) {
+
+//     const result = grades.map((values) => {
+//         if (values < 38) {
+//             return values;
+//         }
+//         else if (values % 5 < 3) {
+//             return values;
+//         }
+//         else {
+//             let extraMarks = 5 - (values % 5);
+//             return values + extraMarks;
+//         }
+//     });
+//     return result;
+// }
+
+
+
+//------------Subarray division------
+//  let matches =0 ;
+//  for(let i =0; i < s.length;i++){
+//      let subarr = s.slice(i,i+m);
+//      let sum = subarr.reduce((a,b)=> a+b)
+//      if(sum == d){matches++;}
+//  }
+//  return matches;
+
+
+//-----------------Number line jump----------
+// function kangaroo(x1, v1, x2, v2) {
+//     if (v1 < v2)
+//     return "NO";
+//     if((x2 - x1) % (v1 - v2) == 0)
+//     return "YES";
+//     else
+//     return "NO";
+
+//  }
+
+
+//-------------------------
+
+
+// function gradingStudents(grades) {
+
+//     const result = grades.map((values) => {
+//         if (values < 38) {
+//             return values;
+//         }
+//         else if (values % 5 < 3) {
+//             return values;
+//         }
+//         else {
+//             let extraMarks = 5 - (values % 5);
+//             return values + extraMarks;
+//         }
+//     });
+//     return result;
+// }
+
+//-------------------
+
+//-----------------Number line jump----------
+// function kangaroo(x1, v1, x2, v2) {
+//     if (v1 < v2)
+//     return "NO";
+//     if((x2 - x1) % (v1 - v2) == 0)
+//     return "YES";
+//     else
+//     return "NO";
+
+//  }
+
+
+
+
+////------------Bill division----
+
+
+// function bonAppetit(bill, k, b) {
+//     let total = bill.reduce((a, b) => a + b)
+//     let anaBill = (total - bill[k]) / 2;
+//     console.log(anaBill == b ? "Bon Appetit" : b - anaBill)
+// }
+
+//---------------------
+
+// function birthday(s, d, m) {
+//     let matches = 0;
+
+//     for (let i = 0; i < s.length; i++) {
+//         let newArr = s.slice(i, i + m);
+//         let sum = newArr.reduce((a, b) => a + b)
+//         if (sum == d) { matches++ }
+//     }
+//     return matches;
+
+// }
+
+// //--XX---------------------XX
+// function hurdleRace(k, height) {
+//     let heightMax = 0;
+//     for (let i = 0; i < height.length; i++) {
+//         if (height[i] > k) {
+//             let magic = diff + height[i] - k;
+//             if (magic > max) { heightMax = magic }
+//         }
+//     }
+//     return heightMax;
+// }
+//--------------
+
+// function hurdleRace(k, height) {
+
+//     let heightMax = 0;
+//     for (let i = 0; i < height.length; i++) {
+//         if (height[i] > k) {
+//             let diff = height[i] - k;
+//             if (diff > heightMax) { heightMax = diff }
+//         }
+//     }
+//     return heightMax;
+// }
+
+//------
+
+
+// function timeConversion(s) {
+//    let hours = s.slice(0, 2)
+//    let minutes = s.slice(3, 5)
+//    let second = s.slice(6, 8)
+//    if (s.includes('A.M')) {
+//       if (hours === '12') { hours = '00' }
+//    }
+//    else {
+//       if (hours < 12 && hours > 6) {
+//          hours = parseFloat(hours) + 12
+//       }
+//    }
+//    return result = hours + ':' + minutes + ':' + second
+// }
+
+//-----------------
+
+
+
+
+n = 6,
+   k = 3,
+   ar = [1, 3, 2, 6, 1, 2],
+   function divisibleSumPairs(n, k, ar) {
+
+
+      let count = 0;
+      for (let i = 0; i < n - 1; i++) {
+         for (let j = i + 1; j < n; j++) {
+            if ((ar[i] + ar[j]) % k == 0) { count++ }
          }
       }
-  }
-  return Math.abs(d1 - d2);
+      return count;
+   }
+
+//---------------
+// function gradingStudents(grades) {
+// const result = grades.map((values)=>{
+//    if(values < 38){
+//        return values;
+//    }   
+//    else if(values %5 <3){
+//        return values;
+//    }
+//    else{
+//     let extraMarks =5-(values%5);
+//     return values + extraMarks;   
+//    }
+//   });
+//   return result;
+//   }
+
+
+function divisibleSumPairs(n, k, ar) {
+
+
+   let count = 0;
+   for (let i = 0; i < n - 1; i++) {
+      for (let j = i + 1; j < n; j++) {
+         if ((ar[i] + ar[j]) % k == 0) { count++ }
+      }
+   }
+   return count;
 }
 
+<<<<<<< HEAD
 //----------------------------------
 //-----------plus-mius--------------
 function plusMinus(arr) {
@@ -6302,3 +6595,6 @@ console.log(posAns);
 console.log(negAns);
 console.log(zeroAns);
 }
+=======
+
+>>>>>>> e7d01295b74a033cae51eb309e5de8d8c4c1dce0
