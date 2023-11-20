@@ -6573,5 +6573,5 @@ n = 6,
 //--------------------
 
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
-
+   const totalApples = apples.map(num => num.a).filter(num >= s && num <= t).length;
 }
