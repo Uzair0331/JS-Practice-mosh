@@ -6572,6 +6572,46 @@ n = 6,
 
 //--------------------
 
-function countApplesAndOranges(s, t, a, b, apples, oranges) {
-   const totalApples = apples.map(num => num.a).filter(num >= s && num <= t).length;
+
+// let arr =[];
+// for(let i = 0 ;i < cases.length; i++){
+//     for(let j = 0 ; j < 1 ; j ++){
+//         let a = cases[i][j];
+//         let b = cases[i][j+1];
+//         let c = width.slice(a,b+1)
+//         arr.push(Math.min(...c))
+//     }
+// }
+// return arr;
+
+
+
+
+
+//---------------
+
+
+
+
+// function countApplesAndOranges(s, t, a, b, apples, oranges) {
+//    const totalApples = apples.map(num => num + a).filter(num => num >= s && num <= t).length;
+//    const totalOranges = oranges.map(num => num + b).filter(num => num >= s && num <= t).length;
+//    console.log(totalApples)
+//    console.log(totalOranges)
+// }
+
+
+
+//----------------
+function getTotalX(a, b) {
+   let count = 0;
+   let min_a = Math.min(...a);
+   for (let i = min_a; i < Math.max(...b); i += min_a) {
+      if (b.every((items) => items % i === 0)) {
+         if (a.every((items) => i % items === 0)) {
+            count += 1
+         }
+      }
+   }
+   return count;
 }
