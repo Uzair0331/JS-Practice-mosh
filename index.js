@@ -6570,5 +6570,8 @@ n = 6,
 //    console.log(zeroAns);
 // }
 
+//--------------------
 
+function countApplesAndOranges(s, t, a, b, apples, oranges) {
 
+}
