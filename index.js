@@ -6603,14 +6603,23 @@
 
 
 //----------------
+//     for (let i = 1; i <= n; i++) {
+//         let move = '';
 
+//         for (let a = 0; a < n; a++) {
+//             if (a < n - i) {
+//                 move += ' ';
+//             }
+//             else {
+//                 move += '#';
+//             }
+//         }
+
+//         console.log(move)
+//     }
+// }
+// stairCase(5)
 ///-------------
-
-
-
-
-
-
 // function getTotalX(a, b) {
 //    let count = 0;
 //    let min_a = Math.min(...a);
@@ -6637,7 +6646,10 @@ function first(a, b) {
 first(a, b)
 
 
+
 //--------------------------
+
+
 let ar = [1, 2, 3, 4, 10, 11]
 total = 0;
 function simpleArraySum(ar) {
