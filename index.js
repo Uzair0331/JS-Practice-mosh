@@ -6603,22 +6603,18 @@
 
 
 //----------------
-//     for (let i = 1; i <= n; i++) {
-//         let move = '';
+//     let count = 0;
+//     let max = Math.max(...candel);
+//     for (let i = 0; i < candel.length; i++) {
+//         if (candel[i] == max) {
+//             count++;
+//         }
+//     return count;
 
 //         for (let a = 0; a < n; a++) {
 //             if (a < n - i) {
 //                 move += ' ';
-//             }
-//             else {
-//                 move += '#';
-//             }
-//         }
-
-//         console.log(move)
-//     }
-// }
-// stairCase(5)
+//         
 ///-------------
 // function getTotalX(a, b) {
 //    let count = 0;
@@ -6650,8 +6646,43 @@ first(a, b)
 //--------------------------
 
 
-let ar = [1, 2, 3, 4, 10, 11]
-total = 0;
-function simpleArraySum(ar) {
+// let ar = [1, 2, 3, 4, 10, 11]
+// let total = 0;
+// function simpleArraySum(ar) {
+//    for (let i = 0; i < ar.length; i++) {
+//       total += ar[i]
+//    }
+//    console.log('The sum of array =>' + " " + total)
+// }
+// simpleArraySum(ar)
 
+//-------------------------
+
+
+
+function staircase(n) {
+   for (let i = 1; i <= n; i++) {
+      let step = ''
+      for (let a = 0; a < n; a++) {
+         if (a < n - i) {
+            step += ' '
+         } else {
+            step += '#'
+         }
+      }
+      console.log(step)
+   }
 }
+staircase(5)
+
+
+//------------------
+let candles = [1, 4, 2, 3, 4]
+
+function birthdayCakeCandles(candles) {
+   let high = Math.max(...candles)
+
+   console.log(high)
+}
+birthdayCakeCandles(candles)
+
