@@ -6604,6 +6604,22 @@ n = 6,
 
 //----------------
 
+///-------------
+
+
+// let ar = [1, 2, 3, 4, 10, 11]
+// let sum = 0;
+// function simpleArraySum(ar) {
+
+//     for (let i = 0; i < ar.length; i++) {
+//         sum += ar[i];
+//     }
+//     console.log('asdsa', sum)
+// }
+
+// simpleArraySum(ar);
+
+
 
 
 // function getTotalX(a, b) {
@@ -6621,9 +6637,9 @@ n = 6,
 
 
 //----------------------------
-let a = 5;
-let b = 4;
+let a = [2]
+let b = [3]
 function solveMeFirst(a, b) {
-   return a + b;
+   console.log(a + b)
 }
-solveMeFirst(a, b);
+solveMeFirst(a + b)
