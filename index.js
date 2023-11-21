@@ -6603,15 +6603,27 @@ n = 6,
 
 
 //----------------
-function getTotalX(a, b) {
-   let count = 0;
-   let min_a = Math.min(...a);
-   for (let i = min_a; i < Math.max(...b); i += min_a) {
-      if (b.every((items) => items % i === 0)) {
-         if (a.every((items) => i % items === 0)) {
-            count += 1
-         }
-      }
-   }
-   return count;
+
+
+
+// function getTotalX(a, b) {
+//    let count = 0;
+//    let min_a = Math.min(...a);
+//    for (let i = min_a; i < Math.max(...b); i += min_a) {
+//       if (b.every((items) => items % i === 0)) {
+//          if (a.every((items) => i % items === 0)) {
+//             count += 1
+//          }
+//       }
+//    }
+//    return count;
+// }
+
+
+//----------------------------
+let a = 5;
+let b = 4;
+function solveMeFirst(a, b) {
+   return a + b;
 }
+solveMeFirst(a, b);
