@@ -6499,20 +6499,20 @@
 
 
 
-n = 6,
-   k = 3,
-   ar = [1, 3, 2, 6, 1, 2],
-   function divisibleSumPairs(n, k, ar) {
+// n = 6,
+//    k = 3,
+//    ar = [1, 3, 2, 6, 1, 2],
+//    function divisibleSumPairs(n, k, ar) {
 
 
-      let count = 0;
-      for (let i = 0; i < n - 1; i++) {
-         for (let j = i + 1; j < n; j++) {
-            if ((ar[i] + ar[j]) % k == 0) { count++ }
-         }
-      }
-      return count;
-   }
+//       let count = 0;
+//       for (let i = 0; i < n - 1; i++) {
+//          for (let j = i + 1; j < n; j++) {
+//             if ((ar[i] + ar[j]) % k == 0) { count++ }
+//          }
+//       }
+//       return count;
+//    }
 
 //---------------
 // function gradingStudents(grades) {
@@ -6607,17 +6607,6 @@ n = 6,
 ///-------------
 
 
-// let ar = [1, 2, 3, 4, 10, 11]
-// let sum = 0;
-// function simpleArraySum(ar) {
-
-//     for (let i = 0; i < ar.length; i++) {
-//         sum += ar[i];
-//     }
-//     console.log('asdsa', sum)
-// }
-
-// simpleArraySum(ar);
 
 
 
@@ -6637,9 +6626,20 @@ n = 6,
 
 
 //----------------------------
-let a = [2]
-let b = [3]
-function solveMeFirst(a, b) {
-   console.log(a + b)
+
+
+a = 2
+b = 6
+function first(a, b) {
+   let sum = a + b;
+   console.log(sum)
 }
-solveMeFirst(a + b)
+first(a, b)
+
+
+//--------------------------
+let ar = [1, 2, 3, 4, 10, 11]
+total = 0;
+function simpleArraySum(ar) {
+
+}
