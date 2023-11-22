@@ -6603,18 +6603,7 @@
 
 
 //----------------
-//     let count = 0;
-//     let max = Math.max(...candel);
-//     for (let i = 0; i < candel.length; i++) {
-//         if (candel[i] == max) {
-//             count++;
-//         }
-//     return count;
 
-//         for (let a = 0; a < n; a++) {
-//             if (a < n - i) {
-//                 move += ' ';
-//         
 ///-------------
 // function getTotalX(a, b) {
 //    let count = 0;
