@@ -6575,6 +6575,17 @@
 
 
 
+// function countApplesAndOranges(s, t, a, b, apples, oranges) {
+//    const totalApples = apples.map(num => num + a).filter(num => num >= s && num <= t).length;
+//    const totalOranges = oranges.map(num => num + b).filter(num => num >= s && num <= t).length;
+//    console.log(totalApples)
+//    console.log(totalOranges)
+// }
+
+
+
+
+
 
 
 //     let alice = 0;
@@ -6589,17 +6600,6 @@
 //     }
 //     return [alice, bob]
 //---------------
-
-
-
-
-// function countApplesAndOranges(s, t, a, b, apples, oranges) {
-//    const totalApples = apples.map(num => num + a).filter(num => num >= s && num <= t).length;
-//    const totalOranges = oranges.map(num => num + b).filter(num => num >= s && num <= t).length;
-//    console.log(totalApples)
-//    console.log(totalOranges)
-// }
-
 
 
 //----------------
