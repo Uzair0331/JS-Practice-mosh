@@ -6702,23 +6702,49 @@
 // birthdayCakeCandles(candles)
 
 
-let aaqibKiString = "fsahjfksahkjfashifasgtuyasfgjhgsfacwangcvhvhjhzchnbxgcjgsxhjzhcdgafh qbddhaFEHGJsafdnFDGSFHGHGDHGSVDSDSAGHFcghdsfghsdghhjas X ZVCXBNZBNCVZXNCGJVCBNMXVACBXZACBVNBZXGCGNJGHCFXBAJSSAJRASGghfdsagdjshgfhjsdagfhjgdsfjhgfqywuiryqweiurhiukasdyiudsghkgsf";
+// let aaqibKiString = "fsahjfksahkjfashifasgtuyasfgjhgsfacwangcvhvhjhzchnbxgcjgsxhjzhcdgafh qbddhaFEHGJsafdnFDGSFHGHGDHGSVDSDSAGHFcghdsfghsdghhjas X ZVCXBNZBNCVZXNCGJVCBNMXVACBXZACBVNBZXGCGNJGHCFXBAJSSAJRASGghfdsagdjshgfhjsdagfhjgdsfjhgfqywuiryqweiurhiukasdyiudsghkgsf";
 
-obj = {}
+// obj = {}
 
-for (let i = 0; i < aaqibKiString.length; i++) {
-   let totalString = aaqibKiString[i].toLowerCase();
-   if (obj[totalString]) {
-      obj[totalString] += 1
-   }
-   else {
-      obj[totalString] = 1
-   }
-   console.log(obj)
+// for (let i = 0; i < aaqibKiString.length; i++) {
+//    let totalString = aaqibKiString[i].toLowerCase();
+//    if (obj[totalString]) {
+//       obj[totalString] += 1
+//    }
+//    else {
+//       obj[totalString] = 1
+//    }
+//    console.log(obj)
+// }
+
+
+
+
+let a = [5, 6, 7]
+let b = [3, 6, 10]
+
+function compareTriplets(a, b) {
+    let alice = 0;
+    let bob = 0;
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] > b[i]) {
+            alice++;
+        }
+        if (a[i] < b[i]) {
+            bob++;
+        }
+    }
+    console.log("alice==>" + " " + alice + " " + "bob==>" + " " + bob)
 }
+compareTriplets(a, b)
 
+//--------------------------------------
 
+let arr = [1, 2, 3, 5, 9, 8]
+function miniMaxSum(arr) {
+    let min = ar[0]
+    let max = ar[0]
+    for (let i = 0; i < arr.length; i++) {
 
-
-
-
+    }
+}
