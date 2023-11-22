@@ -6573,21 +6573,21 @@
 //--------------------
 
 
-// let arr =[];
-// for(let i = 0 ;i < cases.length; i++){
-//     for(let j = 0 ; j < 1 ; j ++){
-//         let a = cases[i][j];
-//         let b = cases[i][j+1];
-//         let c = width.slice(a,b+1)
-//         arr.push(Math.min(...c))
+
+
+
+
+//     let alice = 0;
+//     let bob = 0;
+//     for (let i = 0; i < 3; i++) {
+//         if (a[i] > b[i]) {
+//             alice++;
+//         }
+//         if (b[i] > a[i]) {
+//             bob++;
+//         }
 //     }
-// }
-// return arr;
-
-
-
-
-
+//     return [alice, bob]
 //---------------
 
 
@@ -6633,13 +6633,13 @@
 //----------------------------
 
 
-a = 2
-b = 6
-function first(a, b) {
-   let sum = a + b;
-   console.log(sum)
-}
-first(a, b)
+// a = 2
+// b = 6
+// function first(a, b) {
+//    let sum = a + b;
+//    console.log(sum)
+// }
+// first(a, b)
 
 
 
@@ -6660,29 +6660,54 @@ first(a, b)
 
 
 
-function staircase(n) {
-   for (let i = 1; i <= n; i++) {
-      let step = ''
-      for (let a = 0; a < n; a++) {
-         if (a < n - i) {
-            step += ' '
-         } else {
-            step += '#'
-         }
-      }
-      console.log(step)
-   }
-}
-staircase(5)
+// function staircase(n) {
+//    for (let i = 1; i <= n; i++) {
+//       let step = ''
+//       for (let a = 0; a < n; a++) {
+//          if (a < n - i) {
+//             step += ' '
+//          } else {
+//             step += '#'
+//          }
+//       }
+//       console.log(step)
+//    }
+// }
+// staircase(5)
 
 
 //------------------
-let candles = [1, 4, 2, 3, 4]
+// let candles = [1, 4, 2, 3, 4]
+// let total = 0;
+// function birthdayCakeCandles(candles) {
+//    let highest = Math.max(...candles)
+//    for (let i = 0; i < candles.length; i++) {
+//       if (candles[i] === highest) {
+//          total++;
+//       }
+//    }
+//    console.log(total)
+// }
+// birthdayCakeCandles(candles)
 
-function birthdayCakeCandles(candles) {
-   let high = Math.max(...candles)
 
-   console.log(high)
+let aaqibKiString = "fsahjfksahkjfashifasgtuyasfgjhgsfacwangcvhvhjhzchnbxgcjgsxhjzhcdgafh qbddhaFEHGJsafdnFDGSFHGHGDHGSVDSDSAGHFcghdsfghsdghhjas X ZVCXBNZBNCVZXNCGJVCBNMXVACBXZACBVNBZXGCGNJGHCFXBAJSSAJRASGghfdsagdjshgfhjsdagfhjgdsfjhgfqywuiryqweiurhiukasdyiudsghkgsf";
+
+obj = {}
+
+for (let i = 0; i < aaqibKiString.length; i++) {
+   let totalString = aaqibKiString[i].toLowerCase();
+   if (obj[totalString]) {
+      obj[totalString] += 1
+   }
+   else {
+      obj[totalString] = 1
+   }
+   console.log(obj)
 }
-birthdayCakeCandles(candles)
+
+
+
+
+
 
