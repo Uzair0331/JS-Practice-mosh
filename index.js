@@ -6702,6 +6702,16 @@
 // birthdayCakeCandles(candles)
 
 
+//
+
+
+//    let count = 0;
+//    for (let i = 0; i < n - 1; i++) {
+//       for (let j = i + 1; j < n; j++) {
+//          if ((ar[i] + ar[j]) % k == 0) { count++ }
+//       }
+//    }
+//    return count;
 // let aaqibKiString = "fsahjfksahkjfashifasgtuyasfgjhgsfacwangcvhvhjhzchnbxgcjgsxhjzhcdgafh qbddhaFEHGJsafdnFDGSFHGHGDHGSVDSDSAGHFcghdsfghsdghhjas X ZVCXBNZBNCVZXNCGJVCBNMXVACBXZACBVNBZXGCGNJGHCFXBAJSSAJRASGghfdsagdjshgfhjsdagfhjgdsfjhgfqywuiryqweiurhiukasdyiudsghkgsf";
 
 // obj = {}
@@ -6740,11 +6750,26 @@ compareTriplets(a, b)
 
 //--------------------------------------
 
-let arr = [1, 2, 3, 5, 9, 8]
-function miniMaxSum(arr) {
-    let min = ar[0]
-    let max = ar[0]
-    for (let i = 0; i < arr.length; i++) {
+// let arr = [1, 2, 3, 5, 9, 8]
+// function miniMaxSum(arr) {
+//     let min = ar[0]
+//     let max = ar[0]
+//     for (let i = 0; i < arr.length; i++) {
+// if (min > arr[i]){
 
+// }
+//     }
+// }
+
+
+let k = 3;
+let n = 6;
+let ar = [1, 3, 2, 6, 1, 2]
+let count = 0;
+function divisibleSumPairs(n, k, ar) {
+    for (let a = 0; a < n - 1; a++) {
+        for (let b = n + 1; b < n; b++) {
+
+        }
     }
 }
