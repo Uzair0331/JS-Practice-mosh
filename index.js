@@ -6713,15 +6713,6 @@
 // birthdayCakeCandles(candles)
 
 
-//
-
-
-//    let count = 0;
-//    for (let i = 0; i < n - 1; i++) {
-//       for (let j = i + 1; j < n; j++) {
-//          if ((ar[i] + ar[j]) % k == 0) { count++ }
-//       }
-//    }
 //    return count;
 // let aaqibKiString = "fsahjfksahkjfashifasgtuyasfgjhgsfacwangcvhvhjhzchnbxgcjgsxhjzhcdgafh qbddhaFEHGJsafdnFDGSFHGHGDHGSVDSDSAGHFcghdsfghsdghhjas X ZVCXBNZBNCVZXNCGJVCBNMXVACBXZACBVNBZXGCGNJGHCFXBAJSSAJRASGghfdsagdjshgfhjsdagfhjgdsfjhgfqywuiryqweiurhiukasdyiudsghkgsf";
 
@@ -6776,11 +6767,14 @@ compareTriplets(a, b)
 let k = 3;
 let n = 6;
 let ar = [1, 3, 2, 6, 1, 2]
-let count = 0;
+
 function divisibleSumPairs(n, k, ar) {
+    let count = 0;
     for (let a = 0; a < n - 1; a++) {
-        for (let b = n + 1; b < n; b++) {
+        for (let b = a + 1; b < n; b++) {
 
         }
     }
+    console.log(count)
 }
+divisibleSumPairs()
