@@ -6713,6 +6713,7 @@
 // birthdayCakeCandles(candles)
 
 
+
 //    return count;
 // let aaqibKiString = "fsahjfksahkjfashifasgtuyasfgjhgsfacwangcvhvhjhzchnbxgcjgsxhjzhcdgafh qbddhaFEHGJsafdnFDGSFHGHGDHGSVDSDSAGHFcghdsfghsdghhjas X ZVCXBNZBNCVZXNCGJVCBNMXVACBXZACBVNBZXGCGNJGHCFXBAJSSAJRASGghfdsagdjshgfhjsdagfhjgdsfjhgfqywuiryqweiurhiukasdyiudsghkgsf";
 
@@ -6732,49 +6733,53 @@
 
 
 
-let a = [5, 6, 7]
-let b = [3, 6, 10]
+// let a = [5, 6, 7]
+// let b = [3, 6, 10]
 
-function compareTriplets(a, b) {
-    let alice = 0;
-    let bob = 0;
-    for (let i = 0; i < a.length; i++) {
-        if (a[i] > b[i]) {
-            alice++;
-        }
-        if (a[i] < b[i]) {
-            bob++;
-        }
-    }
-    console.log("alice==>" + " " + alice + " " + "bob==>" + " " + bob)
-}
-compareTriplets(a, b)
+// function compareTriplets(a, b) {
+//     let alice = 0;
+//     let bob = 0;
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] > b[i]) {
+//             alice++;
+//         }
+//         if (a[i] < b[i]) {
+//             bob++;
+//         }
+//     }
+//     console.log("alice==>" + " " + alice + " " + "bob==>" + " " + bob)
+// }
+// compareTriplets(a, b)
 
 //--------------------------------------
 
-// let arr = [1, 2, 3, 5, 9, 8]
-// function miniMaxSum(arr) {
-//     let min = ar[0]
-//     let max = ar[0]
-//     for (let i = 0; i < arr.length; i++) {
-// if (min > arr[i]){
 
-// }
+
+// let k = 3;
+// let n = 6;
+// let ar = [1, 3, 2, 6, 1, 2]
+
+// function divisibleSumPairs(n, k, ar) {
+//     let count = 0;
+//     for (let a = 0; a < n; a++) {
+//         for (let b = a + 1; b < n; b++) {
+//             if ((ar[a] + ar[b]) % k == 0) {
+//                 count++;
+//             }
+//         }
 //     }
+//     console.log(count)
 // }
+// divisibleSumPairs(n, k, ar)
 
 
-let k = 3;
-let n = 6;
-let ar = [1, 3, 2, 6, 1, 2]
 
-function divisibleSumPairs(n, k, ar) {
-    let count = 0;
-    for (let a = 0; a < n - 1; a++) {
-        for (let b = a + 1; b < n; b++) {
-
-        }
+//----------------------
+let arr = [1, 2, 3, 5, 9, 8]
+function miniMaxSum(arr) {
+    let min = ar[0]
+    let max = ar[0]
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
     }
-    console.log(count)
 }
-divisibleSumPairs()
