@@ -6778,13 +6778,12 @@ function miniMaxSum(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
         if (min > arr[i]) {
-            ((min === arr[i]) + sum)
+            (min === arr[i])
         }
-        if (max < arr[i]) {
-            ((max === arr[i]) + sum)
-        }
+        sum++;
 
     }
-    console.log()
+    console.log(sum)
 }
 miniMaxSum(arr)
+
