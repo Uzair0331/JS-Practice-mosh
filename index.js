@@ -6769,6 +6769,8 @@
 
 
 //----------------------
+
+
 let arr = [1, 3, 5, 7, 9]
 function miniMaxSum(arr) {
     let min = arr[0]
@@ -6776,12 +6778,13 @@ function miniMaxSum(arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
         if (min > arr[i]) {
-            ((min === ar[i]) + sum)
+            ((min === arr[i]) + sum)
         }
         if (max < arr[i]) {
-            max === ar[i]
+            ((max === arr[i]) + sum)
         }
 
     }
-
+    console.log()
 }
+miniMaxSum(arr)
