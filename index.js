@@ -6614,13 +6614,7 @@
 
 
 //----------------
-// let arr = [1, 2, 3, 4, 5]
 
-// function miniMaxSum(arr) {
-
-//     let min = arr[0];
-//     let max = arr[0];
-//     let sum = 0;
 //     for (let i = 0; i < 5; i++) {
 //         if (max < arr[i]) {
 //             max = arr[i];
@@ -6777,9 +6771,12 @@
 //----------------------
 let arr = [1, 2, 3, 5, 9, 8]
 function miniMaxSum(arr) {
-    let min = ar[0]
-    let max = ar[0]
+    let min = arr[0]
+    let max = arr[0]
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
+        if (min > ar[i]) {
+
+        }
     }
 }
