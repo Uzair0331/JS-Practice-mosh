@@ -6777,6 +6777,7 @@
 //----------------------
 
 
+<<<<<<< HEAD
 let arr = [9, 1, 3, 7, 5]
 function miniMaxSum(arr) {
     arr.sort();
@@ -6793,4 +6794,36 @@ function miniMaxSum(arr) {
     console.log('This is max number ==>' + " " + maxNumber + " ")
 }
 miniMaxSum(arr)
+=======
+// let arr = [1, 3, 5, 7, 9]
+// function miniMaxSum(arr) {
+//     let min = arr[0]
+//     let max = arr[0]
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (min > arr[i]) {
+//             (min === arr[i])
+//         }
+//         sum++;
 
+//     }
+//     console.log(sum)
+// }
+// miniMaxSum(arr)
+>>>>>>> a2d63956bee2df59b605f1db0dce1eb72727f286
+
+// let arr = [1, 3, 5, 7, 9]
+// function miniMaxSum(arr) {
+//     let min = arr[0]
+//     let max = arr[0]
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (min > arr[i]) {
+//             (min === arr[i])
+//         }
+//         sum++;
+
+//     }
+//     console.log(sum)
+// }
+// miniMaxSum(arr)
