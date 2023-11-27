@@ -6600,6 +6600,12 @@
 //     }
 //     return [alice, bob]
 //---------------
+
+// let sum = 0;
+//   for(let i = 0; i < ar.length; i++){
+//      sum += ar[i];
+//   }
+//   return sum;
 //-----------------Number line jump----------
 // function kangaroo(x1, v1, x2, v2) {
 //     if (v1 < v2)
@@ -6771,8 +6777,9 @@
 //----------------------
 
 
-let arr = [1, 3, 5, 7, 9]
+let arr = [9, 1, 3, 7, 5]
 function miniMaxSum(arr) {
+    arr.sort();
     let min = arr[0]
     let max = arr[0]
     let sum = 0;
@@ -6781,9 +6788,9 @@ function miniMaxSum(arr) {
             (min === arr[i])
         }
         sum++;
-
     }
-    console.log(sum)
+    let maxNumber = sum - min
+    console.log('This is max number ==>' + " " + maxNumber + " ")
 }
 miniMaxSum(arr)
 
