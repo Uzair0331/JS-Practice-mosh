@@ -6830,7 +6830,8 @@ function miniMaxSum(arr) {
         sum += arr[i]
 
     }
-    console.log(sum)
+    let
+        console.log(sum)
 }
 miniMaxSum(arr)
 
