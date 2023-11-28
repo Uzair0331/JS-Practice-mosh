@@ -6586,55 +6586,65 @@
 
 
 
+//---------------------------------
 
-
-//     let alice = 0;
-//     let bob = 0;
-//     for (let i = 0; i < 3; i++) {
-//         if (a[i] > b[i]) {
-//             alice++;
-//         }
-//         if (b[i] > a[i]) {
-//             bob++;
-//         }
+// let appleCount = 0;
+// let orangeCount = 0;
+// for (let i = 0; i < apples.length; i++) {
+//     if (a + apples[i] >= s && a + apples[i] <= t) {
+//         appleCount++;
 //     }
-//     return [alice, bob]
+// }
+// for (let j = 0; j < oranges.length; j++) {
+//     if (b + oranges[j] <= t && b + oranges[j] >= s) {
+//         orangeCount++;
+//     }
+// }
+// console.log(appleCount);
+// console.log(orangeCount);
+
+
+
+
+
 //---------------
+
+
 
 // let sum = 0;
 //   for(let i = 0; i < ar.length; i++){
 //      sum += ar[i];
 //   }
 //   return sum;
-//-----------------Number line jump----------
-// function kangaroo(x1, v1, x2, v2) {
-//     if (v1 < v2)
-//     return "NO";
-//     if((x2 - x1) % (v1 - v2) == 0)
-//     return "YES";
-//     else
-//     return "NO";
-
-//  }
 
 
 
-//----------------
 
-//     for (let i = 0; i < 5; i++) {
-//         if (max < arr[i]) {
-//             max = arr[i];
+
+
+
+//-----------------
+// let best = 0;
+//     let worst = 0;
+//     let bestScore = scores[0];
+//     let worstScore = scores[0];
+//     const lengthOfData = scores.length;
+//     for(let i = 1; i < scores.length; i++) {
+//         if (scores[i] > bestScore) {
+//             bestScore = scores[i];
+//             best++;
+//             continue;
 //         }
-//         if (min > arr[i]) {
-//             min = arr[i];
+//         if (scores[i] < worstScore) {
+//             worstScore = scores[i]
+//             worst++;
+//             continue;
 //         }
-//         sum += arr[i];
 //     }
-//     let maxNum = sum - min;
-//     let minNum = sum - max;
-//     console.log(minNum + " " + maxNum)
-// }
-// miniMaxSum(arr)
+//     return [best, worst];
+
+
+
 
 
 ///-------------
@@ -6814,26 +6824,58 @@
 
 
 
-let arr = [9, 1, 3, 5, 7,]
-function miniMaxSum(arr) {
-    arr.sort();
-    let min = arr[0]
-    let max = arr[0]
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        if (min > arr[i]) {
-            (min === arr[i])
-        }
-        if (max < arr[i]) {
-            (max === arr[i])
-        }
-        sum += arr[i]
+// let arr = [9, 1, 3, 5, 7]
+// function miniMaxSum(arr) {
+//     arr.sort();
+//     let mini = arr[0]
+//     let maxi = arr[0]
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (mini > arr[i]) {
+//             (mini = arr[i])
+//         }
+//         if (maxi < arr[i]) {
+//             (maxi = arr[i])
+//         }
+//         sum += arr[i]
 
+//     }
+//     let maximumNumber = sum - mini;
+//     let minimumNumber = sum - maxi;
+//     console.log('This is maximum Sum ==> ' + maximumNumber + " " + 'This is minimum Sum ==> ' + minimumNumber)
+// }
+// miniMaxSum(arr)
+
+
+
+
+//-------------
+// let arr = [1, 2, 3, 4, 5, 6]
+// let sum = 0;
+
+// const totalSum = arr.reduce((accum, curr) => accum + curr, sum)
+
+// console.log(totalSum)
+
+
+//----------
+
+
+
+
+
+let x1 = 0;
+let v1 = 2;
+let x2 = 5;
+let v2 = 3;
+function kangaroo(x1, v1, x2, v2) {
+    let valueOne = x1 - x2;
+    let valueTwo = v1 - v2;
+    if ((valueOne % valueTwo) == 0) {
+        return "YES"
     }
-    let
-        console.log(sum)
+    else {
+        return "NO"
+    }
 }
-miniMaxSum(arr)
-
-
-
+kangaroo(x1, v1, x2, v2)
