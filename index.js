@@ -6869,9 +6869,16 @@ let v1 = 2;
 let x2 = 5;
 let v2 = 3;
 function kangaroo(x1, v1, x2, v2) {
-    let valueOne = x1 - x2;
-    let valueTwo = v1 - v2;
-    if ((valueOne % valueTwo) == 0) {
+    // let valueOne = x1 - x2;
+    // let valueTwo = v1 - v2;
+    // if ((valueOne % valueTwo) == 0) {
+    //     return "YES"
+    // }
+    // else {
+    //     return "NO"
+    // }
+
+    if ((x1 - x2) % (v1 - v2) == 0) {
         return "YES"
     }
     else {
