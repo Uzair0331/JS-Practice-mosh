@@ -6603,6 +6603,17 @@
 
 
 //---------------------------------
+// function angryProfessor(k, a) {
+
+//     let count = 0;
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] <= 0) {
+//             count += 1
+//         }
+//     }
+
+//     return count >= k ? "NO" : "YES"
+//----
 
 // let appleCount = 0;
 // let orangeCount = 0;
@@ -6935,7 +6946,7 @@ function breakingRecords(scores) {
     let highestScore = scores[0];
     let lowestScore = scores[0];
     for (let i = 0; i < scores.length; i++) {
-        if (highestScore < scores) {
+        if (highestScore < ) {
 
         }
     }
