@@ -6623,21 +6623,6 @@
 
 
 
-//---------------
-
-
-
-// let sum = 0;
-//   for(let i = 0; i < ar.length; i++){
-//      sum += ar[i];
-//   }
-//   return sum;
-
-
-
-
-
-
 
 //-----------------
 // let best = 0;
@@ -6885,14 +6870,16 @@
 // let x2 = 5;
 // let v2 = 3;
 // function kangaroo(x1, v1, x2, v2) {
-// let valueOne = x1 - x2;
-// let valueTwo = v1 - v2;
-// if ((valueOne % valueTwo) == 0) {
-//     return "YES"
-// }
-// else {
-//     return "NO"
-// }
+//-- let valueOne = x1 - x2;
+//-- let valueTwo = v1 - v2;
+//-- if ((valueOne % valueTwo) == 0) {
+// --    return "YES"
+// --}
+// --else {
+// --    return "NO"
+// --}
+
+
 //     if (v1 < v2) {
 //         return "NO"
 //     }
@@ -6904,3 +6891,33 @@
 //     }
 // }
 // kangaroo(x1, v1, x2, v2)
+
+
+
+// //------------
+
+
+
+// let ar = [1000000001, 1000000002, 1000000003, 1000000004, 1000000005]
+// function aVeryBigSum(ar) {
+//     let total = 0;
+//     for (let i = 0; i < ar.length; i++) {
+//         total += ar[i]
+//     }
+//     console.log(total)
+// }
+// aVeryBigSum(ar)
+
+
+//-------------
+let scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42]
+
+function breakingRecords(scores) {
+    let highestScore = scores[0];
+    let lowestScore = scores[0];
+    for (let i = 0; i < scores.length; i++) {
+        if (highestScore < scores[i]) {
+
+        }
+    }
+}
