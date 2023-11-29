@@ -6946,7 +6946,7 @@ function breakingRecords(scores) {
     let highestScore = scores[0];
     let lowestScore = scores[0];
     for (let i = 0; i < scores.length; i++) {
-        if (highestScore < ) {
+        if (highestScore < scores[i]) {
 
         }
     }
