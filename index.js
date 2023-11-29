@@ -6945,9 +6945,18 @@ let scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42]
 function breakingRecords(scores) {
     let highestScore = scores[0];
     let lowestScore = scores[0];
+    let bestScore = 0;
+    let badScore = 0;
     for (let i = 0; i < scores.length; i++) {
         if (highestScore < scores[i]) {
-
+            highestScore === scores[i]
+            bestScore++;
+        }
+        if (lowestScore > scores[i]) {
+            lowestScore === scores[i]
+            badScore++;
         }
     }
+    console.log(bestScore + " " + badScore)
 }
+breakingRecords(scores)
