@@ -6621,7 +6621,26 @@
 
 
 
+//-----
+// int viralAdvertising(int n) {
 
+//    
+//     let totalLikes = 0;let numberOfShares = 5;let currentLikes = 0;
+
+//     /*
+//     *   Calculating the likes on each day,
+//     *   adding them to the total likes,
+//     *   and updating the number of shares for next day
+//     */
+//     for(let i=0; i<n; i++) {
+//         currentLikes = numberOfShares/2;
+//         totalLikes += currentLikes;
+//         numberOfShares = currentLikes*3;
+//     }
+
+//     // * Returning the total likes
+//     return totalLikes;
+// }
 
 
 //-----------------
@@ -6916,7 +6935,7 @@ function breakingRecords(scores) {
     let highestScore = scores[0];
     let lowestScore = scores[0];
     for (let i = 0; i < scores.length; i++) {
-        if (highestScore < scores[i]) {
+        if (highestScore < scores) {
 
         }
     }
