@@ -6981,15 +6981,20 @@
 
 
 //----------------------
-let staritngPoint = 7; // s
-let endPoint = 10; // t
+let s = 7; // starting point
+let t = 10; // end point
 let a = 4; //apple tree location
 let b = 12; //orange tree location
 let apples = [2, 3, -4];
 let oranges = [3, -2, -4];
-let appleQty = 3;
-let orangeQty = 3;
+let appleCount = 0;
+let orangeCount = 0;
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
+    for (let i = 0; i < apples.length; i++) {
+        if (a + apples[i] >= s) {
 
+
+        }
+    }
 
 }
