@@ -6627,21 +6627,15 @@
 //   console.log(countingValleys(steps, path));
 
 //----
-
-// let appleCount = 0;
-// let orangeCount = 0;
-// for (let i = 0; i < apples.length; i++) {
-//     if (a + apples[i] >= s && a + apples[i] <= t) {
-//         appleCount++;
-//     }
+// let catA =Math.abs( x - z);
+// let catB =Math.abs( y - z);
+// if (catA < catB)
+// return "Cat A"
+// else if(catB < catA)
+// return "Cat B"
+// else
+// return"Mouse C"
 // }
-// for (let j = 0; j < oranges.length; j++) {
-//     if (b + oranges[j] <= t && b + oranges[j] >= s) {
-//         orangeCount++;
-//     }
-// }
-// console.log(appleCount);
-// console.log(orangeCount);
 
 
 
@@ -6991,10 +6985,11 @@ let appleCount = 0;
 let orangeCount = 0;
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
     for (let i = 0; i < apples.length; i++) {
-        if (a + apples[i] >= s) {
+        if (a + apples[i] <= s) {
 
-
+            appleCount++;
         }
     }
-
+    console.log(appleCount)
 }
+countApplesAndOranges(a, t, a, b, apples, oranges)
