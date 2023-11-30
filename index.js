@@ -6985,11 +6985,22 @@ let appleCount = 0;
 let orangeCount = 0;
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
     for (let i = 0; i < apples.length; i++) {
-        if (a + apples[i] <= s) {
-
+        if (a + apples[i] >= s) {
             appleCount++;
+            if (a + apples[i] <= t) {
+                appleCount++;
+            }
         }
     }
-    console.log(appleCount)
+    for (let j = 0; j < oranges.length; j++) {
+        if (b + oranges[j] >= s) {
+            orangeCount++;
+            if (b + oranges[j] <= t) {
+                orangeCount++;
+            }
+        }
+    }
+    console.log("This is total Apples ===>" + " " + appleCount)
+    console.log("This is total Oranges ===>" + " " + orangeCount)
 }
 countApplesAndOranges(a, t, a, b, apples, oranges)
