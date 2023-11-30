@@ -6981,26 +6981,37 @@ let a = 4; //apple tree location
 let b = 12; //orange tree location
 let apples = [2, 3, -4];
 let oranges = [3, -2, -4];
-let appleCount = 0;
-let orangeCount = 0;
 function countApplesAndOranges(s, t, a, b, apples, oranges) {
+    let appleCount = 0;
+    let orangeCount = 0;
     for (let i = 0; i < apples.length; i++) {
         if (a + apples[i] >= s) {
-            appleCount++;
             if (a + apples[i] <= t) {
                 appleCount++;
             }
         }
+
+        //------------
+        // if (((a + apples[i]) >= s) && ((a + apples[i]) <= t)) {
+        //     appleCount++;
+        // }
+        //---------------
+
     }
     for (let j = 0; j < oranges.length; j++) {
         if (b + oranges[j] >= s) {
-            orangeCount++;
             if (b + oranges[j] <= t) {
                 orangeCount++;
             }
         }
+        //----------
+        // if (((b + oranges[j]) >= s) && ((b + oranges[j]) <= t)) {
+        //     orangeCount++;
+        // }
+        //---------------
+
     }
     console.log("This is total Apples ===>" + " " + appleCount)
     console.log("This is total Oranges ===>" + " " + orangeCount)
 }
-countApplesAndOranges(a, t, a, b, apples, oranges)
+countApplesAndOranges(s, t, a, b, apples, oranges)
