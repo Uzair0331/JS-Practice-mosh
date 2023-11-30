@@ -6955,28 +6955,41 @@
 
 
 //---------------------
-let n = 5;
-let k = 3;
-let a = [-2, -1, 0, 1, 1, 2]
-function angryProfessor(k, a) {
-    let count = 0;
-    for (let i = 0; i < a.length; i++) {
-        if (a[i] <= 0) {
-            count++;
-            if (count >= k) {
-                break
-            };
-        }
-    }
-    if (count >= k) {
-        return "YES"
-    }
-    else {
-        return "NO"
-    }
-    // return count >= k ? "YES" : "NO"
+// let n = 5;
+// let k = 3;
+// let a = [-2, -1, 0, 1, 1, 2]
+// function angryProfessor(k, a) {
+//     let count = 0;
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] <= 0) {
+//             count++;
+//             if (count >= k) {
+//                 break
+//             };
+//         }
+//     }
+//     if (count >= k) {
+//         return "YES"
+//     }
+//     else {
+//         return "NO"
+//     }
+//     // return count >= k ? "YES" : "NO"
+// }
+// console.log(angryProfessor(k, a))
+
+
+
+//----------------------
+let staritngPoint = 7; // s
+let endPoint = 10; // t
+let a = 4; //apple tree location
+let b = 12; //orange tree location
+let apples = [2, 3, -4];
+let oranges = [3, -2, -4];
+let appleQty = 3;
+let orangeQty = 3;
+function countApplesAndOranges(s, t, a, b, apples, oranges) {
+
+
 }
-console.log(angryProfessor(k, a))
-
-
-
