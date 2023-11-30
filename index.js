@@ -6600,19 +6600,32 @@
 // }
 // return Math.abs(diag1 - diag2);
 
+//--------
+// let path = [
+//     'DDUDUDDUDDUDDUUUUDUDDDUUDDUUDDDUUDDUUUUUUDUDDDDUDDUUDUUDUDUUUDUUUUUDDUDDDDUDDUDDDDUUUUDUUDUUDUUDUDDD']
+//     const cat = [1, 2, 3];
+//   const steps = 8;
 
-
-//---------------------------------
-// function angryProfessor(k, a) {
-
+//   function countingValleys(steps, path) {
 //     let count = 0;
-//     for (let i = 0; i < a.length; i++) {
-//         if (a[i] <= 0) {
-//             count += 1
-//         }
-//     }
+//     let val = 0;
+//     let distance = steps;
+//    //     // for (let i = 0; i < arr.length; i++) {
+//     //   if (arr[i] === "U") {
+//     //     count++;
+//     //     if (count === 0) {
+//     //       val++;
+//     //     }
+//     //   } else {
+//     //     count--;
+//     //   }
+//     // }
 
-//     return count >= k ? "NO" : "YES"
+//     return val;
+//   }
+
+//   console.log(countingValleys(steps, path));
+
 //----
 
 // let appleCount = 0;
@@ -6652,27 +6665,6 @@
 //     // * Returning the total likes
 //     return totalLikes;
 // }
-
-
-//-----------------
-// let best = 0;
-//     let worst = 0;
-//     let bestScore = scores[0];
-//     let worstScore = scores[0];
-//     const lengthOfData = scores.length;
-//     for(let i = 1; i < scores.length; i++) {
-//         if (scores[i] > bestScore) {
-//             bestScore = scores[i];
-//             best++;
-//             continue;
-//         }
-//         if (scores[i] < worstScore) {
-//             worstScore = scores[i]
-//             worst++;
-//             continue;
-//         }
-//     }
-//     return [best, worst];
 
 
 
@@ -6940,23 +6932,51 @@
 
 
 //-------------
-let scores = [3, 4, 21, 36, 10, 28, 35, 5, 24, 42]
+// let scores = [10, 5, 20, 20, 4, 5, 2, 25, 1]
 
-function breakingRecords(scores) {
-    let highestScore = scores[0];
-    let lowestScore = scores[0];
-    let bestScore = 0;
-    let badScore = 0;
-    for (let i = 0; i < scores.length; i++) {
-        if (highestScore < scores[i]) {
-            highestScore === scores[i]
-            bestScore++;
-        }
-        if (lowestScore > scores[i]) {
-            lowestScore === scores[i]
-            badScore++;
+// function breakingRecords(scores) {
+//     let highestScore = scores[0];
+//     let lowestScore = scores[0];
+//     let bestScore = 0;
+//     let badScore = 0;
+//     for (let i = 0; i < scores.length; i++) {
+//         if (highestScore < scores[i]) {
+//             highestScore = scores[i]
+//             bestScore++;
+//         }
+//         if (lowestScore > scores[i]) {
+//             lowestScore = scores[i]
+//             badScore++;
+//         }
+//     }
+//     console.log(bestScore + " " + badScore)
+// }
+// breakingRecords(scores)
+
+
+//---------------------
+let n = 5;
+let k = 3;
+let a = [-2, -1, 0, 1, 1, 2]
+function angryProfessor(k, a) {
+    let count = 0;
+    for (let i = 0; i < a.length; i++) {
+        if (a[i] <= 0) {
+            count++;
+            if (count >= k) {
+                break
+            };
         }
     }
-    console.log(bestScore + " " + badScore)
+    if (count >= k) {
+        return "YES"
+    }
+    else {
+        return "NO"
+    }
+    // return count >= k ? "YES" : "NO"
 }
-breakingRecords(scores)
+console.log(angryProfessor(k, a))
+
+
+
