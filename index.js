@@ -6601,30 +6601,16 @@
 // return Math.abs(diag1 - diag2);
 
 //--------
-// let path = [
-//     'DDUDUDDUDDUDDUUUUDUDDDUUDDUUDDDUUDDUUUUUUDUDDDDUDDUUDUUDUDUUUDUUUUUDDUDDDDUDDUDDDDUUUUDUUDUUDUUDUDDD']
-//     const cat = [1, 2, 3];
-//   const steps = 8;
+// for (let i = 0; i < grades.length; i++) {        
+//     if (((grades[i] + 2) % 5 == 0) && (grades[i] + 2 > 39)) {
+//         grades[i] = grades[i] + 2;
+//     } else if (((grades[i] + 1) % 5 == 0) && (grades[i] + 2 > 39)) {
+//         grades[i] = grades[i] + 1;
+//     }
+// }
+// return grades;
+// }
 
-//   function countingValleys(steps, path) {
-//     let count = 0;
-//     let val = 0;
-//     let distance = steps;
-//    //     // for (let i = 0; i < arr.length; i++) {
-//     //   if (arr[i] === "U") {
-//     //     count++;
-//     //     if (count === 0) {
-//     //       val++;
-//     //     }
-//     //   } else {
-//     //     count--;
-//     //   }
-//     // }
-
-//     return val;
-//   }
-
-//   console.log(countingValleys(steps, path));
 
 //----
 // let catA =Math.abs( x - z);
@@ -6975,64 +6961,90 @@
 
 
 //----------------------
-let s = 7; // starting point
-let t = 10; // end point
-let a = 4; //apple tree location
-let b = 12; //orange tree location
-let apples = [2, 3, -4];
-let oranges = [3, -2, -4];
-function countApplesAndOranges(s, t, a, b, apples, oranges) {
-    let appleCount = 0;
-    let orangeCount = 0;
-    for (let i = 0; i < apples.length; i++) {
-        if (a + apples[i] >= s) {
-            if (a + apples[i] <= t) {
-                appleCount++;
-            }
-        }
+// let s = 7; // starting point
+// let t = 10; // end point
+// let a = 4; //apple tree location
+// let b = 12; //orange tree location
+// let apples = [2, 3, -4];
+// let oranges = [3, -2, -4];
+// function countApplesAndOranges(s, t, a, b, apples, oranges) {
+//     let appleCount = 0;
+//     let orangeCount = 0;
+//     for (let i = 0; i < apples.length; i++) {
+//         if (a + apples[i] >= s) {
+//             if (a + apples[i] <= t) {
+//                 appleCount++;
+//             }
+// }
 
-        //------------
-        // if (((a + apples[i]) >= s) && ((a + apples[i]) <= t)) {
-        //     appleCount++;
-        // }
-        //---------------
+//------------
+// if (((a + apples[i]) >= s) && ((a + apples[i]) <= t)) {
+//     appleCount++;
+// }
+//---------------
 
-    }
-    for (let j = 0; j < oranges.length; j++) {
-        if (b + oranges[j] >= s) {
-            if (b + oranges[j] <= t) {
-                orangeCount++;
-            }
-        }
-        //----------
-        // if (((b + oranges[j]) >= s) && ((b + oranges[j]) <= t)) {
-        //     orangeCount++;
-        // }
-        //---------------
+// }
+// for (let j = 0; j < oranges.length; j++) {
+//     if (b + oranges[j] >= s) {
+//         if (b + oranges[j] <= t) {
+//             orangeCount++;
+//         }
+//     }
+//----------
+// if (((b + oranges[j]) >= s) && ((b + oranges[j]) <= t)) {
+//     orangeCount++;
+// }
+//---------------
 
-    }
-    console.log("This is total Apples ===>" + " " + appleCount)
-    console.log("This is total Oranges ===>" + " " + orangeCount)
-}
-countApplesAndOranges(s, t, a, b, apples, oranges)
+//     }
+//     console.log("This is total Apples ===>" + " " + appleCount)
+//     console.log("This is total Oranges ===>" + " " + orangeCount)
+// }
+// countApplesAndOranges(s, t, a, b, apples, oranges)
 
 //------------------
 
-let ar = [2, 4, 8, 9]
-// a = 0;
-// for (let i = 0; i < ar.length; i++) {
-//     a = 2 * ar[i]
-//     console.log(a)
-// }
+// let ar = [2, 4, 8, 9]
+// // a = 0;
+// // for (let i = 0; i < ar.length; i++) {
+// //     a = 2 * ar[i]
+// //     console.log(a)
+// // }
 
-// const multiply = ar.map((x) => x * 2)
-// console.log(multiply)
-
-
-let ar2 = [1, 3, 5, 7]
-total = 0;
+// // const multiply = ar.map((x) => x * 2)
+// // console.log(multiply)
 
 
-total = ar + ar2
+// let ar2 = [1, 3, 5, 7]
+// total = 0;
 
-console.log(total)
+
+// total = ar + ar2
+
+// console.log(total)
+
+
+//-----------------------
+
+
+let x = 5;// CAT A                  
+let y = 6;// CAT B
+let z = 4;// Mouse
+
+function catAndMouse(x, y, z) {
+    let catOne = x - z;
+    let catTwo = y - z;
+    if (catOne < catTwo) {
+        console.log("Cat One")
+    }
+    else if (catOne > catTwo) {
+        console.log("Cat Two")
+    }
+    else {
+        console.log("Mouse")
+    }
+}
+catAndMouse(x, y, z)
+
+
+
