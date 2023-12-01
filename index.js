@@ -7027,8 +7027,8 @@
 //-----------------------
 
 
-let x = 5;// CAT A                  
-let y = 6;// CAT B
+let x = 2;// CAT A                  
+let y = 5;// CAT B
 let z = 4;// Mouse
 
 function catAndMouse(x, y, z) {
