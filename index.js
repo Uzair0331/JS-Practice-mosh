@@ -6651,19 +6651,35 @@
 
 
 ///-------------
-// function getTotalX(a, b) {
-//    let count = 0;
-//    let min_a = Math.min(...a);
-//    for (let i = min_a; i < Math.max(...b); i += min_a) {
-//       if (b.every((items) => items % i === 0)) {
-//          if (a.every((items) => i % items === 0)) {
-//             count += 1
-//          }
-//       }
-//    }
-//    return count;
+// var noOfPostive = 0;
+// var noOfNegative = 0;
+// var noOfZero = 0;
+
+// function plusMinus(arr) {
+//   /*
+//   
+
+//    */
+//   var length = arr.length;
+
+//   for (var i = 0; i < arr.length; i++) {
+//     if (i > 0) {
+//       noOfPostive += 1;
+//     } else if (i < 0) {
+//       noOfNegative += 1;
+//     } else {
+//       noOfZero += 1;
+//     }
+
+//     var FractionOfPostive = noOfPostive / length;
+//     var FractionOfNegative = noOfNegative / length;
+//     var FractionOfZero = noOfZero / length;
+//     return FractionOfPostive, FractionOfPostive, FractionOfZero;
+
+//   }
 // }
 
+// plusMinus([-4,3,-9,0,4,1]);
 
 //----------------------------
 
@@ -7027,24 +7043,62 @@
 //-----------------------
 
 
-let x = 2;// CAT A                  
-let y = 5;// CAT B
-let z = 4;// Mouse
+// let x = 2;// CAT A                  
+// let y = 5;// CAT B
+// let z = 4;// Mouse
 
-function catAndMouse(x, y, z) {
-    let catOne = x - z;
-    let catTwo = y - z;
-    if (catOne < catTwo) {
-        console.log("Cat One")
+// function catAndMouse(x, y, z) {
+//     let catOne = Math.abs(x - z);  // 2 - 4  = -2      
+//     let catTwo = Math.abs(y - z);  // 5 - 4  =  1
+
+//     if (catOne > catTwo) {    //  -2 > 1
+//         console.log("CAT B")
+//     }
+//     else if (catOne < catTwo) {  //  -2 < 1
+//         console.log("CAT A")
+//     }
+//     else {
+//         console.log("MOUSE")
+//     }
+// }
+// catAndMouse(x, y, z)
+
+
+
+//------------
+let arr = [1, 1, 0, -1, -1]
+function plusMinus(arr) {
+    let positiveNumber = 0;
+    let negativeNumber = 0;
+    let zeroNumber = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 0) {
+            positiveNumber++;
+        }
+        else if (arr[i] < 0) {
+            negativeNumber++;
+        }
+        else {
+            zeroNumber++;
+        }
     }
-    else if (catOne > catTwo) {
-        console.log("Cat Two")
-    }
-    else {
-        console.log("Mouse")
-    }
+
+    console.log("Division of positive numbers ===>" + " " + (positiveNumber / arr.length).toFixed(6))
+    console.log("Division of negative number ===>" + " " + (negativeNumber / arr.length).toFixed(6))
+    console.log("Division of  ZERO number ===>" + " " + (zeroNumber / arr.length).toFixed(6))
 }
-catAndMouse(x, y, z)
+plusMinus(arr);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
