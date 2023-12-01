@@ -7015,3 +7015,22 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
     console.log("This is total Oranges ===>" + " " + orangeCount)
 }
 countApplesAndOranges(s, t, a, b, apples, oranges)
+
+
+
+
+//------------------
+
+
+
+let ar = [2, 4, 8, 9]
+a = 0;
+for (let i = 0; i < ar.length; i++) {
+    a = 2 * ar[i]
+    console.log(a)
+}
+
+
+
+const multiply = ar.map((x) => x * 2)
+console.log(multiply)
