@@ -7016,21 +7016,23 @@ function countApplesAndOranges(s, t, a, b, apples, oranges) {
 }
 countApplesAndOranges(s, t, a, b, apples, oranges)
 
-
-
-
 //------------------
 
-
-
 let ar = [2, 4, 8, 9]
-a = 0;
-for (let i = 0; i < ar.length; i++) {
-    a = 2 * ar[i]
-    console.log(a)
-}
+// a = 0;
+// for (let i = 0; i < ar.length; i++) {
+//     a = 2 * ar[i]
+//     console.log(a)
+// }
+
+// const multiply = ar.map((x) => x * 2)
+// console.log(multiply)
 
 
+let ar2 = [1, 3, 5, 7]
+total = 0;
 
-const multiply = ar.map((x) => x * 2)
-console.log(multiply)
+
+total = ar + ar2
+
+console.log(total)
