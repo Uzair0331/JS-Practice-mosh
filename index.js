@@ -7053,9 +7053,9 @@
 
 //--------------------
 
-arr = [11, 2, 3],
-    [4, 5, 6],
-    [10, 8, -12]
+arr = [[11, 2, 4],
+[4, 5, 6],
+[10, 8, -12]]
 
 function diagonalDifference(arr) {
     let diagonalFirst = 0;
@@ -7065,13 +7065,14 @@ function diagonalDifference(arr) {
             if (a === b) {
                 diagonalFirst += arr[a][b];
             }
-            if () {
+            if (arr.length - 1) {
                 diagonalSecond += arr[a][b];
             }
         }
 
-    }
-    return (diagonalFirst - diagonalSecond)
+    } return (diagonalSecond);
+
+    // return (diagonalFirst - diagonalSecond)
 }
 console.log(diagonalDifference(arr))
 
