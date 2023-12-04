@@ -7060,7 +7060,7 @@ arr = [11, 2, 3],
 function diagonalDifference(arr) {
     let diagonalFirst = 0;
     let diagonalSecond = 0;
-    for (let i = 0; let i < arr.length) {
+    for (let i = 0; i < arr.length; i++) {
 
     }
 }
