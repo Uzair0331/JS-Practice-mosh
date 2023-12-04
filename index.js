@@ -7053,31 +7053,52 @@
 
 //--------------------
 
-arr = [[11, 2, 4],
-[4, 5, 6],
-[10, 8, -12]]
+// arr = [
+//     [11, 2, 4],
+//     [4, 5, 6],
+//     [10, 8, -12]
+// ]
 
-function diagonalDifference(arr) {
-    let diagonalFirst = 0;
-    let diagonalSecond = 0;
-    for (let a = 0; a < arr.length; a++) {
-        for (let b = 0; b < arr.length; b++) {
-            if (a === b) {
-                diagonalFirst += arr[a][b];
-            }
-            if (arr.length - 1) {
-                diagonalSecond += arr[a][b];
-            }
+// function diagonalDifference(arr) {
+//     let diagonalFirst = 0;
+//     let diagonalSecond = 0;
+//     for (let a = 0; a < arr.length; a++) {
+//         for (let b = 0; b <= a; b++) {
+//             if (a === b) {
+//                 diagonalFirst += arr[a][b];
+//             }
+//             if (arr.length - 1 == a + b) {
+//                 diagonalSecond += arr[a][b];
+//             }
+//         }
+//     }
+//     console.log("First D ==> " + diagonalFirst)
+//     console.log("Second D ==> " + diagonalSecond)
+//     console.log("After Subtraction ==> ", diagonalFirst - diagonalSecond)
+//     // return (diagonalFirst - diagonalSecond)
+// }
+// console.log(diagonalDifference(arr))
+
+
+
+//------------------------------
+let steps = 12;
+let path = ['D', 'D', 'U', 'U', 'D', 'D', 'U', 'D', 'U', 'U', 'U', 'D']
+function countingValleys(steps, path) {
+    let seaLevel = 0;
+    let totalCount = 0;
+    for (let i = 0; i < steps; i++) {
+        if (path[i] === 'U') {
+            seaLevel++;
+        }
+        else if (path[i] === 'D') {
+            seaLevel--;
         }
 
-    } return (diagonalSecond);
 
-    // return (diagonalFirst - diagonalSecond)
+    }
+    if (seaLevel === 0) { totalCount++ }
+    console.log(totalCount)
 }
-console.log(diagonalDifference(arr))
-
-
-
-
-
+countingValleys(steps, path)
 
