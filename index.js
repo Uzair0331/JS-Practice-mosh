@@ -7060,11 +7060,17 @@ arr = [11, 2, 3],
 function diagonalDifference(arr) {
     let diagonalFirst = 0;
     let diagonalSecond = 0;
-    for (let i = 0; i < arr.length; i++) {
+    for (let a = 0; a < arr.length; a++) {
+        for (let b = 0; b < arr.length; b++) {
+            if (a = b) {
+                diagonalFirst + arr[a][b];
+            }
+        }
 
     }
+    console.log(diagonalFirst)
 }
-
+diagonalDifference(arr)
 
 
 
