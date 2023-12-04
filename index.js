@@ -6612,16 +6612,7 @@
 // }
 
 
-//----
-// let catA =Math.abs( x - z);
-// let catB =Math.abs( y - z);
-// if (catA < catB)
-// return "Cat A"
-// else if(catB < catA)
-// return "Cat B"
-// else
-// return"Mouse C"
-// }
+
 
 
 
@@ -6650,36 +6641,6 @@
 
 
 
-///-------------
-// var noOfPostive = 0;
-// var noOfNegative = 0;
-// var noOfZero = 0;
-
-// function plusMinus(arr) {
-//   /*
-//   
-
-//    */
-//   var length = arr.length;
-
-//   for (var i = 0; i < arr.length; i++) {
-//     if (i > 0) {
-//       noOfPostive += 1;
-//     } else if (i < 0) {
-//       noOfNegative += 1;
-//     } else {
-//       noOfZero += 1;
-//     }
-
-//     var FractionOfPostive = noOfPostive / length;
-//     var FractionOfNegative = noOfNegative / length;
-//     var FractionOfZero = noOfZero / length;
-//     return FractionOfPostive, FractionOfPostive, FractionOfZero;
-
-//   }
-// }
-
-// plusMinus([-4,3,-9,0,4,1]);
 
 //----------------------------
 
@@ -7066,58 +7027,43 @@
 
 
 //------------
-let arr = [1, 1, 0, -1, -1]
-function plusMinus(arr) {
-    let positiveNumber = 0;
-    let negativeNumber = 0;
-    let zeroNumber = 0;
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > 0) {
-            positiveNumber++;
-        }
-        else if (arr[i] < 0) {
-            negativeNumber++;
-        }
-        else {
-            zeroNumber++;
-        }
+// let arr = [1, 1, 0, -1, -1]
+// function plusMinus(arr) {
+//     let positiveNumber = 0;
+//     let negativeNumber = 0;
+//     let zeroNumber = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > 0) {
+//             positiveNumber++;
+//         }
+//         else if (arr[i] < 0) {
+//             negativeNumber++;
+//         }
+//         else {
+//             zeroNumber++;
+//         }
+//     }
+
+//     console.log("Division of positive numbers ===>" + " " + (positiveNumber / arr.length).toFixed(6))
+//     console.log("Division of negative number ===>" + " " + (negativeNumber / arr.length).toFixed(6))
+//     console.log("Division of  ZERO number ===>" + " " + (zeroNumber / arr.length).toFixed(6))
+// }
+// plusMinus(arr);
+
+
+//--------------------
+
+arr = [11, 2, 3],
+    [4, 5, 6],
+    [10, 8, -12]
+
+function diagonalDifference(arr) {
+    let diagonalFirst = 0;
+    let diagonalSecond = 0;
+    for (let i = 0; let i < arr.length) {
+
     }
-
-    console.log("Division of positive numbers ===>" + " " + (positiveNumber / arr.length).toFixed(6))
-    console.log("Division of negative number ===>" + " " + (negativeNumber / arr.length).toFixed(6))
-    console.log("Division of  ZERO number ===>" + " " + (zeroNumber / arr.length).toFixed(6))
 }
-plusMinus(arr);
-
-
-let arr = [1, 1, 0, -1, -1]
-function plusMinus(arr) {
-    let positiveNumber = 0;
-    let negativeNumber = 0;
-    let zeroNumber = 0;
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] > 0) {
-            positiveNumber++;
-        }
-        else if (arr[i] < 0) {
-            negativeNumber++;
-        }
-        else {
-            zeroNumber++;
-        }
-    }
-
-    console.log("Division of positive numbers ===>" + " " + (positiveNumber / arr.length).toFixed(6))
-    console.log("Division of negative number ===>" + " " + (negativeNumber / arr.length).toFixed(6))
-    console.log("Division of  ZERO number ===>" + " " + (zeroNumber / arr.length).toFixed(6))
-}
-plusMinus(arr);
-
-
-
-
-
-
 
 
 
