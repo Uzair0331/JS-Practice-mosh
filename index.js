@@ -7094,8 +7094,6 @@ function countingValleys(steps, path) {
         else if (path[i] === 'D') {
             seaLevel--;
         }
-
-
     }
     if (seaLevel === 0) { totalCount++ }
     console.log(totalCount)
