@@ -7054,27 +7054,6 @@
 
 //----------
 
-// int viralAdvertising(int n) {
-
-//    
-//     let totalLikes = 0;let numberOfShares = 5;let currentLikes = 0;
-
-//     /*
-//     *   Calculating the likes on each day,
-//     *   adding them to the total likes,
-//     *   and updating the number of shares for next day
-//     */
-//     for(let i=0; i<n; i++) {
-//         currentLikes = numberOfShares/2;
-//         totalLikes += currentLikes;
-//         numberOfShares = currentLikes*3;
-//     }
-
-//     // * Returning the total likes
-//     return totalLikes;
-// }
-
-///---------
 
 
 // function hurdleRace(k, height) {
@@ -7085,6 +7064,7 @@
 //             if (magic > max) { heightMax = magic }
 //         }
 //     }
+// if(heightMax === 0){return 0}
 //     return heightMax;
 //--------------------
 
@@ -7136,9 +7116,43 @@
 // }
 // countingValleys(steps, path)
 
+
 //-------------------------------------------
-let n = 3;
-function viralAdvertising(n) {
+
+
+
+
+
+// let n = 5
+// function viralAdvertising(n) {
+//     let numberOfShare = 5;
+//     let totalLikes = 0;
+//     let perDayLikes = 0;
+//     let noOfFriends = 3;
+//     for (let i = 1; i <= n; i++) {
+//         console.log("DAY : ", i)
+//         console.log("NUMBER OF SHARES ==> ", numberOfShare)
+//         perDayLikes = Math.floor(numberOfShare / 2);
+//         console.log("PER DAY LIKES ==> ", perDayLikes)
+//         totalLikes += perDayLikes;
+//         console.log("COMMULATIVE ==> ", totalLikes)
+//         numberOfShare = perDayLikes * noOfFriends;
+
+//     }
+//     console.log("TOTAL LIKES ==> ", totalLikes)
+// }
+// viralAdvertising(n)
+
+
+
+//--------------
+let k = 1
+let height = [1, 2, 3, 3, 2];
+function hurdleRace(k, height) {
+    let maxHeight = 0;
+    for (let i = 0; i < height.length; i++) {
+
+    }
 
 }
-viralAdvertising(n)
+
