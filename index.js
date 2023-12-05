@@ -7117,22 +7117,28 @@
 
 
 //------------------------------
-let steps = 12;
-let path = ['D', 'D', 'U', 'U', 'D', 'D', 'U', 'D', 'U', 'U', 'U', 'D']
-function countingValleys(steps, path) {
-    let seaLevel = 0;
-    let totalCount = 0;
-    for (let i = 0; i < steps; i++) {
-        if (path[i] === 'U') {
-            seaLevel++;
-        }
-        else if (path[i] === 'D') {
-            seaLevel--;
-        }
-        if (seaLevel === 0 && path[i] === 'U') { totalCount++ }
-    }
+// let steps = 12;
+// let path = ['D', 'D', 'U', 'U', 'D', 'D', 'U', 'D', 'U', 'U', 'U', 'D']
+// function countingValleys(steps, path) {
+//     let seaLevel = 0;
+//     let totalCount = 0;
+//     for (let i = 0; i < steps; i++) {
+//         if (path[i] === 'U') {
+//             seaLevel++;
+//         }
+//         else if (path[i] === 'D') {
+//             seaLevel--;
+//         }
+//         if (seaLevel === 0 && path[i] === 'U') { totalCount++ }
+//     }
 
-    console.log(totalCount)
+//     console.log(totalCount)
+// }
+// countingValleys(steps, path)
+
+//-------------------------------------------
+let n = 3;
+function viralAdvertising(n) {
+
 }
-countingValleys(steps, path)
-
+viralAdvertising(n)
