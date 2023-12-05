@@ -7048,7 +7048,34 @@
 //     console.log("Division of negative number ===>" + " " + (negativeNumber / arr.length).toFixed(6))
 //     console.log("Division of  ZERO number ===>" + " " + (zeroNumber / arr.length).toFixed(6))
 // }
+
 // plusMinus(arr);
+
+
+//----------
+
+// int viralAdvertising(int n) {
+
+//    
+//     let totalLikes = 0;let numberOfShares = 5;let currentLikes = 0;
+
+//     /*
+//     *   Calculating the likes on each day,
+//     *   adding them to the total likes,
+//     *   and updating the number of shares for next day
+//     */
+//     for(let i=0; i<n; i++) {
+//         currentLikes = numberOfShares/2;
+//         totalLikes += currentLikes;
+//         numberOfShares = currentLikes*3;
+//     }
+
+//     // * Returning the total likes
+//     return totalLikes;
+// }
+
+///---------
+
 
 // function hurdleRace(k, height) {
 //     let heightMax = 0;
@@ -7102,8 +7129,9 @@ function countingValleys(steps, path) {
         else if (path[i] === 'D') {
             seaLevel--;
         }
+        if (seaLevel === 0 && path[i] === 'U') { totalCount++ }
     }
-    if (seaLevel === 0 && path[i] === 'U') { totalCount++ }
+
     console.log(totalCount)
 }
 countingValleys(steps, path)
