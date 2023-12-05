@@ -7050,7 +7050,15 @@
 // }
 // plusMinus(arr);
 
-
+// function hurdleRace(k, height) {
+//     let heightMax = 0;
+//     for (let i = 0; i < height.length; i++) {
+//         if (height[i] > k) {
+//             let magic = diff + height[i] - k;
+//             if (magic > max) { heightMax = magic }
+//         }
+//     }
+//     return heightMax;
 //--------------------
 
 // arr = [
@@ -7095,7 +7103,7 @@ function countingValleys(steps, path) {
             seaLevel--;
         }
     }
-    if (seaLevel === 0) { totalCount++ }
+    if (seaLevel === 0 && path[i] === 'U') { totalCount++ }
     console.log(totalCount)
 }
 countingValleys(steps, path)
