@@ -7140,9 +7140,13 @@ function hurdleRace(k, height) {
     let magicalDose = 0; //>
     for (let i = 0; i < height.length; i++) {
         if (height[i] > k) {
-            magicalDose += height[i] - k;
+            magicalDose = height[i] - k;
+
+        }
+        if (magicalDose > maxHeight) {
+            magicalDose = maxHeight
         }
     }
-    console.log(magicalDose)
+    console.log(maxHeight)
 }
 hurdleRace(k, height)
