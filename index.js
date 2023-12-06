@@ -7025,6 +7025,19 @@
 // }
 
 // plusMinus(arr);
+//--------
+
+// for (let i = 0; i < grades.length; i++) {        
+//     if (((grades[i] + 2) % 5 == 0) && (grades[i] + 2 > 39)) {
+//         grades[i] = grades[i] + 2;
+//     } else if (((grades[i] + 1) % 5 == 0) && (grades[i] + 2 > 39)) {
+//         grades[i] = grades[i] + 1;
+//     }
+// }
+// return grades;
+// }
+
+
 
 
 //----------
@@ -7136,7 +7149,7 @@
 // let k = 4;
 // let height = [1, 6, 3, 5, 2];
 // function hurdleRace(k, height) {
-//     height.sort();
+//     
 //     let maxHeight = 0;
 //     let magicalDose = 0;
 //     for (let i = 0; i < height.length; i++) {
@@ -7151,3 +7164,32 @@
 //     console.log(maxHeight)
 // }
 // hurdleRace(k, height)
+
+
+//------------------------------
+
+let k = 7;
+let height = [1, 6, 3, 5, 2];
+function hurdleRace(k, height) {
+    height.sort();
+    let maxHeight = 0;
+    let magicalDose = 0;
+    let highestArrayNum = height[height.length - 1]
+    maxHeight = highestArrayNum - k;
+    magicalDose = maxHeight
+    if (highestArrayNum < k) {
+        magicalDose = 0
+    }
+    // if (magicalDose <= k) {
+    //     magicalDose = 0
+    // }
+    console.log("Max Doses for high jump ==> " + magicalDose)
+}
+hurdleRace(k, height)
+
+//-------------------------------------
+
+
+function gradingStudents(grades) {
+
+}
