@@ -4374,17 +4374,17 @@
 // const circle1 = new Circle(1);
 
 //-------------------------------------------
-// const person={
-// id : 1,
-// name : 'leena',
-// location:'tokyo',
-// phone:65894561,    
+// const person = {
+//     id: 1,
+//     name: 'leena',
+//     location: 'tokyo',
+//     phone: 65894561,
 // }
-// for(let key in person)
-// console.log(key,person[key])
+// for (let key in person)
+//     console.log(key, person[key])
 
-// for(let key of Object.keys (person))
-// console.log(key)
+// for (let key of Object.keys(person))
+//     console.log(key)
 
 // for(let entry of Object.entries(person))
 // console.log(entry)
@@ -7149,7 +7149,7 @@
 // let k = 4;
 // let height = [1, 6, 3, 5, 2];
 // function hurdleRace(k, height) {
-//     
+
 //     let maxHeight = 0;
 //     let magicalDose = 0;
 //     for (let i = 0; i < height.length; i++) {
@@ -7158,7 +7158,7 @@
 
 //         }
 //         if (magicalDose > maxHeight) {
-//             magicalDose
+//             magicalDose = maxHeight
 //         }
 //     }
 //     console.log(maxHeight)
@@ -7168,28 +7168,58 @@
 
 //------------------------------
 
-let k = 7;
-let height = [1, 6, 3, 5, 2];
-function hurdleRace(k, height) {
-    height.sort();
-    let maxHeight = 0;
-    let magicalDose = 0;
-    let highestArrayNum = height[height.length - 1]
-    maxHeight = highestArrayNum - k;
-    magicalDose = maxHeight
-    if (highestArrayNum < k) {
-        magicalDose = 0
-    }
-    // if (magicalDose <= k) {
-    //     magicalDose = 0
-    // }
-    console.log("Max Doses for high jump ==> " + magicalDose)
-}
-hurdleRace(k, height)
+// let k = 4;
+// let height = [1, 6, 3, 5, 2];
+// function hurdleRace(k, height) {
+//     height.sort();
+//     let maxHeight = 0;
+//     let magicalDose = 0;
+//     let highestArrayNum = height[height.length - 1]
+//     maxHeight = highestArrayNum - k;
+//     magicalDose = maxHeight
+//     if (highestArrayNum < k) {
+//         magicalDose = 0
+//     }
+//     // if (magicalDose <= k) {
+//     //     magicalDose = 0
+//     // }
+//     console.log("Max Doses for high jump ==> " + magicalDose)
+// }
+// hurdleRace(k, height)
+
+
+
+
 
 //-------------------------------------
-
+let grades = [73, 67, 38, 33, 69]
 
 function gradingStudents(grades) {
+    for (let i = 0; i < grades.length; i++) {
+        if ((grades[i] % 5 == 0) && (grades[i] >= 38)) {
+            console.log("ITERATION NO. ", i)
+            console.log("MODULUS : ", grades[i] % 5)
+            grades[i] = grades[i] + 2
+        }
+        if ((grades[i] % 5 == 0) && (grades[i] >= 38)) {
+            grades[i] = grades[i] + 1
 
+
+        }
+
+    }
+
+    console.log(grades)
 }
+gradingStudents(grades)
+
+
+
+
+
+
+// let x = 0.1 + 0.2
+// let y = 0.3
+
+// console.log("THESE ARE THE VALUES: ", x, " and ", y)
+// console.log(x == y)
