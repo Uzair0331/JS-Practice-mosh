@@ -7133,20 +7133,21 @@
 
 
 
-let k = 4;
-let height = [1, 6, 3, 5, 2];
-function hurdleRace(k, height) {
-    let maxHeight = 0;
-    let magicalDose = 0; //>
-    for (let i = 0; i < height.length; i++) {
-        if (height[i] > k) {
-            magicalDose = height[i] - k;
+// let k = 4;
+// let height = [1, 6, 3, 5, 2];
+// function hurdleRace(k, height) {
+//     height.sort();
+//     let maxHeight = 0;
+//     let magicalDose = 0;
+//     for (let i = 0; i < height.length; i++) {
+//         if (height[i] > k) {
+//             magicalDose = height[i] - k;
 
-        }
-        if (magicalDose > maxHeight) {
-            magicalDose = maxHeight
-        }
-    }
-    console.log(maxHeight)
-}
-hurdleRace(k, height)
+//         }
+//         if (magicalDose > maxHeight) {
+//             magicalDose
+//         }
+//     }
+//     console.log(maxHeight)
+// }
+// hurdleRace(k, height)
