@@ -6617,32 +6617,7 @@
 
 
 //-----
-// int viralAdvertising(int n) {
 
-//    
-//     let totalLikes = 0;let numberOfShares = 5;let currentLikes = 0;
-
-//     /*
-//     *   Calculating the likes on each day,
-//     *   adding them to the total likes,
-//     *   and updating the number of shares for next day
-//     */
-//     for(let i=0; i<n; i++) {
-//         currentLikes = numberOfShares/2;
-//         totalLikes += currentLikes;
-//         numberOfShares = currentLikes*3;
-//     }
-
-//     // * Returning the total likes
-//     return totalLikes;
-// }
-
-
-
-
-
-
-//----------------------------
 
 
 // a = 2
@@ -7053,19 +7028,26 @@
 
 
 //----------
+// let count = 0;
+// let sum = 0;
 
+// for (let index = 0; index < m; index++) {
+//   sum += s[index]
+// }
 
+// if (sum === d) {
+//   count++;
+// }
 
-// function hurdleRace(k, height) {
-//     let heightMax = 0;
-//     for (let i = 0; i < height.length; i++) {
-//         if (height[i] > k) {
-//             let magic = diff + height[i] - k;
-//             if (magic > max) { heightMax = magic }
-//         }
-//     }
-// if(heightMax === 0){return 0}
-//     return heightMax;
+// for (let i = m; i < s.length; i++) {
+//   sum += s[i] - s[i - m];
+
+//   if (sum === d) {
+//     count++;
+//   }
+// }
+
+// return count;
 //--------------------
 
 // arr = [
@@ -7146,13 +7128,21 @@
 
 
 //--------------
-let k = 1
-let height = [1, 2, 3, 3, 2];
+
+
+
+
+
+let k = 4;
+let height = [1, 6, 3, 5, 2];
 function hurdleRace(k, height) {
     let maxHeight = 0;
+    let magicalDose = 0; //>
     for (let i = 0; i < height.length; i++) {
-
+        if (height[i] > k) {
+            magicalDose += height[i] - k;
+        }
     }
-
+    console.log(magicalDose)
 }
-
+hurdleRace(k, height)
