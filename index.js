@@ -7194,32 +7194,46 @@
 //-------------------------------------
 let grades = [73, 67, 38, 33, 69]
 
+// function gradingStudents(grades) {
+//     for (let i = 0; i < grades.length; i++) {
+//         if (((grades[i] + 2) % 5 == 0) && (grades[i] >= 38)) {
+//             console.log("ITERATION NO. ", i)
+//             console.log("MODULUS : ", grades[i] % 5)
+//             grades[i] = grades[i] + 2
+//         }
+//         if (((grades[i] + 1) % 5 == 0) && (grades[i] >= 38)) {
+//             grades[i] = grades[i] + 1
+//         }
+
+//     }
+
+//     console.log(grades)
+// }
+// gradingStudents(grades)
+
+
+
+///------Yousuf Bhai--------------
+
+// let grade;
+// let updatedGrades = [];
+// for (let i = 0; i < grades.length; i++) {
+//     grade = grades[i];
+//     for (let j = 0; j < 2; j++) {
+//         if (grade >= 38 && grade % 5 >= 3) {
+//             grade++
+//         }
+//     }
+//     updatedGrades.push(grade)
+// }
+
 function gradingStudents(grades) {
+    console.log("PARSED GRADES ==> ", grades)
     for (let i = 0; i < grades.length; i++) {
-        if ((grades[i] % 5 == 0) && (grades[i] >= 38)) {
-            console.log("ITERATION NO. ", i)
-            console.log("MODULUS : ", grades[i] % 5)
-            grades[i] = grades[i] + 2
+        if (grades[i] >= 38 && grades[i] % 5 >= 3) {
+            grades[i] = grades[i] + (5 - grades[i] % 5)
         }
-        if ((grades[i] % 5 == 0) && (grades[i] >= 38)) {
-            grades[i] = grades[i] + 1
-
-
-        }
-
     }
-
-    console.log(grades)
+    console.log("NEW GRADES ==> ", grades)
 }
 gradingStudents(grades)
-
-
-
-
-
-
-// let x = 0.1 + 0.2
-// let y = 0.3
-
-// console.log("THESE ARE THE VALUES: ", x, " and ", y)
-// console.log(x == y)
