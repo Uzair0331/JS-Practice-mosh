@@ -7242,3 +7242,14 @@ let grades = [73, 67, 38, 33, 69]
 
 
 //----------------------
+let bill = [3, 10, 2, 9]
+let k = 1
+let b = 12
+function bonAppetit(bill, k, b) {
+    let annaBill = 0;
+    for (let i = 0; i < bill.length; i++) {
+        annaBill += bill[i]
+    }
+    console.log(annaBill)
+}
+bonAppetit(bill, k, b)
