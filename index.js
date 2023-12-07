@@ -7243,13 +7243,48 @@ let grades = [73, 67, 38, 33, 69]
 
 //----------------------
 let bill = [3, 10, 2, 9]
-let k = 1
+let k = 3
 let b = 12
 function bonAppetit(bill, k, b) {
-    let annaBill = 0;
-    for (let i = 0; i < bill.length; i++) {
-        annaBill += bill[i]
-    }
-    console.log(annaBill)
+    //     let annaBill = 0;
+    //     for (let i = 0; i < bill.length; i++) {
+    //         annaBill += bill[i]
+    //     }
+    //     annaBill = (annaBill - bill[k]) / 2
+
+    //     if (annaBill < b) {
+    //         annaBill = b - annaBill
+    //         console.log(annaBill)
+    //     }
+    //     else {
+    //         console.log("BonAppetit")
+    //     }
+
+    // }
+    // bonAppetit(bill, k, b)
+
+
+
+    // function bonAppetit(bill, k, b) {
+
+
+
+
+    console.log(bill[k] / 2);
+
+    //     // let annaBill = 0;
+    //     // for (let i = 0; i < bill.length; i++) {
+    //     //     annaBill += bill[i]
+    //     // }
+    //     // annaBill = (annaBill - bill[k]) / 2
+
+    //     // if (annaBill < b) {
+    //     //     annaBill = b - annaBill
+    //     //     console.log(annaBill)
+    //     // }
+    //     // else {
+    //     //     console.log("BonAppetit")
+    //     // }
+
 }
 bonAppetit(bill, k, b)
