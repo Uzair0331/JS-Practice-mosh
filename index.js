@@ -7227,13 +7227,18 @@ let grades = [73, 67, 38, 33, 69]
 //     updatedGrades.push(grade)
 // }
 
-function gradingStudents(grades) {
-    console.log("PARSED GRADES ==> ", grades)
-    for (let i = 0; i < grades.length; i++) {
-        if (grades[i] >= 38 && grades[i] % 5 >= 3) {
-            grades[i] = grades[i] + (5 - grades[i] % 5)
-        }
-    }
-    console.log("NEW GRADES ==> ", grades)
-}
-gradingStudents(grades)
+//--------------2nd method---------------------
+
+// function gradingStudents(grades) {
+//     console.log("PARSED GRADES ==> ", grades)
+//     for (let i = 0; i < grades.length; i++) {
+//         if (grades[i] >= 38 && grades[i] % 5 >= 3) {
+//             grades[i] = grades[i] + (5 - grades[i] % 5)
+//         }
+//     }
+//     console.log("NEW GRADES ==> ", grades)
+// }
+// gradingStudents(grades)
+
+
+//----------------------
