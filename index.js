@@ -7192,7 +7192,7 @@
 
 
 //-------------------------------------
-let grades = [73, 67, 38, 33, 69]
+// let grades = [73, 67, 38, 33, 69]
 
 // function gradingStudents(grades) {
 //     for (let i = 0; i < grades.length; i++) {
@@ -7242,49 +7242,37 @@ let grades = [73, 67, 38, 33, 69]
 
 
 //----------------------
-let bill = [3, 10, 2, 9]
-let k = 3
-let b = 12
-function bonAppetit(bill, k, b) {
-    //     let annaBill = 0;
-    //     for (let i = 0; i < bill.length; i++) {
-    //         annaBill += bill[i]
-    //     }
-    //     annaBill = (annaBill - bill[k]) / 2
-
-    //     if (annaBill < b) {
-    //         annaBill = b - annaBill
-    //         console.log(annaBill)
-    //     }
-    //     else {
-    //         console.log("BonAppetit")
-    //     }
-
-    // }
-    // bonAppetit(bill, k, b)
 
 
+// let bill = [3, 10, 2, 9]
+// let k = 1
+// let b = 12
+// function bonAppetit(bill, k, b) {
+//     let annaBill = 0;
+//     for (let i = 0; i < bill.length; i++) {
+//         annaBill += bill[i]
+//     }
+//     annaBill = (annaBill - bill[k]) / 2
 
-    // function bonAppetit(bill, k, b) {
+//     if (annaBill < b) {
+//         annaBill = b - annaBill
 
+//         console.log(annaBill)
+//     }
+//     else {
+//         console.log("BonAppetit")
+//     }
+
+// }
+// bonAppetit(bill, k, b)
 
 
 
-    console.log(bill[k] / 2);
+///---------------------------
 
-    //     // let annaBill = 0;
-    //     // for (let i = 0; i < bill.length; i++) {
-    //     //     annaBill += bill[i]
-    //     // }
-    //     // annaBill = (annaBill - bill[k]) / 2
 
-    //     // if (annaBill < b) {
-    //     //     annaBill = b - annaBill
-    //     //     console.log(annaBill)
-    //     // }
-    //     // else {
-    //     //     console.log("BonAppetit")
-    //     // }
+let n = [0, 1, 4]
 
+function utopianTree(n) {
+    for (let i = 0; i < n.length; i++) { }
 }
-bonAppetit(bill, k, b)
