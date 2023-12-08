@@ -7274,5 +7274,13 @@
 let n = [0, 1, 4]
 
 function utopianTree(n) {
-    for (let i = 0; i < n.length; i++) { }
+    let maximunHeight = 0
+    for (let i = 0; i < n.length; i++) {
+        if (i % 2) {
+            maximunHeight * 2
+        }
+        console.log(maximunHeight)
+
+    }
 }
+utopianTree(n)
