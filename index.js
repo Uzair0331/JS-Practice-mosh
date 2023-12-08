@@ -7271,23 +7271,35 @@
 ///---------------------------
 
 
-let n = 4
+// let n = 4
 
-function utopianTree(n) {
-    let maximumHeight = 1
-    for (let i = 0; i < n; i++) {
-        if (i % 2 == 0) {
+// function utopianTree(n) {
+//     let maximumHeight = 1
+//     for (let i = 0; i < n; i++) {
+//         if (i % 2 == 0) {
 
-            maximumHeight += 2
-        }
-        else {
+//             maximumHeight *= 2
+//         }
+//         else {
 
-            maximumHeight += 1
+//             maximumHeight += 1
 
-        }
+//         }
 
 
-        console.log("Maximum Height of Trees ==>  " + maximumHeight)
-    }
+//         console.log("Maximum Height of Trees ==>  " + maximumHeight)
+//     }
+// }
+// utopianTree(n)
+
+
+//-------------------
+n = 7 //numbers of prisoner
+m = 19 // numbers of sweets
+s = 2 // numbers of chair
+function saveThePrisoner(n, m, s) {
+    let id = 0;
+    id = (m - 1)
+    console.log(id)
 }
-utopianTree(n)
+saveThePrisoner(n, m, s)
