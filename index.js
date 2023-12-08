@@ -7271,16 +7271,23 @@
 ///---------------------------
 
 
-let n = [0, 1, 4]
+let n = 4
 
 function utopianTree(n) {
-    let maximumHeight = 0
-    for (let i = 0; i < n.length; i++) {
+    let maximumHeight = 1
+    for (let i = 0; i < n; i++) {
         if (i % 2 == 0) {
+
             maximumHeight += 2
         }
+        else {
 
+            maximumHeight += 1
+
+        }
+
+
+        console.log("Maximum Height of Trees ==>  " + maximumHeight)
     }
-    console.log(maximumHeight)
 }
 utopianTree(n)
