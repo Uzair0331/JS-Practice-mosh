@@ -7277,7 +7277,7 @@ function utopianTree(n) {
     let maximumHeight = 0
     for (let i = 0; i < n.length; i++) {
         if (i % 2 == 0) {
-            maximumHeight * 2
+            maximumHeight += 2
         }
 
     }
