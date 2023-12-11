@@ -7301,9 +7301,13 @@ function saveThePrisoner(n, m, s) {
     let prisonerWarn = 0;
 
     prisonerWarn = (m - 1)
+    console.log(prisonerWarn)
     if (prisonerWarn > n) {
         let remaining = prisonerWarn % s
         remaining = prisonerWarn
+        if (remaining == 0) {
+            remaining = n
+        }
         console.log(remaining)
     }
 
