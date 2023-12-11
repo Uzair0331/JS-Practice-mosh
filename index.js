@@ -7299,7 +7299,9 @@ m = 19 // numbers of sweets
 s = 2 // numbers of chair
 function saveThePrisoner(n, m, s) {
     let id = 0;
+
     id = (m - 1)
+    if (id > n) { }
     console.log(id)
 }
-saveThePrisoner(n, m, s)
+saveThePrisoner(n, m, s) 
