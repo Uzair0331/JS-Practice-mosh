@@ -7335,7 +7335,7 @@ function birthday(s, d, m) {
         console.log("number from Array ===> " + s[i])
         if (sum === d) {
             totalSum++;
-        }.
+        }..
         console.log("number QTY ===> " + totalSum)
     }
     console.log("Total sum of Array num ===> " + sum)
