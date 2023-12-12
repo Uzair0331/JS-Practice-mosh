@@ -7037,6 +7037,7 @@
 // return grades;
 // }
 
+
 //----------
 // let count = 0;
 // let sum = 0;
@@ -7332,12 +7333,25 @@ function birthday(s, d, m) {
     let totalSum = 0;
     for (let i = 0; i < m; i++) {
         sum += s[i];
-        console.log("number from Array ===> " + s[i])
+
+        console.log("number from Array I ===> " + s[i])
+
         if (sum === d) {
             totalSum++;
-        }..
+        }
         console.log("number QTY ===> " + totalSum)
+
+
+        for (let j = m; j < s.length - 1; j++) {
+
+            sum += s[i] - s[i - m]
+            console.log("number from Array J ===> " + s[j])
+
+            if (sum === d) {
+                totalSum++;
+            }
+        }
     }
-    console.log("Total sum of Array num ===> " + sum)
+    console.log("number QTY ===> " + totalSum)
 }
 birthday(s, d, m)
