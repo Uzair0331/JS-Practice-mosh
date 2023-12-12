@@ -7038,7 +7038,6 @@
 // }
 
 
-
 //----------
 // let count = 0;
 // let sum = 0;
@@ -7331,9 +7330,15 @@ let d = 4 //Ron's Birthday
 let m = 2 //Ron's B-Month
 function birthday(s, d, m) {
     let sum = 0;
-    for (let i = 0; i < s.m; i++) {
+    let totalSum = 0;
+    for (let i = 0; i < m; i++) {
         sum += s[i];
+        console.log("Sum of Array ===> " + s[i])
+        if (sum === m) {
+            totalSum++;
+        }
+        console.log("Total sum ===> " + totalSum)
     }
-    console.log(sum)
+    console.log("Total sum of Array ===>" + sum)
 }
 birthday(s, d, m)
