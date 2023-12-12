@@ -7037,288 +7037,303 @@
 // return grades;
 // }
 
-----------------
-
-
-    //----------
-    // let count = 0;
-    // let sum = 0;
-
-    // for (let index = 0; index < m; index++) {
-    //   sum += s[index]
-    // }
 
-    // if (sum === d) {
-    //   count++;
-    // }
 
-    // for (let i = m; i < s.length; i++) {
-    //   sum += s[i] - s[i - m];
+//----------
+// let count = 0;
+// let sum = 0;
+
+// for (let index = 0; index < m; index++) {
+//   sum += s[index]
+// }
 
-    //   if (sum === d) {
-    //     count++;
-    //   }
-    // }
+// if (sum === d) {
+//   count++;
+// }
 
-    // return count;
-    //--------------------
-
-    // arr = [
-    //     [11, 2, 4],
-    //     [4, 5, 6],
-    //     [10, 8, -12]
-    // ]
+// for (let i = m; i < s.length; i++) {
+//   sum += s[i] - s[i - m];
 
-    // function diagonalDifference(arr) {
-    //     let diagonalFirst = 0;
-    //     let diagonalSecond = 0;
-    //     for (let a = 0; a < arr.length; a++) {
-    //         for (let b = 0; b <= a; b++) {
-    //             if (a === b) {
-    //                 diagonalFirst += arr[a][b];
-    //             }
-    //             if (arr.length - 1 == a + b) {
-    //                 diagonalSecond += arr[a][b];
-    //             }
-    //         }
-    //     }
-    //     console.log("First D ==> " + diagonalFirst)
-    //     console.log("Second D ==> " + diagonalSecond)
-    //     console.log("After Subtraction ==> ", diagonalFirst - diagonalSecond)
-    //     // return (diagonalFirst - diagonalSecond)
-    // }
-    // console.log(diagonalDifference(arr))
-
-
-
-    //------------------------------
-    // let steps = 12;
-    // let path = ['D', 'D', 'U', 'U', 'D', 'D', 'U', 'D', 'U', 'U', 'U', 'D']
-    // function countingValleys(steps, path) {
-    //     let seaLevel = 0;
-    //     let totalCount = 0;
-    //     for (let i = 0; i < steps; i++) {
-    //         if (path[i] === 'U') {
-    //             seaLevel++;
-    //         }
-    //         else if (path[i] === 'D') {
-    //             seaLevel--;
-    //         }
-    //         if (seaLevel === 0 && path[i] === 'U') { totalCount++ }
-    //     }
-
-    //     console.log(totalCount)
-    // }
-    // countingValleys(steps, path)
-
-
-    //-------------------------------------------
+//   if (sum === d) {
+//     count++;
+//   }
+// }
 
+// return count;
+//--------------------
 
+// arr = [
+//     [11, 2, 4],
+//     [4, 5, 6],
+//     [10, 8, -12]
+// ]
 
+// function diagonalDifference(arr) {
+//     let diagonalFirst = 0;
+//     let diagonalSecond = 0;
+//     for (let a = 0; a < arr.length; a++) {
+//         for (let b = 0; b <= a; b++) {
+//             if (a === b) {
+//                 diagonalFirst += arr[a][b];
+//             }
+//             if (arr.length - 1 == a + b) {
+//                 diagonalSecond += arr[a][b];
+//             }
+//         }
+//     }
+//     console.log("First D ==> " + diagonalFirst)
+//     console.log("Second D ==> " + diagonalSecond)
+//     console.log("After Subtraction ==> ", diagonalFirst - diagonalSecond)
+//     // return (diagonalFirst - diagonalSecond)
+// }
+// console.log(diagonalDifference(arr))
+
+
 
+//------------------------------
+// let steps = 12;
+// let path = ['D', 'D', 'U', 'U', 'D', 'D', 'U', 'D', 'U', 'U', 'U', 'D']
+// function countingValleys(steps, path) {
+//     let seaLevel = 0;
+//     let totalCount = 0;
+//     for (let i = 0; i < steps; i++) {
+//         if (path[i] === 'U') {
+//             seaLevel++;
+//         }
+//         else if (path[i] === 'D') {
+//             seaLevel--;
+//         }
+//         if (seaLevel === 0 && path[i] === 'U') { totalCount++ }
+//     }
+
+//     console.log(totalCount)
+// }
+// countingValleys(steps, path)
+
+
+//-------------------------------------------
 
-    // let n = 5
-    // function viralAdvertising(n) {
-    //     let numberOfShare = 5;
-    //     let totalLikes = 0;
-    //     let perDayLikes = 0;
-    //     let noOfFriends = 3;
-    //     for (let i = 1; i <= n; i++) {
-    //         console.log("DAY : ", i)
-    //         console.log("NUMBER OF SHARES ==> ", numberOfShare)
-    //         perDayLikes = Math.floor(numberOfShare / 2);
-    //         console.log("PER DAY LIKES ==> ", perDayLikes)
-    //         totalLikes += perDayLikes;
-    //         console.log("COMMULATIVE ==> ", totalLikes)
-    //         numberOfShare = perDayLikes * noOfFriends;
-
-    //     }
-    //     console.log("TOTAL LIKES ==> ", totalLikes)
-    // }
-    // viralAdvertising(n)
-
 
 
-    //--------------
 
 
+// let n = 5
+// function viralAdvertising(n) {
+//     let numberOfShare = 5;
+//     let totalLikes = 0;
+//     let perDayLikes = 0;
+//     let noOfFriends = 3;
+//     for (let i = 1; i <= n; i++) {
+//         console.log("DAY : ", i)
+//         console.log("NUMBER OF SHARES ==> ", numberOfShare)
+//         perDayLikes = Math.floor(numberOfShare / 2);
+//         console.log("PER DAY LIKES ==> ", perDayLikes)
+//         totalLikes += perDayLikes;
+//         console.log("COMMULATIVE ==> ", totalLikes)
+//         numberOfShare = perDayLikes * noOfFriends;
+
+//     }
+//     console.log("TOTAL LIKES ==> ", totalLikes)
+// }
+// viralAdvertising(n)
+
+
 
+//--------------
 
 
-    // let k = 4;
-    // let height = [1, 6, 3, 5, 2];
-    // function hurdleRace(k, height) {
 
-    //     let maxHeight = 0;
-    //     let magicalDose = 0;
-    //     for (let i = 0; i < height.length; i++) {
-    //         if (height[i] > k) {
-    //             magicalDose = height[i] - k;
 
-    //         }
-    //         if (magicalDose > maxHeight) {
-    //             magicalDose = maxHeight
-    //         }
-    //     }
-    //     console.log(maxHeight)
-    // }
-    // hurdleRace(k, height)
 
+// let k = 4;
+// let height = [1, 6, 3, 5, 2];
+// function hurdleRace(k, height) {
 
-    //------------------------------
+//     let maxHeight = 0;
+//     let magicalDose = 0;
+//     for (let i = 0; i < height.length; i++) {
+//         if (height[i] > k) {
+//             magicalDose = height[i] - k;
 
-    // let k = 4;
-    // let height = [1, 6, 3, 5, 2];
-    // function hurdleRace(k, height) {
-    //     height.sort();
-    //     let maxHeight = 0;
-    //     let magicalDose = 0;
-    //     let highestArrayNum = height[height.length - 1]
-    //     maxHeight = highestArrayNum - k;
-    //     magicalDose = maxHeight
-    //     if (highestArrayNum < k) {
-    //         magicalDose = 0
-    //     }
-    //     // if (magicalDose <= k) {
-    //     //     magicalDose = 0
-    //     // }
-    //     console.log("Max Doses for high jump ==> " + magicalDose)
-    // }
-    // hurdleRace(k, height)
+//         }
+//         if (magicalDose > maxHeight) {
+//             magicalDose = maxHeight
+//         }
+//     }
+//     console.log(maxHeight)
+// }
+// hurdleRace(k, height)
 
 
+//------------------------------
 
+// let k = 4;
+// let height = [1, 6, 3, 5, 2];
+// function hurdleRace(k, height) {
+//     height.sort();
+//     let maxHeight = 0;
+//     let magicalDose = 0;
+//     let highestArrayNum = height[height.length - 1]
+//     maxHeight = highestArrayNum - k;
+//     magicalDose = maxHeight
+//     if (highestArrayNum < k) {
+//         magicalDose = 0
+//     }
+//     // if (magicalDose <= k) {
+//     //     magicalDose = 0
+//     // }
+//     console.log("Max Doses for high jump ==> " + magicalDose)
+// }
+// hurdleRace(k, height)
 
 
-    //-------------------------------------
-    // let grades = [73, 67, 38, 33, 69]
 
-    // function gradingStudents(grades) {
-    //     for (let i = 0; i < grades.length; i++) {
-    //         if (((grades[i] + 2) % 5 == 0) && (grades[i] >= 38)) {
-    //             console.log("ITERATION NO. ", i)
-    //             console.log("MODULUS : ", grades[i] % 5)
-    //             grades[i] = grades[i] + 2
-    //         }
-    //         if (((grades[i] + 1) % 5 == 0) && (grades[i] >= 38)) {
-    //             grades[i] = grades[i] + 1
-    //         }
 
-    //     }
 
-    //     console.log(grades)
-    // }
-    // gradingStudents(grades)
+//-------------------------------------
+// let grades = [73, 67, 38, 33, 69]
 
+// function gradingStudents(grades) {
+//     for (let i = 0; i < grades.length; i++) {
+//         if (((grades[i] + 2) % 5 == 0) && (grades[i] >= 38)) {
+//             console.log("ITERATION NO. ", i)
+//             console.log("MODULUS : ", grades[i] % 5)
+//             grades[i] = grades[i] + 2
+//         }
+//         if (((grades[i] + 1) % 5 == 0) && (grades[i] >= 38)) {
+//             grades[i] = grades[i] + 1
+//         }
 
+//     }
 
-    ///------Yousuf Bhai--------------
+//     console.log(grades)
+// }
+// gradingStudents(grades)
 
-    // let grade;
-    // let updatedGrades = [];
-    // for (let i = 0; i < grades.length; i++) {
-    //     grade = grades[i];
-    //     for (let j = 0; j < 2; j++) {
-    //         if (grade >= 38 && grade % 5 >= 3) {
-    //             grade++
-    //         }
-    //     }
-    //     updatedGrades.push(grade)
-    // }
 
-    //--------------2nd method---------------------
 
-    // function gradingStudents(grades) {
-    //     console.log("PARSED GRADES ==> ", grades)
-    //     for (let i = 0; i < grades.length; i++) {
-    //         if (grades[i] >= 38 && grades[i] % 5 >= 3) {
-    //             grades[i] = grades[i] + (5 - grades[i] % 5)
-    //         }
-    //     }
-    //     console.log("NEW GRADES ==> ", grades)
-    // }
-    // gradingStudents(grades)
+///------Yousuf Bhai--------------
 
+// let grade;
+// let updatedGrades = [];
+// for (let i = 0; i < grades.length; i++) {
+//     grade = grades[i];
+//     for (let j = 0; j < 2; j++) {
+//         if (grade >= 38 && grade % 5 >= 3) {
+//             grade++
+//         }
+//     }
+//     updatedGrades.push(grade)
+// }
 
-    //----------------------
+//--------------2nd method---------------------
 
+// function gradingStudents(grades) {
+//     console.log("PARSED GRADES ==> ", grades)
+//     for (let i = 0; i < grades.length; i++) {
+//         if (grades[i] >= 38 && grades[i] % 5 >= 3) {
+//             grades[i] = grades[i] + (5 - grades[i] % 5)
+//         }
+//     }
+//     console.log("NEW GRADES ==> ", grades)
+// }
+// gradingStudents(grades)
 
-    // let bill = [3, 10, 2, 9]
-    // let k = 1
-    // let b = 12
-    // function bonAppetit(bill, k, b) {
-    //     let annaBill = 0;
-    //     for (let i = 0; i < bill.length; i++) {
-    //         annaBill += bill[i]
-    //     }
-    //     annaBill = (annaBill - bill[k]) / 2
 
-    //     if (annaBill < b) {
-    //         annaBill = b - annaBill
+//----------------------
 
-    //         console.log(annaBill)
-    //     }
-    //     else {
-    //         console.log("BonAppetit")
-    //     }
 
-    // }
-    // bonAppetit(bill, k, b)
+// let bill = [3, 10, 2, 9]
+// let k = 1
+// let b = 12
+// function bonAppetit(bill, k, b) {
+//     let annaBill = 0;
+//     for (let i = 0; i < bill.length; i++) {
+//         annaBill += bill[i]
+//     }
+//     annaBill = (annaBill - bill[k]) / 2
 
+//     if (annaBill < b) {
+//         annaBill = b - annaBill
 
+//         console.log(annaBill)
+//     }
+//     else {
+//         console.log("BonAppetit")
+//     }
 
-    ///---------------------------
+// }
+// bonAppetit(bill, k, b)
 
 
-    // let n = 4
 
-    // function utopianTree(n) {
-    //     let maximumHeight = 1
-    //     for (let i = 0; i < n; i++) {
-    //         if (i % 2 == 0) {
+///---------------------------
 
-    //             maximumHeight *= 2
-    //         }
-    //         else {
+// for(let i =0;i < arr.length;i++){
+//     for(let j = i+1 ; j < arr.length;j++){
+//         if(arr[i] + arr[j] === m){
+//            return[i+1,j+1]
+//         }
+//     }
+// }
+///-------
 
-    //             maximumHeight += 1
+// let n = 4
 
-    //         }
+// function utopianTree(n) {
+//     let maximumHeight = 1
+//     for (let i = 0; i < n; i++) {
+//         if (i % 2 == 0) {
 
+//             maximumHeight *= 2
+//         }
+//         else {
 
-    //         console.log("Maximum Height of Trees ==>  " + maximumHeight)
-    //     }
-    // }
-    // utopianTree(n)
+//             maximumHeight += 1
 
+//         }
 
-    //-------------------
-    // n = 3 //numbers of prisoner
-    // m = 7 // numbers of sweets
-    // s = 3 // numbers of chair
 
-    // function saveThePrisoner(n, m, s) {
+//         console.log("Maximum Height of Trees ==>  " + maximumHeight)
+//     }
+// }
+// utopianTree(n)
 
-    //     let solution = (m - 1) + s
 
-    //     console.log(solution)
+//-------------------
+// n = 3 //numbers of prisoner
+// m = 7 // numbers of sweets
+// s = 3 // numbers of chair
 
-    //     if (solution > n) {
-    //         let prisonerWarn = (solution % n)
-    //         if (prisonerWarn == 0) {
-    //             prisonerWarn = n
-    //         }
-    //         console.log(prisonerWarn)
-    //     }
+// function saveThePrisoner(n, m, s) {
 
-    // }
-    // saveThePrisoner(n, m, s) 
+//     let solution = (m - 1) + s
 
+//     console.log(solution)
 
-    ///----------------------
-    s =[] //Squares of chocolate
+//     if (solution > n) {
+//         let prisonerWarn = (solution % n)
+//         if (prisonerWarn == 0) {
+//             prisonerWarn = n
+//         }
+//         console.log(prisonerWarn)
+//     }
+
+// }
+// saveThePrisoner(n, m, s) 
+
+
+///----------------------
+
+
+let s = [2, 2, 1, 3, 2]//Squares of chocolate
+let d = 4 //Ron's Birthday
+let m = 2 //Ron's B-Month
 function birthday(s, d, m) {
-
-
+    let sum = 0;
+    for (let i = 0; i < s.m; i++) {
+        sum += s[i];
+    }
+    console.log(sum)
 }
+birthday(s, d, m)
