@@ -7321,7 +7321,16 @@
 // }
 // saveThePrisoner(n, m, s) 
 
-
+// let jump = 0 ;
+// let power=100;
+// for(let i = 0 ;i < c.length ; i++){
+//   if(c[jump] === 1) {
+//     power = power - 2
+//   } else{
+//     cost = cost - 1
+//   }
+//   jump += k ;
+// }
 ///----------------------
 
 
@@ -7355,3 +7364,38 @@
 //     console.log("number QTY ===> " + totalSum)
 // }
 // birthday(s, d, m)
+
+
+
+
+//-----------------------------
+let c = [0, 0, 1, 0, 0, 1, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
+let n = 8; //Numbers of clouds
+let k = 2; //jump on clouds
+
+
+function jumpingOnClouds(c, k) {
+    let counter;
+    let power = 100;
+    for (let i = 0; i < c.length; i++) {
+        if (c[i] === 1) {
+            power = power - 2
+            console.log("Counter if thunder cloud & number = ( 1 ) then -2 Power from 100 ===> " + power)
+        }
+
+        else {
+            power = power - 1
+            console.log("Counter if normal cloud & number = ( 0 ) then  -1 Power from 100===> " + power)
+        }
+
+        console.log("After jump remaining Power ==> " + power)
+    }
+    console.log("Total Power ===> " + power)
+
+}
+jumpingOnClouds(c, k)
+
+
+
+
+
