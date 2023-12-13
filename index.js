@@ -7375,8 +7375,8 @@ let k = 2; //jump on clouds
 
 
 function jumpingOnClouds(c, k) {
-    let counter;
     let power = 100;
+
     for (let i = 0; i < c.length; i++) {
         if (c[i] === 1) {
             power = power - 2
@@ -7389,8 +7389,10 @@ function jumpingOnClouds(c, k) {
         }
 
         console.log("After jump remaining Power ==> " + power)
+
     }
     console.log("Total Power ===> " + power)
+
 
 }
 jumpingOnClouds(c, k)
