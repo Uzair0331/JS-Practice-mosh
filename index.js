@@ -7325,33 +7325,33 @@
 ///----------------------
 
 
-let s = [2, 2, 1, 3, 2]//Squares of chocolate
-let d = 4 //Ron's Birthday
-let m = 2 //Ron's B-Month
-function birthday(s, d, m) {
-    let sum = 0;
-    let totalSum = 0;
-    for (let i = 0; i < m; i++) {
-        sum += s[i];
+// let s = [2, 2, 1, 3, 2]//Squares of chocolate
+// let d = 4 //Ron's Birthday
+// let m = 2 //Ron's B-Month
+// function birthday(s, d, m) {
+//     let sum = 0;
+//     let totalSum = 0;
+//     for (let i = 0; i < m; i++) {
+//         sum += s[i];
 
-        console.log("number from Array I ===> " + s[i])
+//         console.log("number from Array I ===> " + s[i])
 
-        if (sum === d) {
-            totalSum++;
-        }
-        console.log("number QTY ===> " + totalSum)
+//         if (sum === d) {
+//             totalSum++;
+//         }
+//         console.log("number QTY ===> " + totalSum)
 
 
-        for (let j = m; j < s.length - 1; j++) {
+//         for (let j = m; j < s.length - 1; j++) {
 
-            sum += s[i] - s[i - m]
-            console.log("number from Array J ===> " + s[j])
+//             sum += s[i] - s[i - m]
+//             console.log("number from Array J ===> " + s[j])
 
-            if (sum === d) {
-                totalSum++;
-            }
-        }
-    }
-    console.log("number QTY ===> " + totalSum)
-}
-birthday(s, d, m)
+//             if (sum === d) {
+//                 totalSum++;
+//             }
+//         }
+//     }
+//     console.log("number QTY ===> " + totalSum)
+// }
+// birthday(s, d, m)
