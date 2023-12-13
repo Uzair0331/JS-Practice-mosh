@@ -7379,17 +7379,13 @@ function jumpingOnClouds(c, k) {
 
     for (let i = 0; i < c.length; i++) {
         if (c[i] === 1) {
-            power = power - 2
+            power = power - 3
             console.log("Counter if thunder cloud & number = ( 1 ) then -2 Power from 100 ===> " + power)
         }
-
         else {
             power = power - 1
             console.log("Counter if normal cloud & number = ( 0 ) then  -1 Power from 100===> " + power)
         }
-
-        console.log("After jump remaining Power ==> " + power)
-
     }
     console.log("Total Power ===> " + power)
 
