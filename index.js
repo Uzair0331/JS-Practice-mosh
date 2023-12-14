@@ -7276,6 +7276,22 @@
 //     }
 // }
 ///-------
+// let a =0;
+//    let b =0;
+//    for(let i = 1 ; i <= n ; i++){
+//        if(i % 2 == 0){
+//            a++
+//        }
+//        if(i === p){break}
+//    }
+//    for (let j = n;j >= 1 ; i--){
+//        if(j === p){break}
+//        if(j %2 == 0){
+//            b++
+//        }
+//        return a < b ? a:b
+//    } 
+//----
 
 // let n = 4
 
@@ -7390,13 +7406,13 @@ function jumpingOnClouds(c, k) {
             console.log("Counter if normal cloud the number = ( 0 ) then  -1 Power from 100===> " + power)
         }
         jump += k
-        if (c[jump] === 0) {
-            continue;
-        }
+
+
+
     }
 
-    console.log("Total Power ===> " + power)
 
+    console.log("Total Power ===> " + power)
 }
 jumpingOnClouds(c, k)
 
