@@ -7416,7 +7416,18 @@
 // }
 // jumpingOnClouds(c, k)
 
+//---------------
 
-
+let s = ['save', 'Changes', 'In', 'The', 'Editor']
+function camelcase(s) {
+    let count = 0;
+    for (let i = 0; i < s.length; i++) {
+        if (s[i] === s[i]) {
+            count++
+        }
+    }
+    console.log(count)
+}
+camelcase(s)
 
 
