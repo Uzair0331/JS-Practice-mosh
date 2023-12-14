@@ -7385,36 +7385,36 @@
 
 
 //-----------------------------
-let c = [0, 0, 1, 0, 0, 1, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
-let n = 8; //Numbers of clouds
-let k = 2; //jump on clouds
+// let c = [0, 0, 1, 0, 0, 1, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
+// let n = 8; //Numbers of clouds
+// let k = 2; //jump on clouds
 
 
-function jumpingOnClouds(c, k) {
-    let power = 100;
-    let jump = k;
+// function jumpingOnClouds(c, k) {
+//     let power = 100;
+//     let jump = k;
 
-    for (let i = 0; i < c.length; i++) {
+//     for (let i = 0; i < c.length; i++) {
 
-        if (c[jump] === 1) {
-            power = power - 3
-            console.log("Counter if thunder cloud the number = ( 1 ) then -3 Power from 100 ===> " + power)
-        }
-        else if (c[jump] === 0) {
-            power = power - 1
+//         if (c[jump] === 1) {
+//             power = power - 3
+//             console.log("Counter if thunder cloud the number = ( 1 ) then -3 Power from 100 ===> " + power)
+//         }
+//         else if (c[jump] === 0) {
+//             power = power - 1
 
-            console.log("Counter if normal cloud the number = ( 0 ) then  -1 Power from 100===> " + power)
-        }
-        jump += k
-
-
-
-    }
+//             console.log("Counter if normal cloud the number = ( 0 ) then  -1 Power from 100===> " + power)
+//         }
+//         jump += k
 
 
-    console.log("Total Power ===> " + power)
-}
-jumpingOnClouds(c, k)
+
+//     }
+
+
+//     console.log("Total Power ===> " + power)
+// }
+// jumpingOnClouds(c, k)
 
 
 
