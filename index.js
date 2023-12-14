@@ -7351,7 +7351,7 @@
 //         console.log("number QTY ===> " + totalSum)
 
 
-//         for (let j = m; j < s.length - 1; j++) {
+//         for (let j = m; j < s. length - 1; j++) {
 
 //             sum += s[i] - s[i - m]
 //             console.log("number from Array J ===> " + s[j])
@@ -7376,19 +7376,26 @@ let k = 2; //jump on clouds
 
 function jumpingOnClouds(c, k) {
     let power = 100;
+    let jump = k;
 
     for (let i = 0; i < c.length; i++) {
-        if (c[i] === 1) {
+
+        if (c[jump] === 1) {
             power = power - 3
-            console.log("Counter if thunder cloud & number = ( 1 ) then -2 Power from 100 ===> " + power)
+            console.log("Counter if thunder cloud the number = ( 1 ) then -3 Power from 100 ===> " + power)
         }
-        else {
+        else if (c[jump] === 0) {
             power = power - 1
-            console.log("Counter if normal cloud & number = ( 0 ) then  -1 Power from 100===> " + power)
+
+            console.log("Counter if normal cloud the number = ( 0 ) then  -1 Power from 100===> " + power)
+        }
+        jump += k
+        if (c[jump] === 0) {
+            continue;
         }
     }
-    console.log("Total Power ===> " + power)
 
+    console.log("Total Power ===> " + power)
 
 }
 jumpingOnClouds(c, k)
