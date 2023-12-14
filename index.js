@@ -7406,10 +7406,18 @@
 //             console.log("Counter if normal cloud the number = ( 0 ) then  -1 Power from 100===> " + power)
 //         }
 //         jump += k
-
-
-
 //     }
+//     for (let j = 0; j < c.length; j++) {
+//         jump = j
+//         if (c[jump] === 0) {
+//             power = power - 1
+//         }
+//         console.log("Counter if normal cloud the number = ( 0 ) then  -1 Power from 100===> " + power)
+//         if (c[jump] === 0) {
+//             break
+//         }
+//     }
+
 
 
 //     console.log("Total Power ===> " + power)
@@ -7426,7 +7434,7 @@ function camelcase(s) {
             count++
         }
     }
-    console.log(count)
+    console.log('Number of words ===> ' + count)
 }
 camelcase(s)
 
