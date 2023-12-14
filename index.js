@@ -7385,16 +7385,16 @@
 
 
 //-----------------------------
-// let c = [0, 0, 1, 0, 0, 1, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
+// let c = [1, 1, 1, 0, 1, 1, 0, 0, 0, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
 // let n = 8; //Numbers of clouds
-// let k = 2; //jump on clouds
+// let k = 3; //jump on clouds
 
 
 // function jumpingOnClouds(c, k) {
 //     let power = 100;
 //     let jump = k;
 
-//     for (let i = 0; i < c.length; i++) {
+//     for (let i = k; i < c.length; i++) {
 
 //         if (c[jump] === 1) {
 //             power = power - 3
@@ -7407,16 +7407,18 @@
 //         }
 //         jump += k
 //     }
-//     for (let j = 0; j < c.length; j++) {
-//         jump = j
-//         if (c[jump] === 0) {
-//             power = power - 1
-//         }
-//         console.log("Counter if normal cloud the number = ( 0 ) then  -1 Power from 100===> " + power)
-//         if (c[jump] === 0) {
-//             break
-//         }
+// for (let j = 0; j < c.length; j++) {
+//     if (c[jump] === 1) {
+//         power = power - 3
+//         console.log("Counter if thunder cloud the number = ( 1 ) then -3 Power from 100 ===> " + power)
 //     }
+//     if (c[jump] === 0) {
+//         power = power - 1
+//         console.log("Couznter if normal cloud the number = ( 0 ) then  -1 Power from 100===> " + power)
+//     }
+//     jump += k
+
+// }
 
 
 
@@ -7426,16 +7428,28 @@
 
 //---------------
 
-let s = ['save', 'Changes', 'In', 'The', 'Editor']
-function camelcase(s) {
-    let count = 0;
-    for (let i = 0; i < s.length; i++) {
-        if (s[i] === s[i]) {
-            count++
-        }
-    }
-    console.log('Number of words ===> ' + count)
+// let s = ['saveChangesInTheEditor']
+// function camelcase(s) {
+//     let count = 1;
+//     for (let i = 1; i < s.length; i++) {
+//         if (s[i] === s[i].toUpperCase()) {
+//             count++
+//         }
+//     }
+//     console.log('Number of words ===> ' + count)
+// }
+// camelcase(s)
+
+
+
+//--------------
+
+n = 5
+function handshake(n) {
+    // let Solution = n - 1
+    // Solution = Solution * n
+    console.log((n * (n - 1)) / 2)
 }
-camelcase(s)
+handshake(n)
 
 
