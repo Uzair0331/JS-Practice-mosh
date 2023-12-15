@@ -7460,8 +7460,15 @@ let arrLength = 5;
 let arr = [1, 4, 5, 3, 2];
 let m = 4;
 function icecreamParlor(m, arr) {
+    let total;
     for (let i = 0; i < arrLength; i++) {
-        console.log(arr[i])
+        for (let j = 0; j < arrLength; j++) {
+            total = arr[i] + arr[j]
+            console.log("Araay I +  ==> " + arr[i])
+            console.log("Araay J + ==> " + arr[j])
+            console.log(total)
+            console.log(arr[i] + arr[j])
+        }
     }
 }
 icecreamParlor(m, arr)
