@@ -7444,12 +7444,26 @@
 
 //--------------
 
-n = 5
-function handshake(n) {
-    // let Solution = n - 1
-    // Solution = Solution * n
-    console.log((n * (n - 1)) / 2)
+// n = 5
+// function handshake(n) {
+// let Solution = n - 1
+// Solution = Solution * n
+//     console.log((n * (n - 1)) / 2)
+// }
+// handshake(n)
+
+
+
+
+// --------------------------------------
+let arrLength = 5;
+let arr = [1, 4, 5, 3, 2];
+let m = 4;
+function icecreamParlor(m, arr) {
+    for (let i = 0; i < arrLength; i++) {
+        console.log(arr[i])
+    }
 }
-handshake(n)
+icecreamParlor(m, arr)
 
 
