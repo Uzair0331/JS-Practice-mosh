@@ -7466,7 +7466,7 @@ function icecreamParlor(m, arr) {
             if (
                 arr[i] + arr[j] === m
             ) {
-                return (i + 1, j + 1)
+                return (i + j)
             }
         }
     }
