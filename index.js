@@ -7494,6 +7494,13 @@
 
 
 //-----------------
+s = ['A', 'A', 'B', 'A', 'A', 'B']
 function alternatingCharacters(s) {
 
+    for (let i = 0; i < s.length; i++) {
+
+        console.log('S array length ==> ' + s)
+    }
+
 }
+alternatingCharacters(s)
