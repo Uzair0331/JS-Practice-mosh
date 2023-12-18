@@ -7394,7 +7394,13 @@
 // }
 // birthday(s, d, m)
 
-
+// let deleteCount = 0;
+// for(let i = 0; i < s.length ; i++){
+//     if(s[i] === s[i+1]){
+//         deleteCount++;
+//     }
+// }
+// return deleteCount
 
 
 //-----------------------------
@@ -7470,20 +7476,21 @@
 
 // --------------------------------------
 
-let arr = [1, 4, 5, 3, 2];
-let m = 2;
-function icecreamParlor(m, arr) {
+// let arr = [1, 4, 5, 3, 2];
+// let m = 2;
+// function icecreamParlor(m, arr) {
 
-    for (let i = 0; i < arr.length; i++) {
-        for (let j = i + 1; j < arr.length; j++) {
-            if (
-                arr[i] + arr[j] === m
-            ) {
-                return (i + 1, j + 1)
-            }
-        }
-    }
-}
-console.log(icecreamParlor(m, arr))
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = i + 1; j < arr.length; j++) {
+//             if (
+//                 arr[i] + arr[j] === m
+//             ) {
+//                 return (i + 1, j + 1)
+//             }
+//         }
+//     }
+// }
+// console.log(icecreamParlor(m, arr))
 
 
+//-----------------
