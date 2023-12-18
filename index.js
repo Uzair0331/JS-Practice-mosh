@@ -7348,7 +7348,20 @@
 //   jump += k ;
 // }
 ///----------------------
-
+// let b =0;
+// for(let i = 1 ; i <= n ; i++){
+//     if(i % 2 == 0){
+//         a++
+//     }
+//     if(i === p){break}
+// }
+// for (let j = n;j >= 1 ; i--){
+//     if(j === p){break}
+//     if(j %2 == 0){
+//         b++
+//     }
+//     return a < b ? a:b
+// } 
 
 // let s = [2, 2, 1, 3, 2]//Squares of chocolate
 // let d = 4 //Ron's Birthday
