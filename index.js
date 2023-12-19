@@ -7531,6 +7531,7 @@ function countSwaps(a) {
     console.log(a)
     console.log("Array is sorted in = " + swapingCount + " swaps")
     console.log("First Element ===> " + a[0])
+    console.log("last Element ===>" + a[a.length - 1])
 
 }
 countSwaps(a)
