@@ -7494,13 +7494,20 @@
 
 
 //-----------------
+
 s = ['A', 'A', 'B', 'A', 'A', 'B']
 function alternatingCharacters(s) {
-
+    let deleteData = 0;
     for (let i = 0; i < s.length; i++) {
+        for (j = i + 1; j < s.length; j++) {
 
-        console.log('S array length ==> ' + s)
+            if (s[i] === j[i]) {
+                deleteData++;
+            }
+        }
     }
+    console.log('S array length ==> ' + s)
+    console.log('total duplication ==> ' + deleteData)
 
 }
 alternatingCharacters(s)
