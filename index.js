@@ -7514,19 +7514,18 @@
 
 
 //----------------------------
+a = [6, 4, 1]
 function countSwaps(a) {
-    let countSwapes = 0;
-    for (int i = 0; i < na; i++) {
 
-        for (int j = 0; j < n - 1; j++) {
-            // Swap adjacent elements if they are in decreasing order
-            if (a[j] > a[j + 1]) {
-                swap(a[j], a[j + 1]);
-            }
+    for (let i = 0; i < a.length; i++) {
+        for (let j = 0; j < a.length; j++) {
+
         }
 
+        console.log("Array a [i]" + a)
+        console.log(a)
     }
-
 
 }
 countSwaps(a)
+
