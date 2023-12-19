@@ -7501,12 +7501,13 @@ function alternatingCharacters(s) {
     for (let i = 0; i < s.length; i++) {
         for (j = i + 1; j < s.length; j++) {
 
-            if (s[i] === j[i]) {
+            console.log('S array length j ===> ' + s)
+            if (s[i] == j[i]) {
                 deleteData++;
             }
         }
     }
-    console.log('S array length ==> ' + s)
+    console.log('S array length i==> ' + s)
     console.log('total duplication ==> ' + deleteData)
 
 }
