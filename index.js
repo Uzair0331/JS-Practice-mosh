@@ -7495,19 +7495,38 @@
 
 //-----------------
 
-s = ['A', 'A', 'B', 'A', 'A', 'B']
-function alternatingCharacters(s) {
-    let deletionCount = 0;
-    for (let i = 0; i < s.length; i++) {
+// s = ['A', 'A', 'B', 'A', 'A', 'B']
+// function alternatingCharacters(s) {
+//     let deletionCount = 0;
+//     for (let i = 0; i < s.length; i++) {
 
-        if (s[i] == s[i + 1]) {
-            deletionCount++;
+//         if (s[i] == s[i + 1]) {
+//             deletionCount++;
+//         }
+//     }
+
+//     console.log('S array length i==> ' + s)
+
+//     console.log('total duplication ==> ' + deletionCount)
+
+// }
+// alternatingCharacters(s)
+
+
+//----------------------------
+function countSwaps(a) {
+    let countSwapes = 0;
+    for (int i = 0; i < na; i++) {
+
+        for (int j = 0; j < n - 1; j++) {
+            // Swap adjacent elements if they are in decreasing order
+            if (a[j] > a[j + 1]) {
+                swap(a[j], a[j + 1]);
+            }
         }
+
     }
 
-    console.log('S array length i==> ' + s)
-
-    console.log('total duplication ==> ' + deletionCount)
 
 }
-alternatingCharacters(s)
+countSwaps(a)
