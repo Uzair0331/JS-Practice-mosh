@@ -7514,17 +7514,23 @@
 
 
 //----------------------------
+
 a = [6, 4, 1]
 function countSwaps(a) {
-
+    let swapingCount = 0;
     for (let i = 0; i < a.length; i++) {
-        for (let j = 0; j < a.length; j++) {
-
+        for (let j = 0; j < a.length - i; j++) {
+            console.log("Array a [i]" + a[i])
+            console.log("Array a [j]" + a[j])
+            if (a[j] > a[j - 1]) {
+                swapingCount++;
+            }
         }
-
-        console.log("Array a [i]" + a)
         console.log(a)
     }
+    console.log(a)
+    console.log("Array is sorted in = " + swapingCount + " swaps")
+    console.log("First Element ===> " + a[0])
 
 }
 countSwaps(a)
