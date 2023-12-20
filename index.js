@@ -7519,7 +7519,7 @@ a = [6, 4, 1]
 function countSwaps(a) {
     let swapingCount = 0;
     for (let i = 0; i < a.length; i++) {
-        for (let j = 0; j < a.length - i; j++) {
+        for (let j = 0; j < a.length - i - 1; j++) {
             console.log("Array a [i]" + a[i])
             console.log("Array a [j]" + a[j])
             if (a[j] > a[j - 1]) {
