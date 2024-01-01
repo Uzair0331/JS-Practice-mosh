@@ -7573,3 +7573,18 @@
 ///
 
 
+//-----------
+n = [1, 2, 4];
+function findDigits(n) {
+    let count = 0;
+    let num = 0;
+
+    for (let i = 0; i < n.length; i++) {
+        console.log(n)
+        if (n % num[i] == 0)
+            console.log(num)
+        count += 1;
+    }
+    console.log(count)
+}
+findDigits(n)
