@@ -7574,17 +7574,19 @@
 
 
 //-----------
-n = [1, 2, 4];
+n = 1240;
 function findDigits(n) {
     let count = 0;
     let num = 0;
+    num = n.toString();
+    for (let i = 0; i < num.length; i++) {
+        console.log("OUR ARRAY ==> " + num[i])
+        if (num[i] % num[i] === 0) {
+            console.log(num[i] + " Number % " + num[i]);
+            count += 1;
 
-    for (let i = 0; i < n.length; i++) {
-        console.log(n)
-        if (n % num[i] == 0)
-            console.log(num)
-        count += 1;
+        }
     }
-    console.log(count)
+    console.log("Total Count ==> " + count)
 }
 findDigits(n)
