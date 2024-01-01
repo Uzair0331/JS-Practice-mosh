@@ -7577,8 +7577,7 @@
 n = 1240;
 function findDigits(n) {
     let count = 0;
-    let num = 0;
-    num = n.toString();
+    let num = n.toString();
     for (let i = 0; i < num.length; i++) {
         console.log("OUR ARRAY ==> " + num[i])
         if (num[i] % num[i] === 0) {
