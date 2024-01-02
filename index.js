@@ -7551,29 +7551,20 @@
 
 
 ///---------------------------
-
-//     var current;
-//     var next;
-//     var jumps = 0;
-//     let potentialNext;
-
-//     let i = 0;
-
-//     while(i < c.length){                           
-//       current = c[i];
-//       if(i+2 < c.length && c[i+2] == 0){          
-//         i+=2;                                     
-//         jumps += 1;                               
-//       } else if(i+1 < c.length && c[i+1] == 0){   
-//         i+=1;                                     
-//         jumps += 1;                               
-//       } else i+= 1;                               
+// let jump = 0;
+// for(let i=0;i<c.length;i++){
+//     if(c[i]==0 && c[i+2]==0){
+//         jump+=1;
+//         i = i+1;
+//     }else if(c[i]==0 && c[i+2]==1){
+//         jump+=1;
+//     }else if(c[i]==0 && c[i+1]==0){
+//         jump+=1;
 //     }
+// }
 
-
-//     return jumps;
-
-//   }
+// return jump;
+// }
 
 // a = [6, 4, 1]
 // function countSwaps(a) {
@@ -7617,4 +7608,4 @@ function findDigits(n) {
 findDigits(n)
 
 
-//
+//---------------------
