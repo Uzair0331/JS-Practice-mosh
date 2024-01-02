@@ -7591,21 +7591,28 @@
 
 
 //-----------
-n = 1240;
-function findDigits(n) {
-    let count = 0;
-    let num = n.toString();
-    for (let i = 0; i < num.length; i++) {
-        console.log("OUR ARRAY ==> " + num[i])
-        if (num[i] % num[i] === 0) {
-            console.log(num[i] + " Number % " + num[i]);
-            count += 1;
+// n = 1240;
+// function findDigits(n) {
+//     let count = 0;
+//     let num = n.toString();
+//     for (let i = 0; i < num.length; i++) {
+//         console.log("OUR ARRAY ==> " + num[i])
+//         if (num[i] % num[i] === 0) {
+//             console.log(num[i] + " Number % " + num[i]);
+//             count += 1;
 
-        }
-    }
-    console.log("Total Count ==> " + count)
-}
-findDigits(n)
+//         }
+//     }
+//     console.log("Total Count ==> " + count)
+// }
+// findDigits(n)
 
 
 //---------------------
+c = [0, 1, 0, 0, 0, 1, 0]
+function jumpingOnClouds(c) {
+    let jump = 0;
+    for (let i = 0; i < c.length; i++) {
+
+    }
+}
