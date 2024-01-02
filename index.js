@@ -7609,10 +7609,18 @@
 
 
 //---------------------
+
+
 c = [0, 1, 0, 0, 0, 1, 0]
 function jumpingOnClouds(c) {
     let jump = 0;
     for (let i = 0; i < c.length; i++) {
-
+        if (c[i] === 0) {
+            jump += 1;
+            i = i + 1
+        }
+        console.log("Jump on clouds" + jump)
     }
+    console.log("Total Jumps ==> " + jump)
 }
+jumpingOnClouds(c)
