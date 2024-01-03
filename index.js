@@ -7629,16 +7629,12 @@ function jumpingOnClouds(c) {
             console.log("Index number ==> " + i)
             console.log("Jump on clouds ==> " + jump)
         }
-        else if (c[i] == 0 && c[i + 1] == 0) {
+
+        else if (c[i] == 0 && c[i + 2] == 1) {
             jump += 1;
+
             console.log("Index number2 ==> " + i)
             console.log("Jump on clouds2 ==> " + jump)
-        }
-
-        else if (c[i] == 0 && c[i + 1] == 1) {
-            jump += 1;
-            console.log("Index number3 ==> " + i)
-            console.log("Jump on clouds3 ==> " + jump)
         }
     }
     console.log("Total Jumps ==> " + jump)
