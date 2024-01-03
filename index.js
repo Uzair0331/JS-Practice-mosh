@@ -7606,20 +7606,40 @@
 //     console.log("Total Count ==> " + count)
 // }
 // findDigits(n)
-
+// ar.sort();
+// let counter = 0
+// for(let i =0;i<n-1;i++){
+//     if(ar[i] === ar[i+1]){
+//         counter++;
+//         i++;
+//     }
+// }
+// return counter
 
 //---------------------
 
-
 c = [0, 1, 0, 0, 0, 1, 0]
+
 function jumpingOnClouds(c) {
     let jump = 0;
     for (let i = 0; i < c.length; i++) {
-        if (c[i] === 0) {
+        if (c[i] == 0 && c[i + 2] == 0) {
             jump += 1;
-            i = i + 1
+
+            console.log("Index number ==> " + i)
+            console.log("Jump on clouds ==> " + jump)
         }
-        console.log("Jump on clouds" + jump)
+        else if (c[i] == 0 && c[i + 1] == 0) {
+            jump += 1;
+            console.log("Index number2 ==> " + i)
+            console.log("Jump on clouds2 ==> " + jump)
+        }
+
+        else if (c[i] == 0 && c[i + 1] == 1) {
+            jump += 1;
+            console.log("Index number3 ==> " + i)
+            console.log("Jump on clouds3 ==> " + jump)
+        }
     }
     console.log("Total Jumps ==> " + jump)
 }
