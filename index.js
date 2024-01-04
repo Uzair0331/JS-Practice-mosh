@@ -7637,8 +7637,19 @@ function jumpingOnClouds(c) {
     for (let i = 0; i < c.length; i++) {
         if (c[i] == 0 && c[i + 2] == 0) {
             jump += 1;
+            i = i + 1;
             console.log("Index number ==> " + i)
-            console.log("Jump on clouds 1 ==> " + jump)
+            console.log("Jump on clouds 1st condition ==> " + jump)
+        }
+        if (c[i] == 0 && c[i + 2] == 1) {
+            jump += 1;
+            console.log("Index number ==> " + i)
+            console.log("Jump on clouds 2nd condition ==> " + jump)
+        }
+        if (c[i] == 0 && c[i + 1] == 0) {
+            jump += 1;
+            console.log("Index number ==> " + i)
+            console.log("Jump on clouds 3rd condition ==> " + jump)
         }
     }
     console.log("Total Jumps ==> " + jump)
