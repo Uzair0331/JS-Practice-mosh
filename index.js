@@ -7588,12 +7588,24 @@
 // countSwaps(a)
 
 ///
+// function permutationEquation(p) {
+//     let hash = {}, result = [];
 
+//     for (let i = 1; i <= p.length; i++) {
+//         hash[p[i - 1]] = i;
+//     }
+
+//     for (let i = 0; i < p.length; i++) {
+//         result.push(hash[hash[i + 1]]);
+//     }
+
+//     return result;
+// }
 
 //-----------
 // n = 1240;
 // function findDigits(n) {
-//     let count = 0;
+//     let count = 0;  
 //     let num = n.toString();
 //     for (let i = 0; i < num.length; i++) {
 //         console.log("OUR ARRAY ==> " + num[i])
@@ -7627,15 +7639,6 @@ function jumpingOnClouds(c) {
             jump += 1;
             console.log("Index number ==> " + i)
             console.log("Jump on clouds 1 ==> " + jump)
-        } else if (c[i] == 0 && c[i + 1] == 1) {
-            jump += 1
-            console.log("Index number ==> " + i)
-            console.log("Jump on clouds 2 ==> " + jump)
-        }
-        else if (c[i] == 0 && c[i + 2] == 1) {
-            jump += 1;
-            console.log("Index number ==> " + i)
-            console.log("Jump on clouds 3 ==> " + jump)
         }
     }
     console.log("Total Jumps ==> " + jump)
