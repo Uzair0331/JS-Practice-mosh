@@ -7650,15 +7650,36 @@ ar = [1, 2, 1, 2, 1, 3, 2]
 function sockMerchant(ar) {
     let pairsCounter = 0;
     for (let i = 0; i < ar.length; i++) {
-        if (ar[i] === ar[i + 1] && ar[i] === ar[i + 2]) {
-            pairsCounter += 1;
-            i++
+        for (let j = i + 1; j < ar.length; j++) {
+            if (ar[i] == ar[j]) {
+                pairsCounter += 1
+                i++
+            }
+            console.log("1st Number  ==> " + ar[i], "2nd Number  ==> " + ar[j])
+            console.log(pairsCounter)
         }
-        console.log("array index ==> " + ar[i])
-        console.log("pairs Counter" + pairsCounter)
-
-
     }
     console.log("Total Pairs ==> " + pairsCounter)
 }
 sockMerchant(ar)
+
+
+//--------------------------------------
+
+// let arr = [1, 2, 3, 5, 7, 5];
+
+// let k = 10;
+
+// function sum(arr) {
+
+//     for (let i = 0; i < arr.length; i++) {
+//         for (let j = i + 1; j < arr.length; j++) {
+//             if (arr[i] + arr[j] == k) {
+//                 console.log(arr[i] + " + " + arr[j] + " = " + k)
+//             }
+
+//         }
+//     }
+
+// }
+// sum(arr)
