@@ -7551,17 +7551,6 @@
 
 
 ///---------------------------
-// let jump = 0;
-// for(let i=0;i<c.length;i++){
-//     if(c[i]==0 && c[i+2]==0){
-//         jump+=1;
-//         i = i+1;
-//     }else if(c[i]==0 && c[i+2]==1){
-//         jump+=1;
-//     }else if(c[i]==0 && c[i+1]==0){
-//         jump+=1;
-//     }
-// }
 
 // return jump;
 // }
@@ -7630,29 +7619,46 @@
 
 //---------------------
 
-c = [0, 0, 1, 0, 0, 1, 0]
+// c = [0, 0, 1, 0, 0, 1, 0]
 
-function jumpingOnClouds(c) {
-    let jump = 0;
-    for (let i = 0; i < c.length; i++) {
-        if (c[i] == 0 && c[i + 2] == 0) {
-            jump += 1;
-            i = i + 1;
-            console.log("Index number ==> " + i)
-            console.log("Jump on clouds 1st condition ==> " + jump)
+// function jumpingOnClouds(c) {
+//     let jump = 0;
+//     for (let i = 0; i < c.length; i++) {
+//         if (c[i] == 0 && c[i + 2] == 0) {
+//             jump += 1;
+//             i = i + 1;
+//             console.log("Index number ==> " + i)
+//             console.log("Jump on clouds 1st condition ==> " + jump)
+//         }
+//         if (c[i] == 0 && c[i + 2] == 1) {
+//             jump += 1;
+//             console.log("Index number ==> " + i)
+//             console.log("Jump on clouds 2nd condition ==> " + jump)
+//         }
+//         if (c[i] == 0 && c[i + 1] == 0) {
+//             jump += 1;
+//             console.log("Index number ==> " + i)
+//             console.log("Jump on clouds 3rd condition ==> " + jump)
+//         }
+//     }
+//     console.log("Total Jumps ==> " + jump)
+// }
+// jumpingOnClouds(c)
+
+//----------------
+ar = [1, 2, 1, 2, 1, 3, 2]
+function sockMerchant(ar) {
+    let pairsCounter = 0;
+    for (let i = 0; i < ar.length; i++) {
+        if (ar[i] === ar[i + 1] && ar[i] === ar[i + 2]) {
+            pairsCounter += 1;
+            i++
         }
-        if (c[i] == 0 && c[i + 2] == 1) {
-            jump += 1;
-            console.log("Index number ==> " + i)
-            console.log("Jump on clouds 2nd condition ==> " + jump)
-        }
-        if (c[i] == 0 && c[i + 1] == 0) {
-            jump += 1;
-            console.log("Index number ==> " + i)
-            console.log("Jump on clouds 3rd condition ==> " + jump)
-        }
+        console.log("array index ==> " + ar[i])
+        console.log("pairs Counter" + pairsCounter)
+
+
     }
-    console.log("Total Jumps ==> " + jump)
+    console.log("Total Pairs ==> " + pairsCounter)
 }
-jumpingOnClouds(c)
-
+sockMerchant(ar)
