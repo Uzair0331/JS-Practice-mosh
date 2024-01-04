@@ -7623,22 +7623,22 @@ c = [0, 0, 1, 0, 0, 1, 0]
 function jumpingOnClouds(c) {
     let jump = 0;
     for (let i = 0; i < c.length; i++) {
-        if (c[i] == 0 && c[i + 1] == 0) {
-            jump += 1;
-            i = i + 1
-            console.log("Index number ==> " + i)
-            console.log("Jump on clouds ==> " + jump)
-        }
-        else if (c[i + 1] == 1) {
+        if (c[i] == 0 && c[i + 2] == 0) {
             jump += 1;
             console.log("Index number ==> " + i)
-            console.log("Jump on clouds3 ==> " + jump)
-        }
-        else if (c[i + 2] == 1) {
+            console.log("Jump on clouds 1 ==> " + jump)
+        } else if (c[i] == 0 && c[i + 1] == 1) {
             jump += 1
+            console.log("Index number ==> " + i)
+            console.log("Jump on clouds 2 ==> " + jump)
         }
-
+        else if (c[i] == 0 && c[i + 2] == 1) {
+            jump += 1;
+            console.log("Index number ==> " + i)
+            console.log("Jump on clouds 3 ==> " + jump)
+        }
     }
     console.log("Total Jumps ==> " + jump)
 }
 jumpingOnClouds(c)
+
