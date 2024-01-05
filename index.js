@@ -7646,17 +7646,19 @@
 // jumpingOnClouds(c)
 
 //----------------
-ar = [1, 2, 1, 2, 1, 3, 2]
+
+
+ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
 function sockMerchant(ar) {
     let pairsCounter = 0;
     for (let i = 0; i < ar.length; i++) {
         for (let j = i + 1; j < ar.length; j++) {
             if (ar[i] == ar[j]) {
                 pairsCounter += 1
-                i++
             }
+            console.log(i, j);
             console.log("1st Number  ==> " + ar[i], "2nd Number  ==> " + ar[j])
-            console.log(pairsCounter)
+            console.log("Current pair ==> " + pairsCounter)
         }
     }
     console.log("Total Pairs ==> " + pairsCounter)
@@ -7683,3 +7685,46 @@ sockMerchant(ar)
 
 // }
 // sum(arr)
+
+
+//-------
+// function newYearCountDown(second) {
+//     do {
+//         console.log(second)
+//         second--
+//     }
+//     while (second > 0)
+//     console.log("Happy New Year")
+// }
+// newYearCountDown(0)
+
+// DIFFERENCE BETWEEN WHILE & FOR
+// WHILE IS USED, WHEN THE ITERATIVE VARIABLE IS ALREADY THERE 
+// For USING FOR, WE NEED TO INITIATE AN ITERATIVE VARIABLE
+
+// EXAMPLE FOR WHILE LOOP
+// let num = 0;
+
+// console.log("////// WHILE LOOP //////")
+// while (num < 0) {
+//     console.log(num)
+//     num++
+// }
+// console.log("////////////////////////")
+
+
+
+// EXAMPLE FOR DO WHILE LOOP
+
+// num = 0
+// console.log("////// DO WHILE LOOP //////")
+
+// do {
+//     console.log(num)
+//     num++
+// } while (num < 0)
+// console.log("///////////////////////////")
+
+
+
+
