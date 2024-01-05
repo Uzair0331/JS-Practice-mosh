@@ -7577,19 +7577,18 @@
 // countSwaps(a)
 
 ///
-// function permutationEquation(p) {
-//     let hash = {}, result = [];
+var jump = 0;
+var cost = 100;
+while (jump < c.length) {
+    if (c[jump] === 1) {
+        cost = cost - 1 - 2;
+    } else {
+        cost = cost - 1;
+    }
+    jump += k;
 
-//     for (let i = 1; i <= p.length; i++) {
-//         hash[p[i - 1]] = i;
-//     }
-
-//     for (let i = 0; i < p.length; i++) {
-//         result.push(hash[hash[i + 1]]);
-//     }
-
-//     return result;
-// }
+}
+return cost;
 
 //-----------
 // n = 1240;
