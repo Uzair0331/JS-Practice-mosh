@@ -7646,20 +7646,22 @@
 
 //----------------
 
-
+n = 9;
 ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
 function sockMerchant(ar) {
     let pairsCounter = 0;
-    for (let i = 0; i < ar.length; i++) {
-        for (let j = i + 1; j < ar.length; j++) {
+    for (let i = 0; i < n; i++) {
+        console.log("index  i ==> " + i)
+        for (let j = i + 1; j < n; j++) {
+            console.log("index j ==> " + j)
             if (ar[i] == ar[j]) {
                 pairsCounter += 1
+                console.log("index number ==> " + ar[i] + "index number ==> " + ar[j])
+                console.log("Current pair ==> " + pairsCounter);
             }
-            console.log(i, j);
-            console.log("1st Number  ==> " + ar[i], "2nd Number  ==> " + ar[j])
-            console.log("Current pair ==> " + pairsCounter)
         }
     }
+
     console.log("Total Pairs ==> " + pairsCounter)
 }
 sockMerchant(ar)
