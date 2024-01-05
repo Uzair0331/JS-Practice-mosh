@@ -7577,18 +7577,18 @@
 // countSwaps(a)
 
 ///
-var jump = 0;
-var cost = 100;
-while (jump < c.length) {
-    if (c[jump] === 1) {
-        cost = cost - 1 - 2;
-    } else {
-        cost = cost - 1;
-    }
-    jump += k;
+// var jump = 0;
+// var cost = 100;
+// while (jump < c.length) {
+//     if (c[jump] === 1) {
+//         cost = cost - 1 - 2;
+//     } else {
+//         cost = cost - 1;
+//     }
+//     jump += k;
 
-}
-return cost;
+// }
+// return cost;
 
 //-----------
 // n = 1240;
