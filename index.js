@@ -7679,7 +7679,16 @@
 
 // }
 // sum(arr)
-
+//-Sherlock
+// let square = 0, i = 1, count = 0;
+// while (square <= b) {
+//     square = i * i;
+//     if (square >= a && square <= b) {
+//         count += 1;
+//     }
+//     i += 1;
+// }
+// return count;
 
 //-------
 // function newYearCountDown(second) {
@@ -7732,9 +7741,8 @@ function sockMerchant(ar) {
     let pairsCounter = 0;
     console.log(ar)
     for (let i = 0; i < n; i++) {
-        if (ar[i] == ar[i + 1]) {
+        if (ar[]) {
             pairsCounter += 1
-
             console.log("array index ==> " + ar[i])
             console.log("Current pair ==> " + pairsCounter);
         }
