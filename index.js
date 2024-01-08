@@ -7741,10 +7741,11 @@ function sockMerchant(ar) {
     let pairsCounter = 0;
     console.log(ar)
     for (let i = 0; i < n; i++) {
-        if (ar[]) {
+        if (ar[i] == ar[i + 1]) {
+            console.log("array index 1 ==> " + ar[i]);
             pairsCounter += 1
+
             console.log("array index ==> " + ar[i])
-            console.log("Current pair ==> " + pairsCounter);
         }
     }
     console.log("Total pairs ==> " + pairsCounter)
