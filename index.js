@@ -7646,33 +7646,20 @@
 
 //----------------
 
-n = 9;
-ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
-function sockMerchant(ar) {
-    ar.sort();
-    let pairsCounter = 0;
-    console.log(ar)
-    for (let i = 0; i < ar.length; i++) {
-        if (ar[i]) {
-            pairsCounter = +1
-        }
-    }
-}
-sockMerchant(ar)
+// n = 9;
+// ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+// function sockMerchant(ar) {
+//     ar.sort();
+//     let pairsCounter = 0;
+//     console.log(ar)
+//     for (let i = 0; i < ar.length; i++) {
+//         if (ar[i]) {
+//             pairsCounter = +1
+//         }
+//     }
+// }
 
-n = 9;
-ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
-function sockMerchant(ar) {
-    ar.sort();
-    let pairsCounter = 0;
-    console.log(ar)
-    for (let i = 0; i < ar.length; i++) {
-        if (ar[i]) {
-            pairsCounter = +1
-        }
-    }
-}
-sockMerchant(ar)
+
 //--------------------------------------
 
 // let arr = [1, 2, 3, 5, 7, 5];
@@ -7735,3 +7722,18 @@ sockMerchant(ar)
 
 
 
+//------------------------
+
+
+n = 9;
+ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+function sockMerchant(ar) {
+    ar.sort();
+    let pairsCounter = 0;
+    console.log(ar)
+    for (let i = 0; i < ar.length; i++) {
+
+    }
+
+}
+sockMerchant(ar)
