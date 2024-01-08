@@ -7731,9 +7731,13 @@ function sockMerchant(ar) {
     ar.sort();
     let pairsCounter = 0;
     console.log(ar)
-    for (let i = 0; i < ar.length; i++) {
+    for (let i = 0; i < n; i++) {
+        if (ar[i] == ar[i + 1]) {
+            pairsCounter += 1
 
+            console.log("array index ==> " + ar[i])
+        }
     }
-
+    console.log("Total pairs ==> " + pairsCounter)
 }
 sockMerchant(ar)
