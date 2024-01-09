@@ -7759,4 +7759,9 @@ let a = 24;
 let b = 49;
 function square(a, b) {
 
-}
+    for (let i = a; i <= b; i++) {
+        console.log("from starting point 'a' to end point 'b' ==> " + i)
+        let squareNumber = i * i
+        console.log("Square of Number ==> " + squareNumber)
+    }
+} square(a, b)
