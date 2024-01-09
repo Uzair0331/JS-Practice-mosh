@@ -7734,24 +7734,24 @@
 //------------------------
 
 
-n = 9;
-ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
-function sockMerchant(ar) {
-    ar.sort();
-    let pairsCounter = 0;
-    console.log(ar)
-    for (let i = 0; i < n; i++) {
-        if (ar[i] == ar[i + 1]) {
-            console.log("array index 1 ==> " + ar[i]);
-            pairsCounter += 1
-            console.log("current pairs ==> " + pairsCounter)
-            i++
-            console.log("array index after i++ ==> " + ar[i])
-        }
-    }
-    console.log("Total pairs ==> " + pairsCounter)
-}
-sockMerchant(ar)
+// n = 9;
+// ar = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+// function sockMerchant(ar) {
+//     ar.sort();
+//     let pairsCounter = 0;
+//     console.log(ar)
+//     for (let i = 0; i < n; i++) {
+//         if (ar[i] == ar[i + 1]) {
+//             console.log("array index 1 ==> " + ar[i]);
+//             pairsCounter += 1
+//             console.log("current pairs ==> " + pairsCounter)
+//             i++
+//             console.log("array index after i++ ==> " + ar[i])
+//         }
+//     }
+//     console.log("Total pairs ==> " + pairsCounter)
+// }
+// sockMerchant(ar)
 
 ///----------
 
