@@ -7744,10 +7744,19 @@ function sockMerchant(ar) {
         if (ar[i] == ar[i + 1]) {
             console.log("array index 1 ==> " + ar[i]);
             pairsCounter += 1
-
-            console.log("array index ==> " + ar[i])
+            console.log("current pairs ==> " + pairsCounter)
+            i++
+            console.log("array index after i++ ==> " + ar[i])
         }
     }
     console.log("Total pairs ==> " + pairsCounter)
 }
 sockMerchant(ar)
+
+///----------
+
+let a = 24;
+let b = 49;
+function square(a, b) {
+
+}
