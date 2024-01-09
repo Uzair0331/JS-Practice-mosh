@@ -7755,18 +7755,20 @@
 
 ///----------
 
+
 let a = 24;
 let b = 49;
 function square(a, b) {
-    let squareNumber = 1;
+    let squareNumber = 0;
     let counter = 0;
-    for (let i = a; i <= b; i++) {
-        squareNumber = i * i
-        if (a <= squareNumber) {
-            console.log("starting point 'a' to end point 'b' ==> " + i);
-            counter += 1
-            console.log("Total Pairs ==> " + counter)
+    let i = 1
+    while (squareNumber >= b) {
+        if (squareNumber <= a) {
+            squareNumber = i * i
         }
-        console.log("Total Pairs ==> " + counter)
+        counter += 1
     }
-} square(a, b)
+    console.log(squareNumber)
+    i++
+}
+square(a, b)
