@@ -7761,12 +7761,13 @@ let b = 49;
 function square(a, b) {
     let squareNumber = 0;
     let counter = 0;
-    let i = 1
+    let i = 1;
     while (squareNumber >= b) {
         if (squareNumber <= a) {
             squareNumber = i * i
-        }
+        } sl
         counter += 1
+        console.log(counter)
     }
     console.log(squareNumber)
     i++
