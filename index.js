@@ -7765,10 +7765,10 @@ function square(a, b) {
     while (squareNumber < b) {
 
         squareNumber = i * i
-        if (squareNumber >= a) {
-            console.log("Square numbers ==> " + squareNumber)
-            counter += 1
-        }
+
+        console.log("Square numbers ==> " + squareNumber)
+        counter += 1
+
         i++
 
     }
