@@ -7759,17 +7759,17 @@
 let a = 24;
 let b = 49;
 function square(a, b) {
-    let squareNumber = 0;
+    let squareNumber = a;
     let counter = 0;
-    let i = 1;
-    while (squareNumber >= b) {
-        if (squareNumber <= a) {
-            squareNumber = i * i
-        } sl
+    let i = 1
+    while (squareNumber <= b) {
+
+        squareNumber = i * i
+
+        console.log("Square numbers ==> " + squareNumber)
+        i++
         counter += 1
-        console.log(counter)
     }
-    console.log(squareNumber)
-    i++
+    console.log("Total Square numbers ==> " + counter)
 }
 square(a, b)
