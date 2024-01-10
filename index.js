@@ -7762,13 +7762,15 @@ function square(a, b) {
     let squareNumber = a;
     let counter = 0;
     let i = 1
-    while (squareNumber <= b) {
+    while (squareNumber < b) {
 
         squareNumber = i * i
-
-        console.log("Square numbers ==> " + squareNumber)
+        if (squareNumber >= a) {
+            console.log("Square numbers ==> " + squareNumber)
+            counter += 1
+        }
         i++
-        counter += 1
+
     }
     console.log("Total Square numbers ==> " + counter)
 }
