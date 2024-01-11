@@ -7679,16 +7679,18 @@
 
 // }
 // sum(arr)
-//-Sherlock
-// let square = 0, i = 1, count = 0;
-// while (square <= b) {
-//     square = i * i;
-//     if (square >= a && square <= b) {
-//         count += 1;
+// var jump = 0;
+// var cost = 100;
+// while (jump < c.length) {
+//     if (c[jump] === 1) {
+//         cost = cost - 1 - 2;
+//     } else {
+//         cost = cost - 1;
 //     }
-//     i += 1;
+//     jump += k;
+
 // }
-// return count;
+// return cost;
 
 //-------
 // function newYearCountDown(second) {
