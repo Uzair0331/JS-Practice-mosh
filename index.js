@@ -7756,23 +7756,37 @@
 ///----------
 
 
-let a = 24;
-let b = 49;
+// let a = 24;
+// let b = 49;
+// function square(a, b) {
+//     let squareNumber = a;
+//     let counter = 0;
+//     let i = 1
+//     while (squareNumber <= b) {
+//         console.log("heyyy");
+//         squareNumber = i * i
+//         if (squareNumber >= a && squareNumber <= b) {
+//             console.log("Square numbers ==> " + squareNumber)
+//             counter += 1
+//             console.log("Current square numbers ==> " + counter)
+//         }
+//         i++
+//     }
+//     console.log("Total Square numbers ==> " + counter)
+// }
+// square(a, b)
+
+let a = 3;
+let b = 48;
 function square(a, b) {
-    let squareNumber = a;
+    let squareNumber = 0;
     let counter = 0;
-    let i = 1
-    while (squareNumber < b) {
-
+    for (let i = 0; i <= b; i++) {
         squareNumber = i * i
-        console.log("Square numbers ==> " + squareNumber)
-
-        counter += 1
-        console.log("Current square numbers ==> " + counter)
-
-        i++
-
+        if (squareNumber >= a && squareNumber <= b) {
+            counter += 1
+        }
     }
-    console.log("Total Square numbers ==> " + counter)
+    console.log(counter);
 }
 square(a, b)
