@@ -7799,8 +7799,9 @@ let k = 2; //jump on clouds
 
 function jumpingOnClouds(c, k) {
     let power = 100;
-    let jump = 0;
-    for (let i = 0; i < n - 1; i++) {
+
+    for (let i = 0; i < n; i++) {
+        let jump = 0;
 
         if (c[jump] === 1) {
             power = power - 2
