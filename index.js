@@ -7792,14 +7792,26 @@
 // }
 // square(a, b)
 
-let c = [1, 1, 1, 0, 1, 1, 0, 0, 0, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
-let n = 8; //Numbers of clouds
-let k = 3; //jump on clouds
+let c = [0, 0, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
+let n = 4; //Numbers of clouds
+let k = 2; //jump on clouds
 
 
 function jumpingOnClouds(c, k) {
     let power = 100;
-    let jump = k;
+    let jump = 0;
+    for (let i = 0; i < n - 1; i++) {
+
+        if (c[jump] === 1) {
+            power = power - 2
+        }
+        else { power = power - 1 }
+        console.log("Current Number ==> " + c[i])
+        console.log("Current number index ==> " + i)
+        console.log("current power ==> " + power)
+        jump += k
+    }
 
 
-}       
+}
+jumpingOnClouds(c, k)
