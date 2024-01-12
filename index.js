@@ -7679,18 +7679,17 @@
 
 // }
 // sum(arr)
-// var jump = 0;
-// var cost = 100;
-// while (jump < c.length) {
-//     if (c[jump] === 1) {
-//         cost = cost - 1 - 2;
-//     } else {
-//         cost = cost - 1;
-//     }
-//     jump += k;
 
+// let jump = 0 ;
+// let power=100;
+// for(let i = 0 ;i < c.length ; i++){
+//   if(c[jump] === 1) {
+//     power = power - 2
+//   } else{
+//     cost = cost - 1
+//   }
+//   jump += k ;
 // }
-// return cost;
 
 //-------
 // function newYearCountDown(second) {
@@ -7778,17 +7777,29 @@
 // }
 // square(a, b)
 
-let a = 3;
-let b = 48;
-function square(a, b) {
-    let squareNumber = 0;
-    let counter = 0;
-    for (let i = 0; i <= b; i++) {
-        squareNumber = i * i
-        if (squareNumber >= a && squareNumber <= b) {
-            counter += 1
-        }
-    }
-    console.log(counter);
-}
-square(a, b)
+// let a = 3;
+// let b = 48;
+// function square(a, b) {
+//     let squareNumber = 0;
+//     let counter = 0;
+//     for (let i = 0; i <= b; i++) {
+//         squareNumber = i * i
+//         if (squareNumber >= a && squareNumber <= b) {
+//             counter += 1
+//         }
+//     }
+//     console.log(counter);
+// }
+// square(a, b)
+
+let c = [1, 1, 1, 0, 1, 1, 0, 0, 0, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
+let n = 8; //Numbers of clouds
+let k = 3; //jump on clouds
+
+
+function jumpingOnClouds(c, k) {
+    let power = 100;
+    let jump = k;
+
+
+}       
