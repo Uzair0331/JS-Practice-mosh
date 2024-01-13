@@ -7795,14 +7795,10 @@
 let c = [0, 0, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
 let n = 4; //Numbers of clouds
 let k = 2; //jump on clouds
-
-
 function jumpingOnClouds(c, k) {
     let power = 100;
-
     for (let i = 0; i < n; i++) {
         let jump = 0;
-
         if (c[jump] === 1) {
             power = power - 2
         }
@@ -7812,7 +7808,6 @@ function jumpingOnClouds(c, k) {
         console.log("current power ==> " + power)
         jump += k
     }
-
 
 }
 jumpingOnClouds(c, k)
