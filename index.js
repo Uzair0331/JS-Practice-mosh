@@ -7813,7 +7813,7 @@ let k = 2; //jump on clouds
 function jumpingOnClouds(c, k) {
     let power = 100;
     for (let i = 0; i < n; i++) {
-        let jump = 0
+        let jump = c[(i + k) % n];
         if (c[jump] == 1) {
             power -= 2
         }
@@ -7821,10 +7821,15 @@ function jumpingOnClouds(c, k) {
         console.log("Current Number ==> " + c[i])
         console.log("Current number index ==> " + i)
         console.log("current power ==> " + power)
-        jump = [(i + k) % n];
         jump += k
     }
-
 }
 jumpingOnClouds(c, k)
+
 //
+
+
+function balancedSums(arr) {
+    // Write your code here
+
+}
