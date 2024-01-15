@@ -7777,6 +7777,21 @@
 // }
 // square(a, b)
 
+// let Rsum = 0;
+// let Lsum = 0;
+
+// for (let i = 0; i < arr.length; i++){
+//     Rsum += arr[i];
+// }
+
+// for (let i = 0; i < arr.length; i++){
+//     Rsum -= arr[i];
+//     if (Lsum == Rsum)
+//         return "YES";
+//     Lsum += arr[i]; 
+// }
+// return "NO";
+
 // let a = 3;
 // let b = 48;
 // function square(a, b) {
@@ -7797,12 +7812,13 @@ let n = 4; //Numbers of clouds
 let k = 2; //jump on clouds
 function jumpingOnClouds(c, k) {
     let power = 100;
+
     for (let i = 0; i < n; i++) {
         let jump = 0;
-        if (c[jump] === 1) {
-            power = power - 2
+        if (c[jump] == 1) {
+            power -= 2
         }
-        else { power = power - 1 }
+        else { power -= 1 }
         console.log("Current Number ==> " + c[i])
         console.log("Current number index ==> " + i)
         console.log("current power ==> " + power)
