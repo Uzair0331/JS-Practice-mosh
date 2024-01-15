@@ -7807,29 +7807,35 @@
 // }
 // square(a, b)
 
-let c = [0, 0, 1, 0, 0, 1, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
-let n = 8 //Numbers of clouds
-let k = 2; //jump on clouds
-function jumpingOnClouds(c, k) {
-    let power = 100;
-    for (let i = 0; i < n; i++) {
-        let jump = c[(i + k) % n];
-        if (c[jump] == 1) {
-            power -= 2
-        }
-        else { power -= 1 }
-        console.log("Current Number ==> " + c[i])
-        console.log("Current number index ==> " + i)
-        console.log("current power ==> " + power)
-        jump += k
-    }
-}
-jumpingOnClouds(c, k)
+// let c = [0, 0, 1, 0, 0, 1, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
+// let n = 8 //Numbers of clouds
+// let k = 2; //jump on clouds
+// function jumpingOnClouds(c, k) {
+//     let power = 100;
+//     for (let i = 0; i < n; i++) {
+//         let jump = c[(i + k) % n];
+//         if (c[jump] == 1) {
+//             power -= 2
+//         }
+//         else { power -= 1 }
+//         console.log("Current Number ==> " + c[i])
+//         console.log("Current number index ==> " + i)
+//         console.log("current power ==> " + power)
+//         jump += k
+//     }
+// }
+// jumpingOnClouds(c, k)
 
 //
 
 
+arr = [5, 6, 8, 11]
 function balancedSums(arr) {
-    // Write your code here
-
+    let rightSum = 0
+    for (let i = 0; i < arr.length; i++) {
+        rightSum += arr[i]
+        console.log("Current array number ==> " + arr[i])
+    }
+    console.log("Sum of array right ==> " + rightSum)
 }
+balancedSums(arr)
