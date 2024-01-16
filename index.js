@@ -7806,6 +7806,10 @@
 //     console.log(counter);
 // }
 // square(a, b)
+// let len = a.length
+//     for (let i = 0; i < len; i++){
+//         if (a.indexOf(a[i]) === a.lastIndexOf(a[i])) return a[i]
+//     }
 
 // let c = [0, 0, 1, 0, 0, 1, 1, 0];//clouds --- 0 = simple cloud --- 1 = thunder clouds
 // let n = 8 //Numbers of clouds
