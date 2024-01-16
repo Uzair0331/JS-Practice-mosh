@@ -7845,11 +7845,10 @@ function balancedSums(arr) {
     for (let i = 0; i < arr.length; i++) {
         rightSum += arr[i]
         if (rightSum == leftSum) {
+            console.log("YES")
         }
-        console.log("YES")
-        leftSum += arr[i]
+
         console.log("2 Current array number ==>" + arr[i])
-        console.log("2 right sum ==> " + rightSum)
     }
     console.log("NO")
     console.log("Sum of array right ==> " + rightSum)
