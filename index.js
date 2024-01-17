@@ -7843,14 +7843,15 @@ function balancedSums(arr) {
         console.log("1 right sum ==> " + rightSum)
     }
     for (let i = 0; i < arr.length; i++) {
-        rightSum += arr[i]
+        rightSum -= arr[i]
         if (rightSum == leftSum) {
             console.log("YES")
         }
-
+        else { console.log("NO"); }
         console.log("2 Current array number ==>" + arr[i])
     }
-    console.log("NO")
     console.log("Sum of array right ==> " + rightSum)
 }
 balancedSums(arr)
+
+
