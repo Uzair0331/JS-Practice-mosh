@@ -7791,6 +7791,21 @@
 //     Lsum += arr[i]; 
 // }
 // return "NO";
+//running time algorithm
+// let count = 0;
+
+// for (let i = 0, itotal = arr.length - 1; i < itotal; i++) {
+//   if (arr[i] > arr[i + 1]) {
+//     let value = arr[i];
+
+//     arr[i] = arr[i + 1];
+//     arr[i + 1] = value;
+//     count++;
+//     i = -1;
+//   }
+// }
+
+// return count;
 
 // let a = 3;
 // let b = 48;
@@ -7843,14 +7858,8 @@ function balancedSums(arr) {
         console.log("1 right sum ==> " + rightSum)
     }
     for (let i = 0; i < arr.length; i++) {
-        leftSum -= arr[i]
-        console.log("2 curreny array number ==> " + arr[i]);
-        console.log("2 left sum ==> " + leftSum);
-        if (rightSum == leftSum)
-            return "YES";
-        leftSum += arr[i]
-        return "NO"
-
+        rightSum -= arr[i]
+        console.log("");
     }
 }
 console.log(balancedSums(arr))
