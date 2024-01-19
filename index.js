@@ -7859,8 +7859,12 @@ function balancedSums(arr) {
     }
     for (let i = 0; i < arr.length; i++) {
         rightSum -= arr[i]
-        console.log("");
+        console.log("2 current array number ==> " + arr[i])
+        leftSum += arr[i]
+        console.log("left sum ==> " + leftSum);
+        console.log("3 current array number ==> " + arr[i])
     }
+
 }
 console.log(balancedSums(arr))
 
