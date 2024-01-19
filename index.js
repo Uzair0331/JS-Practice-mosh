@@ -7848,26 +7848,38 @@
 //
 
 
-arr = [1, 2, 3, 3]
-function balancedSums(arr) {
-    let rightSum = 0
-    let leftSum = 0
-    for (let i = 0; i < arr.length; i++) {
-        rightSum += arr[i]
-        console.log("1 Current array number ==> " + arr[i])
-        console.log("1 right sum ==> " + rightSum)
+// arr = [1, 2, 3, 3]
+// function balancedSums(arr) {
+//     let rightSum = 0
+//     let leftSum = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         rightSum += arr[i]
+//         console.log("1 Current array number ==> " + arr[i])
+//         console.log("1 right sum ==> " + rightSum)
+//     }
+//     for (let i = 0; i < arr.length; i++) {
+//         rightSum -= arr[i]
+//         if (rightSum == leftSum)
+//             return "YES"
+//         console.log("2 current array number ==> " + arr[i])
+//         leftSum += arr[i]
+//         console.log("left sum ==> " + leftSum);
+//         console.log("3 current array number ==> " + arr[i])
+//     }
+//     return "NO"
+// }
+// console.log(balancedSums(arr))
+
+
+let a = [1, 3, 4, 4, 3, 2, 1]
+function lonelyinteger(a) {
+    a.sort();
+    console.log(a)
+    for (let i = 0; i < a.length; i++) {
+        console.log("==> " + a[i])
+
+        if (a[i] !== a[i + 1])
+            return (a[i])
     }
-    for (let i = 0; i < arr.length; i++) {
-        rightSum -= arr[i]
-        if (rightSum == leftSum)
-            return "YES"
-        console.log("2 current array number ==> " + arr[i])
-        leftSum += arr[i]
-        console.log("left sum ==> " + leftSum);
-        console.log("3 current array number ==> " + arr[i])
-    }
-    return "NO"
 }
-console.log(balancedSums(arr))
-
-
+console.log(lonelyinteger(a))
