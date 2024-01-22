@@ -7874,12 +7874,9 @@
 let a = [1, 3, 4, 4, 3, 2, 1]
 function lonelyinteger(a) {
     a.sort();
-    console.log(a)
+    console.log("Array after sort ==> " + a)
     for (let i = 0; i < a.length; i++) {
-        console.log("==> " + a[i])
-
-        if (a[i] !== a[i + 1])
-            return (a[i])
+        return (a[i])
     }
 }
 console.log(lonelyinteger(a))
