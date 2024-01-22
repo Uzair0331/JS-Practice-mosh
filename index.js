@@ -7871,15 +7871,25 @@
 // console.log(balancedSums(arr))
 
 
+// let a = [1, 3, 4, 4, 3, 2, 1]
+// function lonelyinteger(a) {
+//     a.sort();
+//     console.log(a)
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] != a[i + 1]) {
+//             return (a[i])
+//         }
+//         else (i++)
+//     }
+// }
+// console.log(lonelyinteger(a))
+
 let a = [1, 3, 4, 4, 3, 2, 1]
 function lonelyinteger(a) {
     a.sort();
-    console.log(a)
-    for (let i = 0; i < a.length; i++) {
-        if (a[i] == a[i + 1]) {
+    while (a == a.length) {
 
-        }
-        console.log("Current number ==> " + a[i])
+        i++
     }
 }
 console.log(lonelyinteger(a))
