@@ -7876,7 +7876,7 @@ function lonelyinteger(a) {
     a.sort();
     console.log(a)
     for (let i = 0; i < a.length; i++) {
-        if (a[i] != a[i + 1]) {
+        if (a[i] == a[i + 1]) {
 
         }
         console.log("Current number ==> " + a[i])
