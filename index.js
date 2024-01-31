@@ -7846,7 +7846,12 @@
 // jumpingOnClouds(c, k)
 
 //
-
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == V) {
+        return i
+    }
+}
+return -1;
 
 // arr = [1, 2, 3, 3]
 // function balancedSums(arr) {
