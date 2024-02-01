@@ -7846,12 +7846,12 @@
 // jumpingOnClouds(c, k)
 
 //
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] == V) {
-        return i
-    }
-}
-return -1;
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == V) {
+//         return i
+//     }
+// }
+// return -1;
 
 // arr = [1, 2, 3, 3]
 // function balancedSums(arr) {
@@ -7876,16 +7876,16 @@ return -1;
 // console.log(balancedSums(arr))
 
 
-let a = [1, 3, 4, 4, 3, 2, 1]
-function lonelyinteger(a) {
-    a.sort();
-    console.log(a)
-    for (let i = 0; i < a.length; i++) {
-        if (a[i] != a[i + 1]) {
-            return (a[i])
-        }
-        else (i++)
-    }
-}
-console.log(lonelyinteger(a))
+// let a = [1, 3, 4, 4, 3, 2, 1]
+// function lonelyinteger(a) {
+//     a.sort();
+//     console.log(a)
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] != a[i + 1]) {
+//             return (a[i])
+//         }
+//         else (i++)
+//     }
+// }
+// console.log(lonelyinteger(a))
 
