@@ -7888,4 +7888,18 @@
 //     }
 // }
 // console.log(lonelyinteger(a))
+let arr = [1, 2, 3]
+let V = 3
+function introTutorial(V, arr) {
 
+
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] == V) {
+            return i
+        }
+        console.log("arr i ==> " + arr[i])
+        console.log("V value ,the total index of arr ==> " + V)
+        console.log("value of i = V ==> " + i)
+    }
+}
+introTutorial(V, arr);
