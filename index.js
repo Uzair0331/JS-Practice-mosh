@@ -7945,3 +7945,8 @@
 //     }
 // }
 // introTutorial(V, arr);
+
+function migratoryBirds(arr) {
+    // Write your code here
+
+}
