@@ -7946,7 +7946,13 @@
 // }
 // introTutorial(V, arr);
 
+let arr = [1, 1, 2, 2, 3]
 function migratoryBirds(arr) {
-    // Write your code here
+
+    let counter1 = 0
+    let counter2 = 0
+    let counter3 = 0
+    let counter4 = 0
+    let counter5 = 0
 
 }
