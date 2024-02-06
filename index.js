@@ -7755,7 +7755,48 @@
 // sockMerchant(ar)
 
 ///----------
-
+// function migratoryBirds(arr) {
+//     let count1 = 0;
+//     let count2 = 0;
+//     let count3 = 0;
+//     let count4 = 0;
+//     let count5 = 0;
+//     for (let i = 0; i < arr.length; i++){
+//         if (arr[i] === 1){
+//             count1++
+//         }
+//         if (arr[i] === 2){
+//             count2++
+//         }
+//         if (arr[i] === 3){
+//             count3++
+//         }
+//         if (arr[i] === 4){
+//             count4++
+//         }
+//         if (arr[i] === 5){
+//             count5++
+//         }
+//     }
+//     let maximumCount = Math.max(count1, count2, count3, count4, count5);
+//     let result;
+//     if (maximumCount === count1){
+//         result = 1;
+//     }
+//     else if (maximumCount === count2){
+//         result = 2;
+//     }
+//     else if (maximumCount === count3){
+//         result = 3;
+//     }
+//     else if (maximumCount === count4){
+//         result = 4;
+//     }
+//     else if (maximumCount === count5){
+//         result = 5;
+//     }
+//     return result;
+// }
 
 // let a = 24;
 // let b = 49;
@@ -7904,4 +7945,3 @@ function introTutorial(V, arr) {
     }
 }
 introTutorial(V, arr);
-//
