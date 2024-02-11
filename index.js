@@ -6291,7 +6291,6 @@
 //     let min = scores[0];
 //     let max =scores[0]; let up=0;
 //     let down=0;
-
 //     for(let i =0; i < scores.length;i++){
 //      if(scores [i] > max){
 //       max = scores[i];up++;   
@@ -7946,59 +7945,61 @@
 // }
 // introTutorial(V, arr);
 
-let arr = [1, 1, 2, 2, 3]
-function migratoryBirds(arr) {
-    let counter1 = 0
-    let counter2 = 0
-    let counter3 = 0
-    let counter4 = 0
-    let counter5 = 0
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] == 1) {
-            counter1++
-        }
-        console.log(arr[i]);
-        console.log("Counter no.1 ==> " + counter1)
-        if (arr[i] == 2) {
-            counter2++
-        }
-        console.log("Counter no.2 ==> " + counter2)
-        if (arr[i] == 3) {
-            counter3++
-        }
-        console.log("Counter no.3 ==> " + counter3)
-        if (arr[i] == 4) {
-            counter4++
-        }
-        console.log("Counter no.4 ==> " + counter4)
-        if (arr[i] == 5) {
-            counter5++
-        }
-        console.log("Counter no.5 ==> " + counter5)
-    }
-    let maximumValue = Math.max(counter1, counter2, counter3, counter4, counter5)
-    let result;
-    if (maximumValue === counter1) {
-        result = 1
-    }
-    else if (maximumValue === counter2) {
-        result = 2
-    }
-    else if (maximumValue === counter3) {
-        result = 3
-    }
-    else if (maximumValue === counter4) {
-        result = 4
-    }
-    else if (maximumValue === counter5) {
-        result = 5
-    }
-    console.log("'1' in [arr] ==> " + counter1)
-    console.log("'2' in [arr] ==> " + counter2)
-    console.log("'3' in [arr] ==> " + counter3)
-    console.log("'4' in [arr] ==> " + counter4)
-    console.log("'5' in [arr] ==> " + counter5)
-    console.log("Maximum Value ==> " + maximumValue)
-    console.log("Minimun value ==> " + result, arr)
-}
-migratoryBirds(arr)
+// let arr = [1, 1, 2, 2, 3]
+// function migratoryBirds(arr) {
+//     let counter1 = 0
+//     let counter2 = 0
+//     let counter3 = 0
+//     let counter4 = 0
+//     let counter5 = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] == 1) {
+//             counter1++
+//         }
+//         console.log(arr[i]);
+//         console.log("Counter no.1 ==> " + counter1)
+//         if (arr[i] == 2) {
+//             counter2++
+//         }
+//         console.log("Counter no.2 ==> " + counter2)
+//         if (arr[i] == 3) {
+//             counter3++
+//         }
+//         console.log("Counter no.3 ==> " + counter3)
+//         if (arr[i] == 4) {
+//             counter4++
+//         }
+//         console.log("Counter no.4 ==> " + counter4)
+//         if (arr[i] == 5) {
+//             counter5++
+//         }
+//         console.log("Counter no.5 ==> " + counter5)
+//     }
+//     let maximumValue = Math.max(counter1, counter2, counter3, counter4, counter5)
+//     let result;
+//     if (maximumValue === counter1) {
+//         result = 1
+//     }
+//     else if (maximumValue === counter2) {
+//         result = 2
+//     }
+//     else if (maximumValue === counter3) {
+//         result = 3
+//     }
+//     else if (maximumValue === counter4) {
+//         result = 4
+//     }
+//     else if (maximumValue === counter5) {
+//         result = 5
+//     }
+//     console.log("'1' in [arr] ==> " + counter1)
+//     console.log("'2' in [arr] ==> " + counter2)
+//     console.log("'3' in [arr] ==> " + counter3)
+//     console.log("'4' in [arr] ==> " + counter4)
+//     console.log("'5' in [arr] ==> " + counter5)
+//     console.log("Maximum Value ==> " + maximumValue)
+//     console.log("Minimun value ==> " + result, arr)
+// }
+// migratoryBirds(arr)
+
+
