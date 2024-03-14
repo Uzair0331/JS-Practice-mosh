@@ -8000,5 +8000,5 @@
 //     console.log("Maximum Value ==> " + maximumValue)
 //     console.log("Minimun value ==> " + result, arr)
 // }
-// migratoryBirds(arr)
+// migratoryBirds(arr) 
 //
