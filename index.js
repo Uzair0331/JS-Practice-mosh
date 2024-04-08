@@ -7416,7 +7416,7 @@
 
 //         if (c[jump] === 1) {
 //             power = power - 3
-//             console.log("Counter if thunder cloud the number = ( 1 ) then -3 Power from 100 ===> " + power)
+//             console.log("Counter if thunder 
 //         }
 //         else if (c[jump] === 0) {
 //             power = power - 1
@@ -8001,4 +8001,5 @@
 //     console.log("Minimun value ==> " + result, arr)
 // }
 // migratoryBirds(arr) 
+//
 //
