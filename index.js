@@ -8001,4 +8001,5 @@
 //     console.log("Minimun value ==> " + result, arr)
 // }
 // migratoryBirds(arr) 
-// asddasd
+
+// asdasdsd
