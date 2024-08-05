@@ -8001,4 +8001,10 @@
 //     console.log("Minimun value ==> " + result, arr)
 // }
 // migratoryBirds(arr) 
-// asdasdasdd?
+
+
+
+// asdjkasdk
+
+
+// asdsad
