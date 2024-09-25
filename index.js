@@ -8002,10 +8002,5 @@
 // }
 // migratoryBirds(arr) 
 
-// ashdgsahdgsahjdg
 
-
-// asdasdasd
-
-
-// asdasdasd
+// asdasjdhsjkd
